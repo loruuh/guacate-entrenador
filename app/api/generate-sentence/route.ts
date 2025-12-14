@@ -52,33 +52,83 @@ export async function POST(request: Request) {
     }
 
     const responseText = sentenceContent.text.trim();
-    console.log("Response received:", responseText);
+    console.log("Full Claude response:", responseText);
 
-    // Parse the response to extract Spanish and German sentences
-    const parts = responseText.split("|");
-    if (parts.length !== 2) {
-      console.error("Invalid response format:", responseText);
-      throw new Error("Ungültiges Antwortformat");
+    // Parse the response - handle both formats:
+    // Format 1: "SPANISCH: ... | DEUTSCH: ..."
+    // Format 2: "SPANISCH: ...\nDEUTSCH: ..."
+    let spanishPart = "";
+    let germanPart = "";
+
+    // Try parsing with pipe separator first
+    if (responseText.includes("|")) {
+      console.log("Parsing format with pipe separator");
+      const parts = responseText.split("|");
+      if (parts.length === 2) {
+        spanishPart = parts[0].replace(/SPANISCH:\s*/i, "").trim();
+        germanPart = parts[1].replace(/DEUTSCH:\s*/i, "").trim();
+      }
+    } else {
+      // Try parsing with newline separator
+      console.log("Parsing format with newline separator");
+      const lines = responseText.split("\n").map(l => l.trim()).filter(l => l);
+
+      for (const line of lines) {
+        if (line.match(/^SPANISCH:/i)) {
+          spanishPart = line.replace(/SPANISCH:\s*/i, "").trim();
+        } else if (line.match(/^DEUTSCH:/i)) {
+          germanPart = line.replace(/DEUTSCH:\s*/i, "").trim();
+        }
+      }
     }
 
-    const spanishPart = parts[0].replace(/SPANISCH:\s*/i, "").trim();
-    const germanPart = parts[1].replace(/DEUTSCH:\s*/i, "").trim();
+    // Validate that we got both parts
+    if (!spanishPart || !germanPart) {
+      console.error("Failed to parse response. Spanish:", spanishPart, "German:", germanPart);
+      console.error("Original response:", responseText);
 
-    console.log("Spanish sentence:", spanishPart);
-    console.log("German sentence:", germanPart);
+      return NextResponse.json(
+        {
+          error: "Ungültiges Antwortformat von Claude API",
+          details: `Konnte Sätze nicht extrahieren. Response: ${responseText}`,
+          spanishSentence: spanishPart || "Error",
+          germanSentence: germanPart || "Error"
+        },
+        { status: 500 }
+      );
+    }
+
+    console.log("✅ Successfully parsed:");
+    console.log("   Spanish:", spanishPart);
+    console.log("   German:", germanPart);
 
     return NextResponse.json({
       spanishSentence: spanishPart,
       germanSentence: germanPart
     });
   } catch (error) {
-    console.error("Fehler beim Generieren des Satzes:", error);
+    console.error("❌ Error in generate-sentence API:");
+    console.error("Error type:", (error as any)?.constructor?.name);
+    console.error("Error message:", error instanceof Error ? error.message : String(error));
+    console.error("Full error:", error);
 
     // Detailliertere Fehlermeldung
-    const errorMessage = error instanceof Error ? error.message : "Unbekannter Fehler";
+    let errorMessage = "Unbekannter Fehler";
+    let errorDetails = "";
+
+    if (error instanceof Error) {
+      errorMessage = error.message;
+      errorDetails = error.stack || "";
+    } else {
+      errorMessage = String(error);
+    }
 
     return NextResponse.json(
-      { error: "Fehler beim Generieren des Satzes", details: errorMessage },
+      {
+        error: "Fehler beim Generieren des Satzes",
+        message: errorMessage,
+        details: errorDetails
+      },
       { status: 500 }
     );
   }

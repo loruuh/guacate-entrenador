@@ -83,7 +83,16 @@ export default function Home() {
       }
 
       const data = await response.json();
-      console.log("Sentences received:", data);
+      console.log("✅ API Response data:", data);
+
+      // Validate response
+      if (!data.spanishSentence || !data.germanSentence) {
+        console.error("⚠️ Invalid response data:", data);
+        throw new Error(`Missing sentences in response: ${JSON.stringify(data)}`);
+      }
+
+      console.log("Spanish sentence:", data.spanishSentence);
+      console.log("German sentence:", data.germanSentence);
 
       setSpanishSentence(data.spanishSentence);
       setGermanSentence(data.germanSentence);
@@ -96,11 +105,15 @@ export default function Home() {
         timestamp: new Date().toISOString(),
       });
     } catch (error) {
-      console.error("Fehler beim Generieren des Satzes:", error);
+      console.error("❌ Error in handleReveal:");
+      console.error("Error type:", (error as any)?.constructor?.name);
+      console.error("Error:", error);
+
       // Setze einen Fallback-Satz damit UI nicht hängt
       setSpanishSentence("(Beispielsatz konnte nicht geladen werden)");
-      setGermanSentence("");
+      setGermanSentence("Bitte versuche es erneut mit 'Nächster Satz'");
       setShowSentence(true);
+      setShowNextButton(true); // Show next button so user can try again
     }
   };
 
