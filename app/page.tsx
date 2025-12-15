@@ -8,6 +8,8 @@ import Sentence from "@/components/Sentence";
 import SpeakButton from "@/components/SpeakButton";
 import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
+import ThemeToggle from "@/components/ThemeToggle";
+import OnboardingOverlay from "@/components/OnboardingOverlay";
 import {
   selectNextVocab,
   markVocabAsSeen,
@@ -23,10 +25,19 @@ export default function Home() {
   const [showSentence, setShowSentence] = useState(false);
   const [showNextButton, setShowNextButton] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [showOnboarding, setShowOnboarding] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
 
-  // Lade erste Vokabel beim Mount
+  // Check onboarding status beim Mount
   useEffect(() => {
-    loadNextVocab();
+    const onboardingComplete = localStorage.getItem("onboardingComplete");
+    if (onboardingComplete !== "true") {
+      setShowOnboarding(true);
+      setIsInitialized(true);
+    } else {
+      setIsInitialized(true);
+      loadNextVocab();
+    }
   }, []);
 
   const loadNextVocab = async () => {
@@ -125,7 +136,23 @@ export default function Home() {
     loadNextVocab();
   };
 
-  if (!currentVocab) {
+  const handleOnboardingComplete = () => {
+    localStorage.setItem("onboardingComplete", "true");
+    setShowOnboarding(false);
+    loadNextVocab();
+  };
+
+  // Show onboarding overlay if needed (without main content)
+  if (showOnboarding) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <OnboardingOverlay onComplete={handleOnboardingComplete} />
+      </div>
+    );
+  }
+
+  // Show loading screen if not initialized yet or if initialized but no vocab
+  if (!isInitialized || !currentVocab) {
     return (
       <div className="min-h-screen flex flex-col">
         <Header />
@@ -142,6 +169,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
+
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-8">
@@ -153,47 +181,41 @@ export default function Home() {
               german={currentVocab.german}
               spanish={currentVocab.spanish}
               onReveal={handleReveal}
+              isRevealed={isRevealed}
             />
           </div>
 
-          {/* Favorite Button */}
-          {isRevealed && (
-            <div className="flex justify-center">
-              <FavoriteButton vocabId={currentVocab.id} />
-            </div>
-          )}
+          {/* Favorite Button - Always rendered, but invisible initially */}
+          <div className={`flex justify-center transition-opacity duration-300 min-h-[3rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0'}`}>
+            <FavoriteButton vocabId={currentVocab.id} />
+          </div>
 
-          {/* Beispielsatz mit Speaker */}
-          {showSentence && (
-            <div className="space-y-4">
-              <div className="flex items-start gap-4 justify-center">
-                <div className="flex-1 max-w-2xl">
-                  <Sentence
-                    spanishSentence={spanishSentence}
-                    germanSentence={germanSentence}
-                    isVisible={showSentence}
-                    onTranslationRevealed={handleTranslationRevealed}
-                  />
-                </div>
-                {spanishSentence && (
-                  <div className="pt-1">
-                    <SpeakButton text={spanishSentence} />
-                  </div>
-                )}
+          {/* Beispielsatz mit Speaker - Always rendered, but invisible initially */}
+          <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0'}`}>
+            <div className="flex items-start gap-4 justify-center">
+              <div className="flex-1 max-w-2xl">
+                <Sentence
+                  spanishSentence={spanishSentence || "..."}
+                  germanSentence={germanSentence || "..."}
+                  isVisible={showSentence}
+                  onTranslationRevealed={handleTranslationRevealed}
+                />
+              </div>
+              <div className="pt-1">
+                <SpeakButton text={spanishSentence || ""} />
               </div>
             </div>
-          )}
+          </div>
 
-          {/* Next Button */}
-          {showNextButton && (
-            <div className="pt-8 flex justify-center">
-              <NextButton onClick={handleNext} loading={isLoading} />
-            </div>
-          )}
+          {/* Next Button - Always rendered, but invisible initially */}
+          <div className={`pt-8 flex justify-center transition-opacity duration-300 min-h-[4rem] items-center ${showNextButton ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+            <NextButton onClick={handleNext} loading={isLoading} />
+          </div>
         </div>
       </main>
 
       <Footer />
+      <ThemeToggle />
     </div>
   );
 }

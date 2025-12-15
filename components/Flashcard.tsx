@@ -6,14 +6,16 @@ interface FlashcardProps {
   german: string;
   spanish: string;
   onReveal?: () => void;
+  isRevealed?: boolean;
 }
 
-export default function Flashcard({ german, spanish, onReveal }: FlashcardProps) {
-  const [isRevealed, setIsRevealed] = useState(false);
+export default function Flashcard({ german, spanish, onReveal, isRevealed: externalIsRevealed }: FlashcardProps) {
+  const [internalIsRevealed, setInternalIsRevealed] = useState(false);
+  const isRevealed = externalIsRevealed ?? internalIsRevealed;
 
   const handleClick = () => {
     if (!isRevealed) {
-      setIsRevealed(true);
+      setInternalIsRevealed(true);
       if (onReveal) {
         onReveal();
       }
@@ -32,9 +34,9 @@ export default function Flashcard({ german, spanish, onReveal }: FlashcardProps)
         </h2>
       </div>
 
-      {/* Spanisches Wort (wird aufgedeckt) */}
+      {/* Spanisches Wort (wird aufgedeckt) - Always rendered for space reservation */}
       <div
-        className={`text-center transition-opacity duration-500 ${
+        className={`text-center transition-opacity duration-500 min-h-[3.5rem] flex items-center justify-center ${
           isRevealed ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -43,14 +45,12 @@ export default function Flashcard({ german, spanish, onReveal }: FlashcardProps)
         </p>
       </div>
 
-      {/* Hinweis-Text (nur wenn noch nicht aufgedeckt) */}
-      {!isRevealed && (
-        <div className="text-center mt-6">
-          <p className="text-sm text-gray-400 animate-pulse">
-            Klicke, um die Übersetzung zu sehen
-          </p>
-        </div>
-      )}
+      {/* Hinweis-Text - Always rendered for space reservation */}
+      <div className={`text-center mt-6 transition-opacity duration-300 min-h-[2rem] flex items-center justify-center ${!isRevealed ? 'opacity-100' : 'opacity-0'}`}>
+        <p className="text-sm text-gray-400 animate-pulse">
+          Klicke, um die Übersetzung zu sehen
+        </p>
+      </div>
     </div>
   );
 }
