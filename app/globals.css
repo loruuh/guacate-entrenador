@@ -2,15 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* Ocean Theme (Default) */
+:root,
+:root[data-theme="ocean"] {
   --background: #1a1a2e;
   --foreground: #ffffff;
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --primary-light: #60a5fa;
+  --sentence-spanish: #f97316;
+  --sentence-german: #3b82f6;
+}
+
+/* Sunset Theme */
+:root[data-theme="sunset"] {
+  --background: #1a0a0f;
+  --foreground: #ffffff;
+  --primary: #f97316;
+  --primary-dark: #ea580c;
+  --primary-light: #fb923c;
+  --sentence-spanish: #ea580c;
+  --sentence-german: #db2777;
+}
+
+/* Neon Theme */
+:root[data-theme="neon"] {
+  --background: #0a0a14;
+  --foreground: #ffffff;
+  --primary: #22d3ee;
+  --primary-dark: #0891b2;
+  --primary-light: #06b6d4;
+  --sentence-spanish: #0891b2;
+  --sentence-german: #c026d3;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @layer utilities {
@@ -31,5 +61,20 @@ body {
 
   .animate-confetti-fall {
     animation: confetti-fall linear forwards;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
   }
 }

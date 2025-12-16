@@ -11,17 +11,21 @@ export default {
     extend: {
       colors: {
         background: {
-          DEFAULT: "#1a1a2e",
+          DEFAULT: "var(--background)",
           light: "#f5f5dc",
         },
         primary: {
-          DEFAULT: "#3b82f6",
-          dark: "#2563eb",
+          DEFAULT: "var(--primary)",
+          dark: "var(--primary-dark)",
+          light: "var(--primary-light)",
         },
         secondary: {
           DEFAULT: "#f59e0b",
           dark: "#d97706",
         },
+      },
+      transitionDuration: {
+        '600': '600ms',
       },
     },
   },
