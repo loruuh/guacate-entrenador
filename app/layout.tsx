@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Spanisch-Trainer",
+  title: "Aguacate Entrenador 🥑",
   description: "Lerne Spanisch mit Karteikarten - Mobile-First PWA",
   manifest: "/manifest.json",
   themeColor: "#1a1a2e",
@@ -14,17 +15,11 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Spanisch-Trainer",
+    title: "Aguacate Entrenador 🥑",
   },
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icons/icon-512x512.png", sizes: "512x512", type: "image/png" },
-    ],
-    apple: [
-      { url: "/icons/icon-152x152.png", sizes: "152x152", type: "image/png" },
-      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
     ],
   },
 };
@@ -37,7 +32,9 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className="antialiased">
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );
