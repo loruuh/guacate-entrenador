@@ -22,7 +22,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 bg-background">
       <div className="h-full overflow-y-auto">
         <div className="max-w-3xl mx-auto px-4 py-8">
           {/* Header */}
@@ -65,7 +65,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
                 return (
                   <div
                     key={`${entry.vocabId}-${entry.timestamp}-${index}`}
-                    className="bg-gray-800/50 rounded-xl p-5 border border-primary/20 hover:border-primary/40 transition-colors"
+                    className="bg-gray-800 rounded-xl p-5 border border-primary/20 hover:border-primary/40 transition-colors"
                   >
                     {/* Vokabel */}
                     {vocab && (

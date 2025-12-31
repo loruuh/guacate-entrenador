@@ -30,13 +30,9 @@ export default function OnboardingOverlay({ onComplete }: OnboardingOverlayProps
 
   return (
     <div
-      className={`fixed inset-0 z-50 flex items-center justify-center px-4 transition-opacity duration-300 ${
+      className={`fixed inset-0 z-50 flex items-center justify-center px-4 transition-opacity duration-300 bg-background ${
         isVisible && !isFadingOut ? "opacity-100" : "opacity-0"
       }`}
-      style={{
-        backgroundColor: "rgba(0, 0, 0, 0.8)",
-        backdropFilter: "blur(4px)",
-      }}
     >
       <div
         className={`bg-background border-2 border-primary rounded-2xl p-8 max-w-lg w-full shadow-2xl transform transition-all duration-300 ${

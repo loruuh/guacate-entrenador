@@ -8,7 +8,7 @@ export default function Header() {
     <header className="w-full bg-background border-b border-primary/20">
       <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-primary">
-          Spanisch-Trainer
+          Aguacate Entrenador 🥑
         </Link>
 
         <div className="flex gap-4">

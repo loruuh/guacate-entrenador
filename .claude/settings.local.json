@@ -5,7 +5,16 @@
       "Bash(git init:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$(cat <<''EOF''\nRefactor sentence generation to show full translation instead of word-by-word tooltips\n\n- Updated generate-sentence API to return both Spanish and German sentences\n- Changed user flow: click once to reveal Spanish word and sentence, click again to show full German translation\n- Added styled orange container for Spanish sentences and blue container for German translations\n- Removed word-by-word translation feature (WordTooltip component and translate-word API)\n- Added fade-in animation for sentence appearance (500ms delay)\n- Next button now only appears after translation is revealed\n- Fixed word spacing in sentences to show natural text flow\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n)\")",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "Bash(test:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run start)",
+      "Bash(PORT=3001 npm run start:*)",
+      "Bash(PORT=3002 npm run start:*)",
+      "Bash(git push)",
+      "Bash(dir:*)",
+      "Bash(git push:*)"
     ]
   }
 }
