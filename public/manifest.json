@@ -27,5 +27,7 @@
   ],
   "categories": ["education", "productivity"],
   "lang": "de-DE",
-  "dir": "ltr"
+  "dir": "ltr",
+  "offline_enabled": true,
+  "cache_enabled": true
 }
