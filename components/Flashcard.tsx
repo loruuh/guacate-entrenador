@@ -13,7 +13,8 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
   const [internalIsRevealed, setInternalIsRevealed] = useState(false);
   const isRevealed = externalIsRevealed ?? internalIsRevealed;
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Verhindert dass der Click zum Main-Container weitergegeben wird
     if (!isRevealed) {
       setInternalIsRevealed(true);
       if (onReveal) {
@@ -48,7 +49,7 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
       {/* Hinweis-Text - Always rendered for space reservation */}
       <div className={`text-center mt-6 transition-opacity duration-300 min-h-[2rem] flex items-center justify-center ${!isRevealed ? 'opacity-100' : 'opacity-0'}`}>
         <p className="text-sm text-gray-400 animate-pulse">
-          Klicke, um die Übersetzung zu sehen
+          Tippe irgendwo um fortzufahren
         </p>
       </div>
     </div>

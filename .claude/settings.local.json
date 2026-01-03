@@ -14,7 +14,14 @@
       "Bash(PORT=3002 npm run start:*)",
       "Bash(git push)",
       "Bash(dir:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(if not exist \"public\\\\audio\" mkdir \"public\\\\audio\")",
+      "Bash(if not exist \"scripts\" mkdir \"scripts\")",
+      "Bash(npm install)",
+      "Bash(node scripts/generate-content.js:*)",
+      "Bash(findstr:*)",
+      "Bash(node scripts/generate-icons.js:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

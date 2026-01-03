@@ -10,6 +10,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
 import ThemeToggle from "@/components/ThemeToggle";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
+import InstallButton from "@/components/InstallButton";
 import {
   selectNextVocab,
   markVocabAsSeen,
@@ -167,12 +168,22 @@ export default function Home() {
     );
   }
 
+  const handleMainClick = () => {
+    // Nur im ersten Schritt (deutsches Wort sichtbar, spanisches noch nicht)
+    if (!isRevealed) {
+      handleReveal();
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
 
       <Header />
 
-      <main className="flex-1 flex items-center justify-center px-4 py-8">
+      <main
+        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''}`}
+        onClick={handleMainClick}
+      >
         <div className="w-full max-w-3xl space-y-12">
           {/* Flashcard */}
           <div>
@@ -216,6 +227,7 @@ export default function Home() {
 
       <Footer />
       <ThemeToggle />
+      <InstallButton />
     </div>
   );
 }
