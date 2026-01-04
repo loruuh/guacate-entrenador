@@ -41,7 +41,7 @@ export default function Home() {
     }
   }, []);
 
-  const loadNextVocab = async () => {
+  const loadNextVocab = () => {
     setIsLoading(true);
     setIsRevealed(false);
     setShowSentence(false);
@@ -66,7 +66,7 @@ export default function Home() {
     }
   };
 
-  const handleReveal = async () => {
+  const handleReveal = () => {
     console.log("handleReveal called for:", currentVocab?.spanish);
     setIsRevealed(true);
 
@@ -75,58 +75,19 @@ export default function Home() {
       return;
     }
 
-    // Generate example sentence immediately (no delay)
-    console.log("Generating sentence for:", currentVocab.spanish);
-    try {
-      const response = await fetch("/api/generate-sentence", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ word: currentVocab.spanish }),
-      });
+    // Nutze vorgenerierte Sätze direkt aus JSON
+    console.log("Lade vorgenerierte Sätze für:", currentVocab.spanish);
 
-      console.log("API Response status:", response.status);
+    setSpanishSentence(currentVocab.sentence_es);
+    setGermanSentence(currentVocab.sentence_de);
+    setShowSentence(true);
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        console.error("API Error:", errorData);
-        throw new Error(`API returned ${response.status}: ${JSON.stringify(errorData)}`);
-      }
-
-      const data = await response.json();
-      console.log("✅ API Response data:", data);
-
-      // Validate response
-      if (!data.spanishSentence || !data.germanSentence) {
-        console.error("⚠️ Invalid response data:", data);
-        throw new Error(`Missing sentences in response: ${JSON.stringify(data)}`);
-      }
-
-      console.log("Spanish sentence:", data.spanishSentence);
-      console.log("German sentence:", data.germanSentence);
-
-      setSpanishSentence(data.spanishSentence);
-      setGermanSentence(data.germanSentence);
-      setShowSentence(true);
-
-      // Speichere in Historie
-      addToHistory({
-        vocabId: currentVocab.id,
-        sentence: data.spanishSentence,
-        timestamp: new Date().toISOString(),
-      });
-    } catch (error) {
-      console.error("❌ Error in handleReveal:");
-      console.error("Error type:", (error as any)?.constructor?.name);
-      console.error("Error:", error);
-
-      // Setze einen Fallback-Satz damit UI nicht hängt
-      setSpanishSentence("(Beispielsatz konnte nicht geladen werden)");
-      setGermanSentence("Bitte versuche es erneut mit 'Nächster Satz'");
-      setShowSentence(true);
-      setShowNextButton(true); // Show next button so user can try again
-    }
+    // Speichere in Historie
+    addToHistory({
+      vocabId: currentVocab.id,
+      sentence: currentVocab.sentence_es,
+      timestamp: new Date().toISOString(),
+    });
   };
 
   const handleTranslationRevealed = () => {
@@ -213,7 +174,10 @@ export default function Home() {
                 />
               </div>
               <div className="pt-1">
-                <SpeakButton text={spanishSentence || ""} />
+                <SpeakButton
+                  text={spanishSentence || ""}
+                  audioUrl={currentVocab?.audio}
+                />
               </div>
             </div>
           </div>

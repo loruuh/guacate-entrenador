@@ -1,6 +1,6 @@
-# Aguacate Entrenador 🥑
+# CaptarCherry 🍒
 
-Eine minimalistische, mobile-first Progressive Web App zum Spanisch-Lernen im Karteikarten-Stil.
+Eine minimalistische, mobile-first Progressive Web App zum Spanisch-Lernen mit KI-generierten Beispielsätzen.
 
 ## Features
 
@@ -353,6 +353,6 @@ Bei Fragen oder Problemen:
 
 ---
 
-Made with ❤️ and 🥑
+Made with ❤️ and 🍒
 
 **Viel Erfolg beim Spanisch-Lernen! 🇪🇸**

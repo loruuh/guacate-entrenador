@@ -6,6 +6,10 @@ export interface Vocabulary {
   spanish: string;
   german: string;
   type: "noun" | "verb" | "adjective";
+  sentence_es: string;
+  sentence_de: string;
+  audio: string;
+  word_translations: Record<string, string | undefined>;
 }
 
 // Lade alle Vokabeln

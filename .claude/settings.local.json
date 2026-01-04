@@ -21,7 +21,10 @@
       "Bash(node scripts/generate-content.js:*)",
       "Bash(findstr:*)",
       "Bash(node scripts/generate-icons.js:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(if exist \"app\\\\api\\\\generate-sentence\" rename \"app\\\\api\\\\generate-sentence\" \"generate-sentence.DISABLED\")",
+      "Bash(if exist \"app\\\\api\\\\text-to-speech\" rename \"app\\\\api\\\\text-to-speech\" \"text-to-speech.DISABLED\")",
+      "Bash(ls:*)"
     ]
   }
 }

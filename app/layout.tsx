@@ -3,10 +3,10 @@ import "./globals.css";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Aguacate Entrenador 🥑",
-  description: "Lerne Spanisch mit Karteikarten - Mobile-First PWA",
+  title: "CaptarCherry 🍒 - Spanisch lernen",
+  description: "Spanisch lernen mit KI-generierten Beispielsätzen 🍒",
   manifest: "/manifest.json",
-  themeColor: "#1a1a2e",
+  themeColor: "#DC143C",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -15,11 +15,14 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Aguacate Entrenador 🥑",
+    title: "CaptarCherry 🍒",
   },
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon-192.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icon-192.svg", type: "image/svg+xml" },
     ],
   },
 };

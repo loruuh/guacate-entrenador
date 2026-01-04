@@ -4,9 +4,10 @@ import { useState, useEffect, useRef } from "react";
 
 interface SpeakButtonProps {
   text: string;
+  audioUrl?: string; // Lokaler MP3-Pfad (z.B. "/audio/1.mp3")
 }
 
-export default function SpeakButton({ text }: SpeakButtonProps) {
+export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isSupported, setIsSupported] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
@@ -58,6 +59,7 @@ export default function SpeakButton({ text }: SpeakButtonProps) {
 
     console.log("=== SpeakButton geklickt ===");
     console.log("Text zum Sprechen:", text);
+    console.log("Audio URL:", audioUrl);
 
     // Stoppe vorherige Audio-Wiedergabe
     if (audioRef.current) {
@@ -65,67 +67,48 @@ export default function SpeakButton({ text }: SpeakButtonProps) {
       audioRef.current.currentTime = 0;
     }
 
-    setIsLoading(true);
+    // Nutze lokale MP3-Datei wenn verfügbar
+    if (audioUrl) {
+      console.log("Spiele lokale MP3 ab:", audioUrl);
+      setIsLoading(true);
 
-    try {
-      // Versuche Google Cloud TTS zu verwenden
-      console.log("Versuche Google TTS...");
-      const response = await fetch("/api/text-to-speech", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ text }),
-      });
+      try {
+        const audio = new Audio(audioUrl);
+        audioRef.current = audio;
 
-      console.log("TTS API Response Status:", response.status);
-      console.log("TTS API Response OK:", response.ok);
+        audio.onloadeddata = () => {
+          console.log("Audio geladen, starte Wiedergabe...");
+          setIsLoading(false);
+        };
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        console.log("TTS API Error Data:", errorData);
-        throw new Error(`Google Cloud TTS nicht verfügbar: ${response.status}`);
-      }
+        audio.onplay = () => {
+          console.log("Audio-Wiedergabe gestartet");
+          setIsSpeaking(true);
+        };
 
-      const data = await response.json();
+        audio.onended = () => {
+          console.log("Audio-Wiedergabe beendet");
+          setIsSpeaking(false);
+        };
 
-      if (!data.audioContent) {
-        console.log("!!! Keine Audio-Daten erhalten !!!");
-        throw new Error("Keine Audio-Daten erhalten");
-      }
+        audio.onerror = (e) => {
+          console.error("!!! Audio-Wiedergabe fehlgeschlagen !!!", e);
+          console.log("Fallback zu WebSpeechAPI");
+          setIsSpeaking(false);
+          setIsLoading(false);
+          speakWithWebSpeechAPI();
+        };
 
-      console.log("Google TTS Audio-Daten erhalten, starte Wiedergabe...");
-
-      // Base64 Audio in Audio Element laden und abspielen
-      const audio = new Audio(`data:audio/mp3;base64,${data.audioContent}`);
-      audioRef.current = audio;
-
-      audio.onplay = () => {
-        console.log("Audio-Wiedergabe gestartet");
-        setIsSpeaking(true);
+        await audio.play();
+      } catch (error) {
+        console.error("Fehler beim Abspielen der lokalen MP3:", error);
         setIsLoading(false);
-      };
-
-      audio.onended = () => {
-        console.log("Audio-Wiedergabe beendet");
-        setIsSpeaking(false);
-      };
-
-      audio.onerror = (e) => {
-        console.error("!!! Audio-Wiedergabe fehlgeschlagen !!!", e);
-        console.log("Grund: Audio-Fehler");
-        setIsSpeaking(false);
-        setIsLoading(false);
+        // Fallback zur Web Speech API
         speakWithWebSpeechAPI();
-      };
-
-      await audio.play();
-    } catch (error) {
-      console.error("!!! Google Cloud TTS Fehler !!!");
-      console.log("Fehler:", error);
-      console.log("Grund:", error instanceof Error ? error.message : String(error));
-      setIsLoading(false);
-      // Fallback zur Web Speech API
+      }
+    } else {
+      // Kein Audio-URL vorhanden, nutze WebSpeechAPI
+      console.log("Keine Audio-URL vorhanden, nutze WebSpeechAPI");
       speakWithWebSpeechAPI();
     }
   };

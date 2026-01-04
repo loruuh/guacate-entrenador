@@ -1,6 +1,7 @@
 {
-  "name": "spanisch-trainer",
-  "version": "0.1.0",
+  "name": "captarcherry",
+  "version": "1.0.0",
+  "description": "Spanisch lernen mit KI-generierten Beispielsätzen",
   "private": true,
   "scripts": {
     "dev": "next dev",
