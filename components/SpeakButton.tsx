@@ -75,6 +75,7 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
       try {
         const audio = new Audio(audioUrl);
         audioRef.current = audio;
+        audio.playbackRate = 1.0; // Normal speed
 
         audio.onloadeddata = () => {
           console.log("Audio geladen, starte Wiedergabe...");
