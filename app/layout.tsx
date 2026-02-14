@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
+import UpdatePrompt from "@/components/UpdatePrompt";
 
 export const metadata: Metadata = {
   title: "CaptarCherry 🍒 - Spanisch lernen",
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Providers>
           {children}
+          <UpdatePrompt />
         </Providers>
       </body>
     </html>

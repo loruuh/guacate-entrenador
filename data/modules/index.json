@@ -50,9 +50,9 @@
   {
     "id": "zahlen",
     "name": "Zahlen",
-    "description": "Zahlen auf Spanisch: 0-20, Zehner, Hunderter",
+    "description": "Zahlen 0-1000 auf Spanisch",
     "icon": "🔢",
-    "type": "numbers",
+    "type": "vocabulary",
     "file": "zahlen.json"
   },
   {

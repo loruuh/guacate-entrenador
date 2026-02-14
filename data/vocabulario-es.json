@@ -41394,659 +41394,1850 @@
     "spanish": "adicto",
     "german": "süchtig",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermano es adicto al café.",
+    "sentence_de": "Mein Bruder ist süchtig nach Kaffee.",
+    "audio": "/audio/2342.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "hermano": "Bruder",
+      "es": "ist",
+      "adicto": "süchtig",
+      "al": "nach dem",
+      "café": "Kaffee"
+    }
   },
   {
     "id": "2343",
     "spanish": "el cacho",
     "german": "das Stück",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El cacho del toro es muy grande.",
+    "sentence_de": "Das Horn des Stiers ist sehr groß.",
+    "audio": "/audio/2343.mp3",
+    "word_translations": {
+      "el": "der",
+      "cacho": "Horn",
+      "del": "des",
+      "toro": "Stier",
+      "es": "ist",
+      "muy": "sehr",
+      "grande": "groß"
+    }
   },
   {
     "id": "2344",
     "spanish": "masculino",
     "german": "männlich",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El sustantivo 'libro' es de género masculino.",
+    "sentence_de": "Das Substantiv 'Buch' ist männlichen Geschlechts.",
+    "audio": "/audio/2344.mp3",
+    "word_translations": {
+      "sustantivo": "Substantiv",
+      "libro": "Buch",
+      "género": "Geschlecht",
+      "masculino": "männlich"
+    }
   },
   {
     "id": "2345",
     "spanish": "femenino",
     "german": "weiblich",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El sustantivo 'mesa' es de género femenino.",
+    "sentence_de": "Das Substantiv 'mesa' ist weiblichen Geschlechts.",
+    "audio": "/audio/2345.mp3",
+    "word_translations": {
+      "sustantivo": "Substantiv",
+      "mesa": "Tisch",
+      "género": "Geschlecht",
+      "femenino": "weiblich"
+    }
   },
   {
     "id": "2346",
     "spanish": "los paisajes",
     "german": "die Landschaften",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Los paisajes de España son muy hermosos.",
+    "sentence_de": "Die Landschaften Spaniens sind sehr schön.",
+    "audio": "/audio/2346.mp3",
+    "word_translations": {
+      "los": "die",
+      "paisajes": "Landschaften",
+      "de": "von/aus",
+      "España": "Spanien",
+      "son": "sind",
+      "muy": "sehr",
+      "hermosos": "schön"
+    }
   },
   {
     "id": "2347",
     "spanish": "alucinante",
     "german": "atemberaubend",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El concierto de anoche fue absolutamente alucinante.",
+    "sentence_de": "Das Konzert gestern Abend war absolut fantastisch.",
+    "audio": "/audio/2347.mp3",
+    "word_translations": {
+      "concierto": "Konzert",
+      "anoche": "gestern Abend",
+      "fue": "war",
+      "absolutamente": "absolut",
+      "alucinante": "fantastisch/überwältigend"
+    }
   },
   {
     "id": "2348",
     "spanish": "el glaciar",
     "german": "der Gletscher",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El glaciar se está derritiendo por el calor.",
+    "sentence_de": "Der Gletscher schmilzt wegen der Hitze.",
+    "audio": "/audio/2348.mp3",
+    "word_translations": {
+      "el": "der/die",
+      "glaciar": "Gletscher",
+      "se": "sich",
+      "está": "ist",
+      "derritiendo": "schmelzend",
+      "por": "wegen",
+      "calor": "Hitze"
+    }
   },
   {
     "id": "2349",
     "spanish": "alcanzar",
     "german": "erreichen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "No pude alcanzar el libro del estante.",
+    "sentence_de": "Ich konnte das Buch vom Regal nicht erreichen.",
+    "audio": "/audio/2349.mp3",
+    "word_translations": {
+      "pude": "konnte",
+      "alcanzar": "erreichen",
+      "libro": "Buch",
+      "estante": "Regal"
+    }
   },
   {
     "id": "2350",
     "spanish": "kilómetros por hora",
     "german": "Kilometer pro Stunde",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El coche va a ochenta kilómetros por hora.",
+    "sentence_de": "Das Auto fährt achtzig Kilometer pro Stunde.",
+    "audio": "/audio/2350.mp3",
+    "word_translations": {
+      "el": "das",
+      "coche": "Auto",
+      "va": "fährt",
+      "a": "mit/bei",
+      "ochenta": "achtzig",
+      "kilómetros": "Kilometer",
+      "por": "pro",
+      "hora": "Stunde"
+    }
   },
   {
     "id": "2351",
     "spanish": "derribar",
     "german": "umwerfen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Van a derribar el edificio viejo mañana.",
+    "sentence_de": "Sie werden das alte Gebäude morgen abreißen.",
+    "audio": "/audio/2351.mp3",
+    "word_translations": {
+      "van": "werden",
+      "derribar": "abreißen/niederreißen",
+      "edificio": "Gebäude",
+      "viejo": "alt",
+      "mañana": "morgen"
+    }
   },
   {
     "id": "2352",
     "spanish": "la altura",
     "german": "die Höhe",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La altura de la montaña es impresionante.",
+    "sentence_de": "Die Höhe des Berges ist beeindruckend.",
+    "audio": "/audio/2352.mp3",
+    "word_translations": {
+      "la": "die",
+      "altura": "Höhe",
+      "de": "von/des",
+      "montaña": "Berg",
+      "es": "ist",
+      "impresionante": "beeindruckend"
+    }
   },
   {
     "id": "2353",
     "spanish": "capaz",
     "german": "fähig",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermano es capaz de cocinar muy bien.",
+    "sentence_de": "Mein Bruder ist imstande, sehr gut zu kochen.",
+    "audio": "/audio/2353.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "hermano": "Bruder",
+      "es": "ist",
+      "capaz": "imstande/fähig",
+      "de": "zu",
+      "cocinar": "kochen",
+      "muy": "sehr",
+      "bien": "gut"
+    }
   },
   {
     "id": "2354",
     "spanish": "las torres",
     "german": "die Türme",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Las torres de la catedral son muy altas.",
+    "sentence_de": "Die Türme der Kathedrale sind sehr hoch.",
+    "audio": "/audio/2354.mp3",
+    "word_translations": {
+      "las": "die",
+      "torres": "Türme",
+      "de": "der/von",
+      "la": "die",
+      "catedral": "Kathedrale",
+      "son": "sind",
+      "muy": "sehr",
+      "altas": "hoch"
+    }
   },
   {
     "id": "2355",
     "spanish": "despejado",
     "german": "wolkenfrei",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Hoy el cielo está muy despejado y soleado.",
+    "sentence_de": "Heute ist der Himmel sehr klar und sonnig.",
+    "audio": "/audio/2355.mp3",
+    "word_translations": {
+      "hoy": "heute",
+      "cielo": "Himmel",
+      "está": "ist",
+      "muy": "sehr",
+      "despejado": "klar/wolkenlos",
+      "soleado": "sonnig"
+    }
   },
   {
     "id": "2356",
     "spanish": "las golosinas",
     "german": "die Süßigkeiten",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Los niños siempre piden las golosinas en el supermercado.",
+    "sentence_de": "Die Kinder verlangen immer die Süßigkeiten im Supermarkt.",
+    "audio": "/audio/2356.mp3",
+    "word_translations": {
+      "los": "die",
+      "niños": "Kinder",
+      "siempre": "immer",
+      "piden": "verlangen/bitten um",
+      "las": "die",
+      "golosinas": "Süßigkeiten",
+      "en": "in",
+      "el": "der",
+      "supermercado": "Supermarkt"
+    }
   },
   {
     "id": "2357",
     "spanish": "desertar",
     "german": "desertieren/verlassen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El soldado decidió desertar del ejército.",
+    "sentence_de": "Der Soldat entschied sich, aus der Armee zu desertieren.",
+    "audio": "/audio/2357.mp3",
+    "word_translations": {
+      "soldado": "Soldat",
+      "decidió": "entschied sich",
+      "desertar": "desertieren",
+      "ejército": "Armee"
+    }
   },
   {
     "id": "2358",
     "spanish": "el fin del mundo",
     "german": "das Ende der Welt",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "No es el fin del mundo, tranquilo.",
+    "sentence_de": "Es ist nicht das Ende der Welt, beruhige dich.",
+    "audio": "/audio/2358.mp3",
+    "word_translations": {
+      "no": "nicht",
+      "es": "ist",
+      "el": "das",
+      "fin": "Ende",
+      "del": "der",
+      "mundo": "Welt",
+      "tranquilo": "ruhig/beruhige dich"
+    }
   },
   {
     "id": "2359",
     "spanish": "tan duro",
     "german": "so hart",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Este pan está tan duro que no puedo cortarlo.",
+    "sentence_de": "Dieses Brot ist so hart, dass ich es nicht schneiden kann.",
+    "audio": "/audio/2359.mp3",
+    "word_translations": {
+      "este": "dieses",
+      "pan": "Brot",
+      "está": "ist",
+      "tan": "so",
+      "duro": "hart",
+      "que": "dass",
+      "no": "nicht",
+      "puedo": "kann ich",
+      "cortarlo": "es schneiden"
+    }
   },
   {
     "id": "2360",
     "spanish": "los bastones",
     "german": "die Trekkingstöcke",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi abuelo usa los bastones para caminar.",
+    "sentence_de": "Mein Großvater benutzt die Gehstöcke zum Gehen.",
+    "audio": "/audio/2360.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "abuelo": "Großvater",
+      "usa": "benutzt",
+      "los": "die",
+      "bastones": "Gehstöcke",
+      "para": "für/zum",
+      "caminar": "gehen"
+    }
   },
   {
     "id": "2361",
     "spanish": "escalar",
     "german": "klettern",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Me gusta escalar montañas los fines de semana.",
+    "sentence_de": "Ich klettere gerne an den Wochenenden auf Berge.",
+    "audio": "/audio/2361.mp3",
+    "word_translations": {
+      "me": "mir/mich",
+      "gusta": "gefällt",
+      "escalar": "klettern/besteigen",
+      "montañas": "Berge",
+      "los": "die",
+      "fines": "Enden",
+      "de": "von",
+      "semana": "Woche"
+    }
   },
   {
     "id": "2362",
     "spanish": "el muro",
     "german": "die Mauer",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El muro del jardín necesita una reparación urgente.",
+    "sentence_de": "Die Gartenmauer braucht eine dringende Reparierung.",
+    "audio": "/audio/2362.mp3",
+    "word_translations": {
+      "el": "der/die/das",
+      "muro": "Mauer",
+      "del": "des/der",
+      "jardín": "Garten",
+      "necesita": "braucht",
+      "una": "eine",
+      "reparación": "Reparierung",
+      "urgente": "dringend"
+    }
   },
   {
     "id": "2363",
     "spanish": "evitar",
     "german": "vermeiden",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Debes evitar comer mucha comida rápida.",
+    "sentence_de": "Du solltest es vermeiden, viel Fast Food zu essen.",
+    "audio": "/audio/2363.mp3",
+    "word_translations": {
+      "debes": "du solltest",
+      "evitar": "vermeiden",
+      "comer": "essen",
+      "mucha": "viel",
+      "comida": "Essen",
+      "rápida": "schnell/Fast"
+    }
   },
   {
     "id": "2364",
     "spanish": "el símbolo",
     "german": "das Symbol",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La paloma es el símbolo de la paz.",
+    "sentence_de": "Die Taube ist das Symbol des Friedens.",
+    "audio": "/audio/2364.mp3",
+    "word_translations": {
+      "la": "die",
+      "paloma": "Taube",
+      "es": "ist",
+      "el": "das",
+      "símbolo": "Symbol",
+      "de": "des/von",
+      "paz": "Frieden"
+    }
   },
   {
     "id": "2365",
     "spanish": "las probabilidades",
     "german": "die Wahrscheinlichkeiten",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Las probabilidades de lluvia hoy son altas.",
+    "sentence_de": "Die Regenwahrscheinlichkeit ist heute hoch.",
+    "audio": "/audio/2365.mp3",
+    "word_translations": {
+      "las": "die",
+      "probabilidades": "Wahrscheinlichkeiten",
+      "de": "von/für",
+      "lluvia": "Regen",
+      "hoy": "heute",
+      "son": "sind",
+      "altas": "hoch"
+    }
   },
   {
     "id": "2366",
     "spanish": "el noroeste",
     "german": "der Nordwesten",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi ciudad está en el noroeste de España.",
+    "sentence_de": "Meine Stadt liegt im Nordwesten Spaniens.",
+    "audio": "/audio/2366.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "ciudad": "Stadt",
+      "está": "liegt/ist",
+      "en": "in",
+      "el": "der/im",
+      "noroeste": "Nordwesten",
+      "de": "von",
+      "España": "Spanien"
+    }
   },
   {
     "id": "2367",
     "spanish": "tocado",
     "german": "bekloppt",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermana se ha tocado el pelo esta mañana.",
+    "sentence_de": "Meine Schwester hat sich heute Morgen die Haare gemacht.",
+    "audio": "/audio/2367.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "se": "sich",
+      "ha": "hat",
+      "tocado": "gemacht/berührt",
+      "el": "die/das",
+      "pelo": "Haare",
+      "esta": "diese",
+      "mañana": "Morgen"
+    }
   },
   {
     "id": "2368",
     "spanish": "la belleza",
     "german": "die Schönheit",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La belleza de esta ciudad me impresiona mucho.",
+    "sentence_de": "Die Schönheit dieser Stadt beeindruckt mich sehr.",
+    "audio": "/audio/2368.mp3",
+    "word_translations": {
+      "la belleza": "die Schönheit",
+      "de": "von/der",
+      "esta": "diese",
+      "ciudad": "Stadt",
+      "me": "mich",
+      "impresiona": "beeindruckt",
+      "mucho": "sehr"
+    }
   },
   {
     "id": "2369",
     "spanish": "la parada",
     "german": "die Haltestelle",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El autobús llegará a la parada pronto.",
+    "sentence_de": "Der Bus wird bald an der Haltestelle ankommen.",
+    "audio": "/audio/2369.mp3",
+    "word_translations": {
+      "el": "der",
+      "autobús": "Bus",
+      "llegará": "wird ankommen",
+      "a": "an",
+      "la": "der/die",
+      "parada": "Haltestelle",
+      "pronto": "bald"
+    }
   },
   {
     "id": "2370",
     "spanish": "la movida",
     "german": "das Nachtleben",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Los jóvenes van a la movida nocturna.",
+    "sentence_de": "Die Jugendlichen gehen zum nächtlichen Ausgehen.",
+    "audio": "/audio/2370.mp3",
+    "word_translations": {
+      "los": "die",
+      "jóvenes": "Jugendlichen",
+      "van": "gehen",
+      "a": "zu",
+      "la": "das/die",
+      "movida": "Ausgehen/Nachtleben",
+      "nocturna": "nächtliche"
+    }
   },
   {
     "id": "2371",
     "spanish": "el norte",
     "german": "der Norden",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Vivo en el norte de España.",
+    "sentence_de": "Ich lebe im Norden von Spanien.",
+    "audio": "/audio/2371.mp3",
+    "word_translations": {
+      "vivo": "ich lebe",
+      "en": "in",
+      "el": "der",
+      "norte": "Norden",
+      "de": "von",
+      "España": "Spanien"
+    }
   },
   {
     "id": "2372",
     "spanish": "el sur",
     "german": "der Süden",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En el sur de España hace mucho calor.",
+    "sentence_de": "Im Süden Spaniens ist es sehr heiß.",
+    "audio": "/audio/2372.mp3",
+    "word_translations": {
+      "en": "in",
+      "el": "der",
+      "sur": "Süden",
+      "de": "von",
+      "España": "Spanien",
+      "hace": "macht/ist",
+      "mucho": "viel",
+      "calor": "Hitze"
+    }
   },
   {
     "id": "2373",
     "spanish": "el este",
     "german": "der Osten",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermana vive en el este de España.",
+    "sentence_de": "Meine Schwester lebt im Osten Spaniens.",
+    "audio": "/audio/2373.mp3",
+    "word_translations": {
+      "Mi": "Meine",
+      "hermana": "Schwester",
+      "vive": "lebt",
+      "en": "in/im",
+      "el este": "der Osten",
+      "de": "von",
+      "España": "Spanien"
+    }
   },
   {
     "id": "2374",
     "spanish": "el oeste",
     "german": "der Westen",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El sol se pone en el oeste.",
+    "sentence_de": "Die Sonne geht im Westen unter.",
+    "audio": "/audio/2374.mp3",
+    "word_translations": {
+      "el": "der/die/das",
+      "sol": "Sonne",
+      "se": "sich",
+      "pone": "geht unter/setzt sich",
+      "en": "in",
+      "oeste": "Westen"
+    }
   },
   {
     "id": "2375",
     "spanish": "formado",
     "german": "geformt",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermano está bien formado en informática.",
+    "sentence_de": "Mein Bruder ist gut in Informatik ausgebildet.",
+    "audio": "/audio/2375.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "hermano": "Bruder",
+      "está": "ist",
+      "bien": "gut",
+      "formado": "ausgebildet/gebildet",
+      "en": "in",
+      "informática": "Informatik"
+    }
   },
   {
     "id": "2376",
     "spanish": "volcánico",
     "german": "vulkanisch",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El suelo volcánico es muy fértil para cultivos.",
+    "sentence_de": "Der vulkanische Boden ist sehr fruchtbar für den Anbau.",
+    "audio": "/audio/2376.mp3",
+    "word_translations": {
+      "suelo": "Boden",
+      "volcánico": "vulkanisch",
+      "muy": "sehr",
+      "fértil": "fruchtbar",
+      "cultivos": "Kulturen/Anbau"
+    }
   },
   {
     "id": "2377",
     "spanish": "un rato",
     "german": "eine Weile",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Esperé un rato en la parada del autobús.",
+    "sentence_de": "Ich wartete eine Weile an der Bushaltestelle.",
+    "audio": "/audio/2377.mp3",
+    "word_translations": {
+      "esperé": "ich wartete",
+      "un rato": "eine Weile",
+      "en": "an/in",
+      "la": "die",
+      "parada": "Haltestelle",
+      "del": "des/der",
+      "autobús": "Bus"
+    }
   },
   {
     "id": "2378",
     "spanish": "lanzar",
     "german": "werfen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Voy a lanzar la pelota a mi hermano.",
+    "sentence_de": "Ich werde den Ball zu meinem Bruder werfen.",
+    "audio": "/audio/2378.mp3",
+    "word_translations": {
+      "voy": "ich gehe/werde",
+      "lanzar": "werfen",
+      "pelota": "Ball",
+      "hermano": "Bruder"
+    }
   },
   {
     "id": "2379",
     "spanish": "precisamente",
     "german": "ausgerechnet",
     "type": "other",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Precisamente eso es lo que necesito comprar.",
+    "sentence_de": "Genau das ist es, was ich kaufen muss.",
+    "audio": "/audio/2379.mp3",
+    "word_translations": {
+      "precisamente": "genau",
+      "eso": "das",
+      "es": "ist",
+      "lo": "das",
+      "que": "was",
+      "necesito": "ich brauche/muss",
+      "comprar": "kaufen"
+    }
   },
   {
     "id": "2380",
     "spanish": "la babosa",
     "german": "die Schnecke",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La babosa dejó un rastro brillante en el jardín.",
+    "sentence_de": "Die Nacktschnecke hinterließ eine glänzende Spur im Garten.",
+    "audio": "/audio/2380.mp3",
+    "word_translations": {
+      "la babosa": "die Nacktschnecke",
+      "dejó": "hinterließ",
+      "un rastro": "eine Spur",
+      "brillante": "glänzend",
+      "en": "in",
+      "el jardín": "der Garten"
+    }
   },
   {
     "id": "2381",
     "spanish": "la chibola",
     "german": "das Mädchen (Slang)",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La chibola juega con sus amigas en el parque.",
+    "sentence_de": "Das Mädchen spielt mit ihren Freundinnen im Park.",
+    "audio": "/audio/2381.mp3",
+    "word_translations": {
+      "chibola": "Mädchen (umgangssprachlich, Peru)",
+      "juega": "spielt",
+      "amigas": "Freundinnen",
+      "parque": "Park"
+    }
   },
   {
     "id": "2382",
     "spanish": "monísimo",
     "german": "megasüß",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Tu gato es monísimo, me encanta.",
+    "sentence_de": "Deine Katze ist supersüß, ich liebe sie.",
+    "audio": "/audio/2382.mp3",
+    "word_translations": {
+      "tu": "dein/deine",
+      "gato": "Katze",
+      "es": "ist",
+      "monísimo": "supersüß/sehr niedlich",
+      "me": "mir",
+      "encanta": "gefällt/liebe"
+    }
   },
   {
     "id": "2383",
     "spanish": "tía",
     "german": "Alter (umg.)",
     "type": "other",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi tía cocina paella todos los domingos.",
+    "sentence_de": "Meine Tante kocht jeden Sonntag Paella.",
+    "audio": "/audio/2383.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "tía": "Tante",
+      "cocina": "kocht",
+      "paella": "Paella",
+      "todos": "alle/jeden",
+      "los": "die",
+      "domingos": "Sonntage"
+    }
   },
   {
     "id": "2384",
     "spanish": "la muñeca",
     "german": "die Puppe",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La niña juega con su muñeca favorita.",
+    "sentence_de": "Das Mädchen spielt mit ihrer Lieblingspuppe.",
+    "audio": "/audio/2384.mp3",
+    "word_translations": {
+      "la": "die",
+      "niña": "Mädchen",
+      "juega": "spielt",
+      "con": "mit",
+      "su": "ihre/seiner",
+      "muñeca": "Puppe",
+      "favorita": "Lieblings-/bevorzugte"
+    }
   },
   {
     "id": "2385",
     "spanish": "haber",
     "german": "haben (Hilfsverb)",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Debe haber leche en el refrigerador.",
+    "sentence_de": "Es muss Milch im Kühlschrank geben.",
+    "audio": "/audio/2385.mp3",
+    "word_translations": {
+      "debe": "muss",
+      "haber": "geben/haben",
+      "leche": "Milch",
+      "en": "in/im",
+      "el": "der",
+      "refrigerador": "Kühlschrank"
+    }
   },
   {
     "id": "2386",
     "spanish": "agotar",
     "german": "erschöpfen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El trabajo excesivo puede agotar a cualquier persona.",
+    "sentence_de": "Übermäßige Arbeit kann jede Person erschöpfen.",
+    "audio": "/audio/2386.mp3",
+    "word_translations": {
+      "trabajo": "Arbeit",
+      "excesivo": "übermäßig",
+      "puede": "kann",
+      "agotar": "erschöpfen",
+      "cualquier": "jede",
+      "persona": "Person"
+    }
   },
   {
     "id": "2387",
     "spanish": "la fecha",
     "german": "das Datum",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "¿Cuál es la fecha de tu cumpleaños?",
+    "sentence_de": "Welches ist das Datum deines Geburtstags?",
+    "audio": "/audio/2387.mp3",
+    "word_translations": {
+      "cuál": "welches",
+      "es": "ist",
+      "la": "die/das",
+      "fecha": "Datum",
+      "de": "von/des",
+      "tu": "dein",
+      "cumpleaños": "Geburtstag"
+    }
   },
   {
     "id": "2388",
     "spanish": "el anfitrión",
     "german": "der Gastgeber",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El anfitrión preparó una cena deliciosa para todos.",
+    "sentence_de": "Der Gastgeber bereitete ein köstliches Abendessen für alle vor.",
+    "audio": "/audio/2388.mp3",
+    "word_translations": {
+      "el anfitrión": "der Gastgeber",
+      "preparó": "bereitete vor",
+      "una cena": "ein Abendessen",
+      "deliciosa": "köstlich",
+      "para": "für",
+      "todos": "alle"
+    }
   },
   {
     "id": "2389",
     "spanish": "los codos",
     "german": "die Ellenbogen",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Me duelen los codos después del ejercicio.",
+    "sentence_de": "Mir tun die Ellbogen nach dem Sport weh.",
+    "audio": "/audio/2389.mp3",
+    "word_translations": {
+      "me": "mir",
+      "duelen": "tun weh",
+      "los": "die",
+      "codos": "Ellbogen",
+      "después": "nach",
+      "del": "dem",
+      "ejercicio": "Sport/Übung"
+    }
   },
   {
     "id": "2390",
     "spanish": "desapercibido",
     "german": "unbemerkt",
     "type": "adjective",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El error pasó completamente desapercibido para todos.",
+    "sentence_de": "Der Fehler blieb für alle völlig unbemerkt.",
+    "audio": "/audio/2390.mp3",
+    "word_translations": {
+      "error": "Fehler",
+      "pasó": "blieb/ging vorbei",
+      "completamente": "völlig",
+      "desapercibido": "unbemerkt",
+      "para": "für",
+      "todos": "alle"
+    }
   },
   {
     "id": "2391",
     "spanish": "lamentablemente",
     "german": "leider",
     "type": "other",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Lamentablemente, no pude llegar a tiempo al trabajo.",
+    "sentence_de": "Leider konnte ich nicht rechtzeitig zur Arbeit kommen.",
+    "audio": "/audio/2391.mp3",
+    "word_translations": {
+      "lamentablemente": "leider",
+      "no": "nicht",
+      "pude": "konnte ich",
+      "llegar": "ankommen",
+      "a tiempo": "rechtzeitig",
+      "al": "zur",
+      "trabajo": "Arbeit"
+    }
   },
   {
     "id": "2392",
     "spanish": "enero",
     "german": "Januar",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En enero siempre hace mucho frío aquí.",
+    "sentence_de": "Im Januar ist es hier immer sehr kalt.",
+    "audio": "/audio/2392.mp3",
+    "word_translations": {
+      "en": "in/im",
+      "enero": "Januar",
+      "siempre": "immer",
+      "hace": "macht/ist (Wetter)",
+      "mucho": "viel/sehr",
+      "frío": "kalt/Kälte",
+      "aquí": "hier"
+    }
   },
   {
     "id": "2393",
     "spanish": "febrero",
     "german": "Februar",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi cumpleaños es el cinco de febrero.",
+    "sentence_de": "Mein Geburtstag ist am fünften Februar.",
+    "audio": "/audio/2393.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "cumpleaños": "Geburtstag",
+      "es": "ist",
+      "el": "der/am",
+      "cinco": "fünf",
+      "de": "von",
+      "febrero": "Februar"
+    }
   },
   {
     "id": "2394",
     "spanish": "marzo",
     "german": "März",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi cumpleaños es el quince de marzo.",
+    "sentence_de": "Mein Geburtstag ist am fünfzehnten März.",
+    "audio": "/audio/2394.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "cumpleaños": "Geburtstag",
+      "es": "ist",
+      "el": "der/am",
+      "quince": "fünfzehn",
+      "de": "von",
+      "marzo": "März"
+    }
   },
   {
     "id": "2395",
     "spanish": "abril",
     "german": "April",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi cumpleaños es el quince de abril.",
+    "sentence_de": "Mein Geburtstag ist am fünfzehnten April.",
+    "audio": "/audio/2395.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "cumpleaños": "Geburtstag",
+      "es": "ist",
+      "el": "der/am",
+      "quince": "fünfzehn",
+      "de": "von",
+      "abril": "April"
+    }
   },
   {
     "id": "2396",
     "spanish": "mayo",
     "german": "Mai",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi cumpleaños es el cinco de mayo.",
+    "sentence_de": "Mein Geburtstag ist am fünften Mai.",
+    "audio": "/audio/2396.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "cumpleaños": "Geburtstag",
+      "es": "ist",
+      "el": "der/am",
+      "cinco": "fünf",
+      "de": "von",
+      "mayo": "Mai"
+    }
   },
   {
     "id": "2397",
     "spanish": "junio",
     "german": "Juni",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En junio vamos de vacaciones a la playa.",
+    "sentence_de": "Im Juni fahren wir in den Urlaub an den Strand.",
+    "audio": "/audio/2397.mp3",
+    "word_translations": {
+      "En": "In",
+      "junio": "Juni",
+      "vamos": "fahren wir",
+      "de": "in den",
+      "vacaciones": "Urlaub",
+      "a": "an",
+      "la": "den",
+      "playa": "Strand"
+    }
   },
   {
     "id": "2398",
     "spanish": "julio",
     "german": "Juli",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En julio vamos de vacaciones a España.",
+    "sentence_de": "Im Juli fahren wir nach Spanien in den Urlaub.",
+    "audio": "/audio/2398.mp3",
+    "word_translations": {
+      "en": "in",
+      "julio": "Juli",
+      "vamos": "wir gehen/fahren",
+      "de": "von/nach",
+      "vacaciones": "Urlaub/Ferien",
+      "a": "nach",
+      "España": "Spanien"
+    }
   },
   {
     "id": "2399",
     "spanish": "agosto",
     "german": "August",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En agosto vamos de vacaciones a la playa.",
+    "sentence_de": "Im August fahren wir in den Urlaub an den Strand.",
+    "audio": "/audio/2399.mp3",
+    "word_translations": {
+      "En": "Im",
+      "agosto": "August",
+      "vamos": "fahren wir",
+      "de": "in den",
+      "vacaciones": "Urlaub",
+      "a": "an",
+      "la": "den",
+      "playa": "Strand"
+    }
   },
   {
     "id": "2400",
     "spanish": "septiembre",
     "german": "September",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El curso de español empieza en septiembre.",
+    "sentence_de": "Der Spanischkurs beginnt im September.",
+    "audio": "/audio/2400.mp3",
+    "word_translations": {
+      "el": "der",
+      "curso": "Kurs",
+      "de": "von/für",
+      "español": "Spanisch",
+      "empieza": "beginnt",
+      "en": "in/im",
+      "septiembre": "September"
+    }
   },
   {
     "id": "2401",
     "spanish": "octubre",
     "german": "Oktober",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En octubre empiezan las clases en la universidad.",
+    "sentence_de": "Im Oktober beginnen die Vorlesungen an der Universität.",
+    "audio": "/audio/2401.mp3",
+    "word_translations": {
+      "en": "in/an",
+      "octubre": "Oktober",
+      "empiezan": "beginnen",
+      "las": "die",
+      "clases": "Vorlesungen/Unterricht",
+      "la": "die",
+      "universidad": "Universität"
+    }
   },
   {
     "id": "2402",
     "spanish": "noviembre",
     "german": "November",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En noviembre hace frío y llueve mucho.",
+    "sentence_de": "Im November ist es kalt und es regnet viel.",
+    "audio": "/audio/2402.mp3",
+    "word_translations": {
+      "en": "in",
+      "noviembre": "November",
+      "hace": "es ist/macht",
+      "frío": "kalt",
+      "y": "und",
+      "llueve": "es regnet",
+      "mucho": "viel"
+    }
   },
   {
     "id": "2403",
     "spanish": "diciembre",
     "german": "Dezember",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "En diciembre celebramos la Navidad en familia.",
+    "sentence_de": "Im Dezember feiern wir Weihnachten mit der Familie.",
+    "audio": "/audio/2403.mp3",
+    "word_translations": {
+      "en": "mit",
+      "diciembre": "Dezember",
+      "celebramos": "wir feiern",
+      "la": "die",
+      "Navidad": "Weihnachten",
+      "familia": "Familie"
+    }
   },
   {
     "id": "2404",
     "spanish": "Pulgarcito",
     "german": "Spitzname für El Salvador",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mi hermana leyó el cuento de Pulgarcito anoche.",
+    "sentence_de": "Meine Schwester las gestern Abend das Märchen von Däumelinchen.",
+    "audio": "/audio/2404.mp3",
+    "word_translations": {
+      "Mi": "Meine",
+      "hermana": "Schwester",
+      "leyó": "las",
+      "el": "das",
+      "cuento": "Märchen",
+      "de": "von",
+      "Pulgarcito": "Däumelinchen",
+      "anoche": "gestern Abend"
+    }
   },
   {
     "id": "2405",
     "spanish": "apoyar",
     "german": "unterstützen",
     "type": "verb",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "Mis padres siempre me apoyan en todo.",
+    "sentence_de": "Meine Eltern unterstützen mich immer in allem.",
+    "audio": "/audio/2405.mp3",
+    "word_translations": {
+      "mis": "meine",
+      "padres": "Eltern",
+      "siempre": "immer",
+      "me": "mich",
+      "apoyan": "unterstützen",
+      "en": "in",
+      "todo": "allem"
+    }
   },
   {
     "id": "2406",
     "spanish": "la elección",
     "german": "die Wahl",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "La elección del restaurante fue muy difícil.",
+    "sentence_de": "Die Auswahl des Restaurants war sehr schwierig.",
+    "audio": "/audio/2406.mp3",
+    "word_translations": {
+      "la": "die",
+      "elección": "Auswahl/Wahl",
+      "del": "des",
+      "restaurante": "Restaurant",
+      "fue": "war",
+      "muy": "sehr",
+      "difícil": "schwierig"
+    }
   },
   {
     "id": "2407",
     "spanish": "el cojín",
     "german": "das Sofakissen",
     "type": "noun",
-    "sentence_es": "",
-    "sentence_de": "",
-    "audio": "",
-    "word_translations": {}
+    "sentence_es": "El cojín del sofá es muy cómodo.",
+    "sentence_de": "Das Kissen vom Sofa ist sehr bequem.",
+    "audio": "/audio/2407.mp3",
+    "word_translations": {
+      "el": "der/das",
+      "cojín": "Kissen",
+      "del": "vom/des",
+      "sofá": "Sofa",
+      "es": "ist",
+      "muy": "sehr",
+      "cómodo": "bequem"
+    }
+  },
+  {
+    "id": "2408",
+    "spanish": "cero",
+    "german": "0 - null",
+    "type": "number",
+    "sentence_es": "La temperatura bajó a cero grados anoche.",
+    "sentence_de": "Die Temperatur fiel letzte Nacht auf null Grad.",
+    "audio": "/audio/2408.mp3",
+    "word_translations": {
+      "la": "die",
+      "temperatura": "Temperatur",
+      "bajó": "fiel",
+      "a": "auf",
+      "cero": "null",
+      "grados": "Grad",
+      "anoche": "letzte Nacht"
+    }
+  },
+  {
+    "id": "2409",
+    "spanish": "uno",
+    "german": "1 - eins",
+    "type": "number",
+    "sentence_es": "Quiero comprar uno de estos libros.",
+    "sentence_de": "Ich möchte eins von diesen Büchern kaufen.",
+    "audio": "/audio/2409.mp3",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "comprar": "kaufen",
+      "uno": "eins",
+      "de": "von",
+      "estos": "diese",
+      "libros": "Bücher"
+    }
+  },
+  {
+    "id": "2410",
+    "spanish": "dos",
+    "german": "2 - zwei",
+    "type": "number",
+    "sentence_es": "Tengo dos hermanos y una hermana.",
+    "sentence_de": "Ich habe zwei Brüder und eine Schwester.",
+    "audio": "/audio/2410.mp3",
+    "word_translations": {
+      "tengo": "ich habe",
+      "dos": "zwei",
+      "hermanos": "Brüder",
+      "y": "und",
+      "una": "eine",
+      "hermana": "Schwester"
+    }
+  },
+  {
+    "id": "2411",
+    "spanish": "tres",
+    "german": "3 - drei",
+    "type": "number",
+    "sentence_es": "Tengo tres hermanos y una hermana.",
+    "sentence_de": "Ich habe drei Brüder und eine Schwester.",
+    "audio": "/audio/2411.mp3",
+    "word_translations": {
+      "tengo": "ich habe",
+      "tres": "drei",
+      "hermanos": "Brüder",
+      "y": "und",
+      "una": "eine",
+      "hermana": "Schwester"
+    }
+  },
+  {
+    "id": "2412",
+    "spanish": "cuatro",
+    "german": "4 - vier",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene cuatro gatos en casa.",
+    "sentence_de": "Meine Schwester hat vier Katzen zu Hause.",
+    "audio": "/audio/2412.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat",
+      "cuatro": "vier",
+      "gatos": "Katzen",
+      "en": "in/zu",
+      "casa": "Hause/Haus"
+    }
+  },
+  {
+    "id": "2413",
+    "spanish": "cinco",
+    "german": "5 - fünf",
+    "type": "number",
+    "sentence_es": "Tengo cinco libros nuevos en mi mochila.",
+    "sentence_de": "Ich habe fünf neue Bücher in meinem Rucksack.",
+    "audio": "/audio/2413.mp3",
+    "word_translations": {
+      "tengo": "ich habe",
+      "cinco": "fünf",
+      "libros": "Bücher",
+      "nuevos": "neue",
+      "en": "in",
+      "mi": "mein/meine",
+      "mochila": "Rucksack"
+    }
+  },
+  {
+    "id": "2414",
+    "spanish": "seis",
+    "german": "6 - sechs",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene seis años de edad.",
+    "sentence_de": "Meine Schwester ist sechs Jahre alt.",
+    "audio": "/audio/2414.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "seis": "sechs",
+      "años": "Jahre",
+      "de": "von",
+      "edad": "Alter"
+    }
+  },
+  {
+    "id": "2415",
+    "spanish": "siete",
+    "german": "7 - sieben",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene siete años de edad.",
+    "sentence_de": "Meine Schwester ist sieben Jahre alt.",
+    "audio": "/audio/2415.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "siete": "sieben",
+      "años": "Jahre",
+      "de": "von",
+      "edad": "Alter"
+    }
+  },
+  {
+    "id": "2416",
+    "spanish": "ocho",
+    "german": "8 - acht",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene ocho años de edad.",
+    "sentence_de": "Meine Schwester ist acht Jahre alt.",
+    "audio": "/audio/2416.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "ocho": "acht",
+      "años": "Jahre",
+      "de": "von",
+      "edad": "Alter"
+    }
+  },
+  {
+    "id": "2417",
+    "spanish": "nueve",
+    "german": "9 - neun",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene nueve años de edad.",
+    "sentence_de": "Meine Schwester ist neun Jahre alt.",
+    "audio": "/audio/2417.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "nueve": "neun",
+      "años": "Jahre",
+      "de": "von",
+      "edad": "Alter"
+    }
+  },
+  {
+    "id": "2418",
+    "spanish": "diez",
+    "german": "10 - zehn",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene diez años de edad.",
+    "sentence_de": "Meine Schwester ist zehn Jahre alt.",
+    "audio": "/audio/2418.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "diez": "zehn",
+      "años": "Jahre",
+      "de": "von",
+      "edad": "Alter"
+    }
+  },
+  {
+    "id": "2419",
+    "spanish": "once",
+    "german": "11 - elf",
+    "type": "number",
+    "sentence_es": "La reunión empieza a las once de la mañana.",
+    "sentence_de": "Das Meeting beginnt um elf Uhr morgens.",
+    "audio": "/audio/2419.mp3",
+    "word_translations": {
+      "reunión": "Meeting/Besprechung",
+      "empieza": "beginnt",
+      "once": "elf",
+      "mañana": "Morgen"
+    }
+  },
+  {
+    "id": "2420",
+    "spanish": "doce",
+    "german": "12 - zwölf",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene doce años y estudia mucho.",
+    "sentence_de": "Meine Schwester ist zwölf Jahre alt und lernt viel.",
+    "audio": "/audio/2420.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "doce": "zwölf",
+      "años": "Jahre",
+      "y": "und",
+      "estudia": "lernt/studiert",
+      "mucho": "viel"
+    }
+  },
+  {
+    "id": "2421",
+    "spanish": "trece",
+    "german": "13 - dreizehn",
+    "type": "number",
+    "sentence_es": "Mi hermana cumple trece años el viernes.",
+    "sentence_de": "Meine Schwester wird am Freitag dreizehn Jahre alt.",
+    "audio": "/audio/2421.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "cumple": "wird (Jahre alt)",
+      "trece": "dreizehn",
+      "años": "Jahre",
+      "el": "der/am",
+      "viernes": "Freitag"
+    }
+  },
+  {
+    "id": "2422",
+    "spanish": "catorce",
+    "german": "14 - vierzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana cumple catorce años el viernes.",
+    "sentence_de": "Meine Schwester wird am Freitag vierzehn Jahre alt.",
+    "audio": "/audio/2422.mp3",
+    "word_translations": {
+      "mi": "mein/meine",
+      "hermana": "Schwester",
+      "cumple": "wird (Jahre alt)",
+      "catorce": "vierzehn",
+      "años": "Jahre",
+      "el": "der",
+      "viernes": "Freitag"
+    }
+  },
+  {
+    "id": "2423",
+    "spanish": "quince",
+    "german": "15 - fünfzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana cumple quince años el próximo mes.",
+    "sentence_de": "Meine Schwester wird nächsten Monat fünfzehn Jahre alt.",
+    "audio": "/audio/2423.mp3",
+    "word_translations": {
+      "hermana": "Schwester",
+      "cumple": "wird (Jahre alt)",
+      "quince": "fünfzehn",
+      "años": "Jahre",
+      "próximo": "nächsten",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2424",
+    "spanish": "dieciséis",
+    "german": "16 - sechzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene dieciséis años y estudia bachillerato.",
+    "sentence_de": "Meine Schwester ist sechzehn Jahre alt und macht Abitur.",
+    "audio": "/audio/2424.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "dieciséis": "sechzehn",
+      "años": "Jahre",
+      "y": "und",
+      "estudia": "studiert/macht",
+      "bachillerato": "Abitur"
+    }
+  },
+  {
+    "id": "2425",
+    "spanish": "diecisiete",
+    "german": "17 - siebzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana cumple diecisiete años mañana.",
+    "sentence_de": "Meine Schwester wird morgen siebzehn Jahre alt.",
+    "audio": "/audio/2425.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "cumple": "wird (alt)",
+      "diecisiete": "siebzehn",
+      "años": "Jahre",
+      "mañana": "morgen"
+    }
+  },
+  {
+    "id": "2426",
+    "spanish": "dieciocho",
+    "german": "18 - achtzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana cumple dieciocho años en mayo.",
+    "sentence_de": "Meine Schwester wird im Mai achtzehn Jahre alt.",
+    "audio": "/audio/2426.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "cumple": "wird (alt)",
+      "dieciocho": "achtzehn",
+      "años": "Jahre",
+      "en": "in/im",
+      "mayo": "Mai"
+    }
+  },
+  {
+    "id": "2427",
+    "spanish": "diecinueve",
+    "german": "19 - neunzehn",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene diecinueve años y estudia medicina.",
+    "sentence_de": "Meine Schwester ist neunzehn Jahre alt und studiert Medizin.",
+    "audio": "/audio/2427.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "diecinueve": "neunzehn",
+      "años": "Jahre",
+      "y": "und",
+      "estudia": "studiert",
+      "medicina": "Medizin"
+    }
+  },
+  {
+    "id": "2428",
+    "spanish": "veinte",
+    "german": "20 - zwanzig",
+    "type": "number",
+    "sentence_es": "Mi hermana tiene veinte años y estudia medicina.",
+    "sentence_de": "Meine Schwester ist zwanzig Jahre alt und studiert Medizin.",
+    "audio": "/audio/2428.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "hermana": "Schwester",
+      "tiene": "hat/ist",
+      "veinte": "zwanzig",
+      "años": "Jahre",
+      "y": "und",
+      "estudia": "studiert",
+      "medicina": "Medizin"
+    }
+  },
+  {
+    "id": "2429",
+    "spanish": "treinta",
+    "german": "30 - dreißig",
+    "type": "number",
+    "sentence_es": "Mi hermano tiene treinta años y trabaja aquí.",
+    "sentence_de": "Mein Bruder ist dreißig Jahre alt und arbeitet hier.",
+    "audio": "/audio/2429.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "hermano": "Bruder",
+      "tiene": "hat/ist",
+      "treinta": "dreißig",
+      "años": "Jahre",
+      "y": "und",
+      "trabaja": "arbeitet",
+      "aquí": "hier"
+    }
+  },
+  {
+    "id": "2430",
+    "spanish": "cuarenta",
+    "german": "40 - vierzig",
+    "type": "number",
+    "sentence_es": "Mi madre tiene cuarenta años este mes.",
+    "sentence_de": "Meine Mutter wird diesen Monat vierzig Jahre alt.",
+    "audio": "/audio/2430.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "madre": "Mutter",
+      "tiene": "hat/wird",
+      "cuarenta": "vierzig",
+      "años": "Jahre",
+      "este": "diesen",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2431",
+    "spanish": "cincuenta",
+    "german": "50 - fünfzig",
+    "type": "number",
+    "sentence_es": "Mi abuela tiene cincuenta años y está muy bien.",
+    "sentence_de": "Meine Großmutter ist fünfzig Jahre alt und ist sehr gesund.",
+    "audio": "/audio/2431.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "abuela": "Großmutter",
+      "tiene": "hat/ist",
+      "cincuenta": "fünfzig",
+      "años": "Jahre",
+      "y": "und",
+      "está": "ist",
+      "muy": "sehr",
+      "bien": "gut/gesund"
+    }
+  },
+  {
+    "id": "2432",
+    "spanish": "sesenta",
+    "german": "60 - sechzig",
+    "type": "number",
+    "sentence_es": "Mi abuelo tiene sesenta y cinco años.",
+    "sentence_de": "Mein Großvater ist fünfundsechzig Jahre alt.",
+    "audio": "/audio/2432.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "abuelo": "Großvater",
+      "tiene": "hat/ist",
+      "sesenta": "sechzig",
+      "y": "und",
+      "cinco": "fünf",
+      "años": "Jahre"
+    }
+  },
+  {
+    "id": "2433",
+    "spanish": "setenta",
+    "german": "70 - siebzig",
+    "type": "number",
+    "sentence_es": "Mi abuelo tiene setenta años y está muy bien.",
+    "sentence_de": "Mein Großvater ist siebzig Jahre alt und es geht ihm sehr gut.",
+    "audio": "/audio/2433.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "abuelo": "Großvater",
+      "tiene": "hat/ist",
+      "setenta": "siebzig",
+      "años": "Jahre",
+      "y": "und",
+      "está": "ist/geht ihm",
+      "muy": "sehr",
+      "bien": "gut"
+    }
+  },
+  {
+    "id": "2434",
+    "spanish": "ochenta",
+    "german": "80 - achtzig",
+    "type": "number",
+    "sentence_es": "Mi abuelo tiene ochenta años y está sano.",
+    "sentence_de": "Mein Großvater ist achtzig Jahre alt und gesund.",
+    "audio": "/audio/2434.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "abuelo": "Großvater",
+      "tiene": "hat/ist",
+      "ochenta": "achtzig",
+      "años": "Jahre",
+      "y": "und",
+      "está": "ist",
+      "sano": "gesund"
+    }
+  },
+  {
+    "id": "2435",
+    "spanish": "noventa",
+    "german": "90 - neunzig",
+    "type": "number",
+    "sentence_es": "Mi abuelo tiene noventa años y está muy bien.",
+    "sentence_de": "Mein Großvater ist neunzig Jahre alt und geht es sehr gut.",
+    "audio": "/audio/2435.mp3",
+    "word_translations": {
+      "mi": "mein",
+      "abuelo": "Großvater",
+      "tiene": "hat/ist",
+      "noventa": "neunzig",
+      "años": "Jahre",
+      "y": "und",
+      "está": "geht es ihm/ist er",
+      "muy": "sehr",
+      "bien": "gut"
+    }
+  },
+  {
+    "id": "2436",
+    "spanish": "cien",
+    "german": "100 - hundert",
+    "type": "number",
+    "sentence_es": "Mi abuela tiene más de cien años.",
+    "sentence_de": "Meine Großmutter ist über hundert Jahre alt.",
+    "audio": "/audio/2436.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "abuela": "Großmutter",
+      "tiene": "hat/ist",
+      "más": "mehr",
+      "de": "von/als",
+      "cien": "hundert",
+      "años": "Jahre"
+    }
+  },
+  {
+    "id": "2437",
+    "spanish": "doscientos",
+    "german": "200 - zweihundert",
+    "type": "number",
+    "sentence_es": "Este teléfono móvil cuesta doscientos euros exactamente.",
+    "sentence_de": "Dieses Handy kostet genau zweihundert Euro.",
+    "audio": "/audio/2437.mp3",
+    "word_translations": {
+      "este": "dieses",
+      "teléfono": "Telefon",
+      "móvil": "Handy/mobil",
+      "cuesta": "kostet",
+      "doscientos": "zweihundert",
+      "euros": "Euro",
+      "exactamente": "genau"
+    }
+  },
+  {
+    "id": "2438",
+    "spanish": "trescientos",
+    "german": "300 - dreihundert",
+    "type": "number",
+    "sentence_es": "Este apartamento cuesta trescientos euros al mes.",
+    "sentence_de": "Diese Wohnung kostet dreihundert Euro pro Monat.",
+    "audio": "/audio/2438.mp3",
+    "word_translations": {
+      "este": "diese",
+      "apartamento": "Wohnung",
+      "cuesta": "kostet",
+      "trescientos": "dreihundert",
+      "euros": "Euro",
+      "al": "pro",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2439",
+    "spanish": "cuatrocientos",
+    "german": "400 - vierhundert",
+    "type": "number",
+    "sentence_es": "El apartamento cuesta cuatrocientos euros al mes.",
+    "sentence_de": "Die Wohnung kostet vierhundert Euro im Monat.",
+    "audio": "/audio/2439.mp3",
+    "word_translations": {
+      "apartamento": "Wohnung/Appartement",
+      "cuesta": "kostet",
+      "cuatrocientos": "vierhundert",
+      "euros": "Euro",
+      "al": "im/pro",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2440",
+    "spanish": "quinientos",
+    "german": "500 - fünfhundert",
+    "type": "number",
+    "sentence_es": "Esta casa cuesta quinientos mil euros.",
+    "sentence_de": "Dieses Haus kostet fünfhunderttausend Euro.",
+    "audio": "/audio/2440.mp3",
+    "word_translations": {
+      "esta": "diese/dieses",
+      "casa": "Haus",
+      "cuesta": "kostet",
+      "quinientos": "fünfhundert",
+      "mil": "tausend",
+      "euros": "Euro"
+    }
+  },
+  {
+    "id": "2441",
+    "spanish": "seiscientos",
+    "german": "600 - sechshundert",
+    "type": "number",
+    "sentence_es": "Mi apartamento cuesta seiscientos euros al mes.",
+    "sentence_de": "Meine Wohnung kostet sechshundert Euro im Monat.",
+    "audio": "/audio/2441.mp3",
+    "word_translations": {
+      "mi": "meine",
+      "apartamento": "Wohnung",
+      "cuesta": "kostet",
+      "seiscientos": "sechshundert",
+      "euros": "Euro",
+      "al": "im",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2442",
+    "spanish": "setecientos",
+    "german": "700 - siebenhundert",
+    "type": "number",
+    "sentence_es": "El apartamento cuesta setecientos euros al mes.",
+    "sentence_de": "Die Wohnung kostet siebenhundert Euro im Monat.",
+    "audio": "/audio/2442.mp3",
+    "word_translations": {
+      "el": "der/die/das",
+      "apartamento": "Wohnung/Appartement",
+      "cuesta": "kostet",
+      "setecientos": "siebenhundert",
+      "euros": "Euro",
+      "al": "im/zum",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2443",
+    "spanish": "ochocientos",
+    "german": "800 - achthundert",
+    "type": "number",
+    "sentence_es": "Este coche usado cuesta ochocientos euros.",
+    "sentence_de": "Dieses gebrauchte Auto kostet achthundert Euro.",
+    "audio": "/audio/2443.mp3",
+    "word_translations": {
+      "este": "dieses",
+      "coche": "Auto",
+      "usado": "gebraucht",
+      "cuesta": "kostet",
+      "ochocientos": "achthundert",
+      "euros": "Euro"
+    }
+  },
+  {
+    "id": "2444",
+    "spanish": "novecientos",
+    "german": "900 - neunhundert",
+    "type": "number",
+    "sentence_es": "El apartamento cuesta novecientos euros al mes.",
+    "sentence_de": "Die Wohnung kostet neunhundert Euro pro Monat.",
+    "audio": "/audio/2444.mp3",
+    "word_translations": {
+      "apartamento": "Wohnung/Appartement",
+      "cuesta": "kostet",
+      "novecientos": "neunhundert",
+      "euros": "Euro",
+      "al": "pro/im",
+      "mes": "Monat"
+    }
+  },
+  {
+    "id": "2445",
+    "spanish": "mil",
+    "german": "1000 - tausend",
+    "type": "number",
+    "sentence_es": "Esta casa cuesta más de mil euros.",
+    "sentence_de": "Dieses Haus kostet mehr als tausend Euro.",
+    "audio": "/audio/2445.mp3",
+    "word_translations": {
+      "esta": "diese",
+      "casa": "Haus",
+      "cuesta": "kostet",
+      "más": "mehr",
+      "de": "als",
+      "mil": "tausend",
+      "euros": "Euro"
+    }
   }
 ]
