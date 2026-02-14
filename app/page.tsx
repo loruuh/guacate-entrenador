@@ -277,7 +277,7 @@ export default function Home() {
           {/* Beispielsatz mit Speaker */}
           <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0'}`}>
             <div className="flex items-start gap-4 justify-center">
-              <div className="flex-1 max-w-2xl pointer-events-none">
+              <div className="flex-1 max-w-2xl">
                 <Sentence
                   spanishSentence={spanishSentence || "..."}
                   germanSentence={germanSentence || "..."}
