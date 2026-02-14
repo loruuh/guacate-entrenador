@@ -215,7 +215,7 @@ export function getTodayGoal(moduleId: string): DailyGoal {
   const stored = getFromStorage<DailyGoal | null>(key, null);
 
   if (!stored || stored.moduleId !== moduleId) {
-    return { date: today, moduleId, completed: 0, goal: 50 };
+    return { date: today, moduleId, completed: 0, goal: 25 };
   }
 
   return stored;

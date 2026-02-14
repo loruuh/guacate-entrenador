@@ -181,7 +181,7 @@ export default function Home() {
     ? Math.min((dailyGoal.completed / dailyGoal.goal) * 100, 100)
     : 0;
   const goalReached = dailyGoal ? dailyGoal.completed >= dailyGoal.goal : false;
-  const remaining = dailyGoal ? dailyGoal.goal - dailyGoal.completed : 50;
+  const remaining = dailyGoal ? dailyGoal.goal - dailyGoal.completed : 25;
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -234,8 +234,8 @@ export default function Home() {
       )}
 
       <main
-        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''}`}
-        onClick={handleMainClick}
+        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''} ${showNextButton ? 'cursor-pointer' : ''}`}
+        onClick={!isRevealed ? handleMainClick : (showNextButton ? handleNext : undefined)}
       >
         <div className="w-full max-w-3xl space-y-12">
           {/* Flashcard + Skip */}
@@ -247,24 +247,26 @@ export default function Home() {
               onReveal={handleReveal}
               isRevealed={isRevealed}
             />
-            {/* Skip-Button - rechts neben dem Wort */}
-            <button
-              onClick={handleSkip}
-              className="group absolute right-0 top-0 flex items-center gap-2 px-5 py-2.5 bg-green-600 hover:bg-green-500 text-white font-semibold text-base rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
-              title="Vokabel überspringen"
-            >
-              Skip
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2.5}
+            {/* Skip-Button - rechts neben dem Wort, erst sichtbar wenn spanisch revealed */}
+            {isRevealed && (
+              <button
+                onClick={handleSkip}
+                className="group absolute right-0 top-0 flex items-center gap-2 px-5 py-2.5 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-base rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
+                title="Vokabel überspringen"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-              </svg>
-            </button>
+                Skip
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2.5}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                </svg>
+              </button>
+            )}
           </div>
 
           {/* Favorite Button */}
@@ -275,7 +277,7 @@ export default function Home() {
           {/* Beispielsatz mit Speaker */}
           <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0'}`}>
             <div className="flex items-start gap-4 justify-center">
-              <div className="flex-1 max-w-2xl">
+              <div className="flex-1 max-w-2xl pointer-events-none">
                 <Sentence
                   spanishSentence={spanishSentence || "..."}
                   germanSentence={germanSentence || "..."}

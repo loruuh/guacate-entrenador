@@ -20733,24 +20733,6 @@
     }
   },
   {
-    "id": "1177",
-    "spanish": "el yo fui al extranjero",
-    "german": "Ich war im Ausland",
-    "type": "noun",
-    "sentence_es": "El año pasado yo fui al extranjero.",
-    "sentence_de": "Letztes Jahr bin ich ins Ausland gereist.",
-    "audio": "/audio/1177.mp3",
-    "word_translations": {
-      "el": "der",
-      "año": "Jahr",
-      "pasado": "vergangen/letztes",
-      "yo": "ich",
-      "fui": "ging/bin gegangen",
-      "al": "ins/zum",
-      "extranjero": "Ausland"
-    }
-  },
-  {
     "id": "1178",
     "spanish": "la limpia",
     "german": "sauber",
@@ -22742,24 +22724,6 @@
     }
   },
   {
-    "id": "1291",
-    "spanish": "el yo fui al extranjero",
-    "german": "Ich war im Ausland",
-    "type": "noun",
-    "sentence_es": "El año pasado yo fui al extranjero.",
-    "sentence_de": "Letztes Jahr bin ich ins Ausland gegangen.",
-    "audio": "/audio/1291.mp3",
-    "word_translations": {
-      "el": "der/das",
-      "año": "Jahr",
-      "pasado": "vergangen/letzt-",
-      "yo": "ich",
-      "fui": "ging/bin gegangen",
-      "al": "zum/ins",
-      "extranjero": "Ausland"
-    }
-  },
-  {
     "id": "1292",
     "spanish": "la limpia",
     "german": "sauber",
@@ -23243,23 +23207,6 @@
       "lento": "langsam",
       "esta": "diese",
       "mañana": "Morgen"
-    }
-  },
-  {
-    "id": "1319",
-    "spanish": "-amente",
-    "german": "Suffix für „Art & Weise“",
-    "type": "noun",
-    "sentence_es": "María habla español muy fluidamente ahora.",
-    "sentence_de": "Maria spricht jetzt sehr fließend Spanisch.",
-    "audio": "/audio/1319.mp3",
-    "word_translations": {
-      "María": "Maria",
-      "habla": "spricht",
-      "español": "Spanisch",
-      "muy": "sehr",
-      "fluidamente": "fließend",
-      "ahora": "jetzt"
     }
   },
   {
@@ -30069,7 +30016,7 @@
   {
     "id": "1702",
     "spanish": "el auxilio",
-    "german": "die Hilfe",
+    "german": "die (erste) Hilfe",
     "type": "noun",
     "sentence_es": "Llamé al número de auxilio después del accidente.",
     "sentence_de": "Ich rief die Notrufnummer nach dem Unfall an.",
@@ -35713,7 +35660,7 @@
   {
     "id": "2018",
     "spanish": "la competición",
-    "german": "der Wettbewerb",
+    "german": "der Wettkampf",
     "type": "noun",
     "sentence_es": "Mañana participaré en la competición de natación.",
     "sentence_de": "Morgen werde ich am Schwimmwettkampf teilnehmen.",
@@ -38140,21 +38087,6 @@
       "costó": "kostete",
       "mucho": "viel",
       "dinero": "Geld"
-    }
-  },
-  {
-    "id": "2155",
-    "spanish": "la compostura",
-    "german": "die Reparatur",
-    "type": "noun",
-    "sentence_es": "Ella perdió la compostura durante la discusión.",
-    "sentence_de": "Sie verlor die Fassung während der Diskussion.",
-    "audio": "/audio/2155.mp3",
-    "word_translations": {
-      "perdió": "verlor",
-      "la compostura": "die Fassung/Beherrschung",
-      "durante": "während",
-      "la discusión": "die Diskussion"
     }
   },
   {
