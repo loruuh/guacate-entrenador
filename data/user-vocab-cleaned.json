@@ -1,0 +1,2059 @@
+{
+  "new": [
+    {
+      "german": "Eltern",
+      "spanish": "los padres"
+    },
+    {
+      "german": "Geschwister",
+      "spanish": "los hermanos"
+    },
+    {
+      "german": "die Kinder (eigene)",
+      "spanish": "los hijos"
+    },
+    {
+      "german": "Kinder (generell)",
+      "spanish": "los niños"
+    },
+    {
+      "german": "die Familie",
+      "spanish": "la familia"
+    },
+    {
+      "german": "Partner / Partnerin",
+      "spanish": "la pareja"
+    },
+    {
+      "german": "Hund (m.)",
+      "spanish": "el perro"
+    },
+    {
+      "german": "Krokodil",
+      "spanish": "el cocodrilo"
+    },
+    {
+      "german": "Affe",
+      "spanish": "el mono"
+    },
+    {
+      "german": "Wolf",
+      "spanish": "el lobo"
+    },
+    {
+      "german": "Löwe",
+      "spanish": "el león"
+    },
+    {
+      "german": "Fuchs",
+      "spanish": "el zorro"
+    },
+    {
+      "german": "Bär",
+      "spanish": "el oso"
+    },
+    {
+      "german": "Eisbär",
+      "spanish": "el oso polar"
+    },
+    {
+      "german": "Alligator",
+      "spanish": "el caimán"
+    },
+    {
+      "german": "Schildkröte",
+      "spanish": "la tortuga"
+    },
+    {
+      "german": "Ziege",
+      "spanish": "la cabra"
+    },
+    {
+      "german": "Tintenfisch",
+      "spanish": "el calamar"
+    },
+    {
+      "german": "Stier",
+      "spanish": "el toro"
+    },
+    {
+      "german": "Montag",
+      "spanish": "el lunes"
+    },
+    {
+      "german": "Dienstag",
+      "spanish": "el martes"
+    },
+    {
+      "german": "Mittwoch",
+      "spanish": "el miércoles"
+    },
+    {
+      "german": "Donnerstag",
+      "spanish": "el jueves"
+    },
+    {
+      "german": "Freitag",
+      "spanish": "el viernes"
+    },
+    {
+      "german": "Samstag",
+      "spanish": "el sábado"
+    },
+    {
+      "german": "Sonntag",
+      "spanish": "el domingo"
+    },
+    {
+      "german": "Nachts",
+      "spanish": "la noche"
+    },
+    {
+      "german": "Werktag",
+      "spanish": "el día de trabajo"
+    },
+    {
+      "german": "Arbeitstag",
+      "spanish": "el día laborable"
+    },
+    {
+      "german": "niemand",
+      "spanish": "nadie"
+    },
+    {
+      "german": "reich / lecker",
+      "spanish": "el rico"
+    },
+    {
+      "german": "schnell",
+      "spanish": "el rápido"
+    },
+    {
+      "german": "ein wenig",
+      "spanish": "el poco"
+    },
+    {
+      "german": "nie",
+      "spanish": "la nunca"
+    },
+    {
+      "german": "Flur",
+      "spanish": "el pasillo"
+    },
+    {
+      "german": "Haus",
+      "spanish": "la casa"
+    },
+    {
+      "german": "Wohnung",
+      "spanish": "el apartemento"
+    },
+    {
+      "german": "Fenster",
+      "spanish": "la ventana"
+    },
+    {
+      "german": "Rollladen / Jalousie",
+      "spanish": "la persiana"
+    },
+    {
+      "german": "Boden",
+      "spanish": "el suelo"
+    },
+    {
+      "german": "Eingangstüre",
+      "spanish": "la puerta de entrada"
+    },
+    {
+      "german": "Haustüre",
+      "spanish": "la puerta principal"
+    },
+    {
+      "german": "Auto",
+      "spanish": "el coche"
+    },
+    {
+      "german": "Fernseher",
+      "spanish": "el televisor"
+    },
+    {
+      "german": "Kühlschrank",
+      "spanish": "el frigorífico, la nevera"
+    },
+    {
+      "german": "Herd",
+      "spanish": "la estufa"
+    },
+    {
+      "german": "Alle",
+      "spanish": "los todos"
+    },
+    {
+      "german": "der / die ganze...",
+      "spanish": "el todo"
+    },
+    {
+      "german": "das hier",
+      "spanish": "este"
+    },
+    {
+      "german": "das dort",
+      "spanish": "ese"
+    },
+    {
+      "german": "nicht wahr?",
+      "spanish": "¿verdad?"
+    },
+    {
+      "german": "freut mich",
+      "spanish": "el mucho gusto"
+    },
+    {
+      "german": "Auch nicht",
+      "spanish": "el tampoco"
+    },
+    {
+      "german": "Natürlich",
+      "spanish": "el Por supuesto"
+    },
+    {
+      "german": "Unternehmen",
+      "spanish": "la empresa"
+    },
+    {
+      "german": "Licht",
+      "spanish": "la luz"
+    },
+    {
+      "german": "Tal",
+      "spanish": "la vega"
+    },
+    {
+      "german": "mutig",
+      "spanish": "valiente"
+    },
+    {
+      "german": "hell",
+      "spanish": "el claro"
+    },
+    {
+      "german": "dunkel",
+      "spanish": "el oscuro"
+    },
+    {
+      "german": "warm",
+      "spanish": "el cálido"
+    },
+    {
+      "german": "kalt",
+      "spanish": "el frío"
+    },
+    {
+      "german": "(irgend-) etwas",
+      "spanish": "el algo"
+    },
+    {
+      "german": "Kaffeemaschine",
+      "spanish": "la cafetera"
+    },
+    {
+      "german": "Film",
+      "spanish": "la película"
+    },
+    {
+      "german": "Wand",
+      "spanish": "la pared"
+    },
+    {
+      "german": "Badewanne",
+      "spanish": "la bañera"
+    },
+    {
+      "german": "Dusche",
+      "spanish": "la ducha"
+    },
+    {
+      "german": "Waschbecken",
+      "spanish": "el lavabo"
+    },
+    {
+      "german": "Toilette",
+      "spanish": "el inodoro, el váter"
+    },
+    {
+      "german": "Decke (eines Raums)",
+      "spanish": "el techo"
+    },
+    {
+      "german": "Wohnzimmer",
+      "spanish": "el salón, la sala"
+    },
+    {
+      "german": "Durst",
+      "spanish": "la sed"
+    },
+    {
+      "german": "Hunger",
+      "spanish": "el hambre"
+    },
+    {
+      "german": "Weinglas",
+      "spanish": "la copa de vino"
+    },
+    {
+      "german": "eine Weinflasche",
+      "spanish": "el una botella de vino"
+    },
+    {
+      "german": "Fußmatte",
+      "spanish": "el felpudo"
+    },
+    {
+      "german": "Holz",
+      "spanish": "la madera"
+    },
+    {
+      "german": "Kein Problem",
+      "spanish": "la de nada"
+    },
+    {
+      "german": "(tiefe) Entschuldigung",
+      "spanish": "el Lo siento"
+    },
+    {
+      "german": "Entschuldigung (im Restaurant)",
+      "spanish": "perdón"
+    },
+    {
+      "german": "Entschuldigung (Drängeln)",
+      "spanish": "el con permiso"
+    },
+    {
+      "german": "Erlaubnis",
+      "spanish": "el permiso"
+    },
+    {
+      "german": "Bis nächstes Mal",
+      "spanish": "hasta la próxima"
+    },
+    {
+      "german": "vielleicht",
+      "spanish": "quizás"
+    },
+    {
+      "german": "teuer",
+      "spanish": "el caro"
+    },
+    {
+      "german": "billig",
+      "spanish": "el barato"
+    },
+    {
+      "german": "dort",
+      "spanish": "allá"
+    },
+    {
+      "german": "weit entfernt",
+      "spanish": "los lejos"
+    },
+    {
+      "german": "nahe",
+      "spanish": "la cerca"
+    },
+    {
+      "german": "rechts",
+      "spanish": "la derecha"
+    },
+    {
+      "german": "links",
+      "spanish": "la izquierda"
+    },
+    {
+      "german": "Sonnig",
+      "spanish": "el soleado"
+    },
+    {
+      "german": "Hausdach, Zimmerdecke",
+      "spanish": "el techo"
+    },
+    {
+      "german": "groß (Körpergröße)",
+      "spanish": "el alto"
+    },
+    {
+      "german": "klein (Körpergröße)",
+      "spanish": "el bajo"
+    },
+    {
+      "german": "neu",
+      "spanish": "el nuevo"
+    },
+    {
+      "german": "müde",
+      "spanish": "el cansado"
+    },
+    {
+      "german": "klein",
+      "spanish": "el pequeño"
+    },
+    {
+      "german": "schüchtern",
+      "spanish": "el tímido"
+    },
+    {
+      "german": "ernst",
+      "spanish": "el serio"
+    },
+    {
+      "german": "gravierend",
+      "spanish": "grave"
+    },
+    {
+      "german": "ruhig",
+      "spanish": "el tranquilo"
+    },
+    {
+      "german": "mehr oder weniger",
+      "spanish": "los más o menos"
+    },
+    {
+      "german": "Breaking News",
+      "spanish": "la última hora"
+    },
+    {
+      "german": "Wieviel Uhr ist es?",
+      "spanish": "¿Qué hora es?"
+    },
+    {
+      "german": "eine Stunde frei",
+      "spanish": "una hora libre"
+    },
+    {
+      "german": "Verabredung",
+      "spanish": "el encuentro"
+    },
+    {
+      "german": "Termin",
+      "spanish": "la cita"
+    },
+    {
+      "german": "Art, Weise",
+      "spanish": "la manera"
+    },
+    {
+      "german": "die Wahrheit",
+      "spanish": "la verdad"
+    },
+    {
+      "german": "Gewitter",
+      "spanish": "la tormenta"
+    },
+    {
+      "german": "Hagel",
+      "spanish": "el granizo"
+    },
+    {
+      "german": "Straße",
+      "spanish": "la calle"
+    },
+    {
+      "german": "Gehweg",
+      "spanish": "la acera"
+    },
+    {
+      "german": "Geldbeutel",
+      "spanish": "la cartera"
+    },
+    {
+      "german": "Reisepass",
+      "spanish": "el pasaporte"
+    },
+    {
+      "german": "Schuhe",
+      "spanish": "los zapatos"
+    },
+    {
+      "german": "Werkzeug",
+      "spanish": "la herramienta"
+    },
+    {
+      "german": "Platz",
+      "spanish": "el lugar"
+    },
+    {
+      "german": "Pech",
+      "spanish": "la mala suerte, la desgracia"
+    },
+    {
+      "german": "offensichtlich",
+      "spanish": "obviamente"
+    },
+    {
+      "german": "klar, deutlich",
+      "spanish": "claramente"
+    },
+    {
+      "german": "die Menschheit",
+      "spanish": "la humanidad"
+    },
+    {
+      "german": "die Hoffnung",
+      "spanish": "la esperanza"
+    },
+    {
+      "german": "Maschine",
+      "spanish": "la máquina"
+    },
+    {
+      "german": "Traurigkeit",
+      "spanish": "la tristeza"
+    },
+    {
+      "german": "jede (Woche)",
+      "spanish": "la cada"
+    },
+    {
+      "german": "wahrscheinlich",
+      "spanish": "probablemente"
+    },
+    {
+      "german": "die Herausforderung",
+      "spanish": "el desafío, el reto"
+    },
+    {
+      "german": "kaputt",
+      "spanish": "roto, rota"
+    },
+    {
+      "german": "der Einkauf",
+      "spanish": "la compra"
+    },
+    {
+      "german": "die Gefahr",
+      "spanish": "el peligro"
+    },
+    {
+      "german": "die Flüchtlinge",
+      "spanish": "los refugiados"
+    },
+    {
+      "german": "Freundschaft",
+      "spanish": "la amistad"
+    },
+    {
+      "german": "Krieg",
+      "spanish": "la guerra"
+    },
+    {
+      "german": "Stein",
+      "spanish": "la piedra"
+    },
+    {
+      "german": "Fels",
+      "spanish": "la roca"
+    },
+    {
+      "german": "Hackfleisch",
+      "spanish": "la carne picada"
+    },
+    {
+      "german": "Taco-Restaurant",
+      "spanish": "la taquería"
+    },
+    {
+      "german": "lila",
+      "spanish": "la morado, lila"
+    },
+    {
+      "german": "Friedhof",
+      "spanish": "el cementerio"
+    },
+    {
+      "german": "nett, freundlich",
+      "spanish": "amable"
+    },
+    {
+      "german": "okay",
+      "spanish": "vale"
+    },
+    {
+      "german": "Hafen",
+      "spanish": "el puerto"
+    },
+    {
+      "german": "Gold",
+      "spanish": "el oro"
+    },
+    {
+      "german": "Silber",
+      "spanish": "la plata"
+    },
+    {
+      "german": "Lateinamerika",
+      "spanish": "la latinoamérica"
+    },
+    {
+      "german": "Hafen Küste",
+      "spanish": "la costa"
+    },
+    {
+      "german": "Zuneigung",
+      "spanish": "el cariño"
+    },
+    {
+      "german": "Hilfe",
+      "spanish": "la ayuda"
+    },
+    {
+      "german": "Erlöser",
+      "spanish": "el Salvador"
+    },
+    {
+      "german": "früh",
+      "spanish": "el temprano"
+    },
+    {
+      "german": "Flughafen",
+      "spanish": "el aeropuerto"
+    },
+    {
+      "german": "altmodisch, historisch",
+      "spanish": "la antiguo, antigua"
+    },
+    {
+      "german": "vor (zeitlich)",
+      "spanish": "antes de"
+    },
+    {
+      "german": "mehrere",
+      "spanish": "las varios, varias"
+    },
+    {
+      "german": "übermäßig, zu viel",
+      "spanish": "el demasiado"
+    },
+    {
+      "german": "Glück (Schicksal)",
+      "spanish": "la suerte"
+    },
+    {
+      "german": "Natürlich!",
+      "spanish": "Claro que si"
+    },
+    {
+      "german": "Qualität",
+      "spanish": "la calidad"
+    },
+    {
+      "german": "noch einmal",
+      "spanish": "otra vez"
+    },
+    {
+      "german": "Vertrauen",
+      "spanish": "la confianza"
+    },
+    {
+      "german": "riesig",
+      "spanish": "enorme"
+    },
+    {
+      "german": "Regierung",
+      "spanish": "el gobierno"
+    },
+    {
+      "german": "Pommes frites",
+      "spanish": "las patatas fritas"
+    },
+    {
+      "german": "Eier",
+      "spanish": "el huevo, los huevos"
+    },
+    {
+      "german": "junger Mann (ugs.)",
+      "spanish": "el chavo, muchacho"
+    },
+    {
+      "german": "Preis",
+      "spanish": "el precio"
+    },
+    {
+      "german": "Brille",
+      "spanish": "las gafas,"
+    },
+    {
+      "german": "dumm",
+      "spanish": "el tonto, la tonta, estúpido"
+    },
+    {
+      "german": "scheiße",
+      "spanish": "la mierda"
+    },
+    {
+      "german": "Geländer",
+      "spanish": "la barandilla,"
+    },
+    {
+      "german": "die Welt",
+      "spanish": "el mundo"
+    },
+    {
+      "german": "die Blume riecht gut",
+      "spanish": "la flor huele bien"
+    },
+    {
+      "german": "wunderschön",
+      "spanish": "la hermosa"
+    },
+    {
+      "german": "Ich war im Ausland",
+      "spanish": "el yo fui al extranjero"
+    },
+    {
+      "german": "sauber",
+      "spanish": "la limpia"
+    },
+    {
+      "german": "Hey",
+      "spanish": "oye"
+    },
+    {
+      "german": "Eier",
+      "spanish": "los huevos"
+    },
+    {
+      "german": "Einverstanden",
+      "spanish": "el de acuerdo"
+    },
+    {
+      "german": "mit mir, mit dir",
+      "spanish": "el conmigo, contigo"
+    },
+    {
+      "german": "später",
+      "spanish": "luego, más tarde"
+    },
+    {
+      "german": "Toast",
+      "spanish": "la tostada"
+    },
+    {
+      "german": "beschäftigt",
+      "spanish": "la ocupado, ocupada"
+    },
+    {
+      "german": "Ich genieße die Ruhe",
+      "spanish": "la disfruto de la tranquilidad"
+    },
+    {
+      "german": "Getränk",
+      "spanish": "la bebida"
+    },
+    {
+      "german": "glücklich sein",
+      "spanish": "la felicidad"
+    },
+    {
+      "german": "Spiel, Match",
+      "spanish": "el partido, el juego"
+    },
+    {
+      "german": "Überraschung",
+      "spanish": "la sorpresa"
+    },
+    {
+      "german": "Horrorfilm",
+      "spanish": "la película de terror"
+    },
+    {
+      "german": "großer Fels, Klippe",
+      "spanish": "el peñasco"
+    },
+    {
+      "german": "Rasse, Volk",
+      "spanish": "la raza"
+    },
+    {
+      "german": "draußen",
+      "spanish": "la afuera"
+    },
+    {
+      "german": "Stadtrand",
+      "spanish": "las afueras"
+    },
+    {
+      "german": "Kettensäge",
+      "spanish": "la motosierra"
+    },
+    {
+      "german": "(Feuer) und (Eis)",
+      "spanish": "e"
+    },
+    {
+      "german": "Strandbar",
+      "spanish": "el chiringuito"
+    },
+    {
+      "german": "Natur",
+      "spanish": "la naturaleza"
+    },
+    {
+      "german": "zusammen",
+      "spanish": "los junto, junta, juntos"
+    },
+    {
+      "german": "Kuss",
+      "spanish": "el beso"
+    },
+    {
+      "german": "Außerirdischer",
+      "spanish": "el extraterrestre"
+    },
+    {
+      "german": "wertvoll",
+      "spanish": "la valioso, valiosa"
+    },
+    {
+      "german": "langsam",
+      "spanish": "lento, lente"
+    },
+    {
+      "german": "Suffix für „Art & Weise“",
+      "spanish": "-amente (z.B. lent..."
+    },
+    {
+      "german": "Suffix für Nomen aus Adjektiven",
+      "spanish": "la -eza"
+    },
+    {
+      "german": "Ich gebe dir Bescheid",
+      "spanish": "el te aviso"
+    },
+    {
+      "german": "Darf ich eintreten?",
+      "spanish": "¿Puedo pasar?"
+    },
+    {
+      "german": "Wow!",
+      "spanish": "¡Caramba!"
+    },
+    {
+      "german": "Ich hoffe",
+      "spanish": "el espero"
+    },
+    {
+      "german": "Ich liebe dich",
+      "spanish": "el te amo"
+    },
+    {
+      "german": "Ich erfinde",
+      "spanish": "el invento"
+    },
+    {
+      "german": "Ich müsste",
+      "spanish": "la debería"
+    },
+    {
+      "german": "Ich beeinflusse dich",
+      "spanish": "el te influencio"
+    },
+    {
+      "german": "Ich verliere meinen Glauben",
+      "spanish": "pierdo mi fe"
+    },
+    {
+      "german": "beeinflussen (meist negativ)",
+      "spanish": "arruinar, afectar"
+    },
+    {
+      "german": "ruinieren",
+      "spanish": "arruinar"
+    },
+    {
+      "german": "Ich fühle mich krank",
+      "spanish": "el me siento enfermo"
+    },
+    {
+      "german": "Ich nehme (meist physisch)",
+      "spanish": "el me llevo"
+    },
+    {
+      "german": "Wie kalt!",
+      "spanish": "¡Qué frío!"
+    },
+    {
+      "german": "Mir ist kalt",
+      "spanish": "el Tengo frío"
+    },
+    {
+      "german": "Es ist heiß",
+      "spanish": "el Hace calor"
+    },
+    {
+      "german": "Es ist kalt",
+      "spanish": "el Hace frío"
+    },
+    {
+      "german": "eine Sekunde / Minute!",
+      "spanish": "el ¡un segundo"
+    },
+    {
+      "german": "die Wahrheit",
+      "spanish": "la verdad"
+    },
+    {
+      "german": "Gewitter",
+      "spanish": "la tormenta"
+    },
+    {
+      "german": "Hagel",
+      "spanish": "el granizo"
+    },
+    {
+      "german": "Straße",
+      "spanish": "la calle"
+    },
+    {
+      "german": "Gehweg",
+      "spanish": "la acera"
+    },
+    {
+      "german": "Geldbeutel",
+      "spanish": "la cartera"
+    },
+    {
+      "german": "Reisepass",
+      "spanish": "el pasaporte"
+    },
+    {
+      "german": "Schuhe",
+      "spanish": "los zapatos"
+    },
+    {
+      "german": "Werkzeug",
+      "spanish": "la herramienta"
+    },
+    {
+      "german": "Platz",
+      "spanish": "el lugar"
+    },
+    {
+      "german": "Pech",
+      "spanish": "la mala suerte, la desgracia"
+    },
+    {
+      "german": "offensichtlich",
+      "spanish": "obviamente"
+    },
+    {
+      "german": "klar, deutlich",
+      "spanish": "claramente"
+    },
+    {
+      "german": "die Menschheit",
+      "spanish": "la humanidad"
+    },
+    {
+      "german": "die Hoffnung",
+      "spanish": "la esperanza"
+    },
+    {
+      "german": "Maschine",
+      "spanish": "la máquina"
+    },
+    {
+      "german": "Traurigkeit",
+      "spanish": "la tristeza"
+    },
+    {
+      "german": "jede (Woche)",
+      "spanish": "la cada"
+    },
+    {
+      "german": "wahrscheinlich",
+      "spanish": "probablemente"
+    },
+    {
+      "german": "die Herausforderung",
+      "spanish": "el desafío, el reto"
+    },
+    {
+      "german": "kaputt",
+      "spanish": "roto, rota"
+    },
+    {
+      "german": "der Einkauf",
+      "spanish": "la compra"
+    },
+    {
+      "german": "die Gefahr",
+      "spanish": "el peligro"
+    },
+    {
+      "german": "die Flüchtlinge",
+      "spanish": "los refugiados"
+    },
+    {
+      "german": "Freundschaft",
+      "spanish": "la amistad"
+    },
+    {
+      "german": "Krieg",
+      "spanish": "la guerra"
+    },
+    {
+      "german": "Stein",
+      "spanish": "la piedra"
+    },
+    {
+      "german": "Fels",
+      "spanish": "la roca"
+    },
+    {
+      "german": "Hackfleisch",
+      "spanish": "la carne picada"
+    },
+    {
+      "german": "Taco-Restaurant",
+      "spanish": "la Taquería"
+    },
+    {
+      "german": "lila",
+      "spanish": "la morado, lila"
+    },
+    {
+      "german": "Friedhof",
+      "spanish": "el cementerio"
+    },
+    {
+      "german": "nett, freundlich",
+      "spanish": "amable"
+    },
+    {
+      "german": "okay",
+      "spanish": "vale"
+    },
+    {
+      "german": "Hafen",
+      "spanish": "el puerto"
+    },
+    {
+      "german": "Gold",
+      "spanish": "el oro"
+    },
+    {
+      "german": "Silber",
+      "spanish": "la plata"
+    },
+    {
+      "german": "Lateinamerika",
+      "spanish": "la latinoamérica"
+    },
+    {
+      "german": "Hafen Küste",
+      "spanish": "la costa"
+    },
+    {
+      "german": "Zuneigung",
+      "spanish": "el cariño"
+    },
+    {
+      "german": "Hilfe",
+      "spanish": "la Hilfe"
+    },
+    {
+      "german": "Erlöser",
+      "spanish": "el Salvador"
+    },
+    {
+      "german": "früh",
+      "spanish": "el temprano"
+    },
+    {
+      "german": "Flughafen",
+      "spanish": "el aeropuerto"
+    },
+    {
+      "german": "altmodisch, historisch",
+      "spanish": "la antiguo, antigua"
+    },
+    {
+      "german": "vor (zeitlich)",
+      "spanish": "antes de"
+    },
+    {
+      "german": "mehrere",
+      "spanish": "las varios, varias"
+    },
+    {
+      "german": "übermäßig, zu viel",
+      "spanish": "el demasiado"
+    },
+    {
+      "german": "Glück (Schicksal)",
+      "spanish": "la suerte"
+    },
+    {
+      "german": "Natürlich!",
+      "spanish": "Claro que si"
+    },
+    {
+      "german": "Qualität",
+      "spanish": "la calidad"
+    },
+    {
+      "german": "noch einmal",
+      "spanish": "otra vez"
+    },
+    {
+      "german": "Vertrauen",
+      "spanish": "la confianza"
+    },
+    {
+      "german": "riesig",
+      "spanish": "enorme"
+    },
+    {
+      "german": "Regierung",
+      "spanish": "el gobierno"
+    },
+    {
+      "german": "Pommes frites",
+      "spanish": "las patatas fritas"
+    },
+    {
+      "german": "Eier",
+      "spanish": "el huevo, los huevos"
+    },
+    {
+      "german": "junger Mann (ugs.)",
+      "spanish": "el chavo, muchacho"
+    },
+    {
+      "german": "Preis",
+      "spanish": "el precio"
+    },
+    {
+      "german": "Brille",
+      "spanish": "las gafas,"
+    },
+    {
+      "german": "dumm",
+      "spanish": "el tonto, la tonta, estúpido"
+    },
+    {
+      "german": "scheiße",
+      "spanish": "la mierda"
+    },
+    {
+      "german": "Geländer",
+      "spanish": "la barandilla,"
+    },
+    {
+      "german": "die Welt",
+      "spanish": "el mundo"
+    },
+    {
+      "german": "die Blume riecht gut",
+      "spanish": "la flor huele bien"
+    },
+    {
+      "german": "wunderschön",
+      "spanish": "la hermosa"
+    },
+    {
+      "german": "Ich war im Ausland",
+      "spanish": "el yo fui al extranjero"
+    },
+    {
+      "german": "sauber",
+      "spanish": "la limpia"
+    },
+    {
+      "german": "Hey",
+      "spanish": "oye"
+    },
+    {
+      "german": "Eier",
+      "spanish": "los huevos"
+    },
+    {
+      "german": "Einverstanden",
+      "spanish": "el de acuerdo"
+    },
+    {
+      "german": "mit mir, mit dir",
+      "spanish": "el conmigo, contigo"
+    },
+    {
+      "german": "später",
+      "spanish": "luego, más tarde"
+    },
+    {
+      "german": "Toast",
+      "spanish": "la tostada"
+    },
+    {
+      "german": "beschäftigt",
+      "spanish": "la ocupado, ocupada"
+    },
+    {
+      "german": "Ich genieße die Ruhe",
+      "spanish": "la disfruto de la tranquilidad"
+    },
+    {
+      "german": "Getränk",
+      "spanish": "la bebida"
+    },
+    {
+      "german": "glücklich sein",
+      "spanish": "la felicidad"
+    },
+    {
+      "german": "Spiel, Match",
+      "spanish": "el partido, el juego"
+    },
+    {
+      "german": "Überraschung",
+      "spanish": "la sorpresa"
+    },
+    {
+      "german": "Horrorfilm",
+      "spanish": "la película de terror"
+    },
+    {
+      "german": "großer Fels, Klippe",
+      "spanish": "el peñasco"
+    },
+    {
+      "german": "Rasse, Volk",
+      "spanish": "la raza"
+    },
+    {
+      "german": "draußen",
+      "spanish": "la afuera"
+    },
+    {
+      "german": "Stadtrand",
+      "spanish": "las afueras"
+    },
+    {
+      "german": "Kettensäge",
+      "spanish": "la motosierra"
+    },
+    {
+      "german": "(Feuer) und (Eis)",
+      "spanish": "e"
+    },
+    {
+      "german": "Strandbar",
+      "spanish": "el chiringuito"
+    },
+    {
+      "german": "Natur",
+      "spanish": "la naturaleza"
+    },
+    {
+      "german": "zusammen",
+      "spanish": "los junto, junta, juntos"
+    },
+    {
+      "german": "Kuss",
+      "spanish": "el beso"
+    },
+    {
+      "german": "Außerirdischer",
+      "spanish": "el extraterrestre"
+    },
+    {
+      "german": "wertvoll",
+      "spanish": "la valioso, valiosa"
+    },
+    {
+      "german": "langsam",
+      "spanish": "el lento"
+    },
+    {
+      "german": "Suffix für „Art & Weise“",
+      "spanish": "-amente"
+    },
+    {
+      "german": "Suffix für Nomen aus Adjektiven",
+      "spanish": "la -eza"
+    },
+    {
+      "german": "Ich gebe dir Bescheid",
+      "spanish": "el te aviso"
+    },
+    {
+      "german": "Darf ich eintreten?",
+      "spanish": "¿Puedo pasar?"
+    },
+    {
+      "german": "Wow!",
+      "spanish": "¡Caramba!"
+    },
+    {
+      "german": "beeinflussen (meist negativ)",
+      "spanish": "arruinar, afectar"
+    },
+    {
+      "german": "ruinieren",
+      "spanish": "arruinar"
+    },
+    {
+      "german": "Ich fühle mich krank",
+      "spanish": "el me siento enfermo"
+    },
+    {
+      "german": "Ich nehme (nehmen, physisch)",
+      "spanish": "el me llevo"
+    },
+    {
+      "german": "Wie kalt!",
+      "spanish": "¡Qué frío!"
+    },
+    {
+      "german": "Mir ist kalt",
+      "spanish": "el Tengo frío"
+    },
+    {
+      "german": "Es ist heiß",
+      "spanish": "el Hace calor"
+    },
+    {
+      "german": "Es ist kalt",
+      "spanish": "el Hace frío"
+    },
+    {
+      "german": "eine Sekunde / Minute!",
+      "spanish": "el ¡un segundo"
+    }
+  ],
+  "duplicates": [
+    {
+      "german": "Großmutter",
+      "spanish": "la abuela"
+    },
+    {
+      "german": "Großvater",
+      "spanish": "el abuelo"
+    },
+    {
+      "german": "Vater",
+      "spanish": "el padre"
+    },
+    {
+      "german": "Mutter",
+      "spanish": "la madre"
+    },
+    {
+      "german": "Sohn",
+      "spanish": "el hijo"
+    },
+    {
+      "german": "Tochter",
+      "spanish": "la hija"
+    },
+    {
+      "german": "Baby (m.)",
+      "spanish": "el bebé"
+    },
+    {
+      "german": "Tante",
+      "spanish": "la tía"
+    },
+    {
+      "german": "Onkel",
+      "spanish": "el tío"
+    },
+    {
+      "german": "Ehemann",
+      "spanish": "el marido"
+    },
+    {
+      "german": "Ehefrau",
+      "spanish": "la esposa"
+    },
+    {
+      "german": "fester Freund",
+      "spanish": "el novio"
+    },
+    {
+      "german": "feste Freundin",
+      "spanish": "la novia"
+    },
+    {
+      "german": "Kind (m.)",
+      "spanish": "el niño"
+    },
+    {
+      "german": "Kind (w.)",
+      "spanish": "la niña"
+    },
+    {
+      "german": "Neffe",
+      "spanish": "el sobrino"
+    },
+    {
+      "german": "Cousin",
+      "spanish": "el primo"
+    },
+    {
+      "german": "Katze (m.)",
+      "spanish": "el gato"
+    },
+    {
+      "german": "Maus",
+      "spanish": "el ratón"
+    },
+    {
+      "german": "Vogel",
+      "spanish": "el pájaro"
+    },
+    {
+      "german": "Pferd",
+      "spanish": "el caballo"
+    },
+    {
+      "german": "Morgens",
+      "spanish": "la mañana"
+    },
+    {
+      "german": "Mittags",
+      "spanish": "el mediodía"
+    },
+    {
+      "german": "Nachmittags",
+      "spanish": "la tarde"
+    },
+    {
+      "german": "Abends",
+      "spanish": "la tarde"
+    },
+    {
+      "german": "Wochenende",
+      "spanish": "el fin de semana"
+    },
+    {
+      "german": "nächster Tag / morgen",
+      "spanish": "la mañana"
+    },
+    {
+      "german": "Gestern",
+      "spanish": "ayer"
+    },
+    {
+      "german": "Heute",
+      "spanish": "hoy"
+    },
+    {
+      "german": "Küche",
+      "spanish": "la cocina"
+    },
+    {
+      "german": "Zimmer",
+      "spanish": "la habitación"
+    },
+    {
+      "german": "Schlafzimmer",
+      "spanish": "el dormitorio"
+    },
+    {
+      "german": "Badezimmer",
+      "spanish": "el baño"
+    },
+    {
+      "german": "Türe",
+      "spanish": "la puerta"
+    },
+    {
+      "german": "Schlüssel",
+      "spanish": "la llave"
+    },
+    {
+      "german": "Handy",
+      "spanish": "el móvil"
+    },
+    {
+      "german": "Bett",
+      "spanish": "la cama"
+    },
+    {
+      "german": "Schrank",
+      "spanish": "el armario"
+    },
+    {
+      "german": "Lampe",
+      "spanish": "la lámpara"
+    },
+    {
+      "german": "Auch",
+      "spanish": "también"
+    },
+    {
+      "german": "die Antwort",
+      "spanish": "la respuesta"
+    },
+    {
+      "german": "die Hausaufgaben",
+      "spanish": "la tarea"
+    },
+    {
+      "german": "Wald",
+      "spanish": "el bosque"
+    },
+    {
+      "german": "T-Shirt",
+      "spanish": "la camiseta"
+    },
+    {
+      "german": "das Wort",
+      "spanish": "la palabra"
+    },
+    {
+      "german": "Mikrowelle",
+      "spanish": "el microondas"
+    },
+    {
+      "german": "Waschmaschine",
+      "spanish": "la lavadora"
+    },
+    {
+      "german": "Trockner",
+      "spanish": "la secadora"
+    },
+    {
+      "german": "Ofen",
+      "spanish": "el horno"
+    },
+    {
+      "german": "Spiegel",
+      "spanish": "el espejo"
+    },
+    {
+      "german": "Teppich",
+      "spanish": "la alfombra"
+    },
+    {
+      "german": "Uhr",
+      "spanish": "el reloj"
+    },
+    {
+      "german": "Sofa",
+      "spanish": "el sofá"
+    },
+    {
+      "german": "Decke (zum Zudecken)",
+      "spanish": "la manta"
+    },
+    {
+      "german": "Buch",
+      "spanish": "el libro"
+    },
+    {
+      "german": "Stift",
+      "spanish": "el bolígrafo"
+    },
+    {
+      "german": "Bleistift",
+      "spanish": "el lápiz"
+    },
+    {
+      "german": "Heft",
+      "spanish": "el cuaderno"
+    },
+    {
+      "german": "Balkon",
+      "spanish": "el balcón"
+    },
+    {
+      "german": "Kuchen",
+      "spanish": "el pastel"
+    },
+    {
+      "german": "Bäckerei",
+      "spanish": "la panadería"
+    },
+    {
+      "german": "Frühstück",
+      "spanish": "el desayuno"
+    },
+    {
+      "german": "Mittagessen",
+      "spanish": "el almuerzo"
+    },
+    {
+      "german": "Abendessen",
+      "spanish": "la cena"
+    },
+    {
+      "german": "Essen (allgemein)",
+      "spanish": "la comida"
+    },
+    {
+      "german": "Metzgerei",
+      "spanish": "la carnicería"
+    },
+    {
+      "german": "Gabel",
+      "spanish": "el tenedor"
+    },
+    {
+      "german": "Messer",
+      "spanish": "el cuchillo"
+    },
+    {
+      "german": "Löffel",
+      "spanish": "la cuchara"
+    },
+    {
+      "german": "Dessert, Nachtisch",
+      "spanish": "el postre"
+    },
+    {
+      "german": "Teller",
+      "spanish": "el plato"
+    },
+    {
+      "german": "Tasse",
+      "spanish": "la taza"
+    },
+    {
+      "german": "Glas",
+      "spanish": "el vaso"
+    },
+    {
+      "german": "Garten",
+      "spanish": "el jardín"
+    },
+    {
+      "german": "Kissen",
+      "spanish": "la almohada"
+    },
+    {
+      "german": "Schnee",
+      "spanish": "la nieve"
+    },
+    {
+      "german": "Park",
+      "spanish": "el parque"
+    },
+    {
+      "german": "Salat",
+      "spanish": "la ensalada"
+    },
+    {
+      "german": "Tomate",
+      "spanish": "el tomate"
+    },
+    {
+      "german": "Kartoffel",
+      "spanish": "la patata"
+    },
+    {
+      "german": "Erdbeere",
+      "spanish": "la fresa"
+    },
+    {
+      "german": "einfach",
+      "spanish": "fácil"
+    },
+    {
+      "german": "schwierig",
+      "spanish": "difícil"
+    },
+    {
+      "german": "jung",
+      "spanish": "joven"
+    },
+    {
+      "german": "heiß",
+      "spanish": "caliente"
+    },
+    {
+      "german": "groß",
+      "spanish": "grande"
+    },
+    {
+      "german": "Meeting (geschäftlich)",
+      "spanish": "la reunión"
+    },
+    {
+      "german": "das Geschenk",
+      "spanish": "el regalo"
+    },
+    {
+      "german": "Wind",
+      "spanish": "el viento"
+    },
+    {
+      "german": "Regen",
+      "spanish": "la lluvia"
+    },
+    {
+      "german": "Schwimmbad",
+      "spanish": "la piscina"
+    },
+    {
+      "german": "Kleid",
+      "spanish": "el vestido"
+    },
+    {
+      "german": "Koffer",
+      "spanish": "la maleta"
+    },
+    {
+      "german": "Rucksack",
+      "spanish": "la mochila"
+    },
+    {
+      "german": "Jacke",
+      "spanish": "la chaqueta"
+    },
+    {
+      "german": "Pullover",
+      "spanish": "el suéter"
+    },
+    {
+      "german": "Hose",
+      "spanish": "el pantalón"
+    },
+    {
+      "german": "Blitz",
+      "spanish": "el rayo"
+    },
+    {
+      "german": "Zeit / Wetter",
+      "spanish": "el tiempo"
+    },
+    {
+      "german": "öffentlicher Platz",
+      "spanish": "la plaza"
+    },
+    {
+      "german": "Salz",
+      "spanish": "la sal"
+    },
+    {
+      "german": "Pfeffer",
+      "spanish": "la pimienta"
+    },
+    {
+      "german": "Wohnung, Stockwerk",
+      "spanish": "el piso"
+    },
+    {
+      "german": "das Land",
+      "spanish": "el país"
+    },
+    {
+      "german": "Nachrichten (z.B. Handy)",
+      "spanish": "el mensaje"
+    },
+    {
+      "german": "Zwiebel",
+      "spanish": "la cebolla"
+    },
+    {
+      "german": "lila Blume",
+      "spanish": "la flor"
+    },
+    {
+      "german": "Kirche",
+      "spanish": "la iglesia"
+    },
+    {
+      "german": "Flugzeug",
+      "spanish": "el avión"
+    },
+    {
+      "german": "Berg",
+      "spanish": "la montaña"
+    },
+    {
+      "german": "spät",
+      "spanish": "tarde"
+    },
+    {
+      "german": "danach",
+      "spanish": "después"
+    },
+    {
+      "german": "Treppe",
+      "spanish": "la escalera"
+    },
+    {
+      "german": "Bank",
+      "spanish": "el banco"
+    },
+    {
+      "german": "das Leben",
+      "spanish": "la vida"
+    },
+    {
+      "german": "Insel",
+      "spanish": "la isla"
+    },
+    {
+      "german": "Reis",
+      "spanish": "el arroz"
+    },
+    {
+      "german": "Butter",
+      "spanish": "la mantequilla"
+    },
+    {
+      "german": "Kellner",
+      "spanish": "el camarero"
+    },
+    {
+      "german": "ziemlich",
+      "spanish": "bastante"
+    },
+    {
+      "german": "Leinwand",
+      "spanish": "la pantalla"
+    },
+    {
+      "german": "Nachrichten (News)",
+      "spanish": "la noticia"
+    },
+    {
+      "german": "Eis, gefrorenes Wasser",
+      "spanish": "el hielo"
+    },
+    {
+      "german": "Speiseeis",
+      "spanish": "el helado"
+    },
+    {
+      "german": "Kino",
+      "spanish": "el cine"
+    },
+    {
+      "german": "Bahnhof",
+      "spanish": "la estación"
+    },
+    {
+      "german": "bezahlen",
+      "spanish": "pagar"
+    },
+    {
+      "german": "schauen",
+      "spanish": "mirar"
+    },
+    {
+      "german": "aufwachen",
+      "spanish": "despertar"
+    },
+    {
+      "german": "herabsteigen",
+      "spanish": "bajar"
+    },
+    {
+      "german": "sich amüsieren",
+      "spanish": "divertirse"
+    },
+    {
+      "german": "Sekunde",
+      "spanish": "el segundo"
+    },
+    {
+      "german": "Minute",
+      "spanish": "el minuto"
+    },
+    {
+      "german": "Monat",
+      "spanish": "el mes"
+    },
+    {
+      "german": "das Geschenk",
+      "spanish": "el regalo"
+    },
+    {
+      "german": "Wind",
+      "spanish": "el viento"
+    },
+    {
+      "german": "Regen",
+      "spanish": "la lluvia"
+    },
+    {
+      "german": "Schwimmbad",
+      "spanish": "la piscina"
+    },
+    {
+      "german": "Kleid",
+      "spanish": "el vestido"
+    },
+    {
+      "german": "Koffer",
+      "spanish": "la maleta"
+    },
+    {
+      "german": "Rucksack",
+      "spanish": "la mochila"
+    },
+    {
+      "german": "Jacke",
+      "spanish": "la chaqueta"
+    },
+    {
+      "german": "Pullover",
+      "spanish": "el suéter"
+    },
+    {
+      "german": "Hose",
+      "spanish": "el pantalón"
+    },
+    {
+      "german": "Blitz",
+      "spanish": "el rayo"
+    },
+    {
+      "german": "Zeit / Wetter",
+      "spanish": "el tiempo"
+    },
+    {
+      "german": "öffentlicher Platz",
+      "spanish": "la plaza"
+    },
+    {
+      "german": "Salz",
+      "spanish": "la sal"
+    },
+    {
+      "german": "Pfeffer",
+      "spanish": "la pimienta"
+    },
+    {
+      "german": "Wohnung, Stockwerk",
+      "spanish": "el piso"
+    },
+    {
+      "german": "das Land",
+      "spanish": "el país"
+    },
+    {
+      "german": "Nachrichten (z.B. Handy)",
+      "spanish": "el mensaje"
+    },
+    {
+      "german": "Zwiebel",
+      "spanish": "la cebolla"
+    },
+    {
+      "german": "lila Blume",
+      "spanish": "la flor"
+    },
+    {
+      "german": "Kirche",
+      "spanish": "la iglesia"
+    },
+    {
+      "german": "Flugzeug",
+      "spanish": "el avión"
+    },
+    {
+      "german": "Berg",
+      "spanish": "la montaña"
+    },
+    {
+      "german": "spät",
+      "spanish": "tarde"
+    },
+    {
+      "german": "danach",
+      "spanish": "después"
+    },
+    {
+      "german": "Treppe",
+      "spanish": "la escalera"
+    },
+    {
+      "german": "Bank",
+      "spanish": "el banco"
+    },
+    {
+      "german": "das Leben",
+      "spanish": "la vida"
+    },
+    {
+      "german": "Insel",
+      "spanish": "la isla"
+    },
+    {
+      "german": "Reis",
+      "spanish": "el arroz"
+    },
+    {
+      "german": "Butter",
+      "spanish": "la mantequilla"
+    },
+    {
+      "german": "Kellner",
+      "spanish": "el camarero"
+    },
+    {
+      "german": "ziemlich",
+      "spanish": "bastante"
+    },
+    {
+      "german": "Leinwand",
+      "spanish": "la pantalla"
+    },
+    {
+      "german": "Nachrichten (News)",
+      "spanish": "la noticia"
+    },
+    {
+      "german": "Eis, gefrorenes Wasser",
+      "spanish": "el hielo"
+    },
+    {
+      "german": "Speiseeis",
+      "spanish": "el helado"
+    },
+    {
+      "german": "Kino",
+      "spanish": "el cine"
+    },
+    {
+      "german": "Bahnhof",
+      "spanish": "la estación"
+    },
+    {
+      "german": "bezahlen",
+      "spanish": "pagar"
+    },
+    {
+      "german": "schauen",
+      "spanish": "mirar"
+    },
+    {
+      "german": "aufwachen",
+      "spanish": "despertar"
+    },
+    {
+      "german": "herabsteigen",
+      "spanish": "bajar"
+    },
+    {
+      "german": "sich amüsieren",
+      "spanish": "divertirse"
+    },
+    {
+      "german": "Sekunde",
+      "spanish": "el segundo"
+    },
+    {
+      "german": "Minute",
+      "spanish": "el minuto"
+    },
+    {
+      "german": "Monat",
+      "spanish": "el mes"
+    }
+  ],
+  "errors": []
+}

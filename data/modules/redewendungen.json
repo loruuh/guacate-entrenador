@@ -1,0 +1,39 @@
+{
+  "id": "redewendungen",
+  "name": "Redewendungen",
+  "description": "Spanische Redewendungen & Idioms",
+  "icon": "💬",
+  "type": "phrases",
+  "phrases": [
+    {
+      "id": "r1",
+      "spanish": "ya te digo",
+      "german": "sag ich doch!",
+      "literal": "schon sage ich dir",
+      "sentence_es": "",
+      "sentence_de": "",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r2",
+      "spanish": "hincar los codos",
+      "german": "hart büffeln",
+      "literal": "die Ellbogen eingraben",
+      "sentence_es": "",
+      "sentence_de": "",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r3",
+      "spanish": "no dar abasto",
+      "german": "nicht hinterherkommen",
+      "literal": "nicht Versorgung geben",
+      "sentence_es": "",
+      "sentence_de": "",
+      "audio": "",
+      "word_translations": {}
+    }
+  ]
+}

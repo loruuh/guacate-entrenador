@@ -1,0 +1,66 @@
+[
+  {
+    "id": "vokabeln-1",
+    "name": "Vokabeln Modul 1",
+    "description": "500 Vokabeln – Top-Frequenz (wichtigste!)",
+    "icon": "📘",
+    "type": "vocabulary",
+    "file": "vokabeln-1.json"
+  },
+  {
+    "id": "vokabeln-2",
+    "name": "Vokabeln Modul 2",
+    "description": "500 Vokabeln – häufig & nützlich",
+    "icon": "📗",
+    "type": "vocabulary",
+    "file": "vokabeln-2.json"
+  },
+  {
+    "id": "vokabeln-3",
+    "name": "Vokabeln Modul 3",
+    "description": "500 Vokabeln – erweitert",
+    "icon": "📙",
+    "type": "vocabulary",
+    "file": "vokabeln-3.json"
+  },
+  {
+    "id": "vokabeln-4",
+    "name": "Vokabeln Modul 4",
+    "description": "500 Vokabeln – fortgeschritten",
+    "icon": "📕",
+    "type": "vocabulary",
+    "file": "vokabeln-4.json"
+  },
+  {
+    "id": "vokabeln-5",
+    "name": "Vokabeln Modul 5",
+    "description": "407 Vokabeln – Spezial & Rest",
+    "icon": "📓",
+    "type": "vocabulary",
+    "file": "vokabeln-5.json"
+  },
+  {
+    "id": "redewendungen",
+    "name": "Redewendungen",
+    "description": "Spanische Redewendungen & Idioms",
+    "icon": "💬",
+    "type": "phrases",
+    "file": "redewendungen.json"
+  },
+  {
+    "id": "zahlen",
+    "name": "Zahlen",
+    "description": "Zahlen auf Spanisch: 0-20, Zehner, Hunderter",
+    "icon": "🔢",
+    "type": "numbers",
+    "file": "zahlen.json"
+  },
+  {
+    "id": "aussprache-tipps",
+    "name": "Aussprache-Tipps",
+    "description": "11 wichtige Regeln zur spanischen Aussprache",
+    "icon": "🗣️",
+    "type": "tips",
+    "file": "aussprache-tipps.json"
+  }
+]

@@ -86,7 +86,8 @@ async function generateAudio(text, outputPath) {
         name: 'es-ES-Standard-A'
       },
       audioConfig: {
-        audioEncoding: 'MP3'
+        audioEncoding: 'MP3',
+        speakingRate: 0.85
       }
     }
   );
@@ -126,7 +127,7 @@ async function processVocabulary(vocab, index, total) {
 
 // Main function
 async function main() {
-  console.log('🚀 Starting content generation for 1000 vocabulary items\n');
+  console.log('🚀 Starting content generation\n');
   console.log('📋 Configuration:');
   console.log(`   - Claude API Key: ${process.env.ANTHROPIC_API_KEY ? '✓ Set' : '✗ Missing'}`);
   console.log(`   - Google TTS API Key: ${process.env.GOOGLE_CLOUD_TTS_API_KEY ? '✓ Set' : '✗ Missing'}`);
@@ -146,27 +147,84 @@ async function main() {
 
   // Load vocabulary
   const vocabData = JSON.parse(await fs.readFile(VOCAB_FILE, 'utf-8'));
-  console.log(`✓ Loaded ${vocabData.length} vocabulary items\n`);
+  console.log(`✓ Loaded ${vocabData.length} total vocabulary items`);
+
+  // Separate items by status
+  const needsSentence = vocabData.filter(vocab => !vocab.sentence_es);
+  const needsAudio = [];
+
+  // Check which items need audio regeneration
+  for (const vocab of vocabData) {
+    if (vocab.sentence_es) {
+      const audioPath = path.join(AUDIO_DIR, `${vocab.id}.mp3`);
+      try {
+        await fs.access(audioPath);
+        // File exists, skip
+      } catch {
+        // File doesn't exist, needs audio
+        needsAudio.push(vocab);
+      }
+    }
+  }
+
+  console.log(`✓ ${needsSentence.length} items need sentences + audio`);
+  console.log(`✓ ${needsAudio.length} items need audio regeneration`);
+  console.log(`🎯 ${needsSentence.length + needsAudio.length} total items to process\n`);
+
+  if (needsSentence.length === 0 && needsAudio.length === 0) {
+    console.log('✅ Nothing to do!');
+    return;
+  }
+
   console.log('─'.repeat(60));
 
   const failed = [];
   const startTime = Date.now();
 
-  // Process each vocabulary item
-  for (let i = 0; i < vocabData.length; i++) {
-    const result = await processVocabulary(vocabData[i], i, vocabData.length);
+  // First, process items that need sentences (generates sentence + audio)
+  for (let i = 0; i < needsSentence.length; i++) {
+    const vocab = needsSentence[i];
+    const result = await processVocabulary(vocab, i, needsSentence.length + needsAudio.length);
 
     if (!result.success) {
       failed.push({ id: result.id, error: result.error });
     }
 
     // Rate limiting
-    if (i < vocabData.length - 1) {
+    if (i < needsSentence.length - 1 || needsAudio.length > 0) {
       await sleep(RATE_LIMIT_DELAY);
     }
   }
 
-  // Save updated vocabulary
+  // Then, regenerate audio for items that already have sentences
+  for (let i = 0; i < needsAudio.length; i++) {
+    const vocab = needsAudio[i];
+    const overallIndex = needsSentence.length + i;
+    const total = needsSentence.length + needsAudio.length;
+
+    console.log(`\n[${overallIndex + 1}/${total}] Regenerating audio: ${vocab.spanish} (ID: ${vocab.id})`);
+
+    try {
+      console.log('  🔊 Generating audio...');
+      const audioPath = path.join(AUDIO_DIR, `${vocab.id}.mp3`);
+      await retryAsync(() => generateAudio(vocab.sentence_es, audioPath));
+
+      // Update audio path in vocab
+      vocab.audio = `/audio/${vocab.id}.mp3`;
+
+      console.log(`  ✅ Success!`);
+    } catch (error) {
+      console.log(`  ❌ Failed: ${error.message}`);
+      failed.push({ id: vocab.id, error: error.message });
+    }
+
+    // Rate limiting
+    if (i < needsAudio.length - 1) {
+      await sleep(RATE_LIMIT_DELAY);
+    }
+  }
+
+  // Save updated vocabulary (includes both processed and unprocessed items)
   console.log('\n' + '─'.repeat(60));
   console.log('\n💾 Saving updated vocabulary file...');
   await fs.writeFile(VOCAB_FILE, JSON.stringify(vocabData, null, 2), 'utf-8');
@@ -174,13 +232,18 @@ async function main() {
 
   // Summary
   const duration = ((Date.now() - startTime) / 1000 / 60).toFixed(2);
-  const successCount = vocabData.length - failed.length;
+  const totalProcessed = needsSentence.length + needsAudio.length;
+  const successCount = totalProcessed - failed.length;
 
   console.log('═'.repeat(60));
   console.log('📊 SUMMARY');
   console.log('═'.repeat(60));
-  console.log(`✅ Successful: ${successCount}/${vocabData.length}`);
-  console.log(`❌ Failed: ${failed.length}/${vocabData.length}`);
+  console.log(`📚 Total vocabulary items: ${vocabData.length}`);
+  console.log(`📝 Items needing sentences: ${needsSentence.length}`);
+  console.log(`🔊 Items needing audio: ${needsAudio.length}`);
+  console.log(`🎯 Total processed: ${totalProcessed}`);
+  console.log(`✅ Successfully processed: ${successCount}/${totalProcessed}`);
+  console.log(`❌ Failed: ${failed.length}/${totalProcessed}`);
   console.log(`⏱️  Duration: ${duration} minutes`);
   console.log('');
 

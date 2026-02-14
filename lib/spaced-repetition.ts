@@ -1,5 +1,5 @@
 import vocabularyData from "@/data/vocabulario-es.json";
-import { getVocabProgress, setVocabProgress } from "./local-storage";
+import { getVocabProgress, setVocabProgress, getModuleVocabProgress, setModuleVocabProgress } from "./local-storage";
 
 export interface Vocabulary {
   id: string;
@@ -18,8 +18,10 @@ export function getAllVocabulary(): Vocabulary[] {
 }
 
 // Berechne Gewichtung für eine Vokabel
-function calculateWeight(vocabId: string): number {
-  const progress = getVocabProgress(vocabId);
+function calculateWeight(vocabId: string, moduleId?: string): number {
+  const progress = moduleId
+    ? getModuleVocabProgress(moduleId, vocabId)
+    : getVocabProgress(vocabId);
 
   // Standard-Gewichtung basierend auf reviewCount
   let weight = 1;
@@ -59,37 +61,44 @@ function calculateWeight(vocabId: string): number {
 }
 
 // Wähle nächste Vokabel aus (gewichtete Zufallsauswahl)
-export function selectNextVocab(): Vocabulary {
-  const allVocabs = getAllVocabulary();
+// Optional: vocabPool und moduleId für modul-basierte Auswahl
+export function selectNextVocab(vocabPool?: Vocabulary[], moduleId?: string): Vocabulary {
+  const vocabs = vocabPool || getAllVocabulary();
 
   // Berechne Gewichtungen für alle Vokabeln
-  const weights = allVocabs.map((vocab) => calculateWeight(vocab.id));
+  const weights = vocabs.map((vocab) => calculateWeight(vocab.id, moduleId));
   const totalWeight = weights.reduce((sum, w) => sum + w, 0);
 
   // Gewichtete Zufallsauswahl
   let random = Math.random() * totalWeight;
 
-  for (let i = 0; i < allVocabs.length; i++) {
+  for (let i = 0; i < vocabs.length; i++) {
     random -= weights[i];
     if (random <= 0) {
-      return allVocabs[i];
+      return vocabs[i];
     }
   }
 
   // Fallback (sollte nie passieren)
-  return allVocabs[0];
+  return vocabs[0];
 }
 
 // Markiere Vokabel als gesehen
-export function markVocabAsSeen(vocabId: string): void {
-  const progress = getVocabProgress(vocabId);
+export function markVocabAsSeen(vocabId: string, moduleId?: string): void {
+  const progress = moduleId
+    ? getModuleVocabProgress(moduleId, vocabId)
+    : getVocabProgress(vocabId);
 
   const newProgress = {
     lastSeen: new Date().toISOString(),
     reviewCount: progress ? progress.reviewCount + 1 : 1,
   };
 
-  setVocabProgress(vocabId, newProgress);
+  if (moduleId) {
+    setModuleVocabProgress(moduleId, vocabId, newProgress);
+  } else {
+    setVocabProgress(vocabId, newProgress);
+  }
 }
 
 // Hole Vokabel anhand ID

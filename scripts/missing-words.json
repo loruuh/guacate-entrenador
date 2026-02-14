@@ -1,0 +1,1165 @@
+{
+  "top100": [
+    {
+      "rank": 42,
+      "spanish": "vamos",
+      "german": "gehen wir",
+      "type": "verb",
+      "contentRank": 2
+    },
+    {
+      "rank": 47,
+      "spanish": "estoy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 4
+    },
+    {
+      "rank": 48,
+      "spanish": "tengo",
+      "german": "ich habe",
+      "type": "verb",
+      "contentRank": 5
+    },
+    {
+      "rank": 51,
+      "spanish": "nada",
+      "german": "nichts",
+      "type": "pronoun",
+      "contentRank": 6
+    },
+    {
+      "rank": 55,
+      "spanish": "soy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 7
+    },
+    {
+      "rank": 56,
+      "spanish": "tiene",
+      "german": "hat",
+      "type": "verb",
+      "contentRank": 8
+    },
+    {
+      "rank": 58,
+      "spanish": "puedo",
+      "german": "ich kann",
+      "type": "verb",
+      "contentRank": 9
+    },
+    {
+      "rank": 59,
+      "spanish": "cómo",
+      "german": "wie",
+      "type": "adverb",
+      "contentRank": 10
+    },
+    {
+      "rank": 60,
+      "spanish": "quiero",
+      "german": "ich will",
+      "type": "verb",
+      "contentRank": 11
+    },
+    {
+      "rank": 63,
+      "spanish": "puede",
+      "german": "kann",
+      "type": "verb",
+      "contentRank": 13
+    },
+    {
+      "rank": 69,
+      "spanish": "dos",
+      "german": "zwei",
+      "type": "number",
+      "contentRank": 16
+    },
+    {
+      "rank": 72,
+      "spanish": "eres",
+      "german": "du bist",
+      "type": "verb",
+      "contentRank": 17
+    },
+    {
+      "rank": 80,
+      "spanish": "podemos",
+      "german": "wir können",
+      "type": "verb",
+      "contentRank": 19
+    },
+    {
+      "rank": 88,
+      "spanish": "debe",
+      "german": "muss",
+      "type": "verb",
+      "contentRank": 24
+    },
+    {
+      "rank": 91,
+      "spanish": "creo",
+      "german": "ich glaube",
+      "type": "verb",
+      "contentRank": 26
+    },
+    {
+      "rank": 92,
+      "spanish": "falta",
+      "german": "fehlt",
+      "type": "verb",
+      "contentRank": 27
+    },
+    {
+      "rank": 93,
+      "spanish": "podría",
+      "german": "könnte",
+      "type": "verb",
+      "contentRank": 28
+    },
+    {
+      "rank": 94,
+      "spanish": "dios",
+      "german": "Gott",
+      "type": "noun",
+      "contentRank": 29
+    },
+    {
+      "rank": 97,
+      "spanish": "tres",
+      "german": "drei",
+      "type": "number",
+      "contentRank": 31
+    },
+    {
+      "rank": 98,
+      "spanish": "quiere",
+      "german": "will",
+      "type": "verb",
+      "contentRank": 32
+    },
+    {
+      "rank": 105,
+      "spanish": "estado",
+      "german": "Staat/Zustand",
+      "type": "noun",
+      "contentRank": 38
+    },
+    {
+      "rank": 108,
+      "spanish": "día",
+      "german": "Tag",
+      "type": "noun",
+      "contentRank": 41
+    },
+    {
+      "rank": 113,
+      "spanish": "años",
+      "german": "Jahre",
+      "type": "noun",
+      "contentRank": 45
+    },
+    {
+      "rank": 114,
+      "spanish": "estado",
+      "german": "gewesen",
+      "type": "verb",
+      "contentRank": 46
+    },
+    {
+      "rank": 118,
+      "spanish": "favor",
+      "german": "Gunst",
+      "type": "noun",
+      "contentRank": 49
+    },
+    {
+      "rank": 120,
+      "spanish": "gracias",
+      "german": "danke",
+      "type": "interjection",
+      "contentRank": 50
+    },
+    {
+      "rank": 125,
+      "spanish": "parece",
+      "german": "scheint",
+      "type": "verb",
+      "contentRank": 53
+    },
+    {
+      "rank": 130,
+      "spanish": "muchos",
+      "german": "viele",
+      "type": "adjective",
+      "contentRank": 55
+    },
+    {
+      "rank": 133,
+      "spanish": "dijo",
+      "german": "sagte",
+      "type": "verb",
+      "contentRank": 58
+    },
+    {
+      "rank": 134,
+      "spanish": "sigue",
+      "german": "folgt",
+      "type": "verb",
+      "contentRank": 59
+    },
+    {
+      "rank": 136,
+      "spanish": "quien",
+      "german": "wer",
+      "type": "pronoun",
+      "contentRank": 60
+    },
+    {
+      "rank": 137,
+      "spanish": "hace",
+      "german": "macht",
+      "type": "verb",
+      "contentRank": 61
+    },
+    {
+      "rank": 141,
+      "spanish": "usted",
+      "german": "Sie",
+      "type": "pronoun",
+      "contentRank": 64
+    },
+    {
+      "rank": 144,
+      "spanish": "gente",
+      "german": "Leute",
+      "type": "noun",
+      "contentRank": 67
+    },
+    {
+      "rank": 146,
+      "spanish": "hizo",
+      "german": "machte",
+      "type": "verb",
+      "contentRank": 69
+    },
+    {
+      "rank": 151,
+      "spanish": "primer",
+      "german": "erster",
+      "type": "adjective",
+      "contentRank": 72
+    },
+    {
+      "rank": 168,
+      "spanish": "agua",
+      "german": "Wasser",
+      "type": "noun",
+      "contentRank": 89
+    },
+    {
+      "rank": 171,
+      "spanish": "cuatro",
+      "german": "vier",
+      "type": "number",
+      "contentRank": 92
+    },
+    {
+      "rank": 180,
+      "spanish": "millones",
+      "german": "Millionen",
+      "type": "noun",
+      "contentRank": 100
+    }
+  ],
+  "top300": [
+    {
+      "rank": 42,
+      "spanish": "vamos",
+      "german": "gehen wir",
+      "type": "verb",
+      "contentRank": 2
+    },
+    {
+      "rank": 47,
+      "spanish": "estoy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 4
+    },
+    {
+      "rank": 48,
+      "spanish": "tengo",
+      "german": "ich habe",
+      "type": "verb",
+      "contentRank": 5
+    },
+    {
+      "rank": 51,
+      "spanish": "nada",
+      "german": "nichts",
+      "type": "pronoun",
+      "contentRank": 6
+    },
+    {
+      "rank": 55,
+      "spanish": "soy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 7
+    },
+    {
+      "rank": 56,
+      "spanish": "tiene",
+      "german": "hat",
+      "type": "verb",
+      "contentRank": 8
+    },
+    {
+      "rank": 58,
+      "spanish": "puedo",
+      "german": "ich kann",
+      "type": "verb",
+      "contentRank": 9
+    },
+    {
+      "rank": 59,
+      "spanish": "cómo",
+      "german": "wie",
+      "type": "adverb",
+      "contentRank": 10
+    },
+    {
+      "rank": 60,
+      "spanish": "quiero",
+      "german": "ich will",
+      "type": "verb",
+      "contentRank": 11
+    },
+    {
+      "rank": 63,
+      "spanish": "puede",
+      "german": "kann",
+      "type": "verb",
+      "contentRank": 13
+    },
+    {
+      "rank": 69,
+      "spanish": "dos",
+      "german": "zwei",
+      "type": "number",
+      "contentRank": 16
+    },
+    {
+      "rank": 72,
+      "spanish": "eres",
+      "german": "du bist",
+      "type": "verb",
+      "contentRank": 17
+    },
+    {
+      "rank": 80,
+      "spanish": "podemos",
+      "german": "wir können",
+      "type": "verb",
+      "contentRank": 19
+    },
+    {
+      "rank": 88,
+      "spanish": "debe",
+      "german": "muss",
+      "type": "verb",
+      "contentRank": 24
+    },
+    {
+      "rank": 91,
+      "spanish": "creo",
+      "german": "ich glaube",
+      "type": "verb",
+      "contentRank": 26
+    },
+    {
+      "rank": 92,
+      "spanish": "falta",
+      "german": "fehlt",
+      "type": "verb",
+      "contentRank": 27
+    },
+    {
+      "rank": 93,
+      "spanish": "podría",
+      "german": "könnte",
+      "type": "verb",
+      "contentRank": 28
+    },
+    {
+      "rank": 94,
+      "spanish": "dios",
+      "german": "Gott",
+      "type": "noun",
+      "contentRank": 29
+    },
+    {
+      "rank": 97,
+      "spanish": "tres",
+      "german": "drei",
+      "type": "number",
+      "contentRank": 31
+    },
+    {
+      "rank": 98,
+      "spanish": "quiere",
+      "german": "will",
+      "type": "verb",
+      "contentRank": 32
+    },
+    {
+      "rank": 105,
+      "spanish": "estado",
+      "german": "Staat/Zustand",
+      "type": "noun",
+      "contentRank": 38
+    },
+    {
+      "rank": 108,
+      "spanish": "día",
+      "german": "Tag",
+      "type": "noun",
+      "contentRank": 41
+    },
+    {
+      "rank": 113,
+      "spanish": "años",
+      "german": "Jahre",
+      "type": "noun",
+      "contentRank": 45
+    },
+    {
+      "rank": 114,
+      "spanish": "estado",
+      "german": "gewesen",
+      "type": "verb",
+      "contentRank": 46
+    },
+    {
+      "rank": 118,
+      "spanish": "favor",
+      "german": "Gunst",
+      "type": "noun",
+      "contentRank": 49
+    },
+    {
+      "rank": 120,
+      "spanish": "gracias",
+      "german": "danke",
+      "type": "interjection",
+      "contentRank": 50
+    },
+    {
+      "rank": 125,
+      "spanish": "parece",
+      "german": "scheint",
+      "type": "verb",
+      "contentRank": 53
+    },
+    {
+      "rank": 130,
+      "spanish": "muchos",
+      "german": "viele",
+      "type": "adjective",
+      "contentRank": 55
+    },
+    {
+      "rank": 133,
+      "spanish": "dijo",
+      "german": "sagte",
+      "type": "verb",
+      "contentRank": 58
+    },
+    {
+      "rank": 134,
+      "spanish": "sigue",
+      "german": "folgt",
+      "type": "verb",
+      "contentRank": 59
+    },
+    {
+      "rank": 136,
+      "spanish": "quien",
+      "german": "wer",
+      "type": "pronoun",
+      "contentRank": 60
+    },
+    {
+      "rank": 137,
+      "spanish": "hace",
+      "german": "macht",
+      "type": "verb",
+      "contentRank": 61
+    },
+    {
+      "rank": 141,
+      "spanish": "usted",
+      "german": "Sie",
+      "type": "pronoun",
+      "contentRank": 64
+    },
+    {
+      "rank": 144,
+      "spanish": "gente",
+      "german": "Leute",
+      "type": "noun",
+      "contentRank": 67
+    },
+    {
+      "rank": 146,
+      "spanish": "hizo",
+      "german": "machte",
+      "type": "verb",
+      "contentRank": 69
+    },
+    {
+      "rank": 151,
+      "spanish": "primer",
+      "german": "erster",
+      "type": "adjective",
+      "contentRank": 72
+    },
+    {
+      "rank": 168,
+      "spanish": "agua",
+      "german": "Wasser",
+      "type": "noun",
+      "contentRank": 89
+    },
+    {
+      "rank": 171,
+      "spanish": "cuatro",
+      "german": "vier",
+      "type": "number",
+      "contentRank": 92
+    },
+    {
+      "rank": 180,
+      "spanish": "millones",
+      "german": "Millionen",
+      "type": "noun",
+      "contentRank": 100
+    },
+    {
+      "rank": 181,
+      "spanish": "cinco",
+      "german": "fünf",
+      "type": "number",
+      "contentRank": 101
+    },
+    {
+      "rank": 182,
+      "spanish": "horas",
+      "german": "Stunden",
+      "type": "noun",
+      "contentRank": 102
+    },
+    {
+      "rank": 193,
+      "spanish": "otros",
+      "german": "andere",
+      "type": "pronoun",
+      "contentRank": 113
+    }
+  ],
+  "top500": [
+    {
+      "rank": 42,
+      "spanish": "vamos",
+      "german": "gehen wir",
+      "type": "verb",
+      "contentRank": 2
+    },
+    {
+      "rank": 47,
+      "spanish": "estoy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 4
+    },
+    {
+      "rank": 48,
+      "spanish": "tengo",
+      "german": "ich habe",
+      "type": "verb",
+      "contentRank": 5
+    },
+    {
+      "rank": 51,
+      "spanish": "nada",
+      "german": "nichts",
+      "type": "pronoun",
+      "contentRank": 6
+    },
+    {
+      "rank": 55,
+      "spanish": "soy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 7
+    },
+    {
+      "rank": 56,
+      "spanish": "tiene",
+      "german": "hat",
+      "type": "verb",
+      "contentRank": 8
+    },
+    {
+      "rank": 58,
+      "spanish": "puedo",
+      "german": "ich kann",
+      "type": "verb",
+      "contentRank": 9
+    },
+    {
+      "rank": 59,
+      "spanish": "cómo",
+      "german": "wie",
+      "type": "adverb",
+      "contentRank": 10
+    },
+    {
+      "rank": 60,
+      "spanish": "quiero",
+      "german": "ich will",
+      "type": "verb",
+      "contentRank": 11
+    },
+    {
+      "rank": 63,
+      "spanish": "puede",
+      "german": "kann",
+      "type": "verb",
+      "contentRank": 13
+    },
+    {
+      "rank": 69,
+      "spanish": "dos",
+      "german": "zwei",
+      "type": "number",
+      "contentRank": 16
+    },
+    {
+      "rank": 72,
+      "spanish": "eres",
+      "german": "du bist",
+      "type": "verb",
+      "contentRank": 17
+    },
+    {
+      "rank": 80,
+      "spanish": "podemos",
+      "german": "wir können",
+      "type": "verb",
+      "contentRank": 19
+    },
+    {
+      "rank": 88,
+      "spanish": "debe",
+      "german": "muss",
+      "type": "verb",
+      "contentRank": 24
+    },
+    {
+      "rank": 91,
+      "spanish": "creo",
+      "german": "ich glaube",
+      "type": "verb",
+      "contentRank": 26
+    },
+    {
+      "rank": 92,
+      "spanish": "falta",
+      "german": "fehlt",
+      "type": "verb",
+      "contentRank": 27
+    },
+    {
+      "rank": 93,
+      "spanish": "podría",
+      "german": "könnte",
+      "type": "verb",
+      "contentRank": 28
+    },
+    {
+      "rank": 94,
+      "spanish": "dios",
+      "german": "Gott",
+      "type": "noun",
+      "contentRank": 29
+    },
+    {
+      "rank": 97,
+      "spanish": "tres",
+      "german": "drei",
+      "type": "number",
+      "contentRank": 31
+    },
+    {
+      "rank": 98,
+      "spanish": "quiere",
+      "german": "will",
+      "type": "verb",
+      "contentRank": 32
+    },
+    {
+      "rank": 105,
+      "spanish": "estado",
+      "german": "Staat/Zustand",
+      "type": "noun",
+      "contentRank": 38
+    },
+    {
+      "rank": 108,
+      "spanish": "día",
+      "german": "Tag",
+      "type": "noun",
+      "contentRank": 41
+    },
+    {
+      "rank": 113,
+      "spanish": "años",
+      "german": "Jahre",
+      "type": "noun",
+      "contentRank": 45
+    },
+    {
+      "rank": 114,
+      "spanish": "estado",
+      "german": "gewesen",
+      "type": "verb",
+      "contentRank": 46
+    },
+    {
+      "rank": 118,
+      "spanish": "favor",
+      "german": "Gunst",
+      "type": "noun",
+      "contentRank": 49
+    },
+    {
+      "rank": 120,
+      "spanish": "gracias",
+      "german": "danke",
+      "type": "interjection",
+      "contentRank": 50
+    },
+    {
+      "rank": 125,
+      "spanish": "parece",
+      "german": "scheint",
+      "type": "verb",
+      "contentRank": 53
+    },
+    {
+      "rank": 130,
+      "spanish": "muchos",
+      "german": "viele",
+      "type": "adjective",
+      "contentRank": 55
+    },
+    {
+      "rank": 133,
+      "spanish": "dijo",
+      "german": "sagte",
+      "type": "verb",
+      "contentRank": 58
+    },
+    {
+      "rank": 134,
+      "spanish": "sigue",
+      "german": "folgt",
+      "type": "verb",
+      "contentRank": 59
+    },
+    {
+      "rank": 136,
+      "spanish": "quien",
+      "german": "wer",
+      "type": "pronoun",
+      "contentRank": 60
+    },
+    {
+      "rank": 137,
+      "spanish": "hace",
+      "german": "macht",
+      "type": "verb",
+      "contentRank": 61
+    },
+    {
+      "rank": 141,
+      "spanish": "usted",
+      "german": "Sie",
+      "type": "pronoun",
+      "contentRank": 64
+    },
+    {
+      "rank": 144,
+      "spanish": "gente",
+      "german": "Leute",
+      "type": "noun",
+      "contentRank": 67
+    },
+    {
+      "rank": 146,
+      "spanish": "hizo",
+      "german": "machte",
+      "type": "verb",
+      "contentRank": 69
+    },
+    {
+      "rank": 151,
+      "spanish": "primer",
+      "german": "erster",
+      "type": "adjective",
+      "contentRank": 72
+    },
+    {
+      "rank": 168,
+      "spanish": "agua",
+      "german": "Wasser",
+      "type": "noun",
+      "contentRank": 89
+    },
+    {
+      "rank": 171,
+      "spanish": "cuatro",
+      "german": "vier",
+      "type": "number",
+      "contentRank": 92
+    },
+    {
+      "rank": 180,
+      "spanish": "millones",
+      "german": "Millionen",
+      "type": "noun",
+      "contentRank": 100
+    },
+    {
+      "rank": 181,
+      "spanish": "cinco",
+      "german": "fünf",
+      "type": "number",
+      "contentRank": 101
+    },
+    {
+      "rank": 182,
+      "spanish": "horas",
+      "german": "Stunden",
+      "type": "noun",
+      "contentRank": 102
+    },
+    {
+      "rank": 193,
+      "spanish": "otros",
+      "german": "andere",
+      "type": "pronoun",
+      "contentRank": 113
+    }
+  ],
+  "top1000": [
+    {
+      "rank": 42,
+      "spanish": "vamos",
+      "german": "gehen wir",
+      "type": "verb",
+      "contentRank": 2
+    },
+    {
+      "rank": 47,
+      "spanish": "estoy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 4
+    },
+    {
+      "rank": 48,
+      "spanish": "tengo",
+      "german": "ich habe",
+      "type": "verb",
+      "contentRank": 5
+    },
+    {
+      "rank": 51,
+      "spanish": "nada",
+      "german": "nichts",
+      "type": "pronoun",
+      "contentRank": 6
+    },
+    {
+      "rank": 55,
+      "spanish": "soy",
+      "german": "ich bin",
+      "type": "verb",
+      "contentRank": 7
+    },
+    {
+      "rank": 56,
+      "spanish": "tiene",
+      "german": "hat",
+      "type": "verb",
+      "contentRank": 8
+    },
+    {
+      "rank": 58,
+      "spanish": "puedo",
+      "german": "ich kann",
+      "type": "verb",
+      "contentRank": 9
+    },
+    {
+      "rank": 59,
+      "spanish": "cómo",
+      "german": "wie",
+      "type": "adverb",
+      "contentRank": 10
+    },
+    {
+      "rank": 60,
+      "spanish": "quiero",
+      "german": "ich will",
+      "type": "verb",
+      "contentRank": 11
+    },
+    {
+      "rank": 63,
+      "spanish": "puede",
+      "german": "kann",
+      "type": "verb",
+      "contentRank": 13
+    },
+    {
+      "rank": 69,
+      "spanish": "dos",
+      "german": "zwei",
+      "type": "number",
+      "contentRank": 16
+    },
+    {
+      "rank": 72,
+      "spanish": "eres",
+      "german": "du bist",
+      "type": "verb",
+      "contentRank": 17
+    },
+    {
+      "rank": 80,
+      "spanish": "podemos",
+      "german": "wir können",
+      "type": "verb",
+      "contentRank": 19
+    },
+    {
+      "rank": 88,
+      "spanish": "debe",
+      "german": "muss",
+      "type": "verb",
+      "contentRank": 24
+    },
+    {
+      "rank": 91,
+      "spanish": "creo",
+      "german": "ich glaube",
+      "type": "verb",
+      "contentRank": 26
+    },
+    {
+      "rank": 92,
+      "spanish": "falta",
+      "german": "fehlt",
+      "type": "verb",
+      "contentRank": 27
+    },
+    {
+      "rank": 93,
+      "spanish": "podría",
+      "german": "könnte",
+      "type": "verb",
+      "contentRank": 28
+    },
+    {
+      "rank": 94,
+      "spanish": "dios",
+      "german": "Gott",
+      "type": "noun",
+      "contentRank": 29
+    },
+    {
+      "rank": 97,
+      "spanish": "tres",
+      "german": "drei",
+      "type": "number",
+      "contentRank": 31
+    },
+    {
+      "rank": 98,
+      "spanish": "quiere",
+      "german": "will",
+      "type": "verb",
+      "contentRank": 32
+    },
+    {
+      "rank": 105,
+      "spanish": "estado",
+      "german": "Staat/Zustand",
+      "type": "noun",
+      "contentRank": 38
+    },
+    {
+      "rank": 108,
+      "spanish": "día",
+      "german": "Tag",
+      "type": "noun",
+      "contentRank": 41
+    },
+    {
+      "rank": 113,
+      "spanish": "años",
+      "german": "Jahre",
+      "type": "noun",
+      "contentRank": 45
+    },
+    {
+      "rank": 114,
+      "spanish": "estado",
+      "german": "gewesen",
+      "type": "verb",
+      "contentRank": 46
+    },
+    {
+      "rank": 118,
+      "spanish": "favor",
+      "german": "Gunst",
+      "type": "noun",
+      "contentRank": 49
+    },
+    {
+      "rank": 120,
+      "spanish": "gracias",
+      "german": "danke",
+      "type": "interjection",
+      "contentRank": 50
+    },
+    {
+      "rank": 125,
+      "spanish": "parece",
+      "german": "scheint",
+      "type": "verb",
+      "contentRank": 53
+    },
+    {
+      "rank": 130,
+      "spanish": "muchos",
+      "german": "viele",
+      "type": "adjective",
+      "contentRank": 55
+    },
+    {
+      "rank": 133,
+      "spanish": "dijo",
+      "german": "sagte",
+      "type": "verb",
+      "contentRank": 58
+    },
+    {
+      "rank": 134,
+      "spanish": "sigue",
+      "german": "folgt",
+      "type": "verb",
+      "contentRank": 59
+    },
+    {
+      "rank": 136,
+      "spanish": "quien",
+      "german": "wer",
+      "type": "pronoun",
+      "contentRank": 60
+    },
+    {
+      "rank": 137,
+      "spanish": "hace",
+      "german": "macht",
+      "type": "verb",
+      "contentRank": 61
+    },
+    {
+      "rank": 141,
+      "spanish": "usted",
+      "german": "Sie",
+      "type": "pronoun",
+      "contentRank": 64
+    },
+    {
+      "rank": 144,
+      "spanish": "gente",
+      "german": "Leute",
+      "type": "noun",
+      "contentRank": 67
+    },
+    {
+      "rank": 146,
+      "spanish": "hizo",
+      "german": "machte",
+      "type": "verb",
+      "contentRank": 69
+    },
+    {
+      "rank": 151,
+      "spanish": "primer",
+      "german": "erster",
+      "type": "adjective",
+      "contentRank": 72
+    },
+    {
+      "rank": 168,
+      "spanish": "agua",
+      "german": "Wasser",
+      "type": "noun",
+      "contentRank": 89
+    },
+    {
+      "rank": 171,
+      "spanish": "cuatro",
+      "german": "vier",
+      "type": "number",
+      "contentRank": 92
+    },
+    {
+      "rank": 180,
+      "spanish": "millones",
+      "german": "Millionen",
+      "type": "noun",
+      "contentRank": 100
+    },
+    {
+      "rank": 181,
+      "spanish": "cinco",
+      "german": "fünf",
+      "type": "number",
+      "contentRank": 101
+    },
+    {
+      "rank": 182,
+      "spanish": "horas",
+      "german": "Stunden",
+      "type": "noun",
+      "contentRank": 102
+    },
+    {
+      "rank": 193,
+      "spanish": "otros",
+      "german": "andere",
+      "type": "pronoun",
+      "contentRank": 113
+    }
+  ]
+}

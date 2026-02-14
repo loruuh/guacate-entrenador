@@ -172,6 +172,65 @@ export function getLast7Days(): { date: string; count: number }[] {
   return result;
 }
 
+// ===== MODULE VOCAB PROGRESS =====
+export function getModuleVocabProgress(moduleId: string, vocabId: string): VocabProgress | null {
+  const key = `vocab-progress-${moduleId}`;
+  const allProgress = getFromStorage<Record<string, VocabProgress>>(key, {});
+  return allProgress[vocabId] || null;
+}
+
+export function setModuleVocabProgress(
+  moduleId: string,
+  vocabId: string,
+  progress: VocabProgress
+): void {
+  const key = `vocab-progress-${moduleId}`;
+  const allProgress = getFromStorage<Record<string, VocabProgress>>(key, {});
+  allProgress[vocabId] = progress;
+  setToStorage(key, allProgress);
+}
+
+// ===== MODULE STATS =====
+export function getModuleStats(moduleId: string): { totalReviews: number; correctAnswers: number } {
+  const key = `stats-${moduleId}`;
+  return getFromStorage(key, { totalReviews: 0, correctAnswers: 0 });
+}
+
+export function setModuleStats(moduleId: string, stats: { totalReviews: number; correctAnswers: number }): void {
+  const key = `stats-${moduleId}`;
+  setToStorage(key, stats);
+}
+
+// ===== DAILY GOAL =====
+export interface DailyGoal {
+  date: string;
+  moduleId: string;
+  completed: number;
+  goal: number;
+}
+
+export function getTodayGoal(moduleId: string): DailyGoal {
+  const today = new Date().toISOString().split("T")[0];
+  const key = `daily-goal-${today}`;
+  const stored = getFromStorage<DailyGoal | null>(key, null);
+
+  if (!stored || stored.moduleId !== moduleId) {
+    return { date: today, moduleId, completed: 0, goal: 50 };
+  }
+
+  return stored;
+}
+
+export function incrementTodayGoal(moduleId: string): DailyGoal {
+  const goal = getTodayGoal(moduleId);
+  goal.completed += 1;
+
+  const key = `daily-goal-${goal.date}`;
+  setToStorage(key, goal);
+
+  return goal;
+}
+
 // ===== SETTINGS =====
 export function getSettings(): Settings {
   return getFromStorage<Settings>(KEYS.SETTINGS, {

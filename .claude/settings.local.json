@@ -24,7 +24,15 @@
       "Bash(npm install:*)",
       "Bash(if exist \"app\\\\api\\\\generate-sentence\" rename \"app\\\\api\\\\generate-sentence\" \"generate-sentence.DISABLED\")",
       "Bash(if exist \"app\\\\api\\\\text-to-speech\" rename \"app\\\\api\\\\text-to-speech\" \"text-to-speech.DISABLED\")",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(node scripts/parse-user-vocab.js:*)",
+      "Bash(node scripts/add-new-vocab.js:*)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\svenb\\\\Desktop\\\\Claude\\\\02 Spanish Generator\\\\CapturCherry\\\\public\\\\audio\\\\*.mp3\" -Force)",
+      "Bash(node:*)",
+      "Bash(powershell -Command \"\\(Get-ChildItem public/audio -Filter *.mp3\\).Count\")",
+      "Bash(python:*)",
+      "Bash(npx next build)"
     ]
   }
 }

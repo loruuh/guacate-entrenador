@@ -47,7 +47,7 @@ export default function InstallButton() {
   return (
     <button
       onClick={handleInstall}
-      className="fixed bottom-4 right-4 bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition-all z-50 flex items-center gap-2 font-semibold"
+      className="fixed bottom-4 left-4 bg-green-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-green-600 transition-all z-50 flex items-center gap-2 font-semibold"
       aria-label="App installieren"
     >
       <span className="text-xl">📱</span>

@@ -28,23 +28,25 @@ export default function VokabelheftPage() {
 
       <main className="flex-1 px-4 py-8">
         <div className="max-w-5xl mx-auto">
-          {/* Titel */}
-          <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-white mb-2">
-              Mein Vokabelheft
-            </h1>
-            <p className="text-gray-300">
-              Deine gespeicherten Vokabeln im klassischen Schulheft-Design
-            </p>
-          </div>
+          {/* Titel + Toggle Buttons (sticky beim Scrollen) */}
+          <div className="sticky top-0 z-10 bg-[#1a1a2e] pb-4">
+            <div className="text-center mb-8 pt-4">
+              <h1 className="text-4xl font-bold text-white mb-2">
+                Mein Vokabelheft
+              </h1>
+              <p className="text-gray-300">
+                Deine gespeicherten Vokabeln im klassischen Schulheft-Design
+              </p>
+            </div>
 
-          {/* Toggle Buttons */}
-          <VokabelheftToggle
+            {/* Toggle Buttons */}
+            <VokabelheftToggle
             hideGerman={hideGerman}
             hideSpanish={hideSpanish}
             onToggleGerman={() => setHideGerman(!hideGerman)}
             onToggleSpanish={() => setHideSpanish(!hideSpanish)}
           />
+          </div>
 
           {/* Vokabelliste */}
           <VokabelheftList
