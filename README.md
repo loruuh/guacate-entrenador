@@ -1,4 +1,4 @@
-# LingoLoop 🌐
+# LingoLuup 🎯
 
 Eine minimalistische, mobile-first Progressive Web App zum Spanisch-Lernen mit KI-generierten Beispielsätzen.
 
@@ -353,6 +353,6 @@ Bei Fragen oder Problemen:
 
 ---
 
-Made with ❤️ and 🌐
+Made with ❤️ and 🎯
 
 **Viel Erfolg beim Spanisch-Lernen! 🇪🇸**

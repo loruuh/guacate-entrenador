@@ -80,7 +80,7 @@ export default function ModuleSelection() {
       <div className="w-full max-w-2xl space-y-8">
         <div className="text-center space-y-2">
           <h1 className="text-4xl font-bold text-primary">
-            LingoLoop 🌐
+            LingoLuup 🎯
           </h1>
           <p className="text-lg text-gray-400">
             Wähle ein Lern-Modul

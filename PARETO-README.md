@@ -1,4 +1,4 @@
-# 🎯 Pareto-Prinzip für LingoLoop
+# 🎯 Pareto-Prinzip für LingoLuup
 
 ## Was ist das?
 
@@ -25,7 +25,7 @@ Top 3000 →  95% Verständnis (B2 fließend)
 ### 1. Dateien platzieren
 
 ```
-LingoLoop/
+LingoLuup/
 ├─ data/
 │  └─ spanish-frequency-3000.json  ← Hier
 └─ scripts/
