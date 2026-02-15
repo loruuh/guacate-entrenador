@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import UpdatePrompt from "@/components/UpdatePrompt";
 import InstallButton from "@/components/InstallButton";
 import InstallHint from "@/components/InstallHint";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 
 export const metadata: Metadata = {
   title: "LingoLuup 🎯 - Spanisch lernen",
@@ -43,6 +44,7 @@ export default function RootLayout({
           <UpdatePrompt />
           <InstallButton />
           <InstallHint />
+          <FeedbackWidget />
         </Providers>
       </body>
     </html>
