@@ -1,33 +1,32 @@
-// User Subscription Status (in localStorage)
-export function isPremiumUser(): boolean {
-  if (typeof window === 'undefined') return false;
+import { supabase } from './supabase';
 
-  const subscription = localStorage.getItem('premium-subscription');
-  if (!subscription) return false;
+export async function hasAdvanceAccess(userId: string): Promise<boolean> {
+  // Check if admin
+  const { data: adminData } = await supabase
+    .from('admins')
+    .select('*')
+    .eq('user_id', userId)
+    .single();
 
-  try {
-    const data = JSON.parse(subscription);
-    return data.status === 'active' && data.expiresAt > Date.now();
-  } catch {
-    return false;
-  }
-}
+  if (adminData) return true; // Admin = always advance!
 
-export function setPremiumStatus(customerId: string, expiresAt: number) {
-  localStorage.setItem('premium-subscription', JSON.stringify({
-    status: 'active',
-    customerId,
-    expiresAt,
-  }));
-}
+  // Check subscription
+  const { data: subData } = await supabase
+    .from('subscriptions')
+    .select('*')
+    .eq('user_id', userId)
+    .eq('status', 'active')
+    .single();
 
-export function clearPremiumStatus() {
-  localStorage.removeItem('premium-subscription');
+  if (!subData) return false;
+
+  // Check if expired
+  return new Date(subData.expires_at) > new Date();
 }
 
 // Nur Modul 1 ist kostenlos
 const FREE_MODULES = ['vokabeln-1'];
 
-export function isPremiumModule(moduleId: string): boolean {
+export function isAdvanceModule(moduleId: string): boolean {
   return !FREE_MODULES.includes(moduleId);
 }

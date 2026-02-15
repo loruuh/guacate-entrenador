@@ -2,7 +2,6 @@
 
 import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { setPremiumStatus } from '@/lib/subscription';
 
 function SuccessContent() {
   const searchParams = useSearchParams();
@@ -17,7 +16,6 @@ function SuccessContent() {
         .then(res => res.json())
         .then(data => {
           if (data.success) {
-            setPremiumStatus(data.customerId, Date.now() + 30 * 24 * 60 * 60 * 1000);
             setStatus('success');
 
             setTimeout(() => {
@@ -45,7 +43,7 @@ function SuccessContent() {
       {status === 'success' && (
         <>
           <div className="text-6xl mb-4">🎉</div>
-          <h1 className="text-3xl font-bold mb-2 text-white">Willkommen bei Premium!</h1>
+          <h1 className="text-3xl font-bold mb-2 text-white">Willkommen bei Advance!</h1>
           <p className="text-gray-400 mb-4">
             Alle Module sind jetzt freigeschaltet!
           </p>
