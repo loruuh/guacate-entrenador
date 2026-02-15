@@ -10,10 +10,16 @@ export function useAuth() {
 
   useEffect(() => {
     // Check session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null);
-      setLoading(false);
-    });
+    supabase.auth.getSession()
+      .then(({ data: { session } }) => {
+        setUser(session?.user ?? null);
+      })
+      .catch(() => {
+        setUser(null);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
 
     // Listen for changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
