@@ -1,4 +1,4 @@
-# CaptarCherry 🍒
+# LingoLoop 🍒
 
 Eine minimalistische, mobile-first Progressive Web App zum Spanisch-Lernen mit KI-generierten Beispielsätzen.
 
