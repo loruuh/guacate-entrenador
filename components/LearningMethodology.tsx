@@ -30,13 +30,13 @@ export function LearningMethodology() {
             <span className="text-3xl">📊</span>
             <div>
               <h4 className="text-emerald-400 font-bold mb-1">
-                Das Pareto-Prinzip: 500 Worter = 80% Verstandnis
+                Das Pareto-Prinzip: 500 Wörter = 80% Verständnis
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Mit nur 500 der haufigsten spanischen Worter verstehst du bereits 80% aller Alltagsgesprache!
-                Das ist das Pareto-Prinzip in Aktion: 20% Input fur 80% Output.
-                Bei nur 25 Wortern pro Tag bist du in 20 Tagen durch –
-                und hast damit eine solide Basis fur echte Gesprache! 🚀
+                Mit nur 500 der häufigsten spanischen Wörter verstehst du bereits 80% aller Alltagsgespräche!
+                Das ist das Pareto-Prinzip in Aktion: 20% Input für 80% Output.
+                Bei nur 25 Wörtern pro Tag bist du in 20 Tagen durch –
+                und hast damit eine solide Basis für echte Gespräche! 🚀
               </p>
             </div>
           </div>
@@ -50,10 +50,10 @@ export function LearningMethodology() {
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Du siehst zuerst das deutsche Wort.
-                Dein Gehirn aktiviert sich: &quot;Wie heisst das nochmal auf Spanisch?&quot;
+                Dein Gehirn aktiviert sich: &quot;Wie heißt das nochmal auf Spanisch?&quot;
                 Dieser aktive Abruf-Prozess (Active Recall) ist{' '}
                 <span className="text-blue-300 font-semibold">bis zu 10x effektiver</span> als passives Lesen.
-                Erst dann deckst du die Losung auf – maximaler Lerneffekt! 💡
+                Erst dann deckst du die Lösung auf – maximaler Lerneffekt! 💡
               </p>
             </div>
           </div>
@@ -63,15 +63,15 @@ export function LearningMethodology() {
             <span className="text-3xl">📝</span>
             <div>
               <h4 className="text-amber-400 font-bold mb-1">
-                Worter im Kontext: So lernt dein Gehirn am besten
+                Wörter im Kontext: So lernt dein Gehirn am besten
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Nach dem Wort siehst du einen kompletten spanischen Satz.
                 Das ist kontextuelles Lernen – du merkst dir nicht nur &quot;caminar = laufen/gehen&quot;,
                 sondern &quot;Me gusta caminar por el parque&quot; = ein lebendiges Bild im Kopf!
-                Dein Gehirn speichert Worter{' '}
+                Dein Gehirn speichert Wörter{' '}
                 <span className="text-amber-300 font-semibold">3x besser</span>,
-                wenn sie in echten Satzen vorkommen. 🎯
+                wenn sie in echten Sätzen vorkommen. 🎯
               </p>
             </div>
           </div>
@@ -81,14 +81,14 @@ export function LearningMethodology() {
             <span className="text-3xl">🔊</span>
             <div>
               <h4 className="text-pink-400 font-bold mb-1">
-                Horen + Sprechen = Doppelter Effekt
+                Hören + Sprechen = Doppelter Effekt
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Mit dem 🔊 Lautsprecher-Button horst du die korrekte Aussprache.
-                Noch besser: Sprich die Satze laut nach!
-                Motorisches Lernen (Mund bewegen) + auditives Lernen (horen) + visuelles Lernen (sehen) ={' '}
+                Mit dem 🔊 Lautsprecher-Button hörst du die korrekte Aussprache.
+                Noch besser: Sprich die Sätze laut nach!
+                Motorisches Lernen (Mund bewegen) + auditives Lernen (hören) + visuelles Lernen (sehen) ={' '}
                 <span className="text-pink-300 font-semibold">multimodales Lernen</span>.
-                Dein Gehirn speichert auf 3 Kanalen gleichzeitig! 🎤
+                Dein Gehirn speichert auf 3 Kanälen gleichzeitig! 🎤
               </p>
             </div>
           </div>
@@ -102,10 +102,10 @@ export function LearningMethodology() {
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Wenn du den spanischen Satz siehst, kannst du einen Moment innehalten:
-                &quot;Was konnte das auf Deutsch bedeuten?&quot;
+                &quot;Was könnte das auf Deutsch bedeuten?&quot;
                 Erst dann klickst du weiter zum deutschen Satz.
-                So trainierst du beide Ubersetzungsrichtungen –
-                essentiell fur echte Gesprache! 🔁
+                So trainierst du beide Übersetzungsrichtungen –
+                essentiell für echte Gespräche! 🔁
               </p>
             </div>
           </div>
@@ -115,14 +115,31 @@ export function LearningMethodology() {
             <span className="text-3xl">📚</span>
             <div>
               <h4 className="text-cyan-400 font-bold mb-1">
-                Dein personliches Vokabelheft: Wiederholung ist der Schlussel
+                Dein persönliches Vokabelheft: Wiederholung ist der Schlüssel
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Markiere schwierige Worter mit dem ❤️ Herz-Symbol –
+                Markiere schwierige Wörter mit dem ❤️ Herz-Symbol –
                 sie landen direkt in deinem Vokabelheft!
                 Dort kannst du Spalten ausblenden (z.B. nur Spanisch zeigen)
-                und gezielt die Worter wiederholen, die du noch nicht drauf hast.
+                und gezielt die Wörter wiederholen, die du noch nicht drauf hast.
                 Spaced Repetition auf deine Art! 📖
+              </p>
+            </div>
+          </div>
+
+          {/* Geschwindigkeit */}
+          <div className="flex gap-4 p-4 bg-orange-900/20 rounded-xl border border-orange-500/20">
+            <span className="text-3xl">⚡</span>
+            <div>
+              <h4 className="text-orange-400 font-bold mb-1">
+                Rasanter Fortschritt: In 20 Tagen zur Konversationsfähigkeit
+              </h4>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Während traditionelle Apps dich mit Grammatikregeln und endlosen Lektionen ausbremsen,
+                fokussiert sich LingoLuup auf das Wesentliche: die häufigsten 500 Wörter.
+                Das Ergebnis? Du lernst 10-15 Minuten täglich und kannst nach nur{' '}
+                <span className="text-orange-300 font-semibold">20 Tagen echte Gespräche führen!</span>
+                Keine monatelangen Kurse – nur pure Effizienz. ⚡
               </p>
             </div>
           </div>
@@ -133,8 +150,8 @@ export function LearningMethodology() {
               💪 Wissenschaftlich fundiert. Praktisch umgesetzt.
             </p>
             <p className="text-blue-300 mt-1">
-              25 Worter pro Tag ={' '}
-              <span className="font-bold text-white">Fliessend Spanisch in wenigen Wochen!</span>
+              25 Wörter pro Tag ={' '}
+              <span className="font-bold text-white">Fließend Spanisch in wenigen Wochen!</span>
             </p>
           </div>
 

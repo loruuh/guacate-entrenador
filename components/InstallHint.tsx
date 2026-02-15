@@ -46,14 +46,14 @@ export default function InstallHint() {
           {isAndroid && (
             <div className="text-sm text-blue-100">
               Tippe auf <span className="inline-flex items-center px-1 bg-blue-700 rounded">Menu</span> dann{' '}
-              <span className="inline-flex items-center px-1 bg-blue-700 rounded">Zum Startbildschirm hinzufugen</span>
+              <span className="inline-flex items-center px-1 bg-blue-700 rounded">Zum Startbildschirm hinzufügen</span>
             </div>
           )}
         </div>
         <button
           onClick={handleDismiss}
           className="text-2xl leading-none text-blue-200 hover:text-white"
-          aria-label="Hinweis schliessen"
+          aria-label="Hinweis schließen"
         >
           &times;
         </button>

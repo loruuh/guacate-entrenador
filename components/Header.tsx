@@ -6,7 +6,7 @@ import HistoryButton from "./HistoryButton";
 export default function Header() {
   return (
     <header className="w-full bg-background border-b border-primary/20">
-      <div className="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-4xl mx-auto px-4 py-4 flex flex-col md:flex-row md:justify-between items-center gap-2 md:gap-0">
         <Link href="/" className="text-xl font-bold text-primary">
           <span className="text-white">Lingo</span><span className="text-primary">Luup</span>{' 🎯'}
         </Link>
