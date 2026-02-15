@@ -32,7 +32,10 @@
       "Bash(node:*)",
       "Bash(powershell -Command \"\\(Get-ChildItem public/audio -Filter *.mp3\\).Count\")",
       "Bash(python:*)",
-      "Bash(npx next build)"
+      "Bash(npx next build)",
+      "Bash(npx tsc:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }

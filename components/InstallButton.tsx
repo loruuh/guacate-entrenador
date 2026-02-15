@@ -47,7 +47,7 @@ export default function InstallButton() {
   return (
     <button
       onClick={handleInstall}
-      className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-2 font-semibold transition-all hover:scale-105"
+      className="fixed bottom-6 left-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-2 font-semibold transition-all hover:scale-105"
       aria-label="App installieren"
     >
       <svg
