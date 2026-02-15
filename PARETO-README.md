@@ -1,4 +1,4 @@
-# 🎯 Pareto-Prinzip für CaptarCherry
+# 🎯 Pareto-Prinzip für LingoLoop
 
 ## Was ist das?
 
@@ -25,7 +25,7 @@ Top 3000 →  95% Verständnis (B2 fließend)
 ### 1. Dateien platzieren
 
 ```
-CaptarCherry/
+LingoLoop/
 ├─ data/
 │  └─ spanish-frequency-3000.json  ← Hier
 └─ scripts/

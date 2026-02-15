@@ -4,8 +4,8 @@ import { Providers } from "./providers";
 import UpdatePrompt from "@/components/UpdatePrompt";
 
 export const metadata: Metadata = {
-  title: "CaptarCherry 🍒 - Spanisch lernen",
-  description: "Spanisch lernen mit KI-generierten Beispielsätzen 🍒",
+  title: "LingoLoop 🌐 - Spanisch lernen",
+  description: "Spanisch lernen mit KI-generierten Beispielsätzen 🌐",
   manifest: "/manifest.json",
   themeColor: "#DC143C",
   viewport: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "CaptarCherry 🍒",
+    title: "LingoLoop 🌐",
   },
   icons: {
     icon: [

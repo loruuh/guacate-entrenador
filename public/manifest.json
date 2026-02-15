@@ -1,7 +1,7 @@
 {
-  "name": "CaptarCherry 🍒",
-  "short_name": "CaptarCherry",
-  "description": "Spanisch lernen mit KI-generierten Beispielsätzen 🍒",
+  "name": "LingoLoop 🌐",
+  "short_name": "LingoLoop",
+  "description": "Spanisch lernen mit KI-generierten Beispielsätzen 🌐",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a2e",

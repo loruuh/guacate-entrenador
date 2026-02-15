@@ -41,7 +41,7 @@ export default function OnboardingOverlay({ onComplete }: OnboardingOverlayProps
       >
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">
-          🍒 So funktioniert&apos;s:
+          🌐 So funktioniert&apos;s:
         </h2>
 
         {/* Instructions */}
