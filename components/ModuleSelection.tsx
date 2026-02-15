@@ -10,6 +10,7 @@ import { UpgradeModal } from "./UpgradeModal";
 import { LoginButton } from "./LoginButton";
 import Link from "next/link";
 import HistoryButton from "./HistoryButton";
+import { LearningMethodology } from "./LearningMethodology";
 
 export default function ModuleSelection() {
   const { selectModule, getModuleItemCount } = useModule();
@@ -122,13 +123,16 @@ export default function ModuleSelection() {
 
       <div className="w-full max-w-2xl space-y-8">
         <div className="text-center space-y-2">
-          <h1 className="text-4xl font-bold text-primary">
-            LingoLuup 🎯
+          <h1 className="text-4xl font-bold">
+            <span className="text-white">Lingo</span><span className="text-primary">Luup</span>{' 🎯'}
           </h1>
           <p className="text-lg text-gray-400">
             Wähle ein Lern-Modul
           </p>
         </div>
+
+        {/* Lernmethodik */}
+        <LearningMethodology />
 
         {/* Vokabel-Module */}
         <div className="space-y-4">
