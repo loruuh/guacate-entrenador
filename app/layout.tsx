@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import UpdatePrompt from "@/components/UpdatePrompt";
+import InstallButton from "@/components/InstallButton";
+import InstallHint from "@/components/InstallHint";
 
 export const metadata: Metadata = {
   title: "LingoLuup 🎯 - Spanisch lernen",
@@ -39,6 +41,8 @@ export default function RootLayout({
         <Providers>
           {children}
           <UpdatePrompt />
+          <InstallButton />
+          <InstallHint />
         </Providers>
       </body>
     </html>

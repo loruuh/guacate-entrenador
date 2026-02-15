@@ -13,7 +13,6 @@ import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
 import ThemeToggle from "@/components/ThemeToggle";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
-import InstallButton from "@/components/InstallButton";
 import {
   selectNextVocab,
   markVocabAsSeen,
@@ -116,12 +115,6 @@ export default function Home() {
       const updated = incrementTodayGoal(selectedModule.id);
       setDailyGoal(updated);
     }
-    loadNextVocab();
-  };
-
-  // Skip → zählt NICHT zum Tagesziel
-  const handleSkip = (e: React.MouseEvent) => {
-    e.stopPropagation();
     loadNextVocab();
   };
 
@@ -238,36 +231,14 @@ export default function Home() {
         onClick={!isRevealed ? handleMainClick : (showNextButton ? handleNext : undefined)}
       >
         <div className="w-full max-w-3xl space-y-12">
-          {/* Flashcard + Skip */}
-          <div className="relative">
-            <Flashcard
-              key={currentVocab.id}
-              german={currentVocab.german}
-              spanish={currentVocab.spanish}
-              onReveal={handleReveal}
-              isRevealed={isRevealed}
-            />
-            {/* Skip-Button - rechts neben dem Wort, erst sichtbar wenn spanisch revealed */}
-            {isRevealed && (
-              <button
-                onClick={handleSkip}
-                className="group absolute right-0 top-0 flex items-center gap-2 px-5 py-2.5 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-base rounded-xl shadow-lg hover:shadow-xl transition-all duration-200"
-                title="Vokabel überspringen"
-              >
-                Skip
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2.5}
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-                </svg>
-              </button>
-            )}
-          </div>
+          {/* Flashcard */}
+          <Flashcard
+            key={currentVocab.id}
+            german={currentVocab.german}
+            spanish={currentVocab.spanish}
+            onReveal={handleReveal}
+            isRevealed={isRevealed}
+          />
 
           {/* Favorite Button */}
           <div className={`flex justify-center transition-opacity duration-300 min-h-[3rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0'}`}>
@@ -303,7 +274,6 @@ export default function Home() {
 
       <Footer />
       <ThemeToggle />
-      <InstallButton />
     </div>
   );
 }
