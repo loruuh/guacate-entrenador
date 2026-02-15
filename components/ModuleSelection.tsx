@@ -11,6 +11,7 @@ import { LoginButton } from "./LoginButton";
 import Link from "next/link";
 import HistoryButton from "./HistoryButton";
 import { LearningMethodology } from "./LearningMethodology";
+import { UpgradeBanner } from "./UpgradeBanner";
 
 export default function ModuleSelection() {
   const { selectModule, getModuleItemCount } = useModule();
@@ -74,7 +75,11 @@ export default function ModuleSelection() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-8">
+    <div className="min-h-screen flex flex-col">
+      {/* Upgrade Banner - nur für Free User */}
+      {!hasAdvance && <UpgradeBanner />}
+
+      <div className="flex-1 flex items-center justify-center px-4 py-8">
       <div className="w-full max-w-2xl space-y-8">
         {/* Header mit Titel und Navigation */}
         <div className="text-center space-y-4">
@@ -161,6 +166,7 @@ export default function ModuleSelection() {
         isOpen={showUpgrade}
         onClose={() => setShowUpgrade(false)}
       />
+    </div>
     </div>
   );
 }
