@@ -1,6 +1,20 @@
+import { Metadata } from 'next';
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: 'Datenschutzerklärung - LingoLuup',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+};
 
 export default function DatenschutzPage() {
   return (
@@ -18,144 +32,191 @@ export default function DatenschutzPage() {
               <h2 className="text-2xl font-bold text-primary mb-3">
                 1. Datenschutz auf einen Blick
               </h2>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Allgemeine Hinweise</h3>
               <p className="text-gray-400 leading-relaxed">
-                Diese App wurde entwickelt, um Ihre Privatsphäre zu schützen.
-                Alle Ihre Lerndaten werden ausschließlich lokal in Ihrem Browser
-                gespeichert. Es werden keine personenbezogenen Daten an externe
-                Server übertragen oder gespeichert.
+                Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren
+                personenbezogenen Daten passiert, wenn Sie diese Website besuchen.
+              </p>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Datenerfassung auf dieser Website</h3>
+              <p className="text-gray-400 font-semibold">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</p>
+              <p className="text-gray-400 leading-relaxed">
+                Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber.
+                Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
+              </p>
+
+              <p className="text-gray-400 font-semibold mt-3">Wie erfassen wir Ihre Daten?</p>
+              <p className="text-gray-400 leading-relaxed">
+                Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen (z.B. Google Login).
+                Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch
+                unsere IT-Systeme erfasst (z.B. technische Daten wie Internetbrowser, Betriebssystem).
+              </p>
+
+              <p className="text-gray-400 font-semibold mt-3">Wofür nutzen wir Ihre Daten?</p>
+              <p className="text-gray-400 leading-relaxed">
+                Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu
+                gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
+              </p>
+
+              <p className="text-gray-400 font-semibold mt-3">Welche Rechte haben Sie bezüglich Ihrer Daten?</p>
+              <p className="text-gray-400 leading-relaxed">
+                Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck
+                Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die
+                Berichtigung oder Löschung dieser Daten zu verlangen.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                2. Lokale Datenspeicherung (LocalStorage)
-              </h2>
-              <h3 className="text-xl font-semibold text-white mb-2 mt-4">
-                Welche Daten werden gespeichert?
-              </h3>
-              <p className="text-gray-400 leading-relaxed mb-3">
-                Die App speichert folgende Daten ausschließlich lokal in Ihrem
-                Browser (LocalStorage):
-              </p>
-              <ul className="list-disc list-inside text-gray-400 space-y-2 ml-4">
-                <li>Lernfortschritt pro Vokabel (wann zuletzt gesehen, wie oft wiederholt)</li>
-                <li>Favoriten (Ihr persönliches Vokabelheft)</li>
-                <li>Historie (letzte 10 gelernte Sätze)</li>
-                <li>Lernstatistiken (Anzahl gelernter Vokabeln pro Tag)</li>
-                <li>Einstellungen (z.B. Dark Mode Präferenz)</li>
-              </ul>
-              <p className="text-gray-400 leading-relaxed mt-3">
-                Diese Daten verlassen niemals Ihr Gerät und werden nicht mit
-                anderen Geräten synchronisiert. Sie können alle Daten jederzeit
-                durch Löschen des Browser-Speichers entfernen.
-              </p>
-            </section>
+              <h2 className="text-2xl font-bold text-primary mb-3">2. Hosting</h2>
+              <p className="text-gray-400 leading-relaxed">Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                3. API-Aufrufe (Anthropic Claude)
-              </h2>
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Vercel</h3>
               <p className="text-gray-400 leading-relaxed">
-                Um Beispielsätze zu generieren und Wörter zu übersetzen, nutzt
-                die App die Anthropic Claude API. Dabei werden folgende Daten
-                übertragen:
+                Anbieter ist die Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA.
               </p>
-              <ul className="list-disc list-inside text-gray-400 space-y-2 ml-4 mt-3">
-                <li>Die spanische Vokabel, für die ein Beispielsatz generiert werden soll</li>
-                <li>Das spanische Wort, das übersetzt werden soll</li>
-              </ul>
-              <p className="text-gray-400 leading-relaxed mt-3">
-                Es werden keine personenbezogenen Daten (Name, E-Mail, IP-Adresse
-                etc.) an Anthropic übertragen. Die Anfragen sind anonym.
-                Weitere Informationen finden Sie in der{" "}
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Vercel ist ein Dienst zum Hosten von Websites. Die von Vercel erfassten Daten werden
+                auf deren Servern in den USA gespeichert.
+              </p>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Details entnehmen Sie der Datenschutzerklärung von Vercel:{" "}
                 <a
-                  href="https://www.anthropic.com/legal/privacy"
+                  href="https://vercel.com/legal/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  Datenschutzerklärung von Anthropic
+                  https://vercel.com/legal/privacy-policy
                 </a>
-                .
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-3">
-                4. Cookies
+                3. Allgemeine Hinweise und Pflichtinformationen
               </h2>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Datenschutz</h3>
               <p className="text-gray-400 leading-relaxed">
-                Diese App verwendet keine Cookies. Alle Daten werden ausschließlich
-                im LocalStorage Ihres Browsers gespeichert.
+                Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst.
+                Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen
+                Datenschutzvorschriften sowie dieser Datenschutzerklärung.
               </p>
-            </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                5. Weitergabe an Dritte
-              </h2>
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Hinweis zur verantwortlichen Stelle</h3>
               <p className="text-gray-400 leading-relaxed">
-                Es findet keine Weitergabe Ihrer Daten an Dritte statt. Die App
-                sammelt keine Analysedaten, verwendet keine Tracking-Tools und
-                enthält keine Werbung.
+                Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+              </p>
+              <p className="text-gray-400 mt-2">
+                Sven Bixenstein<br />
+                Weidenstr. 10<br />
+                72145 Hirrlingen<br />
+                E-Mail: sven.bixenstein@gmail.com
+              </p>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Speicherdauer</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde,
+                verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt.
+              </p>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich.
+                Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der
+                bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-3">
-                6. Ihre Rechte
+                4. Datenerfassung auf dieser Website
               </h2>
-              <p className="text-gray-400 leading-relaxed mb-3">
-                Sie haben jederzeit das Recht:
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Google OAuth Login</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Diese Website nutzt Google OAuth für die Anmeldung. Anbieter ist die Google Ireland Limited,
+                Gordon House, Barrow Street, Dublin 4, Irland.
               </p>
-              <ul className="list-disc list-inside text-gray-400 space-y-2 ml-4">
-                <li>Ihre lokal gespeicherten Daten einzusehen (über die Browser-Entwicklertools)</li>
-                <li>Ihre Daten zu löschen (durch Löschen des Browser-Speichers)</li>
-                <li>Die Nutzung der App jederzeit zu beenden</li>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Beim Login mit Google werden folgende Daten von Google an uns übermittelt:
+              </p>
+              <ul className="list-disc list-inside text-gray-400 space-y-1 ml-4 mt-2">
+                <li>E-Mail-Adresse</li>
+                <li>Name (optional)</li>
+                <li>Profilbild (optional)</li>
               </ul>
-            </section>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Diese Daten verwenden wir ausschließlich zur Authentifizierung und Bereitstellung
+                der personalisierten Lerninhalte.
+              </p>
 
-            <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                7. Datensicherheit
-              </h2>
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Stripe Zahlungsabwicklung</h3>
               <p className="text-gray-400 leading-relaxed">
-                Da alle Daten ausschließlich lokal in Ihrem Browser gespeichert
-                werden, liegt die Sicherheit dieser Daten in Ihrer Verantwortung.
-                Wir empfehlen, Ihr Gerät mit einem Passwort zu schützen und
-                regelmäßig Software-Updates durchzuführen.
+                Für die Zahlungsabwicklung nutzen wir Stripe. Anbieter ist Stripe Payments Europe Ltd.,
+                1 Grand Canal Street Lower, Grand Canal Dock, Dublin, Irland.
+              </p>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Stripe verarbeitet Ihre Zahlungsdaten (Kreditkartennummer, etc.). Diese Daten werden
+                nicht an uns weitergegeben, sondern direkt bei Stripe gespeichert.
+              </p>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Details:{" "}
+                <a
+                  href="https://stripe.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://stripe.com/privacy
+                </a>
+              </p>
+
+              <h3 className="text-xl font-semibold text-white mt-4 mb-2">Supabase (Datenbank)</h3>
+              <p className="text-gray-400 leading-relaxed">
+                Wir nutzen Supabase für die Speicherung von Nutzer- und Lerndaten. Anbieter ist
+                Supabase Inc., USA.
+              </p>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Gespeicherte Daten:
+              </p>
+              <ul className="list-disc list-inside text-gray-400 space-y-1 ml-4 mt-2">
+                <li>E-Mail-Adresse (von Google OAuth)</li>
+                <li>Lernfortschritt</li>
+                <li>Gespeicherte Vokabeln</li>
+                <li>Abo-Status</li>
+              </ul>
+              <p className="text-gray-400 leading-relaxed mt-2">
+                Details:{" "}
+                <a
+                  href="https://supabase.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://supabase.com/privacy
+                </a>
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                8. Änderungen dieser Datenschutzerklärung
-              </h2>
-              <p className="text-gray-400 leading-relaxed">
-                Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um
-                sie an geänderte Rechtslage oder Änderungen der App anzupassen.
-                Die jeweils aktuelle Version finden Sie stets auf dieser Seite.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-primary mb-3">
-                9. Kontakt
-              </h2>
-              <p className="text-gray-400 leading-relaxed">
-                Bei Fragen zum Datenschutz kontaktieren Sie uns bitte über die im
-                Impressum angegebenen Kontaktdaten.
-              </p>
-            </section>
-
-            <section className="border-t border-gray-700 pt-6">
-              <p className="text-gray-500 text-sm italic">
-                Stand: {new Date().toLocaleDateString("de-DE")}
+              <h2 className="text-2xl font-bold text-primary mb-3">5. Ihre Rechte</h2>
+              <p className="text-gray-400 leading-relaxed">Sie haben folgende Rechte:</p>
+              <ul className="list-disc list-inside text-gray-400 space-y-1 ml-4 mt-2">
+                <li>Recht auf Auskunft über Ihre gespeicherten Daten</li>
+                <li>Recht auf Berichtigung unrichtiger Daten</li>
+                <li>Recht auf Löschung Ihrer Daten</li>
+                <li>Recht auf Einschränkung der Verarbeitung</li>
+                <li>Recht auf Datenübertragbarkeit</li>
+                <li>Widerspruchsrecht gegen die Verarbeitung</li>
+              </ul>
+              <p className="text-gray-400 leading-relaxed mt-3">
+                Kontakt für Datenschutzanfragen: sven.bixenstein@gmail.com
               </p>
             </section>
           </div>
 
-          {/* Zurück-Button */}
           <div className="mt-8 text-center">
             <Link
               href="/"

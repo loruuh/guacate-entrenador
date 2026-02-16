@@ -13,6 +13,9 @@ import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
 import ThemeToggle from "@/components/ThemeToggle";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
+import ConfettiAnimation from "@/components/ConfettiAnimation";
+import { useStreak } from "@/components/StreakCounter";
+import { playSound } from "@/lib/sounds";
 import {
   selectNextVocab,
   markVocabAsSeen,
@@ -28,6 +31,7 @@ import {
 
 export default function Home() {
   const { selectedModule, clearModule, getModuleVocab } = useModule();
+  const streak = useStreak();
 
   const [currentVocab, setCurrentVocab] = useState<Vocabulary | null>(null);
   const [spanishSentence, setSpanishSentence] = useState<string>("");
@@ -39,6 +43,9 @@ export default function Home() {
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
   const [dailyGoal, setDailyGoal] = useState<DailyGoal | null>(null);
+  const [showConfetti, setShowConfetti] = useState(false);
+  const [showMilestone, setShowMilestone] = useState(false);
+  const [milestoneText, setMilestoneText] = useState("");
 
   // Check onboarding status beim Mount
   useEffect(() => {
@@ -109,11 +116,35 @@ export default function Home() {
     setShowNextButton(true);
   };
 
-  // "Nächster Satz" → zählt zum Tagesziel
+  // "Nächster Satz" → zählt zum Tagesziel + Gamification
   const handleNext = () => {
     if (selectedModule) {
       const updated = incrementTodayGoal(selectedModule.id);
       setDailyGoal(updated);
+
+      const newCount = updated.completed;
+
+      // Meilensteine: 5, 10, 15, 20
+      if ([5, 10, 15, 20].includes(newCount)) {
+        setMilestoneText(`${newCount} von ${updated.goal}!`);
+        setShowMilestone(true);
+        playSound('milestone');
+        setTimeout(() => setShowMilestone(false), 2000);
+      }
+
+      // Tagesziel erreicht!
+      if (newCount === updated.goal) {
+        setMilestoneText('Tagesziel erreicht!');
+        setShowMilestone(true);
+        setShowConfetti(true);
+        playSound('complete');
+        setTimeout(() => {
+          setShowConfetti(false);
+          setShowMilestone(false);
+        }, 5000);
+      } else if (newCount < updated.goal) {
+        playSound('correct');
+      }
     }
     loadNextVocab();
   };
@@ -180,14 +211,32 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      {/* Top Bar: Zurück */}
-      <div className="px-4 pt-2">
+      {/* Confetti bei Tagesziel */}
+      {showConfetti && <ConfettiAnimation />}
+
+      {/* Milestone Popup */}
+      {showMilestone && (
+        <div className="fixed inset-0 pointer-events-none z-40 flex items-center justify-center">
+          <div className="animate-milestone-pop bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-8 py-4 rounded-2xl shadow-2xl text-2xl font-bold">
+            {milestoneText}
+          </div>
+        </div>
+      )}
+
+      {/* Top Bar: Zurück + Streak */}
+      <div className="px-4 pt-2 flex items-center justify-between">
         <button
           onClick={handleBackToModules}
           className="text-sm text-primary hover:text-primary-light transition-colors"
         >
           &larr; Module
         </button>
+        {streak > 1 && (
+          <div className="flex items-center gap-1.5 bg-orange-500/20 px-3 py-1 rounded-full">
+            <span className="text-lg">🔥</span>
+            <span className="text-sm font-bold text-orange-400">{streak} Tage</span>
+          </div>
+        )}
       </div>
 
       {/* Daily Goal Progress Bar */}
@@ -204,10 +253,10 @@ export default function Home() {
             </div>
             <div className="w-full bg-white/10 rounded-full h-2.5">
               <div
-                className={`h-2.5 rounded-full transition-all duration-500 ${
+                className={`h-2.5 rounded-full transition-all duration-700 ease-out ${
                   goalReached
-                    ? "bg-green-500"
-                    : "bg-primary"
+                    ? "bg-gradient-to-r from-green-400 to-emerald-500"
+                    : "bg-gradient-to-r from-blue-500 to-purple-600"
                 }`}
                 style={{ width: `${goalPercent}%` }}
               />

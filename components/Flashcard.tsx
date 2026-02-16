@@ -30,16 +30,18 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
     >
       {/* Deutsches Wort */}
       <div className="text-center mb-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-4xl md:text-5xl font-bold text-white transition-transform duration-500 ease-out"
+            style={{ transform: isRevealed ? 'translateY(-8px) scale(0.95)' : 'translateY(0) scale(1)' }}>
           {german}
         </h2>
       </div>
 
       {/* Spanisches Wort (wird aufgedeckt) - Always rendered for space reservation */}
       <div
-        className={`text-center transition-opacity duration-500 min-h-[3.5rem] flex items-center justify-center ${
+        className={`text-center min-h-[3.5rem] flex items-center justify-center transition-all duration-500 ease-out ${
           isRevealed ? "opacity-100" : "opacity-0"
         }`}
+        style={{ transform: isRevealed ? 'translateY(0) scale(1)' : 'translateY(20px) scale(0.9)' }}
       >
         <p className="text-3xl md:text-4xl font-semibold text-primary">
           {spanish}

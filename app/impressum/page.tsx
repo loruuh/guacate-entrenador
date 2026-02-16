@@ -1,6 +1,20 @@
+import { Metadata } from 'next';
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: 'Impressum - LingoLuup',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+};
 
 export default function ImpressumPage() {
   return (
@@ -17,75 +31,89 @@ export default function ImpressumPage() {
                 Angaben gemäß § 5 TMG
               </h2>
               <p className="text-gray-400">
-                [Hier Ihren Namen oder Firmennamen eintragen]
+                Sven Bixenstein
                 <br />
-                [Straße und Hausnummer]
+                Weidenstr. 10
                 <br />
-                [PLZ und Ort]
+                72145 Hirrlingen
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-3">Kontakt</h2>
               <p className="text-gray-400">
-                Telefon: [Ihre Telefonnummer]
-                <br />
-                E-Mail: [Ihre E-Mail-Adresse]
+                E-Mail: sven.bixenstein@gmail.com
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-3">
-                Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+                EU-Streitschlichtung
               </h2>
-              <p className="text-gray-400">
-                [Ihr Name]
-                <br />
-                [Ihre Adresse]
+              <p className="text-gray-400 leading-relaxed">
+                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:{" "}
+                <a
+                  href="https://ec.europa.eu/consumers/odr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  https://ec.europa.eu/consumers/odr/
+                </a>
+              </p>
+              <p className="text-gray-400 mt-2">
+                Unsere E-Mail-Adresse finden Sie oben im Impressum.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-primary mb-3">
-                Haftungsausschluss
+                Verbraucherstreitbeilegung/Universalschlichtungsstelle
               </h2>
+              <p className="text-gray-400 leading-relaxed">
+                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+                Verbraucherschlichtungsstelle teilzunehmen.
+              </p>
+            </section>
 
-              <h3 className="text-xl font-semibold text-white mb-2 mt-4">
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-3">
                 Haftung für Inhalte
-              </h3>
+              </h2>
               <p className="text-gray-400 leading-relaxed">
-                Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt.
-                Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte
-                können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter
-                sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
-                nach den allgemeinen Gesetzen verantwortlich.
+                Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
+                nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als
+                Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
+                Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
+                Tätigkeit hinweisen.
               </p>
+            </section>
 
-              <h3 className="text-xl font-semibold text-white mb-2 mt-4">
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-3">
                 Haftung für Links
-              </h3>
+              </h2>
               <p className="text-gray-400 leading-relaxed">
-                Unser Angebot enthält Links zu externen Webseiten Dritter, auf
-                deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
-                diese fremden Inhalte auch keine Gewähr übernehmen. Für die
-                Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter
-                oder Betreiber der Seiten verantwortlich.
+                Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen
+                Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+                Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
+                Seiten verantwortlich.
               </p>
+            </section>
 
-              <h3 className="text-xl font-semibold text-white mb-2 mt-4">
+            <section>
+              <h2 className="text-2xl font-bold text-primary mb-3">
                 Urheberrecht
-              </h3>
+              </h2>
               <p className="text-gray-400 leading-relaxed">
-                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
-                diesen Seiten unterliegen dem deutschen Urheberrecht. Die
-                Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
-                Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
-                schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen
+                dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art
+                der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen
+                Zustimmung des jeweiligen Autors bzw. Erstellers.
               </p>
             </section>
           </div>
 
-          {/* Zurück-Button */}
           <div className="mt-8 text-center">
             <Link
               href="/"

@@ -126,7 +126,7 @@
     },
     {
       "german": "schnell",
-      "spanish": "el rápido"
+      "spanish": "rápido"
     },
     {
       "german": "ein wenig",
@@ -134,7 +134,7 @@
     },
     {
       "german": "nie",
-      "spanish": "la nunca"
+      "spanish": "nunca"
     },
     {
       "german": "Flur",
@@ -146,7 +146,7 @@
     },
     {
       "german": "Wohnung",
-      "spanish": "el apartemento"
+      "spanish": "el apartamento"
     },
     {
       "german": "Fenster",
@@ -210,11 +210,11 @@
     },
     {
       "german": "Auch nicht",
-      "spanish": "el tampoco"
+      "spanish": "tampoco"
     },
     {
       "german": "Natürlich",
-      "spanish": "el Por supuesto"
+      "spanish": "por supuesto"
     },
     {
       "german": "Unternehmen",
@@ -238,15 +238,15 @@
     },
     {
       "german": "dunkel",
-      "spanish": "el oscuro"
+      "spanish": "oscuro"
     },
     {
       "german": "warm",
-      "spanish": "el cálido"
+      "spanish": "cálido"
     },
     {
       "german": "kalt",
-      "spanish": "el frío"
+      "spanish": "frío"
     },
     {
       "german": "(irgend-) etwas",
@@ -302,7 +302,7 @@
     },
     {
       "german": "eine Weinflasche",
-      "spanish": "el una botella de vino"
+      "spanish": "una botella de vino"
     },
     {
       "german": "Fußmatte",
@@ -342,11 +342,11 @@
     },
     {
       "german": "teuer",
-      "spanish": "el caro"
+      "spanish": "caro"
     },
     {
       "german": "billig",
-      "spanish": "el barato"
+      "spanish": "barato"
     },
     {
       "german": "dort",
@@ -386,15 +386,15 @@
     },
     {
       "german": "neu",
-      "spanish": "el nuevo"
+      "spanish": "nuevo"
     },
     {
       "german": "müde",
-      "spanish": "el cansado"
+      "spanish": "cansado"
     },
     {
       "german": "klein",
-      "spanish": "el pequeño"
+      "spanish": "pequeño"
     },
     {
       "german": "schüchtern",
@@ -402,7 +402,7 @@
     },
     {
       "german": "ernst",
-      "spanish": "el serio"
+      "spanish": "serio"
     },
     {
       "german": "gravierend",
@@ -410,7 +410,7 @@
     },
     {
       "german": "ruhig",
-      "spanish": "el tranquilo"
+      "spanish": "tranquilo"
     },
     {
       "german": "mehr oder weniger",
@@ -510,7 +510,7 @@
     },
     {
       "german": "jede (Woche)",
-      "spanish": "la cada"
+      "spanish": "cada"
     },
     {
       "german": "wahrscheinlich",
@@ -562,7 +562,7 @@
     },
     {
       "german": "lila",
-      "spanish": "la morado, lila"
+      "spanish": "morado, lila"
     },
     {
       "german": "Friedhof",
@@ -610,7 +610,7 @@
     },
     {
       "german": "früh",
-      "spanish": "el temprano"
+      "spanish": "temprano"
     },
     {
       "german": "Flughafen",
@@ -618,7 +618,7 @@
     },
     {
       "german": "altmodisch, historisch",
-      "spanish": "la antiguo, antigua"
+      "spanish": "antiguo, antigua"
     },
     {
       "german": "vor (zeitlich)",
@@ -626,11 +626,11 @@
     },
     {
       "german": "mehrere",
-      "spanish": "las varios, varias"
+      "spanish": "varios, varias"
     },
     {
       "german": "übermäßig, zu viel",
-      "spanish": "el demasiado"
+      "spanish": "demasiado"
     },
     {
       "german": "Glück (Schicksal)",
@@ -678,7 +678,7 @@
     },
     {
       "german": "Brille",
-      "spanish": "las gafas,"
+      "spanish": "las gafas"
     },
     {
       "german": "dumm",
@@ -690,7 +690,7 @@
     },
     {
       "german": "Geländer",
-      "spanish": "la barandilla,"
+      "spanish": "la barandilla"
     },
     {
       "german": "die Welt",
@@ -702,7 +702,7 @@
     },
     {
       "german": "wunderschön",
-      "spanish": "la hermosa"
+      "spanish": "hermosa"
     },
     {
       "german": "Ich war im Ausland",
@@ -710,7 +710,7 @@
     },
     {
       "german": "sauber",
-      "spanish": "la limpia"
+      "spanish": "limpia"
     },
     {
       "german": "Hey",
@@ -722,11 +722,11 @@
     },
     {
       "german": "Einverstanden",
-      "spanish": "el de acuerdo"
+      "spanish": "de acuerdo"
     },
     {
       "german": "mit mir, mit dir",
-      "spanish": "el conmigo, contigo"
+      "spanish": "conmigo, contigo"
     },
     {
       "german": "später",
@@ -738,7 +738,7 @@
     },
     {
       "german": "beschäftigt",
-      "spanish": "la ocupado, ocupada"
+      "spanish": "ocupado, ocupada"
     },
     {
       "german": "Ich genieße die Ruhe",
@@ -774,7 +774,7 @@
     },
     {
       "german": "draußen",
-      "spanish": "la afuera"
+      "spanish": "afuera"
     },
     {
       "german": "Stadtrand",
@@ -798,7 +798,7 @@
     },
     {
       "german": "zusammen",
-      "spanish": "los junto, junta, juntos"
+      "spanish": "junto, junta, juntos"
     },
     {
       "german": "Kuss",
@@ -810,11 +810,11 @@
     },
     {
       "german": "wertvoll",
-      "spanish": "la valioso, valiosa"
+      "spanish": "valioso, valiosa"
     },
     {
       "german": "langsam",
-      "spanish": "lento, lente"
+      "spanish": "lento, lenta"
     },
     {
       "german": "Suffix für „Art & Weise“",
@@ -826,7 +826,7 @@
     },
     {
       "german": "Ich gebe dir Bescheid",
-      "spanish": "el te aviso"
+      "spanish": "te aviso"
     },
     {
       "german": "Darf ich eintreten?",
@@ -870,7 +870,7 @@
     },
     {
       "german": "Ich fühle mich krank",
-      "spanish": "el me siento enfermo"
+      "spanish": "me siento enfermo"
     },
     {
       "german": "Ich nehme (meist physisch)",
@@ -882,19 +882,19 @@
     },
     {
       "german": "Mir ist kalt",
-      "spanish": "el Tengo frío"
+      "spanish": "Tengo frío"
     },
     {
       "german": "Es ist heiß",
-      "spanish": "el Hace calor"
+      "spanish": "Hace calor"
     },
     {
       "german": "Es ist kalt",
-      "spanish": "el Hace frío"
+      "spanish": "Hace frío"
     },
     {
       "german": "eine Sekunde / Minute!",
-      "spanish": "el ¡un segundo"
+      "spanish": "¡un segundo!"
     },
     {
       "german": "die Wahrheit",
@@ -966,7 +966,7 @@
     },
     {
       "german": "jede (Woche)",
-      "spanish": "la cada"
+      "spanish": "cada"
     },
     {
       "german": "wahrscheinlich",
@@ -1018,7 +1018,7 @@
     },
     {
       "german": "lila",
-      "spanish": "la morado, lila"
+      "spanish": "morado, lila"
     },
     {
       "german": "Friedhof",
@@ -1058,7 +1058,7 @@
     },
     {
       "german": "Hilfe",
-      "spanish": "la Hilfe"
+      "spanish": "la ayuda"
     },
     {
       "german": "Erlöser",
@@ -1066,7 +1066,7 @@
     },
     {
       "german": "früh",
-      "spanish": "el temprano"
+      "spanish": "temprano"
     },
     {
       "german": "Flughafen",
@@ -1074,7 +1074,7 @@
     },
     {
       "german": "altmodisch, historisch",
-      "spanish": "la antiguo, antigua"
+      "spanish": "antiguo, antigua"
     },
     {
       "german": "vor (zeitlich)",
@@ -1082,11 +1082,11 @@
     },
     {
       "german": "mehrere",
-      "spanish": "las varios, varias"
+      "spanish": "varios, varias"
     },
     {
       "german": "übermäßig, zu viel",
-      "spanish": "el demasiado"
+      "spanish": "demasiado"
     },
     {
       "german": "Glück (Schicksal)",
@@ -1134,7 +1134,7 @@
     },
     {
       "german": "Brille",
-      "spanish": "las gafas,"
+      "spanish": "las gafas"
     },
     {
       "german": "dumm",
@@ -1146,7 +1146,7 @@
     },
     {
       "german": "Geländer",
-      "spanish": "la barandilla,"
+      "spanish": "la barandilla"
     },
     {
       "german": "die Welt",
@@ -1158,7 +1158,7 @@
     },
     {
       "german": "wunderschön",
-      "spanish": "la hermosa"
+      "spanish": "hermosa"
     },
     {
       "german": "Ich war im Ausland",
@@ -1166,7 +1166,7 @@
     },
     {
       "german": "sauber",
-      "spanish": "la limpia"
+      "spanish": "limpia"
     },
     {
       "german": "Hey",
@@ -1178,11 +1178,11 @@
     },
     {
       "german": "Einverstanden",
-      "spanish": "el de acuerdo"
+      "spanish": "de acuerdo"
     },
     {
       "german": "mit mir, mit dir",
-      "spanish": "el conmigo, contigo"
+      "spanish": "conmigo, contigo"
     },
     {
       "german": "später",
@@ -1194,7 +1194,7 @@
     },
     {
       "german": "beschäftigt",
-      "spanish": "la ocupado, ocupada"
+      "spanish": "ocupado, ocupada"
     },
     {
       "german": "Ich genieße die Ruhe",
@@ -1230,7 +1230,7 @@
     },
     {
       "german": "draußen",
-      "spanish": "la afuera"
+      "spanish": "afuera"
     },
     {
       "german": "Stadtrand",
@@ -1254,7 +1254,7 @@
     },
     {
       "german": "zusammen",
-      "spanish": "los junto, junta, juntos"
+      "spanish": "junto, junta, juntos"
     },
     {
       "german": "Kuss",
@@ -1266,11 +1266,11 @@
     },
     {
       "german": "wertvoll",
-      "spanish": "la valioso, valiosa"
+      "spanish": "valioso, valiosa"
     },
     {
       "german": "langsam",
-      "spanish": "el lento"
+      "spanish": "lento"
     },
     {
       "german": "Suffix für „Art & Weise“",
@@ -1282,7 +1282,7 @@
     },
     {
       "german": "Ich gebe dir Bescheid",
-      "spanish": "el te aviso"
+      "spanish": "te aviso"
     },
     {
       "german": "Darf ich eintreten?",
@@ -1302,7 +1302,7 @@
     },
     {
       "german": "Ich fühle mich krank",
-      "spanish": "el me siento enfermo"
+      "spanish": "me siento enfermo"
     },
     {
       "german": "Ich nehme (nehmen, physisch)",
@@ -1314,19 +1314,19 @@
     },
     {
       "german": "Mir ist kalt",
-      "spanish": "el Tengo frío"
+      "spanish": "Tengo frío"
     },
     {
       "german": "Es ist heiß",
-      "spanish": "el Hace calor"
+      "spanish": "Hace calor"
     },
     {
       "german": "Es ist kalt",
-      "spanish": "el Hace frío"
+      "spanish": "Hace frío"
     },
     {
       "german": "eine Sekunde / Minute!",
-      "spanish": "el ¡un segundo"
+      "spanish": "¡un segundo!"
     }
   ],
   "duplicates": [
