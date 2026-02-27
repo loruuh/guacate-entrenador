@@ -54,7 +54,8 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
     window.speechSynthesis.speak(utterance);
   };
 
-  const handleSpeak = async () => {
+  const handleSpeak = async (e: React.MouseEvent) => {
+    e.stopPropagation();
     if (!text || isSpeaking || isLoading) return;
 
     console.log("=== SpeakButton geklickt ===");

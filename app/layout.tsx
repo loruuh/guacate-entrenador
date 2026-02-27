@@ -5,6 +5,7 @@ import UpdatePrompt from "@/components/UpdatePrompt";
 import InstallButton from "@/components/InstallButton";
 import InstallHint from "@/components/InstallHint";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "LingoLuup 🎯 - Spanisch lernen",
@@ -45,6 +46,7 @@ export default function RootLayout({
           <InstallButton />
           <InstallHint />
           <FeedbackWidget />
+          <ThemeToggle />
         </Providers>
       </body>
     </html>

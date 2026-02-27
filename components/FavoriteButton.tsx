@@ -14,7 +14,8 @@ export default function FavoriteButton({ vocabId }: FavoriteButtonProps) {
     setFavorite(isFavorite(vocabId));
   }, [vocabId]);
 
-  const handleToggle = () => {
+  const handleToggle = (e: React.MouseEvent) => {
+    e.stopPropagation();
     if (favorite) {
       removeFavorite(vocabId);
       setFavorite(false);

@@ -11,10 +11,10 @@ import Sentence from "@/components/Sentence";
 import SpeakButton from "@/components/SpeakButton";
 import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
-import ThemeToggle from "@/components/ThemeToggle";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
 import ConfettiAnimation from "@/components/ConfettiAnimation";
 import { useStreak } from "@/components/StreakCounter";
+import { VocabTimer } from "@/components/VocabTimer";
 import { playSound } from "@/lib/sounds";
 import {
   selectNextVocab,
@@ -227,9 +227,10 @@ export default function Home() {
       <div className="px-4 pt-2 flex items-center justify-between">
         <button
           onClick={handleBackToModules}
-          className="text-sm text-primary hover:text-primary-light transition-colors"
+          className="flex items-center gap-2 px-3 py-1.5 bg-gray-800 hover:bg-gray-700 text-blue-400 hover:text-blue-300 rounded-lg transition-all font-semibold text-sm border border-gray-700 hover:border-blue-500"
         >
-          &larr; Module
+          <span>←</span>
+          <span>Module</span>
         </button>
         {streak > 1 && (
           <div className="flex items-center gap-1.5 bg-orange-500/20 px-3 py-1 rounded-full">
@@ -247,9 +248,12 @@ export default function Home() {
               <span className="text-xs font-medium text-gray-400">
                 Heutiges Ziel
               </span>
-              <span className="text-xs font-bold text-gray-300">
-                {dailyGoal.completed} / {dailyGoal.goal}
-              </span>
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-bold text-gray-300">
+                  {dailyGoal.completed} / {dailyGoal.goal}
+                </span>
+                <VocabTimer />
+              </div>
             </div>
             <div className="w-full bg-white/10 rounded-full h-2.5">
               <div
@@ -322,7 +326,6 @@ export default function Home() {
       </main>
 
       <Footer />
-      <ThemeToggle />
     </div>
   );
 }

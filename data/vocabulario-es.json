@@ -12836,14 +12836,14 @@
   {
     "id": "724",
     "spanish": "descolgar",
-    "german": "abnehmen",
+    "german": "abhängen / auflegen",
     "type": "verb",
-    "sentence_es": "Voy a descolgar el teléfono para contestar.",
-    "sentence_de": "Ich werde den Hörer abnehmen, um zu antworten.",
+    "sentence_es": "Voy a descolgar el teléfono.",
+    "sentence_de": "Ich werde das Telefon auflegen.",
     "audio": "/audio/724.mp3",
     "word_translations": {
-      "voy": "ich gehe",
-      "descolgar": "abnehmen/abhängen",
+      "voy": "ich werde",
+      "descolgar": "abhängen / auflegen",
       "teléfono": "Telefon",
       "para": "um zu",
       "contestar": "antworten"
@@ -25404,19 +25404,19 @@
   },
   {
     "id": "1550",
-    "spanish": "la vez",
-    "german": "das Mal",
-    "type": "noun",
-    "sentence_es": "Esta vez voy a estudiar más español.",
-    "sentence_de": "Dieses Mal werde ich mehr Spanisch lernen.",
+    "spanish": "cada vez",
+    "german": "jedes Mal",
+    "type": "phrase",
+    "sentence_es": "Cada vez que te veo, sonrío.",
+    "sentence_de": "Jedes Mal wenn ich dich sehe, lächle ich.",
     "audio": "/audio/1550.mp3",
     "word_translations": {
-      "esta": "diese/dieses",
+      "cada": "jede/r/s",
       "vez": "Mal",
-      "voy": "gehe/werde",
-      "estudiar": "lernen/studieren",
-      "más": "mehr",
-      "español": "Spanisch"
+      "que": "wenn/dass",
+      "te": "dich",
+      "veo": "sehe",
+      "sonrío": "lächle"
     }
   },
   {
@@ -40683,7 +40683,6 @@
     "type": "number",
     "sentence_es": "La temperatura bajó a cero grados anoche.",
     "sentence_de": "Die Temperatur fiel letzte Nacht auf null Grad.",
-    "audio": "/audio/2408.mp3",
     "word_translations": {
       "la": "die",
       "temperatura": "Temperatur",
@@ -40692,7 +40691,8 @@
       "cero": "null",
       "grados": "Grad",
       "anoche": "letzte Nacht"
-    }
+    },
+    "audio": "/audio/2408.mp3"
   },
   {
     "id": "2409",
@@ -40701,7 +40701,6 @@
     "type": "number",
     "sentence_es": "Quiero comprar uno de estos libros.",
     "sentence_de": "Ich möchte eins von diesen Büchern kaufen.",
-    "audio": "/audio/2409.mp3",
     "word_translations": {
       "quiero": "ich möchte",
       "comprar": "kaufen",
@@ -40709,7 +40708,8 @@
       "de": "von",
       "estos": "diese",
       "libros": "Bücher"
-    }
+    },
+    "audio": "/audio/2409.mp3"
   },
   {
     "id": "2410",
@@ -40718,7 +40718,6 @@
     "type": "number",
     "sentence_es": "Tengo dos hermanos y una hermana.",
     "sentence_de": "Ich habe zwei Brüder und eine Schwester.",
-    "audio": "/audio/2410.mp3",
     "word_translations": {
       "tengo": "ich habe",
       "dos": "zwei",
@@ -40726,7 +40725,8 @@
       "y": "und",
       "una": "eine",
       "hermana": "Schwester"
-    }
+    },
+    "audio": "/audio/2410.mp3"
   },
   {
     "id": "2411",
@@ -40735,7 +40735,6 @@
     "type": "number",
     "sentence_es": "Tengo tres hermanos y una hermana.",
     "sentence_de": "Ich habe drei Brüder und eine Schwester.",
-    "audio": "/audio/2411.mp3",
     "word_translations": {
       "tengo": "ich habe",
       "tres": "drei",
@@ -40743,7 +40742,8 @@
       "y": "und",
       "una": "eine",
       "hermana": "Schwester"
-    }
+    },
+    "audio": "/audio/2411.mp3"
   },
   {
     "id": "2412",
@@ -40752,7 +40752,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene cuatro gatos en casa.",
     "sentence_de": "Meine Schwester hat vier Katzen zu Hause.",
-    "audio": "/audio/2412.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40761,7 +40760,8 @@
       "gatos": "Katzen",
       "en": "in/zu",
       "casa": "Hause/Haus"
-    }
+    },
+    "audio": "/audio/2412.mp3"
   },
   {
     "id": "2413",
@@ -40770,7 +40770,6 @@
     "type": "number",
     "sentence_es": "Tengo cinco libros nuevos en mi mochila.",
     "sentence_de": "Ich habe fünf neue Bücher in meinem Rucksack.",
-    "audio": "/audio/2413.mp3",
     "word_translations": {
       "tengo": "ich habe",
       "cinco": "fünf",
@@ -40779,7 +40778,8 @@
       "en": "in",
       "mi": "mein/meine",
       "mochila": "Rucksack"
-    }
+    },
+    "audio": "/audio/2413.mp3"
   },
   {
     "id": "2414",
@@ -40788,7 +40788,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene seis años de edad.",
     "sentence_de": "Meine Schwester ist sechs Jahre alt.",
-    "audio": "/audio/2414.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40797,7 +40796,8 @@
       "años": "Jahre",
       "de": "von",
       "edad": "Alter"
-    }
+    },
+    "audio": "/audio/2414.mp3"
   },
   {
     "id": "2415",
@@ -40806,7 +40806,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene siete años de edad.",
     "sentence_de": "Meine Schwester ist sieben Jahre alt.",
-    "audio": "/audio/2415.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40815,7 +40814,8 @@
       "años": "Jahre",
       "de": "von",
       "edad": "Alter"
-    }
+    },
+    "audio": "/audio/2415.mp3"
   },
   {
     "id": "2416",
@@ -40824,7 +40824,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene ocho años de edad.",
     "sentence_de": "Meine Schwester ist acht Jahre alt.",
-    "audio": "/audio/2416.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40833,7 +40832,8 @@
       "años": "Jahre",
       "de": "von",
       "edad": "Alter"
-    }
+    },
+    "audio": "/audio/2416.mp3"
   },
   {
     "id": "2417",
@@ -40842,7 +40842,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene nueve años de edad.",
     "sentence_de": "Meine Schwester ist neun Jahre alt.",
-    "audio": "/audio/2417.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40851,7 +40850,8 @@
       "años": "Jahre",
       "de": "von",
       "edad": "Alter"
-    }
+    },
+    "audio": "/audio/2417.mp3"
   },
   {
     "id": "2418",
@@ -40860,7 +40860,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene diez años de edad.",
     "sentence_de": "Meine Schwester ist zehn Jahre alt.",
-    "audio": "/audio/2418.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40869,7 +40868,8 @@
       "años": "Jahre",
       "de": "von",
       "edad": "Alter"
-    }
+    },
+    "audio": "/audio/2418.mp3"
   },
   {
     "id": "2419",
@@ -40878,13 +40878,13 @@
     "type": "number",
     "sentence_es": "La reunión empieza a las once de la mañana.",
     "sentence_de": "Das Meeting beginnt um elf Uhr morgens.",
-    "audio": "/audio/2419.mp3",
     "word_translations": {
       "reunión": "Meeting/Besprechung",
       "empieza": "beginnt",
       "once": "elf",
       "mañana": "Morgen"
-    }
+    },
+    "audio": "/audio/2419.mp3"
   },
   {
     "id": "2420",
@@ -40893,7 +40893,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene doce años y estudia mucho.",
     "sentence_de": "Meine Schwester ist zwölf Jahre alt und lernt viel.",
-    "audio": "/audio/2420.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40903,7 +40902,8 @@
       "y": "und",
       "estudia": "lernt/studiert",
       "mucho": "viel"
-    }
+    },
+    "audio": "/audio/2420.mp3"
   },
   {
     "id": "2421",
@@ -40912,7 +40912,6 @@
     "type": "number",
     "sentence_es": "Mi hermana cumple trece años el viernes.",
     "sentence_de": "Meine Schwester wird am Freitag dreizehn Jahre alt.",
-    "audio": "/audio/2421.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40921,7 +40920,8 @@
       "años": "Jahre",
       "el": "der/am",
       "viernes": "Freitag"
-    }
+    },
+    "audio": "/audio/2421.mp3"
   },
   {
     "id": "2422",
@@ -40930,7 +40930,6 @@
     "type": "number",
     "sentence_es": "Mi hermana cumple catorce años el viernes.",
     "sentence_de": "Meine Schwester wird am Freitag vierzehn Jahre alt.",
-    "audio": "/audio/2422.mp3",
     "word_translations": {
       "mi": "mein/meine",
       "hermana": "Schwester",
@@ -40939,7 +40938,8 @@
       "años": "Jahre",
       "el": "der",
       "viernes": "Freitag"
-    }
+    },
+    "audio": "/audio/2422.mp3"
   },
   {
     "id": "2423",
@@ -40948,7 +40948,6 @@
     "type": "number",
     "sentence_es": "Mi hermana cumple quince años el próximo mes.",
     "sentence_de": "Meine Schwester wird nächsten Monat fünfzehn Jahre alt.",
-    "audio": "/audio/2423.mp3",
     "word_translations": {
       "hermana": "Schwester",
       "cumple": "wird (Jahre alt)",
@@ -40956,7 +40955,8 @@
       "años": "Jahre",
       "próximo": "nächsten",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2423.mp3"
   },
   {
     "id": "2424",
@@ -40965,7 +40965,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene dieciséis años y estudia bachillerato.",
     "sentence_de": "Meine Schwester ist sechzehn Jahre alt und macht Abitur.",
-    "audio": "/audio/2424.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40975,7 +40974,8 @@
       "y": "und",
       "estudia": "studiert/macht",
       "bachillerato": "Abitur"
-    }
+    },
+    "audio": "/audio/2424.mp3"
   },
   {
     "id": "2425",
@@ -40984,7 +40984,6 @@
     "type": "number",
     "sentence_es": "Mi hermana cumple diecisiete años mañana.",
     "sentence_de": "Meine Schwester wird morgen siebzehn Jahre alt.",
-    "audio": "/audio/2425.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -40992,7 +40991,8 @@
       "diecisiete": "siebzehn",
       "años": "Jahre",
       "mañana": "morgen"
-    }
+    },
+    "audio": "/audio/2425.mp3"
   },
   {
     "id": "2426",
@@ -41001,7 +41001,6 @@
     "type": "number",
     "sentence_es": "Mi hermana cumple dieciocho años en mayo.",
     "sentence_de": "Meine Schwester wird im Mai achtzehn Jahre alt.",
-    "audio": "/audio/2426.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -41010,7 +41009,8 @@
       "años": "Jahre",
       "en": "in/im",
       "mayo": "Mai"
-    }
+    },
+    "audio": "/audio/2426.mp3"
   },
   {
     "id": "2427",
@@ -41019,7 +41019,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene diecinueve años y estudia medicina.",
     "sentence_de": "Meine Schwester ist neunzehn Jahre alt und studiert Medizin.",
-    "audio": "/audio/2427.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -41029,7 +41028,8 @@
       "y": "und",
       "estudia": "studiert",
       "medicina": "Medizin"
-    }
+    },
+    "audio": "/audio/2427.mp3"
   },
   {
     "id": "2428",
@@ -41038,7 +41038,6 @@
     "type": "number",
     "sentence_es": "Mi hermana tiene veinte años y estudia medicina.",
     "sentence_de": "Meine Schwester ist zwanzig Jahre alt und studiert Medizin.",
-    "audio": "/audio/2428.mp3",
     "word_translations": {
       "mi": "meine",
       "hermana": "Schwester",
@@ -41048,7 +41047,8 @@
       "y": "und",
       "estudia": "studiert",
       "medicina": "Medizin"
-    }
+    },
+    "audio": "/audio/2428.mp3"
   },
   {
     "id": "2429",
@@ -41057,7 +41057,6 @@
     "type": "number",
     "sentence_es": "Mi hermano tiene treinta años y trabaja aquí.",
     "sentence_de": "Mein Bruder ist dreißig Jahre alt und arbeitet hier.",
-    "audio": "/audio/2429.mp3",
     "word_translations": {
       "mi": "mein",
       "hermano": "Bruder",
@@ -41067,7 +41066,8 @@
       "y": "und",
       "trabaja": "arbeitet",
       "aquí": "hier"
-    }
+    },
+    "audio": "/audio/2429.mp3"
   },
   {
     "id": "2430",
@@ -41076,7 +41076,6 @@
     "type": "number",
     "sentence_es": "Mi madre tiene cuarenta años este mes.",
     "sentence_de": "Meine Mutter wird diesen Monat vierzig Jahre alt.",
-    "audio": "/audio/2430.mp3",
     "word_translations": {
       "mi": "meine",
       "madre": "Mutter",
@@ -41085,7 +41084,8 @@
       "años": "Jahre",
       "este": "diesen",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2430.mp3"
   },
   {
     "id": "2431",
@@ -41094,7 +41094,6 @@
     "type": "number",
     "sentence_es": "Mi abuela tiene cincuenta años y está muy bien.",
     "sentence_de": "Meine Großmutter ist fünfzig Jahre alt und ist sehr gesund.",
-    "audio": "/audio/2431.mp3",
     "word_translations": {
       "mi": "meine",
       "abuela": "Großmutter",
@@ -41105,7 +41104,8 @@
       "está": "ist",
       "muy": "sehr",
       "bien": "gut/gesund"
-    }
+    },
+    "audio": "/audio/2431.mp3"
   },
   {
     "id": "2432",
@@ -41114,7 +41114,6 @@
     "type": "number",
     "sentence_es": "Mi abuelo tiene sesenta y cinco años.",
     "sentence_de": "Mein Großvater ist fünfundsechzig Jahre alt.",
-    "audio": "/audio/2432.mp3",
     "word_translations": {
       "mi": "mein",
       "abuelo": "Großvater",
@@ -41123,7 +41122,8 @@
       "y": "und",
       "cinco": "fünf",
       "años": "Jahre"
-    }
+    },
+    "audio": "/audio/2432.mp3"
   },
   {
     "id": "2433",
@@ -41132,7 +41132,6 @@
     "type": "number",
     "sentence_es": "Mi abuelo tiene setenta años y está muy bien.",
     "sentence_de": "Mein Großvater ist siebzig Jahre alt und es geht ihm sehr gut.",
-    "audio": "/audio/2433.mp3",
     "word_translations": {
       "mi": "mein",
       "abuelo": "Großvater",
@@ -41143,7 +41142,8 @@
       "está": "ist/geht ihm",
       "muy": "sehr",
       "bien": "gut"
-    }
+    },
+    "audio": "/audio/2433.mp3"
   },
   {
     "id": "2434",
@@ -41152,7 +41152,6 @@
     "type": "number",
     "sentence_es": "Mi abuelo tiene ochenta años y está sano.",
     "sentence_de": "Mein Großvater ist achtzig Jahre alt und gesund.",
-    "audio": "/audio/2434.mp3",
     "word_translations": {
       "mi": "mein",
       "abuelo": "Großvater",
@@ -41162,7 +41161,8 @@
       "y": "und",
       "está": "ist",
       "sano": "gesund"
-    }
+    },
+    "audio": "/audio/2434.mp3"
   },
   {
     "id": "2435",
@@ -41171,7 +41171,6 @@
     "type": "number",
     "sentence_es": "Mi abuelo tiene noventa años y está muy bien.",
     "sentence_de": "Mein Großvater ist neunzig Jahre alt und geht es sehr gut.",
-    "audio": "/audio/2435.mp3",
     "word_translations": {
       "mi": "mein",
       "abuelo": "Großvater",
@@ -41182,7 +41181,8 @@
       "está": "geht es ihm/ist er",
       "muy": "sehr",
       "bien": "gut"
-    }
+    },
+    "audio": "/audio/2435.mp3"
   },
   {
     "id": "2436",
@@ -41191,7 +41191,6 @@
     "type": "number",
     "sentence_es": "Mi abuela tiene más de cien años.",
     "sentence_de": "Meine Großmutter ist über hundert Jahre alt.",
-    "audio": "/audio/2436.mp3",
     "word_translations": {
       "mi": "meine",
       "abuela": "Großmutter",
@@ -41200,7 +41199,8 @@
       "de": "von/als",
       "cien": "hundert",
       "años": "Jahre"
-    }
+    },
+    "audio": "/audio/2436.mp3"
   },
   {
     "id": "2437",
@@ -41209,7 +41209,6 @@
     "type": "number",
     "sentence_es": "Este teléfono móvil cuesta doscientos euros exactamente.",
     "sentence_de": "Dieses Handy kostet genau zweihundert Euro.",
-    "audio": "/audio/2437.mp3",
     "word_translations": {
       "este": "dieses",
       "teléfono": "Telefon",
@@ -41218,7 +41217,8 @@
       "doscientos": "zweihundert",
       "euros": "Euro",
       "exactamente": "genau"
-    }
+    },
+    "audio": "/audio/2437.mp3"
   },
   {
     "id": "2438",
@@ -41227,7 +41227,6 @@
     "type": "number",
     "sentence_es": "Este apartamento cuesta trescientos euros al mes.",
     "sentence_de": "Diese Wohnung kostet dreihundert Euro pro Monat.",
-    "audio": "/audio/2438.mp3",
     "word_translations": {
       "este": "diese",
       "apartamento": "Wohnung",
@@ -41236,7 +41235,8 @@
       "euros": "Euro",
       "al": "pro",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2438.mp3"
   },
   {
     "id": "2439",
@@ -41245,7 +41245,6 @@
     "type": "number",
     "sentence_es": "El apartamento cuesta cuatrocientos euros al mes.",
     "sentence_de": "Die Wohnung kostet vierhundert Euro im Monat.",
-    "audio": "/audio/2439.mp3",
     "word_translations": {
       "apartamento": "Wohnung/Appartement",
       "cuesta": "kostet",
@@ -41253,7 +41252,8 @@
       "euros": "Euro",
       "al": "im/pro",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2439.mp3"
   },
   {
     "id": "2440",
@@ -41262,7 +41262,6 @@
     "type": "number",
     "sentence_es": "Esta casa cuesta quinientos mil euros.",
     "sentence_de": "Dieses Haus kostet fünfhunderttausend Euro.",
-    "audio": "/audio/2440.mp3",
     "word_translations": {
       "esta": "diese/dieses",
       "casa": "Haus",
@@ -41270,7 +41269,8 @@
       "quinientos": "fünfhundert",
       "mil": "tausend",
       "euros": "Euro"
-    }
+    },
+    "audio": "/audio/2440.mp3"
   },
   {
     "id": "2441",
@@ -41279,7 +41279,6 @@
     "type": "number",
     "sentence_es": "Mi apartamento cuesta seiscientos euros al mes.",
     "sentence_de": "Meine Wohnung kostet sechshundert Euro im Monat.",
-    "audio": "/audio/2441.mp3",
     "word_translations": {
       "mi": "meine",
       "apartamento": "Wohnung",
@@ -41288,7 +41287,8 @@
       "euros": "Euro",
       "al": "im",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2441.mp3"
   },
   {
     "id": "2442",
@@ -41297,7 +41297,6 @@
     "type": "number",
     "sentence_es": "El apartamento cuesta setecientos euros al mes.",
     "sentence_de": "Die Wohnung kostet siebenhundert Euro im Monat.",
-    "audio": "/audio/2442.mp3",
     "word_translations": {
       "el": "der/die/das",
       "apartamento": "Wohnung/Appartement",
@@ -41306,7 +41305,8 @@
       "euros": "Euro",
       "al": "im/zum",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2442.mp3"
   },
   {
     "id": "2443",
@@ -41315,7 +41315,6 @@
     "type": "number",
     "sentence_es": "Este coche usado cuesta ochocientos euros.",
     "sentence_de": "Dieses gebrauchte Auto kostet achthundert Euro.",
-    "audio": "/audio/2443.mp3",
     "word_translations": {
       "este": "dieses",
       "coche": "Auto",
@@ -41323,7 +41322,8 @@
       "cuesta": "kostet",
       "ochocientos": "achthundert",
       "euros": "Euro"
-    }
+    },
+    "audio": "/audio/2443.mp3"
   },
   {
     "id": "2444",
@@ -41332,7 +41332,6 @@
     "type": "number",
     "sentence_es": "El apartamento cuesta novecientos euros al mes.",
     "sentence_de": "Die Wohnung kostet neunhundert Euro pro Monat.",
-    "audio": "/audio/2444.mp3",
     "word_translations": {
       "apartamento": "Wohnung/Appartement",
       "cuesta": "kostet",
@@ -41340,7 +41339,8 @@
       "euros": "Euro",
       "al": "pro/im",
       "mes": "Monat"
-    }
+    },
+    "audio": "/audio/2444.mp3"
   },
   {
     "id": "2445",
@@ -41349,7 +41349,6 @@
     "type": "number",
     "sentence_es": "Esta casa cuesta más de mil euros.",
     "sentence_de": "Dieses Haus kostet mehr als tausend Euro.",
-    "audio": "/audio/2445.mp3",
     "word_translations": {
       "esta": "diese",
       "casa": "Haus",
@@ -41358,6 +41357,7 @@
       "de": "als",
       "mil": "tausend",
       "euros": "Euro"
-    }
+    },
+    "audio": "/audio/2445.mp3"
   }
 ]

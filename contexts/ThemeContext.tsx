@@ -20,7 +20,6 @@ const themeNames: Record<Theme, string> = {
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("ocean");
-  const [mounted, setMounted] = useState(false);
 
   // Load theme from localStorage on mount
   useEffect(() => {
@@ -36,7 +35,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       setTheme(savedTheme as Theme);
       document.documentElement.setAttribute("data-theme", savedTheme);
     }
-    setMounted(true);
   }, []);
 
   // Update theme - rotate through ocean → sunset → neon → ocean
@@ -50,11 +48,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("theme", newTheme);
     document.documentElement.setAttribute("data-theme", newTheme);
   };
-
-  // Prevent flash of wrong theme
-  if (!mounted) {
-    return <>{children}</>;
-  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, themeName: themeNames[theme] }}>
