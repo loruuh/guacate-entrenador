@@ -92,4 +92,35 @@ body {
   .animate-slide-up {
     animation: slide-up 0.3s ease-out;
   }
+
+  @keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-4px); }
+  }
+
+  .animate-bounce-slow {
+    animation: bounce-slow 2s ease-in-out infinite;
+  }
+
+  @keyframes hourglass-spin {
+    0%   { transform: rotate(0deg); }
+    45%  { transform: rotate(0deg); }
+    55%  { transform: rotate(180deg); }
+    100% { transform: rotate(180deg); }
+  }
+
+  .animate-hourglass {
+    animation: hourglass-spin 2s ease-in-out infinite;
+    display: inline-block;
+  }
+
+  @keyframes gradient-x {
+    0%, 100% { background-position: 0% 50%; }
+    50%       { background-position: 100% 50%; }
+  }
+
+  .animate-gradient-x {
+    background-size: 200% 200%;
+    animation: gradient-x 3s ease infinite;
+  }
 }

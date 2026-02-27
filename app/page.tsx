@@ -14,7 +14,6 @@ import NextButton from "@/components/NextButton";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
 import ConfettiAnimation from "@/components/ConfettiAnimation";
 import { useStreak } from "@/components/StreakCounter";
-import { VocabTimer } from "@/components/VocabTimer";
 import { playSound } from "@/lib/sounds";
 import {
   selectNextVocab,
@@ -227,10 +226,12 @@ export default function Home() {
       <div className="px-4 pt-2 flex items-center justify-between">
         <button
           onClick={handleBackToModules}
-          className="flex items-center gap-2 px-3 py-1.5 bg-gray-800 hover:bg-gray-700 text-blue-400 hover:text-blue-300 rounded-lg transition-all font-semibold text-sm border border-gray-700 hover:border-blue-500"
+          aria-label="Zurück zu Modulen"
+          className="group relative flex items-center gap-2 px-4 py-2 bg-gray-800/80 backdrop-blur-lg hover:bg-gray-700/80 text-blue-400 hover:text-blue-300 rounded-full border-2 border-gray-700 hover:border-blue-500 shadow-lg transition-all duration-300 hover:scale-105 overflow-hidden"
         >
-          <span>←</span>
-          <span>Module</span>
+          <span className="text-lg transition-transform duration-300 group-hover:-translate-x-1">←</span>
+          <span className="font-semibold text-sm">Module</span>
+          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </button>
         {streak > 1 && (
           <div className="flex items-center gap-1.5 bg-orange-500/20 px-3 py-1 rounded-full">
@@ -248,12 +249,9 @@ export default function Home() {
               <span className="text-xs font-medium text-gray-400">
                 Heutiges Ziel
               </span>
-              <div className="flex items-center gap-3">
-                <span className="text-xs font-bold text-gray-300">
-                  {dailyGoal.completed} / {dailyGoal.goal}
-                </span>
-                <VocabTimer />
-              </div>
+              <span className="text-xs font-bold text-gray-300">
+                {dailyGoal.completed} / {dailyGoal.goal}
+              </span>
             </div>
             <div className="w-full bg-white/10 rounded-full h-2.5">
               <div

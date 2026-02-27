@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import VokabelheftList from "@/components/VokabelheftList";
 import VokabelheftToggle from "@/components/VokabelheftToggle";
 import { getFavorites } from "@/lib/local-storage";
+import { VocabTimer } from "@/components/VocabTimer";
 
 export default function VokabelheftPage() {
   const [favorites, setFavorites] = useState<string[]>([]);
@@ -30,13 +31,18 @@ export default function VokabelheftPage() {
         <div className="max-w-5xl mx-auto">
           {/* Titel + Toggle Buttons (sticky beim Scrollen) */}
           <div className="sticky top-0 z-10 bg-[#1a1a2e] pb-4">
-            <div className="text-center mb-8 pt-4">
-              <h1 className="text-4xl font-bold text-white mb-2">
-                Mein Vokabelheft
-              </h1>
-              <p className="text-gray-300">
-                Deine gespeicherten Vokabeln im klassischen Schulheft-Design
-              </p>
+            <div className="mb-8 pt-4">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h1 className="text-4xl font-bold text-white mb-2">
+                    Mein Vokabelheft
+                  </h1>
+                  <p className="text-gray-300">
+                    Deine gespeicherten Vokabeln im klassischen Schulheft-Design
+                  </p>
+                </div>
+                <VocabTimer />
+              </div>
             </div>
 
             {/* Toggle Buttons */}
