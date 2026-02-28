@@ -51,9 +51,25 @@ export function VocabTimer() {
       {showCelebration && <ConfettiAnimation />}
 
       {showCelebration && (
-        <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-50">
-          <div className="bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 text-white px-12 py-6 rounded-3xl text-3xl font-bold shadow-2xl animate-bounce">
-            🎉 Zeit abgelaufen! Super! 🎉
+        <div
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 cursor-pointer flex items-center justify-center"
+          onClick={() => { setShowCelebration(false); setSeconds(120); }}
+        >
+          <div
+            className="relative bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 text-white px-12 py-6 rounded-3xl text-3xl font-bold shadow-2xl animate-bounce"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => { setShowCelebration(false); setSeconds(120); }}
+              className="absolute -top-3 -right-3 w-10 h-10 bg-white text-green-600 rounded-full font-bold text-2xl hover:bg-red-500 hover:text-white hover:scale-110 transition-all shadow-xl"
+              aria-label="Schließen"
+            >
+              ×
+            </button>
+            <div className="text-center">
+              🎉 Zeit abgelaufen! Super! 🎉
+              <div className="text-sm font-normal mt-2 text-green-100">Klicke irgendwo zum Schließen</div>
+            </div>
           </div>
         </div>
       )}
