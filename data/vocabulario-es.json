@@ -47634,7 +47634,7 @@
   {
     "id": "2948",
     "spanish": "soy",
-    "german": "ich bin",
+    "german": "ich bin (ser)",
     "category": "Verben: ser",
     "sentence_es": "Soy estudiante.",
     "sentence_de": "Ich bin Student.",
@@ -47644,7 +47644,7 @@
   {
     "id": "2949",
     "spanish": "eres",
-    "german": "du bist",
+    "german": "du bist (ser)",
     "category": "Verben: ser",
     "sentence_es": "¿Eres de España?",
     "sentence_de": "Bist du aus Spanien?",
@@ -47654,7 +47654,7 @@
   {
     "id": "2950",
     "spanish": "es",
-    "german": "er/sie ist",
+    "german": "er/sie ist (ser)",
     "category": "Verben: ser",
     "sentence_es": "Ella es muy simpática.",
     "sentence_de": "Sie ist sehr nett.",
@@ -47664,7 +47664,7 @@
   {
     "id": "2951",
     "spanish": "somos",
-    "german": "wir sind",
+    "german": "wir sind (ser)",
     "category": "Verben: ser",
     "sentence_es": "Somos cuatro hermanos.",
     "sentence_de": "Wir sind vier Geschwister.",
@@ -47674,7 +47674,7 @@
   {
     "id": "2952",
     "spanish": "sois",
-    "german": "ihr seid",
+    "german": "ihr seid (ser)",
     "category": "Verben: ser",
     "sentence_es": "¿Sois de Madrid?",
     "sentence_de": "Seid ihr aus Madrid?",
@@ -47684,7 +47684,7 @@
   {
     "id": "2953",
     "spanish": "son",
-    "german": "sie sind",
+    "german": "sie sind (ser)",
     "category": "Verben: ser",
     "sentence_es": "Son las diez de la noche.",
     "sentence_de": "Es ist zehn Uhr abends.",
@@ -47694,7 +47694,7 @@
   {
     "id": "2954",
     "spanish": "fui",
-    "german": "ich war",
+    "german": "ich war (ser)",
     "category": "Verben: ser",
     "sentence_es": "Ayer fui al médico.",
     "sentence_de": "Gestern war ich beim Arzt.",
@@ -47704,7 +47704,7 @@
   {
     "id": "2955",
     "spanish": "fuiste",
-    "german": "du warst",
+    "german": "du warst (ser)",
     "category": "Verben: ser",
     "sentence_es": "¿Fuiste tú quien llamó?",
     "sentence_de": "Warst du derjenige, der angerufen hat?",
@@ -47714,7 +47714,7 @@
   {
     "id": "2956",
     "spanish": "fue",
-    "german": "er/sie war",
+    "german": "er/sie war (ser)",
     "category": "Verben: ser",
     "sentence_es": "Fue una gran sorpresa.",
     "sentence_de": "Es war eine große Überraschung.",
@@ -47724,7 +47724,7 @@
   {
     "id": "2957",
     "spanish": "fuimos",
-    "german": "wir waren",
+    "german": "wir waren (ser)",
     "category": "Verben: ser",
     "sentence_es": "Fuimos los primeros en llegar.",
     "sentence_de": "Wir waren die Ersten, die ankamen.",
@@ -47734,7 +47734,7 @@
   {
     "id": "2958",
     "spanish": "fuisteis",
-    "german": "ihr wart",
+    "german": "ihr wart (ser)",
     "category": "Verben: ser",
     "sentence_es": "¿Fuisteis al concierto ayer?",
     "sentence_de": "Wart ihr gestern beim Konzert?",
@@ -47744,7 +47744,7 @@
   {
     "id": "2959",
     "spanish": "fueron",
-    "german": "sie waren",
+    "german": "sie waren (ser)",
     "category": "Verben: ser",
     "sentence_es": "Fueron muy amables con nosotros.",
     "sentence_de": "Sie waren sehr freundlich zu uns.",
@@ -47754,7 +47754,7 @@
   {
     "id": "2960",
     "spanish": "seré",
-    "german": "ich werde sein",
+    "german": "ich werde sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "Seré médico algún día.",
     "sentence_de": "Eines Tages werde ich Arzt sein.",
@@ -47764,7 +47764,7 @@
   {
     "id": "2961",
     "spanish": "serás",
-    "german": "du wirst sein",
+    "german": "du wirst sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "Serás un gran músico.",
     "sentence_de": "Du wirst ein großer Musiker sein.",
@@ -47774,7 +47774,7 @@
   {
     "id": "2962",
     "spanish": "será",
-    "german": "er/sie wird sein",
+    "german": "er/sie wird sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "La reunión será a las cinco.",
     "sentence_de": "Das Treffen wird um fünf sein.",
@@ -47784,7 +47784,7 @@
   {
     "id": "2963",
     "spanish": "seremos",
-    "german": "wir werden sein",
+    "german": "wir werden sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "Seremos felices juntos.",
     "sentence_de": "Wir werden glücklich zusammen sein.",
@@ -47794,7 +47794,7 @@
   {
     "id": "2964",
     "spanish": "seréis",
-    "german": "ihr werdet sein",
+    "german": "ihr werdet sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "Seréis los mejores del equipo.",
     "sentence_de": "Ihr werdet die Besten des Teams sein.",
@@ -47804,7 +47804,7 @@
   {
     "id": "2965",
     "spanish": "serán",
-    "german": "sie werden sein",
+    "german": "sie werden sein (ser)",
     "category": "Verben: ser",
     "sentence_es": "Las clases serán por la mañana.",
     "sentence_de": "Der Unterricht wird morgens sein.",
@@ -47814,7 +47814,7 @@
   {
     "id": "2966",
     "spanish": "sería",
-    "german": "ich wäre",
+    "german": "ich wäre (ser)",
     "category": "Verben: ser",
     "sentence_es": "Sería mejor esperar un poco.",
     "sentence_de": "Es wäre besser, etwas zu warten.",
@@ -47824,7 +47824,7 @@
   {
     "id": "2967",
     "spanish": "serías",
-    "german": "du wärst",
+    "german": "du wärst (ser)",
     "category": "Verben: ser",
     "sentence_es": "Serías un buen maestro.",
     "sentence_de": "Du wärst ein guter Lehrer.",
@@ -47834,7 +47834,7 @@
   {
     "id": "2968",
     "spanish": "sería",
-    "german": "er/sie wäre",
+    "german": "er/sie wäre (ser)",
     "category": "Verben: ser",
     "sentence_es": "Sería perfecto para ese puesto.",
     "sentence_de": "Er/sie wäre perfekt für die Stelle.",
@@ -47844,7 +47844,7 @@
   {
     "id": "2969",
     "spanish": "seríamos",
-    "german": "wir wären",
+    "german": "wir wären (ser)",
     "category": "Verben: ser",
     "sentence_es": "Seríamos más felices allí.",
     "sentence_de": "Wir wären dort glücklicher.",
@@ -47854,7 +47854,7 @@
   {
     "id": "2970",
     "spanish": "seríais",
-    "german": "ihr wärt",
+    "german": "ihr wärt (ser)",
     "category": "Verben: ser",
     "sentence_es": "Seríais buenos en ese trabajo.",
     "sentence_de": "Ihr wärt gut in dieser Arbeit.",
@@ -47864,7 +47864,7 @@
   {
     "id": "2971",
     "spanish": "serían",
-    "german": "sie wären",
+    "german": "sie wären (ser)",
     "category": "Verben: ser",
     "sentence_es": "Serían las mejores opciones.",
     "sentence_de": "Das wären die besten Möglichkeiten.",
@@ -47874,7 +47874,7 @@
   {
     "id": "2972",
     "spanish": "estoy",
-    "german": "ich bin",
+    "german": "ich bin (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estoy en casa ahora.",
     "sentence_de": "Ich bin jetzt zu Hause.",
@@ -47884,7 +47884,7 @@
   {
     "id": "2973",
     "spanish": "estás",
-    "german": "du bist",
+    "german": "du bist (estar)",
     "category": "Verben: estar",
     "sentence_es": "¿Cómo estás hoy?",
     "sentence_de": "Wie geht es dir heute?",
@@ -47894,7 +47894,7 @@
   {
     "id": "2974",
     "spanish": "está",
-    "german": "er/sie ist",
+    "german": "er/sie ist (estar)",
     "category": "Verben: estar",
     "sentence_es": "La puerta está abierta.",
     "sentence_de": "Die Tür ist offen.",
@@ -47904,7 +47904,7 @@
   {
     "id": "2975",
     "spanish": "estamos",
-    "german": "wir sind",
+    "german": "wir sind (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estamos listos para salir.",
     "sentence_de": "Wir sind bereit loszugehen.",
@@ -47914,7 +47914,7 @@
   {
     "id": "2976",
     "spanish": "estáis",
-    "german": "ihr seid",
+    "german": "ihr seid (estar)",
     "category": "Verben: estar",
     "sentence_es": "¿Estáis cansados?",
     "sentence_de": "Seid ihr müde?",
@@ -47924,7 +47924,7 @@
   {
     "id": "2977",
     "spanish": "están",
-    "german": "sie sind",
+    "german": "sie sind (estar)",
     "category": "Verben: estar",
     "sentence_es": "Los niños están durmiendo.",
     "sentence_de": "Die Kinder schlafen gerade.",
@@ -47934,7 +47934,7 @@
   {
     "id": "2978",
     "spanish": "estuve",
-    "german": "ich war",
+    "german": "ich war (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estuve en Madrid el año pasado.",
     "sentence_de": "Letztes Jahr war ich in Madrid.",
@@ -47944,7 +47944,7 @@
   {
     "id": "2979",
     "spanish": "estuviste",
-    "german": "du warst",
+    "german": "du warst (estar)",
     "category": "Verben: estar",
     "sentence_es": "¿Estuviste en la fiesta anoche?",
     "sentence_de": "Warst du gestern Abend auf der Party?",
@@ -47954,7 +47954,7 @@
   {
     "id": "2980",
     "spanish": "estuvo",
-    "german": "er/sie war",
+    "german": "er/sie war (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estuvo enfermo toda la semana.",
     "sentence_de": "Er/sie war die ganze Woche krank.",
@@ -47964,7 +47964,7 @@
   {
     "id": "2981",
     "spanish": "estuvimos",
-    "german": "wir waren",
+    "german": "wir waren (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estuvimos esperando dos horas.",
     "sentence_de": "Wir haben zwei Stunden gewartet.",
@@ -47974,7 +47974,7 @@
   {
     "id": "2982",
     "spanish": "estuvisteis",
-    "german": "ihr wart",
+    "german": "ihr wart (estar)",
     "category": "Verben: estar",
     "sentence_es": "¿Estuvisteis en casa todo el día?",
     "sentence_de": "Wart ihr den ganzen Tag zu Hause?",
@@ -47984,7 +47984,7 @@
   {
     "id": "2983",
     "spanish": "estuvieron",
-    "german": "sie waren",
+    "german": "sie waren (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estuvieron de viaje tres semanas.",
     "sentence_de": "Sie waren drei Wochen auf Reisen.",
@@ -47994,7 +47994,7 @@
   {
     "id": "2984",
     "spanish": "estaré",
-    "german": "ich werde sein",
+    "german": "ich werde sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaré en casa a las seis.",
     "sentence_de": "Ich werde um sechs zu Hause sein.",
@@ -48004,7 +48004,7 @@
   {
     "id": "2985",
     "spanish": "estarás",
-    "german": "du wirst sein",
+    "german": "du wirst sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estarás bien muy pronto.",
     "sentence_de": "Du wirst sehr bald wieder gesund sein.",
@@ -48014,7 +48014,7 @@
   {
     "id": "2986",
     "spanish": "estará",
-    "german": "er/sie wird sein",
+    "german": "er/sie wird sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "La tienda estará cerrada mañana.",
     "sentence_de": "Der Laden wird morgen geschlossen sein.",
@@ -48024,7 +48024,7 @@
   {
     "id": "2987",
     "spanish": "estaremos",
-    "german": "wir werden sein",
+    "german": "wir werden sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaremos listos para el lunes.",
     "sentence_de": "Wir werden bis Montag fertig sein.",
@@ -48034,7 +48034,7 @@
   {
     "id": "2988",
     "spanish": "estaréis",
-    "german": "ihr werdet sein",
+    "german": "ihr werdet sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaréis orgullosos del resultado.",
     "sentence_de": "Ihr werdet stolz auf das Ergebnis sein.",
@@ -48044,7 +48044,7 @@
   {
     "id": "2989",
     "spanish": "estarán",
-    "german": "sie werden sein",
+    "german": "sie werden sein (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estarán de vacaciones la semana que viene.",
     "sentence_de": "Sie werden nächste Woche im Urlaub sein.",
@@ -48054,7 +48054,7 @@
   {
     "id": "2990",
     "spanish": "estaría",
-    "german": "ich wäre",
+    "german": "ich wäre (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaría mejor en casa hoy.",
     "sentence_de": "Ich wäre heute zu Hause besser aufgehoben.",
@@ -48064,7 +48064,7 @@
   {
     "id": "2991",
     "spanish": "estarías",
-    "german": "du wärst",
+    "german": "du wärst (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estarías más cómodo en el sofá.",
     "sentence_de": "Du wärst auf dem Sofa bequemer.",
@@ -48074,7 +48074,7 @@
   {
     "id": "2992",
     "spanish": "estaría",
-    "german": "er/sie wäre",
+    "german": "er/sie wäre (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaría bien tomar un descanso.",
     "sentence_de": "Es wäre gut, eine Pause zu machen.",
@@ -48084,7 +48084,7 @@
   {
     "id": "2993",
     "spanish": "estaríamos",
-    "german": "wir wären",
+    "german": "wir wären (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaríamos allí a tiempo.",
     "sentence_de": "Wir wären rechtzeitig dort.",
@@ -48094,7 +48094,7 @@
   {
     "id": "2994",
     "spanish": "estaríais",
-    "german": "ihr wärt",
+    "german": "ihr wärt (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estaríais más tranquilos en el campo.",
     "sentence_de": "Ihr wärt auf dem Land ruhiger.",
@@ -48104,7 +48104,7 @@
   {
     "id": "2995",
     "spanish": "estarían",
-    "german": "sie wären",
+    "german": "sie wären (estar)",
     "category": "Verben: estar",
     "sentence_es": "Estarían encantados de ayudarte.",
     "sentence_de": "Sie wären begeistert, dir zu helfen.",
