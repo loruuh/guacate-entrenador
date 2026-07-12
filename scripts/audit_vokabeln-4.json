@@ -30,15 +30,15 @@
   {
     "id": "2677",
     "spanish": "de puta madre",
-    "german": "megageil / super / hammer (umgangssprachlich)",
+    "german": "hurengeil",
     "type": "phrase",
     "sentence_es": "La fiesta estuvo de puta madre.",
-    "sentence_de": "Die Party war megageil.",
+    "sentence_de": "Die Party war hurengeil.",
     "audio": "/audio/2677.mp3",
     "word_translations": {
       "la fiesta": "die Party",
       "estuvo": "war",
-      "de puta madre": "megageil"
+      "de puta madre": "hurengeil"
     }
   },
   {
@@ -243,16 +243,6 @@
     "category": "Verben",
     "sentence_es": "Por favor, para de hacer tanto ruido.",
     "sentence_de": "Hör bitte auf, so viel Lärm zu machen.",
-    "audio": ""
-  },
-  {
-    "id": "2768",
-    "spanish": "logró (lograr)",
-    "german": "hat es geschafft (zu...)",
-    "pronunciation": "lo-GRO",
-    "category": "Verben",
-    "sentence_es": "Al final logró terminar el proyecto a tiempo.",
-    "sentence_de": "Am Ende hat er/sie es geschafft, das Projekt rechtzeitig fertigzustellen.",
     "audio": ""
   },
   {
@@ -2187,7 +2177,7 @@
   {
     "id": "340",
     "spanish": "preferir",
-    "german": "vorziehen",
+    "german": "bevorzugen",
     "type": "verb",
     "sentence_es": "Prefiero café con leche por la mañana.",
     "sentence_de": "Ich bevorzuge Kaffee mit Milch am Morgen.",
@@ -3845,7 +3835,7 @@
   {
     "id": "580",
     "spanish": "el refresco",
-    "german": "die Limonade",
+    "german": "das Erfrischungsgetränk",
     "type": "noun",
     "sentence_es": "Me gusta beber un refresco cuando hace calor.",
     "sentence_de": "Ich trinke gerne ein Erfrischungsgetränk, wenn es heiß ist.",
@@ -4287,7 +4277,7 @@
   {
     "id": "2934",
     "spanish": "harto / harta",
-    "german": "genervt / überdrüssig — estar harto de = die Nase voll haben von",
+    "german": "genervt / überdrüssig",
     "type": "adjective",
     "sentence_es": "Estoy harto de esperar en esta cola.",
     "sentence_de": "Ich habe die Nase voll davon, in dieser Schlange zu warten.",

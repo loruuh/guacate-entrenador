@@ -5961,7 +5961,7 @@
   {
     "id": "340",
     "spanish": "preferir",
-    "german": "vorziehen",
+    "german": "bevorzugen",
     "type": "verb",
     "sentence_es": "Prefiero café con leche por la mañana.",
     "sentence_de": "Ich bevorzuge Kaffee mit Milch am Morgen.",
@@ -10187,7 +10187,7 @@
   {
     "id": "580",
     "spanish": "el refresco",
-    "german": "die Limonade",
+    "german": "das Erfrischungsgetränk",
     "type": "noun",
     "sentence_es": "Me gusta beber un refresco cuando hace calor.",
     "sentence_de": "Ich trinke gerne ein Erfrischungsgetränk, wenn es heiß ist.",
@@ -44113,15 +44113,15 @@
   {
     "id": "2677",
     "spanish": "de puta madre",
-    "german": "megageil / super / hammer (umgangssprachlich)",
+    "german": "hurengeil",
     "type": "phrase",
     "sentence_es": "La fiesta estuvo de puta madre.",
-    "sentence_de": "Die Party war megageil.",
+    "sentence_de": "Die Party war hurengeil.",
     "audio": "/audio/2677.mp3",
     "word_translations": {
       "la fiesta": "die Party",
       "estuvo": "war",
-      "de puta madre": "megageil"
+      "de puta madre": "hurengeil"
     }
   },
   {
@@ -45435,16 +45435,6 @@
     "category": "Verben",
     "sentence_es": "No intentes engañarme, por favor.",
     "sentence_de": "Versuche nicht, mich zu täuschen, bitte.",
-    "audio": ""
-  },
-  {
-    "id": "2768",
-    "spanish": "logró (lograr)",
-    "german": "hat es geschafft (zu...)",
-    "pronunciation": "lo-GRO",
-    "category": "Verben",
-    "sentence_es": "Al final logró terminar el proyecto a tiempo.",
-    "sentence_de": "Am Ende hat er/sie es geschafft, das Projekt rechtzeitig fertigzustellen.",
     "audio": ""
   },
   {
@@ -47377,7 +47367,7 @@
   {
     "id": "2934",
     "spanish": "harto / harta",
-    "german": "genervt / überdrüssig — estar harto de = die Nase voll haben von",
+    "german": "genervt / überdrüssig",
     "type": "adjective",
     "sentence_es": "Estoy harto de esperar en esta cola.",
     "sentence_de": "Ich habe die Nase voll davon, in dieser Schlange zu warten.",
@@ -47694,7 +47684,7 @@
   {
     "id": "2954",
     "spanish": "fui",
-    "german": "ich war (ser)",
+    "german": "ich war (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "Ayer fui al médico.",
     "sentence_de": "Gestern war ich beim Arzt.",
@@ -47704,7 +47694,7 @@
   {
     "id": "2955",
     "spanish": "fuiste",
-    "german": "du warst (ser)",
+    "german": "du warst (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "¿Fuiste tú quien llamó?",
     "sentence_de": "Warst du derjenige, der angerufen hat?",
@@ -47714,7 +47704,7 @@
   {
     "id": "2956",
     "spanish": "fue",
-    "german": "er/sie war (ser)",
+    "german": "er/sie war (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "Fue una gran sorpresa.",
     "sentence_de": "Es war eine große Überraschung.",
@@ -47724,7 +47714,7 @@
   {
     "id": "2957",
     "spanish": "fuimos",
-    "german": "wir waren (ser)",
+    "german": "wir waren (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "Fuimos los primeros en llegar.",
     "sentence_de": "Wir waren die Ersten, die ankamen.",
@@ -47734,7 +47724,7 @@
   {
     "id": "2958",
     "spanish": "fuisteis",
-    "german": "ihr wart (ser)",
+    "german": "ihr wart (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "¿Fuisteis al concierto ayer?",
     "sentence_de": "Wart ihr gestern beim Konzert?",
@@ -47744,7 +47734,7 @@
   {
     "id": "2959",
     "spanish": "fueron",
-    "german": "sie waren (ser)",
+    "german": "sie waren (ser, Indefinido)",
     "category": "Verben: ser",
     "sentence_es": "Fueron muy amables con nosotros.",
     "sentence_de": "Sie waren sehr freundlich zu uns.",
@@ -47934,7 +47924,7 @@
   {
     "id": "2978",
     "spanish": "estuve",
-    "german": "ich war (estar)",
+    "german": "ich war (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "Estuve en Madrid el año pasado.",
     "sentence_de": "Letztes Jahr war ich in Madrid.",
@@ -47944,7 +47934,7 @@
   {
     "id": "2979",
     "spanish": "estuviste",
-    "german": "du warst (estar)",
+    "german": "du warst (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "¿Estuviste en la fiesta anoche?",
     "sentence_de": "Warst du gestern Abend auf der Party?",
@@ -47954,7 +47944,7 @@
   {
     "id": "2980",
     "spanish": "estuvo",
-    "german": "er/sie war (estar)",
+    "german": "er/sie war (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "Estuvo enfermo toda la semana.",
     "sentence_de": "Er/sie war die ganze Woche krank.",
@@ -47964,7 +47954,7 @@
   {
     "id": "2981",
     "spanish": "estuvimos",
-    "german": "wir waren (estar)",
+    "german": "wir waren (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "Estuvimos esperando dos horas.",
     "sentence_de": "Wir haben zwei Stunden gewartet.",
@@ -47974,7 +47964,7 @@
   {
     "id": "2982",
     "spanish": "estuvisteis",
-    "german": "ihr wart (estar)",
+    "german": "ihr wart (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "¿Estuvisteis en casa todo el día?",
     "sentence_de": "Wart ihr den ganzen Tag zu Hause?",
@@ -47984,7 +47974,7 @@
   {
     "id": "2983",
     "spanish": "estuvieron",
-    "german": "sie waren (estar)",
+    "german": "sie waren (estar, Indefinido)",
     "category": "Verben: estar",
     "sentence_es": "Estuvieron de viaje tres semanas.",
     "sentence_de": "Sie waren drei Wochen auf Reisen.",
@@ -53674,5 +53664,125 @@
       "fue detenido": "wurde festgenommen",
       "por la policía": "von der Polizei"
     }
+  },
+  {
+    "id": "3468",
+    "spanish": "era",
+    "german": "ich war (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "Cuando era niño, vivía en Madrid.",
+    "sentence_de": "Als ich ein Kind war, lebte ich in Madrid.",
+    "note": "ser – Imperfecto – yo",
+    "audio": ""
+  },
+  {
+    "id": "3469",
+    "spanish": "eras",
+    "german": "du warst (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "De joven, eras muy tímido.",
+    "sentence_de": "Als du jung warst, warst du sehr schüchtern.",
+    "note": "ser – Imperfecto – tú",
+    "audio": ""
+  },
+  {
+    "id": "3470",
+    "spanish": "era",
+    "german": "er/sie war (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "Mi abuelo era muy trabajador.",
+    "sentence_de": "Mein Großvater war sehr fleißig.",
+    "note": "ser – Imperfecto – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3471",
+    "spanish": "éramos",
+    "german": "wir waren (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "De niños, éramos muy traviesos.",
+    "sentence_de": "Als Kinder waren wir sehr frech.",
+    "note": "ser – Imperfecto – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3472",
+    "spanish": "erais",
+    "german": "ihr wart (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "Vosotros erais los mejores amigos del colegio.",
+    "sentence_de": "Ihr wart die besten Freunde aus der Schulzeit.",
+    "note": "ser – Imperfecto – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3473",
+    "spanish": "eran",
+    "german": "sie waren (ser, Imperfecto)",
+    "category": "Verben: ser",
+    "sentence_es": "Mis padres eran muy estrictos conmigo.",
+    "sentence_de": "Meine Eltern waren sehr streng mit mir.",
+    "note": "ser – Imperfecto – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3474",
+    "spanish": "estaba",
+    "german": "ich war (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "De niño, siempre estaba enfermo en invierno.",
+    "sentence_de": "Als Kind war ich im Winter immer krank.",
+    "note": "estar – Imperfecto – yo",
+    "audio": ""
+  },
+  {
+    "id": "3475",
+    "spanish": "estabas",
+    "german": "du warst (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "Cuando te conocí, estabas muy triste.",
+    "sentence_de": "Als ich dich kennenlernte, warst du sehr traurig.",
+    "note": "estar – Imperfecto – tú",
+    "audio": ""
+  },
+  {
+    "id": "3476",
+    "spanish": "estaba",
+    "german": "er/sie war (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "Mientras yo cocinaba, ella estaba leyendo en el sofá.",
+    "sentence_de": "Während ich kochte, las sie gerade auf dem Sofa.",
+    "note": "estar – Imperfecto – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3477",
+    "spanish": "estábamos",
+    "german": "wir waren (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "Cuando llegó la noticia, estábamos todos en casa.",
+    "sentence_de": "Als die Nachricht kam, waren wir alle zu Hause.",
+    "note": "estar – Imperfecto – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3478",
+    "spanish": "estabais",
+    "german": "ihr wart (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "Vosotros estabais muy nerviosos antes del examen.",
+    "sentence_de": "Ihr wart vor der Prüfung sehr nervös.",
+    "note": "estar – Imperfecto – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3479",
+    "spanish": "estaban",
+    "german": "sie waren (estar, Imperfecto)",
+    "category": "Verben: estar",
+    "sentence_es": "Cuando llegamos, ellos estaban durmiendo.",
+    "sentence_de": "Als wir ankamen, schliefen sie gerade.",
+    "note": "estar – Imperfecto – ellos",
+    "audio": ""
   }
 ]
