@@ -6538,7 +6538,7 @@
   {
     "id": "373",
     "spanish": "demostrar",
-    "german": "beweisen",
+    "german": "etwas demonstrieren",
     "type": "verb",
     "sentence_es": "María quiere demostrar su habilidad en matemáticas.",
     "sentence_de": "María möchte ihre Fähigkeit in Mathematik beweisen.",
@@ -6825,7 +6825,7 @@
   {
     "id": "390",
     "spanish": "presentar",
-    "german": "vorstellen",
+    "german": "etwas präsentieren",
     "type": "verb",
     "sentence_es": "Voy a presentar mi proyecto mañana.",
     "sentence_de": "Ich werde morgen mein Projekt vorstellen.",
