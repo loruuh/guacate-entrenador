@@ -3106,7 +3106,7 @@
   {
     "id": "176",
     "spanish": "el partido",
-    "german": "das Spiel",
+    "german": "die Partie",
     "type": "noun",
     "sentence_es": "El partido de fútbol empieza a las ocho.",
     "sentence_de": "Das Fußballspiel beginnt um acht Uhr.",
@@ -45589,7 +45589,7 @@
   },
   {
     "id": "2786",
-    "spanish": "jugando (jugar)",
+    "spanish": "jugando",
     "german": "spielend",
     "pronunciation": "hu-GAN-do",
     "category": "Verben",
@@ -46170,7 +46170,7 @@
   {
     "id": "2849",
     "spanish": "los vegetales",
-    "german": "das Gemüse (Lateinamerika) / En España: las verduras",
+    "german": "das Gemüse (Lateinamerika; in Spanien sagt man eher „verduras“)",
     "pronunciation": "los ve-he-TA-les",
     "category": "Substantive",
     "sentence_es": "Los vegetales orgánicos son más sanos.",
@@ -51580,7 +51580,7 @@
   {
     "id": "3341",
     "spanish": "el modo",
-    "german": "die Art und Weise / der Modus",
+    "german": "der Modus",
     "type": "noun",
     "sentence_es": "No me gusta el modo en que hablas.",
     "sentence_de": "Ich mag nicht die Art und Weise, wie du sprichst.",
@@ -51621,7 +51621,7 @@
   {
     "id": "3344",
     "spanish": "la agenda",
-    "german": "der Terminkalender / die Agenda",
+    "german": "der Terminkalender",
     "type": "noun",
     "sentence_es": "Anota la reunión en tu agenda.",
     "sentence_de": "Trag das Meeting in deinen Terminkalender ein.",
@@ -51972,7 +51972,7 @@
   {
     "id": "3368",
     "spanish": "el centavo",
-    "german": "der Cent / der Centavo",
+    "german": "der Cent (in lateinamerikanischen Währungen)",
     "type": "noun",
     "sentence_es": "No tengo ni un centavo para el autobús.",
     "sentence_de": "Ich habe keinen Cent für den Bus.",
@@ -51986,7 +51986,7 @@
   {
     "id": "3369",
     "spanish": "natal",
-    "german": "Geburts- / Heimat- (z.B. ciudad natal = Geburtsstadt)",
+    "german": "Geburts- / Heimat- (z.B. Geburtsstadt)",
     "type": "adjective",
     "sentence_es": "Volví a mi ciudad natal después de diez años.",
     "sentence_de": "Ich kehrte nach zehn Jahren in meine Geburtsstadt zurück.",
@@ -52118,14 +52118,14 @@
   {
     "id": "3378",
     "spanish": "la corazonada",
-    "german": "die Vorahnung / das Bauchgefühl",
+    "german": "das Bauchgefühl",
     "type": "noun",
     "sentence_es": "Tuve una corazonada de que algo iba a salir mal.",
     "sentence_de": "Ich hatte das Bauchgefühl, dass etwas schiefgehen würde.",
     "audio": "",
     "word_translations": {
       "tuve": "ich hatte",
-      "corazonada": "Vorahnung/Bauchgefühl",
+      "corazonada": "Bauchgefühl",
       "salir": "ausgehen",
       "mal": "schlecht"
     }
@@ -52162,7 +52162,7 @@
   {
     "id": "3381",
     "spanish": "letal",
-    "german": "tödlich / letal",
+    "german": "tödlich",
     "type": "adjective",
     "sentence_es": "Una dosis tan alta puede ser letal.",
     "sentence_de": "Eine so hohe Dosis kann tödlich sein.",
@@ -52610,7 +52610,7 @@
   {
     "id": "3410",
     "spanish": "las ganas",
-    "german": "die Lust / die Lust auf etwas; tener ganas de = Lust haben auf",
+    "german": "die Lust / die Lust auf etwas (Lust haben auf)",
     "type": "noun",
     "sentence_es": "No tengo ganas de salir esta noche.",
     "sentence_de": "Ich habe keine Lust, heute Abend auszugehen.",
@@ -52683,7 +52683,7 @@
   {
     "id": "3414",
     "spanish": "sentar",
-    "german": "setzen (jemanden); sich setzen = sentarse",
+    "german": "setzen (jemanden); reflexiv: sich setzen",
     "type": "verb",
     "sentence_es": "Sentó al niño en la silla.",
     "sentence_de": "Er setzte das Kind auf den Stuhl.",
@@ -52752,7 +52752,7 @@
   {
     "id": "3418",
     "spanish": "el psiquiatra",
-    "german": "der Psychiater (f: la psiquiatra)",
+    "german": "der Psychiater / die Psychiaterin",
     "type": "noun",
     "sentence_es": "El médico la derivó a un psiquiatra.",
     "sentence_de": "Der Arzt überwies sie an einen Psychiater.",
@@ -53018,7 +53018,7 @@
   {
     "id": "3432",
     "spanish": "acercar",
-    "german": "näher bringen / heranrücken; sich annähern = acercarse",
+    "german": "näher bringen / heranrücken; reflexiv: sich annähern",
     "type": "verb",
     "sentence_es": "Acercó la silla a la ventana para ver mejor.",
     "sentence_de": "Er rückte den Stuhl ans Fenster, um besser sehen zu können.",
@@ -53147,7 +53147,7 @@
   {
     "id": "3439",
     "spanish": "químico",
-    "german": "chemisch; el químico = der Chemiker",
+    "german": "chemisch; als Substantiv: der Chemiker",
     "type": "adjective",
     "sentence_es": "Se detectó un derrame de material químico en la fábrica.",
     "sentence_de": "In der Fabrik wurde ein Austritt von chemischem Material entdeckt.",
@@ -53783,6 +53783,276 @@
     "sentence_es": "Cuando llegamos, ellos estaban durmiendo.",
     "sentence_de": "Als wir ankamen, schliefen sie gerade.",
     "note": "estar – Imperfecto – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3480",
+    "spanish": "¿qué onda?",
+    "german": "was geht? (Mexiko-Slang)",
+    "pronunciation": "ke ON-da",
+    "category": "Ausdrücke",
+    "sentence_es": "¿Qué onda, cómo has estado?",
+    "sentence_de": "Was geht, wie ist es dir ergangen?",
+    "audio": "",
+    "note": "Mexikanischer Slang, informelle Begrüßung (vgl. güey, id 2736)"
+  },
+  {
+    "id": "3481",
+    "spanish": "embarazada",
+    "german": "schwanger",
+    "pronunciation": "em-ba-ra-SA-da",
+    "category": "Adjektive",
+    "sentence_es": "Mi hermana está embarazada de seis meses.",
+    "sentence_de": "Meine Schwester ist im sechsten Monat schwanger.",
+    "audio": "",
+    "note": "Falscher Freund: bedeutet nicht 'verlegen' (das wäre 'avergonzada')!"
+  },
+  {
+    "id": "3482",
+    "spanish": "el estreno",
+    "german": "die Premiere",
+    "pronunciation": "el es-TRE-no",
+    "category": "Substantive",
+    "sentence_es": "El estreno de la película fue un gran éxito.",
+    "sentence_de": "Die Premiere des Films war ein großer Erfolg.",
+    "audio": ""
+  },
+  {
+    "id": "3483",
+    "spanish": "partir",
+    "german": "aufbrechen / abreisen (auch: teilen)",
+    "pronunciation": "par-TIR",
+    "category": "Verben",
+    "sentence_es": "Vamos a partir mañana temprano hacia la costa.",
+    "sentence_de": "Wir werden morgen früh in Richtung Küste aufbrechen.",
+    "audio": "",
+    "note": "Auch: 'teilen', z.B. partir el pastel en dos"
+  },
+  {
+    "id": "3484",
+    "spanish": "despierto",
+    "german": "wach",
+    "pronunciation": "des-pi-ER-to",
+    "category": "Adjektive",
+    "sentence_es": "Ya estoy despierto desde las seis de la mañana.",
+    "sentence_de": "Ich bin schon seit sechs Uhr morgens wach.",
+    "audio": ""
+  },
+  {
+    "id": "3485",
+    "spanish": "el/la principiante",
+    "german": "der Anfänger / die Anfängerin",
+    "pronunciation": "prin-si-PYAN-te",
+    "category": "Substantive",
+    "sentence_es": "Como principiante, todavía cometo muchos errores.",
+    "sentence_de": "Als Anfänger mache ich noch viele Fehler.",
+    "audio": ""
+  },
+  {
+    "id": "3486",
+    "spanish": "el baloncesto",
+    "german": "der Basketball",
+    "pronunciation": "ba-lon-SES-to",
+    "category": "Substantive",
+    "sentence_es": "Los niños juegan al baloncesto en el parque.",
+    "sentence_de": "Die Kinder spielen im Park Basketball.",
+    "audio": ""
+  },
+  {
+    "id": "3487",
+    "spanish": "el testigo",
+    "german": "der Zeuge",
+    "pronunciation": "tes-TI-go",
+    "category": "Substantive",
+    "sentence_es": "El testigo describió al sospechoso con mucho detalle.",
+    "sentence_de": "Der Zeuge beschrieb den Verdächtigen sehr detailliert.",
+    "audio": ""
+  },
+  {
+    "id": "3488",
+    "spanish": "puntual",
+    "german": "pünktlich",
+    "pronunciation": "pun-tu-AL",
+    "category": "Adjektive",
+    "sentence_es": "Es muy puntual, siempre llega a tiempo.",
+    "sentence_de": "Er ist sehr pünktlich, er kommt immer rechtzeitig.",
+    "audio": ""
+  },
+  {
+    "id": "3489",
+    "spanish": "impuntual",
+    "german": "unpünktlich",
+    "pronunciation": "im-pun-tu-AL",
+    "category": "Adjektive",
+    "sentence_es": "Su jefe es bastante impuntual con las reuniones.",
+    "sentence_de": "Sein Chef ist bei Besprechungen ziemlich unpünktlich.",
+    "audio": ""
+  },
+  {
+    "id": "3490",
+    "spanish": "exigente",
+    "german": "anspruchsvoll",
+    "pronunciation": "ek-si-HEN-te",
+    "category": "Adjektive",
+    "sentence_es": "Mi profesor es muy exigente con los exámenes.",
+    "sentence_de": "Mein Lehrer ist bei den Prüfungen sehr anspruchsvoll.",
+    "audio": ""
+  },
+  {
+    "id": "3491",
+    "spanish": "agotador",
+    "german": "anstrengend / erschöpfend",
+    "pronunciation": "a-go-ta-DOR",
+    "category": "Adjektive",
+    "sentence_es": "El viaje fue agotador, dormimos doce horas después.",
+    "sentence_de": "Die Reise war erschöpfend, wir schliefen danach zwölf Stunden.",
+    "audio": ""
+  },
+  {
+    "id": "3492",
+    "spanish": "el presentimiento",
+    "german": "die Vorahnung / das Vorgefühl",
+    "pronunciation": "pre-sen-ti-MYEN-to",
+    "category": "Substantive",
+    "sentence_es": "Tuve el presentimiento de que algo no iba a salir bien.",
+    "sentence_de": "Ich hatte die Vorahnung, dass etwas nicht gut ausgehen würde.",
+    "audio": "",
+    "note": "Vgl. 'la corazonada' (Bauchgefühl, id 3378) – presentimiento betont die Vorahnung"
+  },
+  {
+    "id": "3493",
+    "spanish": "comprensible",
+    "german": "verständlich",
+    "pronunciation": "kom-pren-SI-ble",
+    "category": "Adjektive",
+    "sentence_es": "Su reacción fue completamente comprensible.",
+    "sentence_de": "Seine Reaktion war völlig verständlich.",
+    "audio": ""
+  },
+  {
+    "id": "3494",
+    "spanish": "la pieza",
+    "german": "das Stück / das Teil",
+    "pronunciation": "PYE-sa",
+    "category": "Substantive",
+    "sentence_es": "Falta una pieza del rompecabezas.",
+    "sentence_de": "Es fehlt ein Teil des Puzzles.",
+    "audio": "",
+    "note": "In Teilen Lateinamerikas auch: das Zimmer"
+  },
+  {
+    "id": "3495",
+    "spanish": "la madrugada",
+    "german": "das Morgengrauen / die frühen Morgenstunden",
+    "pronunciation": "ma-dru-GA-da",
+    "category": "Substantive",
+    "sentence_es": "Me desperté a las tres de la madrugada.",
+    "sentence_de": "Ich bin um drei Uhr in der Früh aufgewacht.",
+    "audio": "",
+    "note": "'de madrugada' = in aller Frühe"
+  },
+  {
+    "id": "3496",
+    "spanish": "el escaparate",
+    "german": "das Schaufenster",
+    "pronunciation": "es-ka-pa-RA-te",
+    "category": "Substantive",
+    "sentence_es": "Vimos el vestido en el escaparate de la tienda.",
+    "sentence_de": "Wir sahen das Kleid im Schaufenster des Ladens.",
+    "audio": ""
+  },
+  {
+    "id": "3497",
+    "spanish": "juzgar",
+    "german": "urteilen / beurteilen",
+    "pronunciation": "hus-GAR",
+    "category": "Verben",
+    "sentence_es": "No debes juzgar a las personas por su apariencia.",
+    "sentence_de": "Du sollst Menschen nicht nach ihrem Äußeren beurteilen.",
+    "audio": ""
+  },
+  {
+    "id": "3498",
+    "spanish": "la víspera",
+    "german": "der Vorabend / der Tag davor",
+    "pronunciation": "BIS-pe-ra",
+    "category": "Substantive",
+    "sentence_es": "La víspera de Navidad cenamos en familia.",
+    "sentence_de": "Am Abend vor Weihnachten essen wir mit der Familie.",
+    "audio": ""
+  },
+  {
+    "id": "3499",
+    "spanish": "el incendio",
+    "german": "der Brand / das Feuer",
+    "pronunciation": "in-SEN-dyo",
+    "category": "Substantive",
+    "sentence_es": "Los bomberos apagaron el incendio en pocas horas.",
+    "sentence_de": "Die Feuerwehr löschte den Brand in wenigen Stunden.",
+    "audio": ""
+  },
+  {
+    "id": "3500",
+    "spanish": "el albergue",
+    "german": "die Herberge",
+    "pronunciation": "al-BER-ge",
+    "category": "Substantive",
+    "sentence_es": "Dormimos en un albergue barato durante el viaje.",
+    "sentence_de": "Wir schliefen während der Reise in einer günstigen Herberge.",
+    "audio": "",
+    "note": "z.B. Pilgerherberge am Jakobsweg"
+  },
+  {
+    "id": "3501",
+    "spanish": "el peregrino",
+    "german": "der Pilger",
+    "pronunciation": "pe-re-GRI-no",
+    "category": "Substantive",
+    "sentence_es": "El peregrino descansó en el albergue antes de seguir su camino.",
+    "sentence_de": "Der Pilger ruhte sich in der Herberge aus, bevor er seinen Weg fortsetzte.",
+    "audio": ""
+  },
+  {
+    "id": "3502",
+    "spanish": "el incendio forestal",
+    "german": "der Waldbrand",
+    "pronunciation": "in-SEN-dyo fo-res-TAL",
+    "category": "Substantive",
+    "sentence_es": "El incendio forestal destruyó miles de hectáreas.",
+    "sentence_de": "Der Waldbrand zerstörte Tausende Hektar.",
+    "audio": "",
+    "note": "Vgl. 'el incendio' (der Brand, id 3499)"
+  },
+  {
+    "id": "3503",
+    "spanish": "fallecer",
+    "german": "versterben",
+    "pronunciation": "fa-ye-SER",
+    "category": "Verben",
+    "sentence_es": "El escritor falleció a los noventa años.",
+    "sentence_de": "Der Schriftsteller verstarb im Alter von neunzig Jahren.",
+    "audio": "",
+    "note": "Formeller als 'morir'; typisch für Nachrichten und offizielle Mitteilungen"
+  },
+  {
+    "id": "3504",
+    "spanish": "el fallecido / la fallecida",
+    "german": "der Verstorbene / die Verstorbene",
+    "pronunciation": "fa-ye-SI-do",
+    "category": "Substantive",
+    "sentence_es": "La policía identificó al fallecido.",
+    "sentence_de": "Die Polizei identifizierte den Verstorbenen.",
+    "audio": "",
+    "note": "Vgl. 'fallecer' (versterben, id 3503)"
+  },
+  {
+    "id": "3505",
+    "spanish": "el/la excursionista",
+    "german": "der Wanderer / der Ausflügler",
+    "pronunciation": "eks-kur-syo-NIS-ta",
+    "category": "Substantive",
+    "sentence_es": "El excursionista fue rescatado en la montaña por el helicóptero.",
+    "sentence_de": "Der Wanderer wurde in den Bergen vom Hubschrauber gerettet.",
     "audio": ""
   }
 ]

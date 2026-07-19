@@ -1,0 +1,72 @@
+{
+  "id": "lerntipps",
+  "name": "Lerntipps",
+  "description": "Wie dein Gehirn Spanisch lernt",
+  "icon": "🧠",
+  "type": "tips",
+  "tips": [
+    {
+      "id": "tip-001",
+      "title": "🧠 Der Bauplan in deinem Kopf",
+      "category": "Neurowissenschaft",
+      "content_de": "Stell dir vor, jede Vokabel ist ein **Bauplan** in deinem Gehirn.\n\n**Beim ersten Lernen:** Der Plan ist schwach und unvollständig – wie eine gestrichelte Linie.\n\n**Nach jeder Wiederholung:** Der Plan wird detaillierter und stabiler.\n\n**Mit verschiedenen Lernwegen:** Der Plan wird robust – aus vielen Perspektiven verankert!\n\n**Beispiel:**\n• Erste Begegnung: \"hacia\" (nur gesehen) → dünne Linie\n• Mit Audio: \"hacia\" (gesehen + gehört) → zwei Verbindungen\n• Im Satz: \"hacia\" (Kontext) → dritte Verbindung\n• Selbst gesagt: \"hacia\" (motorisch) → vierte Verbindung\n\n→ Jetzt ist der Bauplan **fest** im Gehirn verankert! 🏗️",
+      "practical_tip": "Nutze ALLE Features: Flashcard ansehen, Audio anhören, Beispielsatz lesen, laut nachsprechen!"
+    },
+    {
+      "id": "tip-002",
+      "title": "🎵 Die Song-Analogie",
+      "category": "Pattern Recognition",
+      "content_de": "Kennst du das? Ein neuer Song klingt erst fremd... aber nach 5-10x Hören kannst du **mitsingen**!\n\n**Warum?** Dein Gehirn hat die **Muster** gespeichert.\n\n**GENAU SO bei Vokabeln:**\n\n• **Erste Begegnung:** \"¿Hacia dónde vas?\" → ??? (fremd)\n• **Nach 3 Wiederholungen:** \"Hacia...\" → ~ (ah, das kenne ich!)\n• **Nach 10 Wiederholungen:** \"Hacia Madrid!\" → ✅ (automatisch!)\n\nDas Gehirn braucht **Wiederholung** um Muster zu erkennen. Je öfter du ein Wort siehst/hörst, desto vertrauter wird es – genau wie dein Lieblingssong! 🎶",
+      "practical_tip": "Hab Geduld! Die ersten 3-5 Begegnungen fühlen sich schwer an. Ab der 6. wird's leichter!"
+    },
+    {
+      "id": "tip-003",
+      "title": "⏱️ Täglich 15 Min > 2h am Wochenende",
+      "category": "Spacing Effect",
+      "content_de": "Die Wissenschaft sagt: **Spacing Effect!**\n\n❌ **Schlecht:**\nSamstag: 2 Stunden pauken\nSonntag bis Freitag: Nichts\n→ Du vergisst **80%** bis nächsten Samstag!\n\n✅ **Gut:**\nJeden Tag: 15 Minuten\n→ **Spacing Effect:** Dein Gehirn speichert VIEL mehr ab!\n\n**Warum?** Jede Nacht im Schlaf **konsolidiert** das Gehirn das Gelernte. Tägliches Lernen = tägliche Konsolidierung! 😴\n\n**Die Regel:** Lieber **täglich kurz** als **selten lang**.\n\n15 Minuten jeden Tag = **105 Min/Woche**\n2 Stunden einmal = **120 Min/Woche** (aber 80% Vergessen!)",
+      "practical_tip": "Setze dir ein tägliches Goal: Z.B. 20 Vokabeln oder 15 Minuten. Mach es zur Gewohnheit!"
+    },
+    {
+      "id": "tip-004",
+      "title": "🔁 Wiederholung ist das A und O",
+      "category": "Spaced Repetition",
+      "content_de": "**Ebbinghaus Forgetting Curve** zeigt:\n\n• Nach 1 Tag: **-50%** vergessen\n• Nach 1 Woche: **-70%** vergessen\n• Nach 1 Monat: **-80%** vergessen\n\n**ABER mit Wiederholung:**\n\n1. Wiederholung nach 1 Tag: -30% vergessen\n2. Wiederholung nach 3 Tagen: -15% vergessen\n3. Wiederholung nach 1 Woche: -5% vergessen\n4. Wiederholung nach 1 Monat: -2% vergessen\n\n**Das Geheimnis:** Wiederhole **bevor** du vergisst!\n\nHablaPalabra zeigt dir automatisch Vokabeln die du schon kennst – genau im richtigen Moment für die Wiederholung! 🔄",
+      "practical_tip": "Gehe auch 'alte' Module nochmal durch. Wiederholung von Vokabeln die du 'kannst' festigt sie!"
+    },
+    {
+      "id": "tip-005",
+      "title": "🎯 Verschiedene Lernwege = Stärkerer Bauplan",
+      "category": "Multimodales Lernen",
+      "content_de": "Je mehr **Sinne** du nutzt, desto besser merkst du es:\n\n• **Nur lesen:** 👀 (1 Verbindung)\n• **Lesen + Hören:** 👀 + 👂 (2 Verbindungen)\n• **Lesen + Hören + Sprechen:** 👀 + 👂 + 🗣️ (3 Verbindungen)\n• **Im Satz + Kontext:** 👀 + 👂 + 🗣️ + 🧠 (4 Verbindungen!)\n\n**HablaPalabra bietet:**\n\n✓ **Visuell** – Vokabel sehen (Flashcard)\n✓ **Auditiv** – Native Audio hören (🔊)\n✓ **Kontextuell** – Beispielsätze (Bedeutung)\n✓ **Motorisch** – Antwort tippen/sprechen (Aktiv!)\n\n= **Multimodales Lernen!** 🎓\n\nDein Bauplan wird aus 4 Richtungen verstärkt!",
+      "practical_tip": "Drücke IMMER auf den 🔊 Button! Hören + Sehen zusammen ist viel effektiver als nur Lesen."
+    },
+    {
+      "id": "tip-006",
+      "title": "💪 Aktives Erinnern > Passives Lesen",
+      "category": "Active Recall",
+      "content_de": "**Was funktioniert NICHT:**\n\n❌ Vokabelliste 10x durchlesen\n→ Gefühl von \"kenne ich!\", aber beim Abrufen: ???\n\n**Was FUNKTIONIERT:**\n\n✅ **Aktives Erinnern** (Retrieval Practice)\n→ Vokabel verdecken, selbst erinnern, dann checken\n\n**Warum?** Aktives Erinnern **TRAINIERT** den Abruf!\n\nWie Muskeltraining: Je öfter du den \"Abruf-Muskel\" nutzt, desto stärker wird er! 💪\n\n**HablaPalabra = Flashcards = Aktives Erinnern!** ✅\n\nDu musst aktiv aus deinem Gedächtnis holen – das ist der Trick!",
+      "practical_tip": "Versuche ZUERST die Antwort zu denken, BEVOR du die Karte umdrehst. Das ist das Training!"
+    },
+    {
+      "id": "tip-007",
+      "title": "🌍 Kontext ist König",
+      "category": "Context Learning",
+      "content_de": "**Einzelne Vokabel:** \"banco\" = ???\n(Bank? Sitzbank? Finanzinstitut?)\n\n**Im Kontext:** \"Me siento en el banco del parque.\"\n→ AH! **Sitzbank!** 💡\n\n**Warum Kontext wichtig ist:**\n\n1. **Disambiguierung** – klärt die Bedeutung\n2. **Stärkere Enkodierung** – mehr neuronale Verbindungen\n3. **Praktische Nutzung** – wie man es wirklich sagt\n4. **Natürliches Lernen** – so wie Kinder Sprache lernen!\n\n**HablaPalabra:** JEDE Vokabel hat einen **Beispielsatz**! 📝\n\nNicht nur \"banco = Bank\", sondern \"banco\" in einem echten Satz!",
+      "practical_tip": "Lies IMMER den Beispielsatz! Er zeigt dir wie das Wort wirklich benutzt wird."
+    },
+    {
+      "id": "tip-008",
+      "title": "🎮 Fehler machen ist GUT!",
+      "category": "Growth Mindset",
+      "content_de": "**Growth Mindset:** Fehler = Lernchance!\n\nFalsch geantwortet bei \"hacia\"?\n→ **PERFEKT!** Jetzt merkst du es besser als bei \"richtig\"!\n\n**Warum? Prediction Error Learning:**\n\n1. Du denkst \"hasta\" ❌\n2. Siehst \"hacia\" ✅\n3. Gehirn: \"OH! **Unterschied wichtig!**\" 💡\n4. **Stärkere Enkodierung!**\n\n**Wissenschaft zeigt:** Fehler führen zu **tieferem Lernen**!\n\nDein Gehirn merkt sich Fehler besser als Erfolge.\n\n→ Fehler machen = **Turbo-Lernen!** 🚀\n\nHab keine Angst vor falschen Antworten!",
+      "practical_tip": "Wenn du einen Fehler machst: Nimm dir 5 Sekunden Zeit den Unterschied zu verstehen. DAS ist der Lernmoment!"
+    },
+    {
+      "id": "tip-009",
+      "title": "📏 Wortendungen verraten das Geschlecht",
+      "category": "Grammatik-Trick",
+      "content_de": "Du musst nicht jedes Geschlecht auswendig lernen! **Viele Wortendungen verraten dir automatisch, ob ein Wort männlich oder weiblich ist.**\n\n**IMMER WEIBLICH (la):**\n\n• **-ción** → la canción, la información, la estación, la nación\n• **-sión** → la decisión, la pasión, la televisión, la misión\n• **-dad** → la ciudad, la verdad, la libertad, la universidad\n• **-tad** → la libertad, la amistad, la voluntad, la facultad\n• **-umbre** → la costumbre, la muchedumbre, la cumbre\n• **-ie** → la serie, la especie\n\n**FAST IMMER MÄNNLICH (el):**\n\n• **-aje** → el viaje, el mensaje, el garaje, el paisaje\n• **-or** → el amor, el dolor, el color, el sabor (⚠️ Ausnahme: la flor)\n• **-ma** (griechische Wörter) → el problema, el sistema, el tema, el drama\n\n**Der Trick:** Wenn du ein neues Wort mit **-ción** siehst, weißt du sofort: **LA**! Du sparst dir das Auswendiglernen! 🎯",
+      "practical_tip": "Wenn du ein neues Wort lernst, schau ZUERST auf die Endung! -ción, -sión, -dad → automatisch LA. So lernst du das Geschlecht MIT dem Wort!"
+    }
+  ]
+}

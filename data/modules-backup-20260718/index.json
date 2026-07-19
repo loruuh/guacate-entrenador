@@ -1,0 +1,274 @@
+[
+  {
+    "id": "vokabeln-1",
+    "name": "Vokabeln 1 – Kern",
+    "description": "Absolut häufigste Wörter – Verben, Grundnomen, Kernvokabular",
+    "icon": "📘",
+    "type": "vocabulary",
+    "file": "vokabeln-1.json"
+  },
+  {
+    "id": "vokabeln-2",
+    "name": "Vokabeln 2 – Alltag I",
+    "description": "Alltag: Körper, Wohnen, Transport",
+    "icon": "📗",
+    "type": "vocabulary",
+    "file": "vokabeln-2.json"
+  },
+  {
+    "id": "vokabeln-3",
+    "name": "Vokabeln 3 – Alltag II",
+    "description": "Alltag: Kleidung, Familie, Orte, Tiere & Natur",
+    "icon": "📙",
+    "type": "vocabulary",
+    "file": "vokabeln-3.json"
+  },
+  {
+    "id": "vokabeln-4",
+    "name": "Vokabeln 4 – Übergang",
+    "description": "Übergang: Ausdrücke, Natur, Gefühle, Konnektoren",
+    "icon": "📕",
+    "type": "vocabulary",
+    "file": "vokabeln-4.json"
+  },
+  {
+    "id": "vokabeln-5",
+    "name": "Vokabeln 5 – Mittelstufe I",
+    "description": "Mittelstufe: Arbeit, Reisen, Bildung, Beziehungen",
+    "icon": "📓",
+    "type": "vocabulary",
+    "file": "vokabeln-5.json"
+  },
+  {
+    "id": "vokabeln-6",
+    "name": "Vokabeln 6 – Mittelstufe II",
+    "description": "Mittelstufe: Konnektoren, Gefühle, Gesellschaft, Kultur",
+    "icon": "📔",
+    "type": "vocabulary",
+    "file": "vokabeln-6.json"
+  },
+  {
+    "id": "vokabeln-7",
+    "name": "Vokabeln 7 – Fortgeschritten I",
+    "description": "Fortgeschritten: Konzepte, Wirtschaft, abstrakte Nomen",
+    "icon": "📒",
+    "type": "vocabulary",
+    "file": "vokabeln-7.json"
+  },
+  {
+    "id": "vokabeln-8",
+    "name": "Vokabeln 8 – Fortgeschritten II",
+    "description": "Fortgeschritten: Tätigkeiten, Prozesse, Zusammenarbeit",
+    "icon": "📃",
+    "type": "vocabulary",
+    "file": "vokabeln-8.json"
+  },
+  {
+    "id": "vokabeln-9",
+    "name": "Vokabeln 9 – Fortgeschritten III",
+    "description": "Fortgeschritten: Ereignisse, Themen, Situationen",
+    "icon": "📄",
+    "type": "vocabulary",
+    "file": "vokabeln-9.json"
+  },
+  {
+    "id": "vokabeln-10",
+    "name": "Vokabeln 10 – Fortgeschritten IV",
+    "description": "Fortgeschritten: Charakter, Fähigkeiten, Spezialnomen",
+    "icon": "📑",
+    "type": "vocabulary",
+    "file": "vokabeln-10.json"
+  },
+  {
+    "id": "vokabeln-11",
+    "name": "Vokabeln 11 – Spezial",
+    "description": "Spezial: Fachsprache, regionale Ausdrücke & Seltenes",
+    "icon": "🔖",
+    "type": "vocabulary",
+    "file": "vokabeln-11.json"
+  },
+  {
+    "id": "redewendungen",
+    "name": "Redewendungen",
+    "description": "Spanische Redewendungen & Idioms",
+    "icon": "💬",
+    "type": "phrases",
+    "file": "redewendungen.json"
+  },
+  {
+    "id": "zahlen",
+    "name": "Zahlen & Uhrzeiten",
+    "description": "Zahlen 0-1000 + Uhrzeit auf Spanisch",
+    "icon": "🕐",
+    "type": "numbers",
+    "file": "zahlen.json"
+  },
+  {
+    "id": "aussprache-tipps",
+    "name": "Aussprache-Tipps",
+    "description": "11 wichtige Regeln zur spanischen Aussprache",
+    "icon": "🗣️",
+    "type": "tips",
+    "file": "aussprache-tipps.json"
+  },
+  {
+    "id": "lektionen",
+    "name": "Lektionen",
+    "description": "Grammatik-Erklärungen & Unterschiede",
+    "icon": "📖",
+    "type": "lessons",
+    "file": "lektionen.json"
+  },
+  {
+    "id": "lerntipps",
+    "name": "Lerntipps",
+    "description": "Wie dein Gehirn Spanisch lernt",
+    "icon": "🧠",
+    "type": "tips",
+    "file": "lerntipps.json"
+  },
+  {
+    "id": "latam",
+    "name": "Lateinamerikanisches Spanisch",
+    "description": "Vokabeln für Mexiko, Argentinien, Chile & Co.",
+    "icon": "🇲🇽",
+    "type": "vocabulary",
+    "file": "latam.json"
+  },
+  {
+    "id": "formale-vokabeln",
+    "name": "Formale & Politische Vokabeln",
+    "description": "Gehobene, formale und politische Ausdrücke",
+    "icon": "🎩",
+    "type": "vocabulary",
+    "file": "formale-vokabeln.json"
+  },
+  {
+    "id": "essen-und-trinken",
+    "name": "Essen & Trinken",
+    "description": "Lebensmittel, Gerichte, Getränke, Küche & Restaurant",
+    "icon": "🍽️",
+    "type": "vocabulary",
+    "file": "essen-und-trinken.json"
+  },
+  {
+    "id": "verben-ser",
+    "name": "Ser – Konjugation",
+    "description": "ser in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🔴",
+    "type": "vocabulary",
+    "file": "verben-ser.json"
+  },
+  {
+    "id": "verben-estar",
+    "name": "Estar – Konjugation",
+    "description": "estar in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🟡",
+    "type": "vocabulary",
+    "file": "verben-estar.json"
+  },
+  {
+    "id": "verben-tener",
+    "name": "Tener – Konjugation",
+    "description": "tener in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "💪",
+    "type": "vocabulary",
+    "file": "verben-tener.json"
+  },
+  {
+    "id": "verben-haber",
+    "name": "Haber – Konjugation",
+    "description": "haber (Hilfsverb) in 4 Zeiten + hay (es gibt)",
+    "icon": "✅",
+    "type": "vocabulary",
+    "file": "verben-haber.json"
+  },
+  {
+    "id": "verben-ir",
+    "name": "Ir – Konjugation",
+    "description": "ir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🚶",
+    "type": "vocabulary",
+    "file": "verben-ir.json"
+  },
+  {
+    "id": "verben-hacer",
+    "name": "Hacer – Konjugation",
+    "description": "hacer in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🔨",
+    "type": "vocabulary",
+    "file": "verben-hacer.json"
+  },
+  {
+    "id": "verben-poder",
+    "name": "Poder – Konjugation",
+    "description": "poder in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "⚡",
+    "type": "vocabulary",
+    "file": "verben-poder.json"
+  },
+  {
+    "id": "verben-decir",
+    "name": "Decir – Konjugation",
+    "description": "decir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "💬",
+    "type": "vocabulary",
+    "file": "verben-decir.json"
+  },
+  {
+    "id": "verben-ver",
+    "name": "Ver – Konjugation",
+    "description": "ver in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "👁️",
+    "type": "vocabulary",
+    "file": "verben-ver.json"
+  },
+  {
+    "id": "verben-dar",
+    "name": "Dar – Konjugation",
+    "description": "dar in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🎁",
+    "type": "vocabulary",
+    "file": "verben-dar.json"
+  },
+  {
+    "id": "verben-saber",
+    "name": "Saber – Konjugation",
+    "description": "saber in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🧠",
+    "type": "vocabulary",
+    "file": "verben-saber.json"
+  },
+  {
+    "id": "verben-querer",
+    "name": "Querer – Konjugation",
+    "description": "querer in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "❤️",
+    "type": "vocabulary",
+    "file": "verben-querer.json"
+  },
+  {
+    "id": "verben-venir",
+    "name": "Venir – Konjugation",
+    "description": "venir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🏃",
+    "type": "vocabulary",
+    "file": "verben-venir.json"
+  },
+  {
+    "id": "verben-poner",
+    "name": "Poner – Konjugation",
+    "description": "poner in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "📌",
+    "type": "vocabulary",
+    "file": "verben-poner.json"
+  },
+  {
+    "id": "verben-salir",
+    "name": "Salir – Konjugation",
+    "description": "salir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🚪",
+    "type": "vocabulary",
+    "file": "verben-salir.json"
+  }
+]

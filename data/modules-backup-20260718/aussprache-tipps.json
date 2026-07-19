@@ -1,0 +1,175 @@
+{
+  "id": "aussprache-tipps",
+  "name": "Aussprache-Tipps",
+  "description": "11 wichtige Regeln zur spanischen Aussprache",
+  "icon": "🗣️",
+  "type": "tips",
+  "mode": "read-only",
+  "tips": [
+    {
+      "id": "tip-1",
+      "title": "Das Ñ (eñe)",
+      "rule": "Ñ wird wie \"nj\" ausgesprochen, ähnlich wie im deutschen \"Cognac\".",
+      "mnemonic": "Denk an \"Lasagne\" - das gn klingt fast wie ñ!",
+      "examples": ["España → Es-pa-nja", "año → a-njo", "señor → se-njor"],
+      "quiz": [
+        {
+          "question": "Wie wird 'España' korrekt ausgesprochen?",
+          "options": ["Es-pa-nja", "Es-pa-na", "Es-pa-nya"],
+          "correct": 0,
+          "explanation": "Das Ñ klingt wie 'nj' — España wird 'Es-pa-nja' gesprochen."
+        }
+      ]
+    },
+    {
+      "id": "tip-2",
+      "title": "LL - das doppelte L",
+      "rule": "LL wird wie ein weiches \"j\" (wie im englischen \"yes\") ausgesprochen. In manchen Regionen auch wie \"sch\" oder \"dsch\".",
+      "mnemonic": "LL = \"J\" wie in \"Ja\"",
+      "examples": ["calle → ka-je", "pollo → po-jo", "lluvia → ju-wia"],
+      "quiz": [
+        {
+          "question": "Wie klingt 'calle' (Straße) auf Spanisch?",
+          "options": ["ka-je", "ka-le", "kal-le"],
+          "correct": 0,
+          "explanation": "LL wird wie ein weiches 'j' gesprochen — calle = ka-je."
+        }
+      ]
+    },
+    {
+      "id": "tip-3",
+      "title": "H ist stumm",
+      "rule": "Das H wird im Spanischen nie ausgesprochen - es ist komplett stumm!",
+      "mnemonic": "H = Hausdekoration, sieht man, hört man nicht",
+      "examples": ["hola → ola", "hora → ora", "hacer → a-ßer"],
+      "quiz": [
+        {
+          "question": "Wie wird 'hola' ausgesprochen?",
+          "options": ["ola", "ho-la", "jo-la"],
+          "correct": 0,
+          "explanation": "Das H ist stumm — hola wird einfach 'ola' gesprochen."
+        }
+      ]
+    },
+    {
+      "id": "tip-4",
+      "title": "J und G vor e/i",
+      "rule": "J wird immer, und G vor e/i, wie ein raues deutsches \"ch\" (wie in \"Bach\") ausgesprochen.",
+      "mnemonic": "J = Ch wie in \"aCHtung!\"",
+      "examples": ["jamón → cha-mon", "gente → chen-te", "jugar → chu-gar"],
+      "quiz": [
+        {
+          "question": "Wie spricht man 'gente' (Leute) aus?",
+          "options": ["chen-te", "gen-te", "jen-te"],
+          "correct": 0,
+          "explanation": "G vor E/I klingt wie ein raues CH — gente = chen-te."
+        }
+      ]
+    },
+    {
+      "id": "tip-5",
+      "title": "C und Z - das Lispeln",
+      "rule": "C vor e/i und Z werden in Spanien wie das englische \"th\" (Zunge zwischen Zähne) ausgesprochen. In Lateinamerika wie \"s\".",
+      "mnemonic": "Stell dir vor, du lispelst absichtlich!",
+      "examples": ["cerveza → ther-we-tha (Spanien)", "zapato → tha-pa-to", "cinco → thin-ko"],
+      "quiz": [
+        {
+          "question": "Wie lautet die Aussprache von 'cerveza' in Spanien?",
+          "options": ["ther-we-tha", "ser-we-sa", "zer-weh-za"],
+          "correct": 0,
+          "explanation": "In Spanien: C vor E = 'th' (englisches Lispeln) — cerveza = ther-we-tha."
+        }
+      ]
+    },
+    {
+      "id": "tip-6",
+      "title": "R und RR",
+      "rule": "Einzelnes R wird leicht gerollt (wie ein kurzes Tippen der Zunge). Doppeltes RR wird kräftig gerollt.",
+      "mnemonic": "R = ein Tipp, RR = Motorrad-Sound \"brrrrr\"",
+      "examples": ["pero (aber) → leicht gerollt", "perro (Hund) → stark gerollt", "rojo → stark gerollt am Wortanfang"],
+      "quiz": [
+        {
+          "question": "Was unterscheidet 'pero' (aber) von 'perro' (Hund)?",
+          "options": ["pero = leicht, perro = stark gerollt", "Kein Unterschied", "pero = stark, perro = leicht gerollt"],
+          "correct": 0,
+          "explanation": "Einfaches R = leichtes Tippen, doppeltes RR = kräftiges Rollen."
+        }
+      ]
+    },
+    {
+      "id": "tip-7",
+      "title": "V und B",
+      "rule": "V und B klingen im Spanischen identisch! Beide werden wie ein weiches \"b\" ausgesprochen.",
+      "mnemonic": "Spanier unterscheiden nicht: Vaca = Baca",
+      "examples": ["vino → bino", "bien → bien", "vivir → bi-bir"],
+      "quiz": [
+        {
+          "question": "Wie klingt 'vino' (Wein) auf Spanisch?",
+          "options": ["bino", "wino", "vino (wie im Deutschen)"],
+          "correct": 0,
+          "explanation": "V und B klingen identisch — vino wird wie 'bino' gesprochen."
+        }
+      ]
+    },
+    {
+      "id": "tip-8",
+      "title": "Betonung ohne Akzent",
+      "rule": "Wörter auf Vokal, -n oder -s: Betonung auf vorletzte Silbe. Wörter auf anderen Konsonanten: Betonung auf letzte Silbe.",
+      "mnemonic": "Vokal/n/s → VORletzte, sonst → LETZTE",
+      "examples": ["casa → CA-sa", "comen → CO-men", "hablar → ha-BLAR", "ciudad → ciu-DAD"],
+      "quiz": [
+        {
+          "question": "Wo liegt die Betonung bei 'hablar' (sprechen)?",
+          "options": ["ha-BLAR", "HA-blar", "HAB-lar"],
+          "correct": 0,
+          "explanation": "Endet auf Konsonant (außer n/s) → letzte Silbe betont: ha-BLAR."
+        }
+      ]
+    },
+    {
+      "id": "tip-9",
+      "title": "Betonung mit Akzent (Tilde)",
+      "rule": "Ein Akzent (á, é, í, ó, ú) zeigt IMMER die betonte Silbe an und überschreibt alle anderen Regeln.",
+      "mnemonic": "Akzent = Ausrufezeichen für die Silbe!",
+      "examples": ["teléfono → te-LÉ-fo-no", "café → ca-FÉ", "música → MÚ-si-ca"],
+      "quiz": [
+        {
+          "question": "Welche Silbe ist bei 'música' betont?",
+          "options": ["MÚ-si-ca", "mu-SI-ca", "mu-si-CA"],
+          "correct": 0,
+          "explanation": "Der Akzent auf Ú markiert die betonte Silbe — MÚ-si-ca."
+        }
+      ]
+    },
+    {
+      "id": "tip-10",
+      "title": "QU - das stille U",
+      "rule": "In QUE und QUI ist das U stumm. Es wird nur \"ke\" und \"ki\" ausgesprochen.",
+      "mnemonic": "QU = K (das U versteckt sich)",
+      "examples": ["que → ke", "quiero → ki-e-ro", "queso → ke-so"],
+      "quiz": [
+        {
+          "question": "Wie wird 'quiero' (ich will) ausgesprochen?",
+          "options": ["ki-e-ro", "kue-ro", "ku-ie-ro"],
+          "correct": 0,
+          "explanation": "In QUI ist das U stumm — quiero = ki-e-ro."
+        }
+      ]
+    },
+    {
+      "id": "tip-11",
+      "title": "GU vor e/i",
+      "rule": "In GUE und GUI ist das U stumm (wird \"ge\"/\"gi\" ausgesprochen). Mit Trema (GÜE/GÜI) wird das U mitgesprochen.",
+      "mnemonic": "GU = G (das U versteckt sich, außer mit Pünktchen)",
+      "examples": ["guerra → ge-rra", "guitarra → gi-ta-rra", "pingüino → pin-gu-i-no"],
+      "quiz": [
+        {
+          "question": "Wie klingt 'guitarra' (Gitarre)?",
+          "options": ["gi-ta-rra", "gui-ta-rra", "gu-i-ta-rra"],
+          "correct": 0,
+          "explanation": "In GUI ist das U stumm — guitarra = gi-ta-rra."
+        }
+      ]
+    }
+  ]
+}

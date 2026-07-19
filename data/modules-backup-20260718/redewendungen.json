@@ -1,0 +1,1396 @@
+{
+  "id": "redewendungen",
+  "name": "Redewendungen",
+  "description": "Spanische Redewendungen & Idioms",
+  "icon": "💬",
+  "type": "phrases",
+  "phrases": [
+    {
+      "id": "r1",
+      "spanish": "ya te digo",
+      "german": "sag ich doch!",
+      "literal": "schon sage ich dir",
+      "sentence_es": "¿Está bueno el restaurante? - Ya te digo, es el mejor de la ciudad.",
+      "sentence_de": "Ist das Restaurant gut? - Sag ich doch, es ist das beste der Stadt.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r2",
+      "spanish": "hincar los codos",
+      "german": "hart büffeln",
+      "literal": "die Ellbogen eingraben",
+      "sentence_es": "Tengo que hincar los codos esta semana, el examen es el viernes.",
+      "sentence_de": "Ich muss diese Woche hart büffeln, die Prüfung ist am Freitag.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r3",
+      "spanish": "no dar abasto",
+      "german": "nicht hinterherkommen",
+      "literal": "nicht Versorgung geben",
+      "sentence_es": "Con tantos pedidos, no doy abasto.",
+      "sentence_de": "Mit so vielen Bestellungen komme ich nicht hinterher.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r4",
+      "spanish": "perder la compostura",
+      "german": "die Fassung verlieren",
+      "literal": "die Haltung verlieren",
+      "sentence_es": "Por más que lo provocaron, no perdió la compostura.",
+      "sentence_de": "Obwohl sie ihn provozierten, verlor er nicht die Fassung.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r5",
+      "spanish": "Buenos días",
+      "german": "Guten Morgen",
+      "literal": "",
+      "sentence_es": "Buenos días, ¿cómo está usted?",
+      "sentence_de": "Guten Morgen, wie geht es Ihnen?",
+      "audio": "",
+      "word_translations": {
+        "buenos": "gute",
+        "días": "Tage/Morgen",
+        "cómo": "wie",
+        "está": "geht",
+        "usted": "Ihnen"
+      }
+    },
+    {
+      "id": "r6",
+      "spanish": "Por favor",
+      "german": "Bitte",
+      "literal": "",
+      "sentence_es": "¿Me puede ayudar, por favor?",
+      "sentence_de": "Können Sie mir bitte helfen?",
+      "audio": "",
+      "word_translations": {
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r7",
+      "spanish": "Gracias",
+      "german": "Danke",
+      "literal": "",
+      "sentence_es": "Muchas gracias por tu ayuda.",
+      "sentence_de": "Vielen Dank für deine Hilfe.",
+      "audio": "",
+      "word_translations": {
+        "muchas": "vielen",
+        "gracias": "Dank/Danke",
+        "por": "für",
+        "tu": "deine",
+        "ayuda": "Hilfe"
+      }
+    },
+    {
+      "id": "r8",
+      "spanish": "¿Cuánto cuesta?",
+      "german": "Wie viel kostet das?",
+      "literal": "",
+      "sentence_es": "¿Cuánto cuesta este café?",
+      "sentence_de": "Wie viel kostet dieser Kaffee?",
+      "audio": "",
+      "word_translations": {
+        "cuánto": "wie viel",
+        "cuesta": "kostet",
+        "este": "dieser",
+        "café": "Kaffee"
+      }
+    },
+    {
+      "id": "r9",
+      "spanish": "No entiendo",
+      "german": "Ich verstehe nicht",
+      "literal": "",
+      "sentence_es": "No entiendo, ¿puede repetir?",
+      "sentence_de": "Ich verstehe nicht, können Sie wiederholen?",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "entiendo": "ich verstehe",
+        "puede": "können Sie",
+        "repetir": "wiederholen"
+      }
+    },
+    {
+      "id": "r10",
+      "spanish": "Buenas tardes",
+      "german": "Guten Tag / Guten Nachmittag",
+      "literal": "",
+      "sentence_es": "Buenas tardes, señor García.",
+      "sentence_de": "Guten Tag, Herr García.",
+      "audio": "",
+      "word_translations": {
+        "buenas": "gute",
+        "tardes": "Nachmittag/Tag",
+        "señor": "Herr"
+      }
+    },
+    {
+      "id": "r11",
+      "spanish": "Buenas noches",
+      "german": "Guten Abend / Gute Nacht",
+      "literal": "",
+      "sentence_es": "Buenas noches, que descanses.",
+      "sentence_de": "Gute Nacht, schlaf gut.",
+      "audio": "",
+      "word_translations": {
+        "buenas": "gute",
+        "noches": "Nächte/Nacht",
+        "que": "dass",
+        "descanses": "du dich ausruhst"
+      }
+    },
+    {
+      "id": "r12",
+      "spanish": "Hasta luego",
+      "german": "Bis später",
+      "literal": "",
+      "sentence_es": "Hasta luego, nos vemos mañana.",
+      "sentence_de": "Bis später, wir sehen uns morgen.",
+      "audio": "",
+      "word_translations": {
+        "hasta": "bis",
+        "luego": "später",
+        "nos": "uns",
+        "vemos": "sehen",
+        "mañana": "morgen"
+      }
+    },
+    {
+      "id": "r13",
+      "spanish": "¿Qué tal?",
+      "german": "Wie geht's?",
+      "literal": "",
+      "sentence_es": "Hola, ¿qué tal estás?",
+      "sentence_de": "Hallo, wie geht's dir?",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "tal": "so",
+        "estás": "geht es dir"
+      }
+    },
+    {
+      "id": "r14",
+      "spanish": "De nada",
+      "german": "Gern geschehen / Keine Ursache",
+      "literal": "",
+      "sentence_es": "¡Gracias! - De nada.",
+      "sentence_de": "Danke! - Gern geschehen.",
+      "audio": "",
+      "word_translations": {
+        "de": "von",
+        "nada": "nichts"
+      }
+    },
+    {
+      "id": "r15",
+      "spanish": "Perdón",
+      "german": "Entschuldigung / Verzeihung",
+      "literal": "",
+      "sentence_es": "Perdón, ¿puede repetir?",
+      "sentence_de": "Entschuldigung, können Sie wiederholen?",
+      "audio": "",
+      "word_translations": {
+        "perdón": "Entschuldigung",
+        "puede": "können Sie",
+        "repetir": "wiederholen"
+      }
+    },
+    {
+      "id": "r16",
+      "spanish": "Lo siento",
+      "german": "Es tut mir leid",
+      "literal": "",
+      "sentence_es": "Lo siento mucho por el retraso.",
+      "sentence_de": "Es tut mir sehr leid wegen der Verspätung.",
+      "audio": "",
+      "word_translations": {
+        "lo": "es",
+        "siento": "tut mir leid",
+        "mucho": "sehr",
+        "por": "wegen",
+        "el": "der",
+        "retraso": "Verspätung"
+      }
+    },
+    {
+      "id": "r17",
+      "spanish": "¿Dónde está...?",
+      "german": "Wo ist...?",
+      "literal": "",
+      "sentence_es": "¿Dónde está la estación de tren?",
+      "sentence_de": "Wo ist der Bahnhof?",
+      "audio": "",
+      "word_translations": {
+        "dónde": "wo",
+        "está": "ist",
+        "la": "der",
+        "estación": "Bahnhof",
+        "de": "von",
+        "tren": "Zug"
+      }
+    },
+    {
+      "id": "r18",
+      "spanish": "¿Hablas inglés?",
+      "german": "Sprichst du Englisch?",
+      "literal": "",
+      "sentence_es": "Perdón, ¿hablas inglés o alemán?",
+      "sentence_de": "Entschuldigung, sprichst du Englisch oder Deutsch?",
+      "audio": "",
+      "word_translations": {
+        "hablas": "sprichst du",
+        "inglés": "Englisch",
+        "o": "oder",
+        "alemán": "Deutsch"
+      }
+    },
+    {
+      "id": "r19",
+      "spanish": "Más despacio, por favor",
+      "german": "Langsamer, bitte",
+      "literal": "",
+      "sentence_es": "No entiendo, más despacio, por favor.",
+      "sentence_de": "Ich verstehe nicht, langsamer, bitte.",
+      "audio": "",
+      "word_translations": {
+        "más": "mehr/langsamer",
+        "despacio": "langsam",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r20",
+      "spanish": "Con permiso",
+      "german": "Mit Erlaubnis / Entschuldigung",
+      "literal": "",
+      "sentence_es": "Con permiso, ¿puedo pasar?",
+      "sentence_de": "Entschuldigung, darf ich vorbeigehen?",
+      "audio": "",
+      "word_translations": {
+        "con": "mit",
+        "permiso": "Erlaubnis",
+        "puedo": "darf ich",
+        "pasar": "vorbeigehen"
+      }
+    },
+    {
+      "id": "r21",
+      "spanish": "Salud",
+      "german": "Gesundheit / Prost",
+      "literal": "",
+      "sentence_es": "¡Achís! - ¡Salud!",
+      "sentence_de": "Hatschi! - Gesundheit!",
+      "audio": "",
+      "word_translations": {
+        "salud": "Gesundheit"
+      }
+    },
+    {
+      "id": "r22",
+      "spanish": "Buen provecho",
+      "german": "Guten Appetit",
+      "literal": "",
+      "sentence_es": "¡Buen provecho! Que disfrutes la comida.",
+      "sentence_de": "Guten Appetit! Genieße das Essen.",
+      "audio": "",
+      "word_translations": {
+        "buen": "guten",
+        "provecho": "Appetit/Genuss",
+        "que": "dass",
+        "disfrutes": "du genießst",
+        "la": "das",
+        "comida": "Essen"
+      }
+    },
+    {
+      "id": "r23",
+      "spanish": "¿Me puede ayudar?",
+      "german": "Können Sie mir helfen?",
+      "literal": "",
+      "sentence_es": "Disculpe, ¿me puede ayudar?",
+      "sentence_de": "Entschuldigung, können Sie mir helfen?",
+      "audio": "",
+      "word_translations": {
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen",
+        "disculpe": "Entschuldigung"
+      }
+    },
+    {
+      "id": "r24",
+      "spanish": "No hablo español",
+      "german": "Ich spreche kein Spanisch",
+      "literal": "",
+      "sentence_es": "Lo siento, no hablo español muy bien.",
+      "sentence_de": "Es tut mir leid, ich spreche nicht sehr gut Spanisch.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "hablo": "ich spreche",
+        "español": "Spanisch",
+        "muy": "sehr",
+        "bien": "gut"
+      }
+    },
+    {
+      "id": "r25",
+      "spanish": "¿Cómo se dice...?",
+      "german": "Wie sagt man...?",
+      "literal": "",
+      "sentence_es": "¿Cómo se dice 'water' en español?",
+      "sentence_de": "Wie sagt man 'water' auf Spanisch?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "se": "man",
+        "dice": "sagt",
+        "en": "auf",
+        "español": "Spanisch"
+      }
+    },
+    {
+      "id": "r26",
+      "spanish": "¿Puedo pagar con tarjeta?",
+      "german": "Kann ich mit Karte zahlen?",
+      "literal": "",
+      "sentence_es": "¿Puedo pagar con tarjeta o solo efectivo?",
+      "sentence_de": "Kann ich mit Karte zahlen oder nur bar?",
+      "audio": "",
+      "word_translations": {
+        "puedo": "kann ich",
+        "pagar": "zahlen",
+        "con": "mit",
+        "tarjeta": "Karte",
+        "o": "oder",
+        "solo": "nur",
+        "efectivo": "Bargeld"
+      }
+    },
+    {
+      "id": "r27",
+      "spanish": "La cuenta, por favor",
+      "german": "Die Rechnung, bitte",
+      "literal": "",
+      "sentence_es": "Camarero, la cuenta, por favor.",
+      "sentence_de": "Kellner, die Rechnung, bitte.",
+      "audio": "",
+      "word_translations": {
+        "camarero": "Kellner",
+        "la": "die",
+        "cuenta": "Rechnung",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r28",
+      "spanish": "¿Hay wifi?",
+      "german": "Gibt es WLAN?",
+      "literal": "",
+      "sentence_es": "¿Hay wifi aquí? ¿Cuál es la contraseña?",
+      "sentence_de": "Gibt es hier WLAN? Was ist das Passwort?",
+      "audio": "",
+      "word_translations": {
+        "hay": "gibt es",
+        "wifi": "WLAN",
+        "aquí": "hier",
+        "cuál": "was/welches",
+        "es": "ist",
+        "la": "das",
+        "contraseña": "Passwort"
+      }
+    },
+    {
+      "id": "r29",
+      "spanish": "¿Dónde está el baño?",
+      "german": "Wo ist die Toilette?",
+      "literal": "",
+      "sentence_es": "Disculpe, ¿dónde está el baño?",
+      "sentence_de": "Entschuldigung, wo ist die Toilette?",
+      "audio": "",
+      "word_translations": {
+        "dónde": "wo",
+        "está": "ist",
+        "el": "die",
+        "baño": "Toilette/Bad"
+      }
+    },
+    {
+      "id": "r30",
+      "spanish": "Una mesa para dos",
+      "german": "Einen Tisch für zwei Personen",
+      "literal": "",
+      "sentence_es": "Buenas tardes, una mesa para dos, por favor.",
+      "sentence_de": "Guten Tag, einen Tisch für zwei Personen, bitte.",
+      "audio": "",
+      "word_translations": {
+        "una": "einen",
+        "mesa": "Tisch",
+        "para": "für",
+        "dos": "zwei"
+      }
+    },
+    {
+      "id": "r31",
+      "spanish": "¿Qué recomiendas?",
+      "german": "Was empfiehlst du?",
+      "literal": "",
+      "sentence_es": "¿Qué recomiendas del menú?",
+      "sentence_de": "Was empfiehlst du von der Speisekarte?",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "recomiendas": "empfiehlst du",
+        "del": "von der",
+        "menú": "Speisekarte"
+      }
+    },
+    {
+      "id": "r32",
+      "spanish": "Estoy perdido / Estoy perdida",
+      "german": "Ich habe mich verlaufen",
+      "literal": "",
+      "sentence_es": "Estoy perdido, ¿me puede ayudar?",
+      "sentence_de": "Ich habe mich verlaufen, können Sie mir helfen?",
+      "audio": "",
+      "word_translations": {
+        "estoy": "ich bin",
+        "perdido": "verloren/verirrt",
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen"
+      }
+    },
+    {
+      "id": "r33",
+      "spanish": "¿A qué hora...?",
+      "german": "Um wie viel Uhr...?",
+      "literal": "",
+      "sentence_es": "¿A qué hora abre el museo?",
+      "sentence_de": "Um wie viel Uhr öffnet das Museum?",
+      "audio": "",
+      "word_translations": {
+        "a": "um",
+        "qué": "wie viel",
+        "hora": "Uhr",
+        "abre": "öffnet",
+        "el": "das",
+        "museo": "Museum"
+      }
+    },
+    {
+      "id": "r34",
+      "spanish": "Tengo una reserva",
+      "german": "Ich habe eine Reservierung",
+      "literal": "",
+      "sentence_es": "Hola, tengo una reserva a nombre de García.",
+      "sentence_de": "Hallo, ich habe eine Reservierung auf den Namen García.",
+      "audio": "",
+      "word_translations": {
+        "tengo": "ich habe",
+        "una": "eine",
+        "reserva": "Reservierung",
+        "a": "auf",
+        "nombre": "Namen",
+        "de": "von"
+      }
+    },
+    {
+      "id": "r35",
+      "spanish": "¿Cuánto tiempo?",
+      "german": "Wie lange?",
+      "literal": "",
+      "sentence_es": "¿Cuánto tiempo se tarda en llegar?",
+      "sentence_de": "Wie lange dauert es, um anzukommen?",
+      "audio": "",
+      "word_translations": {
+        "cuánto": "wie viel/lange",
+        "tiempo": "Zeit",
+        "se": "man",
+        "tarda": "braucht",
+        "en": "um",
+        "llegar": "anzukommen"
+      }
+    },
+    {
+      "id": "r36",
+      "spanish": "¡Claro!",
+      "german": "Klar! / Natürlich!",
+      "literal": "",
+      "sentence_es": "¿Vienes a la fiesta? - ¡Claro que sí!",
+      "sentence_de": "Kommst du zur Party? - Klar, natürlich!",
+      "audio": "",
+      "word_translations": {
+        "claro": "klar",
+        "que": "dass",
+        "sí": "ja",
+        "vienes": "kommst du",
+        "la": "die",
+        "fiesta": "Party/Feier"
+      }
+    },
+    {
+      "id": "r37",
+      "spanish": "No sé",
+      "german": "Ich weiß nicht",
+      "literal": "",
+      "sentence_es": "¿Dónde está María? - No sé.",
+      "sentence_de": "Wo ist María? - Ich weiß nicht.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "sé": "ich weiß",
+        "dónde": "wo",
+        "está": "ist"
+      }
+    },
+    {
+      "id": "r38",
+      "spanish": "Un momento, por favor",
+      "german": "Einen Moment, bitte",
+      "literal": "",
+      "sentence_es": "Un momento, por favor, ya vengo.",
+      "sentence_de": "Einen Moment, bitte, ich komme gleich.",
+      "audio": "",
+      "word_translations": {
+        "un": "einen",
+        "momento": "Moment",
+        "por": "für",
+        "favor": "Gefallen/bitte",
+        "ya": "gleich",
+        "vengo": "ich komme"
+      }
+    },
+    {
+      "id": "r39",
+      "spanish": "¡Que tengas un buen día!",
+      "german": "Hab einen schönen Tag!",
+      "literal": "",
+      "sentence_es": "Adiós, ¡que tengas un buen día!",
+      "sentence_de": "Tschüss, hab einen schönen Tag!",
+      "audio": "",
+      "word_translations": {
+        "que": "dass",
+        "tengas": "du haben mögest",
+        "un": "einen",
+        "buen": "schönen",
+        "día": "Tag",
+        "adiós": "Tschüss"
+      }
+    },
+    {
+      "id": "r40",
+      "spanish": "el pan de cada día",
+      "german": "das tägliche Brot / der Alltag",
+      "literal": "das Brot von jedem Tag",
+      "sentence_es": "Los problemas de tráfico son el pan de cada día en Madrid.",
+      "sentence_de": "Verkehrsprobleme sind das tägliche Brot in Madrid.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r41",
+      "spanish": "me faltas / me falta",
+      "german": "du fehlst mir / es fehlt mir",
+      "literal": "mir fehlst du / mir fehlt es",
+      "sentence_es": "Me faltas mucho cuando estás lejos.",
+      "sentence_de": "Du fehlst mir sehr, wenn du weg bist.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r42",
+      "spanish": "te echo de menos",
+      "german": "ich vermisse dich",
+      "literal": "dich werfe ich aus weniger",
+      "sentence_es": "Te echo de menos cada día.",
+      "sentence_de": "Ich vermisse dich jeden Tag.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r43",
+      "spanish": "de la nada",
+      "german": "aus dem Nichts / plötzlich",
+      "literal": "aus dem Nichts",
+      "sentence_es": "Apareció de la nada.",
+      "sentence_de": "Er erschien aus dem Nichts.",
+      "audio": "",
+      "word_translations": {
+        "nada": "Nichts"
+      }
+    },
+    {
+      "id": "r44",
+      "spanish": "de un día para otro",
+      "german": "über Nacht / von einem Tag auf den anderen",
+      "literal": "von einem Tag zum anderen",
+      "sentence_es": "Todo cambió de un día para otro.",
+      "sentence_de": "Alles änderte sich über Nacht.",
+      "audio": "",
+      "word_translations": {
+        "día": "Tag",
+        "otro": "anderer"
+      }
+    },
+    {
+      "id": "r45",
+      "spanish": "¡qué asco!",
+      "german": "wie eklig! / wie widerlich!",
+      "literal": "was für ein Ekel",
+      "sentence_es": "¡Qué asco! No puedo comerlo.",
+      "sentence_de": "Wie eklig! Ich kann das nicht essen.",
+      "audio": "",
+      "word_translations": {
+        "asco": "Ekel"
+      }
+    },
+    {
+      "id": "r46",
+      "spanish": "¡qué alivio!",
+      "german": "was für eine Erleichterung!",
+      "literal": "was für eine Erleichterung",
+      "sentence_es": "¡Qué alivio! Por fin llegaste.",
+      "sentence_de": "Was für eine Erleichterung! Du bist endlich da.",
+      "audio": "",
+      "word_translations": {
+        "alivio": "Erleichterung"
+      }
+    },
+    {
+      "id": "r47",
+      "spanish": "¿qué desea?",
+      "german": "was wünschen Sie? / was darf es sein?",
+      "literal": "was wünschen Sie",
+      "sentence_es": "Buenos días, ¿qué desea?",
+      "sentence_de": "Guten Tag, was darf es sein?",
+      "audio": "",
+      "word_translations": {
+        "desear": "wünschen"
+      }
+    },
+    {
+      "id": "r48",
+      "spanish": "¡viva!",
+      "german": "hoch lebe! / es lebe!",
+      "literal": "es lebe",
+      "sentence_es": "¡Viva México!",
+      "sentence_de": "Es lebe Mexiko!",
+      "audio": "",
+      "word_translations": {
+        "vivir": "leben"
+      }
+    },
+    {
+      "id": "r49",
+      "spanish": "¡esto es el colmo!",
+      "german": "das ist die Höhe! / das ist zu viel!",
+      "literal": "das ist der Gipfel",
+      "sentence_es": "¡Esto es el colmo! No puedo más.",
+      "sentence_de": "Das ist die Höhe! Ich kann nicht mehr.",
+      "audio": "",
+      "word_translations": {
+        "colmo": "Gipfel / Höhepunkt"
+      }
+    },
+    {
+      "id": "r50",
+      "spanish": "a mesa puesta",
+      "german": "am gedeckten Tisch / ohne etwas dafür tun zu müssen",
+      "literal": "am gedeckten Tisch",
+      "sentence_es": "Vive a mesa puesta, sin trabajar.",
+      "sentence_de": "Er lebt ohne zu arbeiten, alles wird ihm serviert.",
+      "audio": "",
+      "word_translations": {
+        "mesa": "Tisch",
+        "puesta": "gedeckt"
+      },
+      "note": "Bedeutet: jemand hat es sehr bequem, alles wird ihm serviert ohne dass er etwas tun muss"
+    },
+    {
+      "id": "r51",
+      "spanish": "sin palabras",
+      "german": "ohne Worte / sprachlos",
+      "literal": "ohne Worte",
+      "sentence_es": "Me quedé sin palabras.",
+      "sentence_de": "Ich war sprachlos.",
+      "audio": "",
+      "word_translations": {
+        "sin": "ohne",
+        "palabras": "Worte"
+      }
+    },
+    {
+      "id": "r52",
+      "spanish": "en primer lugar",
+      "german": "an erster Stelle / zuerst / erstens",
+      "literal": "an erstem Ort",
+      "sentence_es": "En primer lugar, quiero darte las gracias.",
+      "sentence_de": "Zuerst möchte ich dir danken.",
+      "audio": "",
+      "word_translations": {
+        "primer": "erster",
+        "lugar": "Ort/Platz"
+      }
+    },
+    {
+      "id": "r53",
+      "spanish": "¡qué pena!",
+      "german": "wie schade! / wie peinlich! (regional)",
+      "literal": "was für ein Leid",
+      "sentence_es": "¡Qué pena! Me perdí el concierto por el tráfico.",
+      "sentence_de": "Wie schade! Ich habe das Konzert wegen des Staus verpasst.",
+      "audio": "",
+      "word_translations": {
+        "pena": "Leid / Schande"
+      }
+    },
+    {
+      "id": "r54",
+      "spanish": "¡qué lástima!",
+      "german": "wie schade! / wie bedauerlich!",
+      "literal": "was für ein Jammer",
+      "sentence_es": "¡Qué lástima que no puedas venir a la fiesta!",
+      "sentence_de": "Wie schade, dass du nicht zur Party kommen kannst!",
+      "audio": "",
+      "word_translations": {
+        "lástima": "Jammer / Schade"
+      }
+    },
+    {
+      "id": "r55",
+      "spanish": "¡qué va!",
+      "german": "ach was! / von wegen! / Quatsch!",
+      "literal": "was geht da",
+      "sentence_es": "¿Estás cansado? - ¡Qué va! Podría correr otros cinco kilómetros.",
+      "sentence_de": "Bist du müde? - Ach was! Ich könnte noch fünf Kilometer laufen.",
+      "audio": "",
+      "word_translations": {
+        "va": "geht / kommt"
+      }
+    },
+    {
+      "id": "r56",
+      "spanish": "¡qué rollo!",
+      "german": "wie nervig! / was für ein Mist! (v.a. Spanien)",
+      "literal": "was für eine Rolle / ein Blödsinn",
+      "sentence_es": "¡Qué rollo! Tres horas esperando y al final nada.",
+      "sentence_de": "Wie nervig! Drei Stunden warten und am Ende nichts.",
+      "audio": "",
+      "word_translations": {
+        "rollo": "Rolle / Unsinn / Mist"
+      }
+    },
+    {
+      "id": "r57",
+      "spanish": "¡menos mal!",
+      "german": "zum Glück! / Gott sei Dank!",
+      "literal": "wenigstens gut",
+      "sentence_es": "¡Menos mal que llegaste! Ya me estaba preocupando.",
+      "sentence_de": "Zum Glück bist du da! Ich machte mir schon Sorgen.",
+      "audio": "",
+      "word_translations": {
+        "menos": "weniger",
+        "mal": "schlecht"
+      }
+    },
+    {
+      "id": "r58",
+      "spanish": "¡ya era hora!",
+      "german": "wurde auch Zeit! / endlich!",
+      "literal": "es war schon Zeit",
+      "sentence_es": "¡Ya era hora! Llevas veinte minutos tarde.",
+      "sentence_de": "Wurde auch Zeit! Du bist schon zwanzig Minuten zu spät.",
+      "audio": "",
+      "word_translations": {
+        "ya": "schon",
+        "era": "war",
+        "hora": "Zeit / Stunde"
+      }
+    },
+    {
+      "id": "r59",
+      "spanish": "¡no me digas!",
+      "german": "was du nicht sagst! / echt jetzt?",
+      "literal": "sag mir nicht",
+      "sentence_es": "¡No me digas! ¿Se casaron al final?",
+      "sentence_de": "Was du nicht sagst! Haben sie am Ende geheiratet?",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "me": "mir",
+        "digas": "sag"
+      }
+    },
+    {
+      "id": "r60",
+      "spanish": "¡qué fuerte!",
+      "german": "krass! / heftig! / unglaublich!",
+      "literal": "wie stark",
+      "sentence_es": "¡Qué fuerte! ¿De verdad dijo eso delante de todos?",
+      "sentence_de": "Krass! Hat er das wirklich vor allen gesagt?",
+      "audio": "",
+      "word_translations": {
+        "fuerte": "stark / heftig"
+      }
+    },
+    {
+      "id": "r61",
+      "spanish": "¡qué horror!",
+      "german": "wie furchtbar! / wie schrecklich!",
+      "literal": "was für ein Schrecken",
+      "sentence_es": "¡Qué horror! ¿Cómo puede pasar algo así?",
+      "sentence_de": "Wie furchtbar! Wie kann so etwas passieren?",
+      "audio": "",
+      "word_translations": {
+        "horror": "Schrecken / Horror"
+      }
+    },
+    {
+      "id": "r62",
+      "spanish": "¡por supuesto!",
+      "german": "selbstverständlich! / natürlich!",
+      "literal": "durch das Vorausgesetzte",
+      "sentence_es": "¿Puedo sentarme aquí? - ¡Por supuesto!",
+      "sentence_de": "Kann ich mich hier setzen? - Selbstverständlich!",
+      "audio": "",
+      "word_translations": {
+        "por": "durch / für",
+        "supuesto": "vorausgesetzt"
+      }
+    },
+    {
+      "id": "r63",
+      "spanish": "¡ni idea!",
+      "german": "keine Ahnung!",
+      "literal": "nicht mal eine Idee",
+      "sentence_es": "¿Dónde está Carlos? - ¡Ni idea!",
+      "sentence_de": "Wo ist Carlos? - Keine Ahnung!",
+      "audio": "",
+      "word_translations": {
+        "ni": "nicht mal",
+        "idea": "Idee / Ahnung"
+      }
+    },
+    {
+      "id": "r64",
+      "spanish": "¡da igual!",
+      "german": "egal! / macht nichts! / ist mir gleich!",
+      "literal": "es gibt gleich",
+      "sentence_es": "¿Prefieres café o té? - ¡Da igual, lo que tengas!",
+      "sentence_de": "Möchtest du Kaffee oder Tee? - Egal, was du hast!",
+      "audio": "",
+      "word_translations": {
+        "da": "gibt",
+        "igual": "gleich / egal"
+      }
+    },
+    {
+      "id": "r65",
+      "spanish": "¡no pasa nada!",
+      "german": "kein Problem! / schon gut! / macht nichts!",
+      "literal": "es passiert nichts",
+      "sentence_es": "Perdona el retraso. - ¡No pasa nada, tranquilo!",
+      "sentence_de": "Sorry für die Verspätung. - Kein Problem, ist doch okay!",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "pasa": "passiert",
+        "nada": "nichts",
+        "tranquilo": "ruhig / keine Sorge"
+      }
+    },
+    {
+      "id": "r66",
+      "spanish": "¡qué más da!",
+      "german": "was soll's! / ist doch egal!",
+      "literal": "was gibt mehr",
+      "sentence_es": "¡Qué más da! Ya no puedo cambiarlo, así que adelante.",
+      "sentence_de": "Was soll's! Ich kann es eh nicht mehr ändern, also vorwärts.",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "más": "mehr",
+        "da": "gibt"
+      }
+    },
+    {
+      "id": "r67",
+      "spanish": "¡vale!",
+      "german": "okay! / in Ordnung! (v.a. Spanien; LatAm: bueno / dale)",
+      "literal": "es gilt",
+      "sentence_es": "¿Quedamos a las ocho en el bar? - ¡Vale!",
+      "sentence_de": "Treffen wir uns um acht in der Bar? - Okay!",
+      "audio": "",
+      "word_translations": {
+        "vale": "gilt / okay"
+      }
+    },
+    {
+      "id": "r68",
+      "spanish": "de acuerdo",
+      "german": "einverstanden / okay / abgemacht",
+      "literal": "gemäß der Übereinkunft",
+      "sentence_es": "Entonces, tú traes la comida y yo las bebidas. - De acuerdo.",
+      "sentence_de": "Also, du bringst das Essen und ich die Getränke. - Einverstanden.",
+      "audio": "",
+      "word_translations": {
+        "de": "von / gemäß",
+        "acuerdo": "Übereinkunft / Einigung"
+      }
+    },
+    {
+      "id": "r69",
+      "spanish": "¡que te mejores!",
+      "german": "gute Besserung!",
+      "literal": "mögest du dich bessern",
+      "sentence_es": "¿Sigues enfermo? ¡Que te mejores pronto!",
+      "sentence_de": "Bist du noch krank? Gute Besserung!",
+      "audio": "",
+      "word_translations": {
+        "que": "mögest",
+        "te": "dich",
+        "mejores": "du besserst"
+      }
+    },
+    {
+      "id": "r70",
+      "spanish": "¡suerte!",
+      "german": "viel Glück! / viel Erfolg!",
+      "literal": "Glück!",
+      "sentence_es": "Mañana tienes el examen. ¡Suerte!",
+      "sentence_de": "Morgen hast du die Prüfung. Viel Glück!",
+      "audio": "",
+      "word_translations": {
+        "suerte": "Glück"
+      }
+    },
+    {
+      "id": "r71",
+      "spanish": "no te preocupes",
+      "german": "mach dir keine Sorgen / keine Sorge",
+      "literal": "beunruhige dich nicht",
+      "sentence_es": "No te preocupes, todo va a salir bien.",
+      "sentence_de": "Mach dir keine Sorgen, alles wird gut.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "te": "dich",
+        "preocupes": "sorge / beunruhige",
+        "todo": "alles",
+        "va": "wird",
+        "salir": "ausgehen / werden",
+        "bien": "gut"
+      }
+    },
+    {
+      "id": "r72",
+      "spanish": "¿cómo? / ¿perdón?",
+      "german": "wie bitte?",
+      "literal": "wie? / Verzeihung?",
+      "sentence_es": "No te escuché bien. ¿Cómo?",
+      "sentence_de": "Ich habe dich nicht gut gehört. Wie bitte?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "perdón": "Verzeihung / wie bitte"
+      }
+    },
+    {
+      "id": "r73",
+      "spanish": "¿en serio?",
+      "german": "im Ernst? / wirklich?",
+      "literal": "im Ernst?",
+      "sentence_es": "¡Me han dado el trabajo! - ¿En serio? ¡Enhorabuena!",
+      "sentence_de": "Ich habe die Stelle bekommen! - Im Ernst? Herzlichen Glückwunsch!",
+      "audio": "",
+      "word_translations": {
+        "en": "im",
+        "serio": "Ernst"
+      }
+    },
+    {
+      "id": "r74",
+      "spanish": "¿de verdad?",
+      "german": "wirklich? / tatsächlich?",
+      "literal": "von Wahrheit?",
+      "sentence_es": "¿De verdad ganaste la lotería? ¡No me lo puedo creer!",
+      "sentence_de": "Hast du wirklich im Lotto gewonnen? Das glaube ich nicht!",
+      "audio": "",
+      "word_translations": {
+        "de": "von",
+        "verdad": "Wahrheit"
+      }
+    },
+    {
+      "id": "r75",
+      "spanish": "o sea",
+      "german": "also / das heißt / ich meine (Füllwort)",
+      "literal": "oder es sei",
+      "sentence_es": "Llegué tarde, o sea, me perdí la primera parte.",
+      "sentence_de": "Ich kam zu spät, also habe ich den ersten Teil verpasst.",
+      "audio": "",
+      "word_translations": {
+        "o": "oder",
+        "sea": "sei / ist"
+      }
+    },
+    {
+      "id": "r76",
+      "spanish": "es decir",
+      "german": "das heißt / also / mit anderen Worten",
+      "literal": "es ist zu sagen",
+      "sentence_es": "Es muy tarde, es decir, tenemos que irnos ya.",
+      "sentence_de": "Es ist sehr spät, das heißt, wir müssen jetzt gehen.",
+      "audio": "",
+      "word_translations": {
+        "es": "es ist",
+        "decir": "sagen"
+      }
+    },
+    {
+      "id": "r77",
+      "spanish": "¡carajo!",
+      "german": "verdammt! / zum Teufel!",
+      "literal": "ursprünglich: der Ausguck am Schiffsmast (Strafversetzung)",
+      "sentence_es": "¡Carajo, se me olvidó el cumpleaños de mi madre!",
+      "sentence_de": "Verdammt, ich habe den Geburtstag meiner Mutter vergessen!",
+      "audio": "",
+      "word_translations": {
+        "carajo": "verdammt / zum Teufel (vulgärer Ausruf, pan-hispanisch)"
+      }
+    },
+    {
+      "id": "r78",
+      "spanish": "¡Qué faena!",
+      "german": "So ein Mist! / Was für ein Pech!",
+      "literal": "Was für eine Arbeit/Mühe!",
+      "sentence_es": "Se me ha roto el móvil. ¡Qué faena!",
+      "sentence_de": "Mein Handy ist kaputtgegangen. So ein Mist!",
+      "audio": "",
+      "word_translations": {
+        "qué": "was für ein/e",
+        "faena": "Mist / Pech (umgangssprachlich)"
+      }
+    },
+    {
+      "id": "r79",
+      "spanish": "dando vueltas",
+      "german": "sich im Kreis drehen / herumirren",
+      "literal": "Runden drehend",
+      "sentence_es": "Llevo horas dando vueltas por el barrio y no encuentro la calle.",
+      "sentence_de": "Ich irre seit Stunden durch das Viertel und finde die Straße nicht.",
+      "audio": "",
+      "word_translations": {
+        "dando": "drehend / gebend",
+        "vueltas": "Runden / Umdrehungen"
+      }
+    },
+    {
+      "id": "r80",
+      "spanish": "ni siquiera",
+      "german": "nicht einmal",
+      "literal": "nicht wenigstens / nicht einmal",
+      "sentence_es": "Ni siquiera me llamó para disculparse.",
+      "sentence_de": "Er rief mich nicht einmal an, um sich zu entschuldigen.",
+      "audio": "",
+      "word_translations": {
+        "ni": "nicht mal",
+        "siquiera": "wenigstens / einmal"
+      }
+    },
+    {
+      "id": "r81",
+      "spanish": "por su cuenta",
+      "german": "auf eigene Faust / selbstständig",
+      "literal": "auf seine/ihre Rechnung",
+      "sentence_es": "Decidió montar el negocio por su cuenta.",
+      "sentence_de": "Er entschied sich, das Geschäft auf eigene Faust aufzubauen.",
+      "audio": "",
+      "word_translations": {
+        "por": "auf / für",
+        "su": "seine/ihre",
+        "cuenta": "Rechnung / Konto"
+      }
+    },
+    {
+      "id": "r82",
+      "spanish": "sin importar",
+      "german": "ungeachtet / egal ob",
+      "literal": "ohne zu wichtig nehmen",
+      "sentence_es": "Sin importar el resultado, lo diste todo.",
+      "sentence_de": "Ungeachtet des Ergebnisses hast du alles gegeben.",
+      "audio": "",
+      "word_translations": {
+        "sin": "ohne",
+        "importar": "wichtig sein / stören"
+      }
+    },
+    {
+      "id": "r83",
+      "spanish": "a menos que",
+      "german": "es sei denn (+ Subjuntivo)",
+      "literal": "zu weniger als",
+      "sentence_es": "No voy a la fiesta, a menos que tú también vayas.",
+      "sentence_de": "Ich gehe nicht zur Party, es sei denn, du gehst auch hin.",
+      "audio": "",
+      "word_translations": {
+        "a": "zu / an",
+        "menos": "weniger",
+        "que": "als / dass"
+      }
+    },
+    {
+      "id": "r84",
+      "spanish": "para ser sincero",
+      "german": "um ehrlich zu sein",
+      "literal": "um ehrlich zu sein",
+      "sentence_es": "Para ser sincero, no me gustó nada la película.",
+      "sentence_de": "Um ehrlich zu sein, der Film hat mir überhaupt nicht gefallen.",
+      "audio": "",
+      "word_translations": {
+        "para": "um zu",
+        "ser": "sein",
+        "sincero": "ehrlich"
+      }
+    },
+    {
+      "id": "r85",
+      "spanish": "cómo demonios",
+      "german": "wie zum Teufel",
+      "literal": "wie Teufel",
+      "sentence_es": "¿Cómo demonios lo hiciste en tan poco tiempo?",
+      "sentence_de": "Wie zum Teufel hast du das in so kurzer Zeit geschafft?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "demonios": "Teufel / Dämonen"
+      }
+    },
+    {
+      "id": "r86",
+      "spanish": "ponerse en contacto",
+      "german": "Kontakt aufnehmen",
+      "literal": "sich in Kontakt setzen",
+      "sentence_es": "Me pondré en contacto contigo esta tarde.",
+      "sentence_de": "Ich nehme heute Nachmittag Kontakt mit dir auf.",
+      "audio": "",
+      "word_translations": {
+        "ponerse": "sich begeben / sich setzen",
+        "en": "in",
+        "contacto": "Kontakt"
+      }
+    },
+    {
+      "id": "r87",
+      "spanish": "dejar de",
+      "german": "aufhören mit (+ Infinitiv)",
+      "literal": "lassen von",
+      "sentence_es": "¡Deja de hacer eso, me está poniendo nervioso!",
+      "sentence_de": "Hör damit auf, das macht mich nervös!",
+      "audio": "",
+      "word_translations": {
+        "dejar": "lassen / aufhören",
+        "de": "von / mit"
+      }
+    },
+    {
+      "id": "r88",
+      "spanish": "cualquier cosa",
+      "german": "irgendetwas / was auch immer",
+      "literal": "irgendeine Sache",
+      "sentence_es": "Puedes pedirme cualquier cosa, estoy aquí para ayudarte.",
+      "sentence_de": "Du kannst mich irgendetwas fragen, ich bin hier, um dir zu helfen.",
+      "audio": "",
+      "word_translations": {
+        "cualquier": "irgendein/e",
+        "cosa": "Sache / Ding"
+      }
+    },
+    {
+      "id": "r89",
+      "spanish": "es lo máximo",
+      "german": "das ist der Hammer / das Größte",
+      "literal": "das ist das Maximum",
+      "sentence_es": "¿Has probado esa pizza? ¡Es lo máximo!",
+      "sentence_de": "Hast du diese Pizza probiert? Das ist der Hammer!",
+      "audio": "",
+      "word_translations": {
+        "lo": "das",
+        "máximo": "Maximum / das Größte"
+      }
+    },
+    {
+      "id": "r90",
+      "spanish": "tomar el pelo",
+      "german": "jemanden auf den Arm nehmen / veräppeln",
+      "literal": "das Haar nehmen",
+      "sentence_es": "¿Me estás tomando el pelo? Eso no puede ser verdad.",
+      "sentence_de": "Willst du mich veräppeln? Das kann nicht wahr sein.",
+      "audio": "",
+      "word_translations": {
+        "tomar": "nehmen",
+        "el": "das",
+        "pelo": "Haar"
+      }
+    },
+    {
+      "id": "r91",
+      "spanish": "jugar una mala pasada",
+      "german": "jemandem einen Streich spielen / übel mitspielen",
+      "literal": "einen schlechten Zug spielen",
+      "sentence_es": "La memoria me jugó una mala pasada y olvidé su cumpleaños.",
+      "sentence_de": "Das Gedächtnis hat mir einen Streich gespielt und ich vergaß seinen Geburtstag.",
+      "audio": "",
+      "word_translations": {
+        "jugar": "spielen",
+        "mala": "schlechte / üble",
+        "pasada": "Zug / Streich"
+      }
+    },
+    {
+      "id": "r92",
+      "spanish": "cortes y cardenales",
+      "german": "Schrammen und Beulen / verprügelt",
+      "literal": "Schnitte und Blutergüsse (cardenales = blaue Flecken, NICHT cardinales)",
+      "sentence_es": "Después de la caída de la bici, tenía cortes y cardenales en las rodillas.",
+      "sentence_de": "Nach dem Fahrradsturz hatte er Schrammen und Beulen an den Knien.",
+      "audio": "",
+      "word_translations": {
+        "cortes": "Schnitte / Schrammen",
+        "cardenales": "blaue Flecken / Blutergüsse"
+      }
+    },
+    {
+      "id": "r93",
+      "spanish": "un don nadie",
+      "german": "ein Niemand / eine unbedeutende Person",
+      "literal": "ein Herr Niemand",
+      "sentence_es": "Antes era un don nadie, ahora es famoso en todo el país.",
+      "sentence_de": "Früher war er ein Niemand, jetzt ist er im ganzen Land bekannt.",
+      "audio": "",
+      "word_translations": {
+        "don": "Herr (Titel / Anrede)",
+        "nadie": "niemand"
+      }
+    },
+    {
+      "id": "r94",
+      "spanish": "volver loco a alguien",
+      "german": "jemanden verrückt machen",
+      "literal": "jemanden verrückt werden lassen",
+      "sentence_es": "El ruido de los vecinos me vuelve loco.",
+      "sentence_de": "Der Lärm der Nachbarn macht mich verrückt.",
+      "audio": "",
+      "word_translations": {
+        "volver": "zurückkehren / machen (kausativ)",
+        "loco": "verrückt",
+        "a": "jemanden (persönliches a)"
+      }
+    },
+    {
+      "id": "r95",
+      "spanish": "tocar fondo",
+      "german": "den Tiefpunkt erreichen",
+      "literal": "den Boden berühren",
+      "sentence_es": "Tocó fondo cuando perdió el trabajo y la familia al mismo tiempo.",
+      "sentence_de": "Er erreichte seinen Tiefpunkt, als er gleichzeitig Arbeit und Familie verlor.",
+      "audio": "",
+      "word_translations": {
+        "tocar": "berühren",
+        "fondo": "Boden / Tiefpunkt"
+      }
+    },
+    {
+      "id": "r96",
+      "spanish": "me pone (nervioso/triste/contento)",
+      "german": "das macht mich (nervös/traurig/froh)",
+      "literal": "das versetzt mich in einen Zustand",
+      "sentence_es": "Esa película me pone triste cada vez que la veo.",
+      "sentence_de": "Dieser Film macht mich jedes Mal traurig, wenn ich ihn sehe.",
+      "audio": "",
+      "word_translations": {
+        "me": "mich",
+        "pone": "macht / versetzt",
+        "triste": "traurig"
+      }
+    },
+    {
+      "id": "r97",
+      "spanish": "¿qué pasa?",
+      "german": "was geht? / was ist los?",
+      "literal": "was passiert?",
+      "sentence_es": "¿Qué pasa? Parece que algo va mal.",
+      "sentence_de": "Was ist los? Es scheint, als ob etwas nicht stimmt.",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "pasa": "passiert / geht"
+      }
+    },
+    {
+      "id": "r98",
+      "spanish": "¿cómo estás?",
+      "german": "wie geht's dir?",
+      "literal": "wie bist du?",
+      "sentence_es": "Hola, ¿cómo estás? Hace tiempo que no te veo.",
+      "sentence_de": "Hallo, wie geht's dir? Ich habe dich lange nicht gesehen.",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "estás": "bist du / geht es dir"
+      }
+    },
+    {
+      "id": "r99",
+      "spanish": "miren / nada más",
+      "german": "schaut nur / schaut euch das an",
+      "literal": "schaut / nichts mehr",
+      "sentence_es": "Miren nada más qué bonito está el jardín hoy.",
+      "sentence_de": "Schaut euch das nur an, wie schön der Garten heute ist.",
+      "audio": "",
+      "word_translations": {
+        "miren": "schaut (Imperativ Plural)",
+        "nada más": "nur / nichts weiter",
+        "qué": "wie/was",
+        "bonito": "schön",
+        "está": "ist",
+        "el jardín": "der Garten",
+        "hoy": "heute"
+      }
+    },
+    {
+      "id": "r100",
+      "spanish": "tener calor",
+      "german": "mir ist warm / heiß",
+      "literal": "Hitze haben",
+      "note": "KORREKTE Wendung: 'tener calor'. NICHT 'tener caliente' — das hat eine sexuelle Konnotation.",
+      "sentence_es": "Tengo calor, ¿puedes abrir la ventana?",
+      "sentence_de": "Mir ist heiß, kannst du das Fenster öffnen?",
+      "audio": "",
+      "word_translations": {
+        "tengo": "ich habe",
+        "calor": "Hitze/Wärme",
+        "puedes": "kannst du",
+        "abrir": "öffnen",
+        "la ventana": "das Fenster"
+      }
+    }
+  ]
+}
