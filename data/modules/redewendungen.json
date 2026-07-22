@@ -1391,6 +1391,192 @@
         "abrir": "öffnen",
         "la ventana": "das Fenster"
       }
+    },
+    {
+      "id": "r101",
+      "spanish": "tener cuidado / ¡ten cuidado!",
+      "german": "pass auf! / vorsichtig sein",
+      "literal": "Sorgfalt haben",
+      "sentence_es": "¡Ten cuidado con el perro, muerde!",
+      "sentence_de": "Pass auf mit dem Hund auf, er beißt!",
+      "audio": "",
+      "word_translations": {
+        "ten": "hab (Imperativ von tener)",
+        "cuidado": "Vorsicht",
+        "con": "mit",
+        "el": "der",
+        "perro": "Hund",
+        "muerde": "er beißt"
+      }
+    },
+    {
+      "id": "r102",
+      "spanish": "me cuesta mucho",
+      "german": "es fällt mir schwer",
+      "literal": "es kostet mich viel",
+      "sentence_es": "Me cuesta mucho hablar en público.",
+      "sentence_de": "Es fällt mir schwer, in der Öffentlichkeit zu sprechen.",
+      "audio": "",
+      "word_translations": {
+        "me": "mir",
+        "cuesta": "es kostet",
+        "mucho": "viel",
+        "hablar": "sprechen",
+        "en": "in",
+        "público": "die Öffentlichkeit"
+      }
+    },
+    {
+      "id": "r103",
+      "spanish": "desde luego",
+      "german": "natürlich, klar",
+      "literal": "seit gleich",
+      "sentence_es": "¿Vienes a la fiesta? Desde luego.",
+      "sentence_de": "Kommst du zur Party? Natürlich.",
+      "audio": "",
+      "word_translations": {
+        "vienes": "du kommst",
+        "a": "zu",
+        "la": "die",
+        "fiesta": "Party",
+        "desde": "seit",
+        "luego": "dann"
+      }
+    },
+    {
+      "id": "r104",
+      "spanish": "a ver",
+      "german": "mal sehen",
+      "literal": "zu sehen",
+      "sentence_es": "A ver, ¿qué opciones tenemos?",
+      "sentence_de": "Mal sehen, welche Optionen haben wir?",
+      "audio": "",
+      "word_translations": {
+        "a": "zu",
+        "ver": "sehen",
+        "qué": "welche",
+        "opciones": "Optionen",
+        "tenemos": "wir haben"
+      }
+    },
+    {
+      "id": "r105",
+      "spanish": "¡qué mola! / ¡cómo mola!",
+      "german": "wie cool!",
+      "literal": "wie es gefällt",
+      "sentence_es": "¡Qué mola este parque!",
+      "sentence_de": "Wie cool ist dieser Park!",
+      "audio": "",
+      "word_translations": {
+        "qué": "wie",
+        "mola": "es gefällt/ist cool (molar)",
+        "este": "dieser",
+        "parque": "Park"
+      }
+    },
+    {
+      "id": "r106",
+      "spanish": "a pie de calle",
+      "german": "direkt von der Straße / vor Ort",
+      "literal": "zu Fuß von der Straße",
+      "sentence_es": "Hicieron una encuesta a pie de calle.",
+      "sentence_de": "Sie machten eine Umfrage direkt auf der Straße.",
+      "audio": "",
+      "word_translations": {
+        "hicieron": "sie machten",
+        "una": "eine",
+        "encuesta": "Umfrage",
+        "a": "zu",
+        "pie": "Fuß",
+        "de": "von",
+        "calle": "Straße"
+      }
+    },
+    {
+      "id": "r107",
+      "spanish": "por mi cuenta",
+      "german": "auf eigene Faust",
+      "literal": "auf meine Rechnung",
+      "sentence_es": "Aprendí español por mi cuenta.",
+      "sentence_de": "Ich habe Spanisch auf eigene Faust gelernt.",
+      "audio": "",
+      "word_translations": {
+        "aprendí": "ich lernte",
+        "español": "Spanisch",
+        "por": "durch/auf",
+        "mi": "meine",
+        "cuenta": "Rechnung"
+      }
+    },
+    {
+      "id": "r108",
+      "spanish": "hay que + infinitivo",
+      "german": "man muss / es ist nötig",
+      "literal": "es gibt, dass",
+      "sentence_es": "Hay que estudiar mucho para aprobar.",
+      "sentence_de": "Man muss viel lernen, um zu bestehen.",
+      "audio": "",
+      "word_translations": {
+        "hay": "es gibt",
+        "que": "dass",
+        "estudiar": "lernen",
+        "mucho": "viel",
+        "para": "um zu",
+        "aprobar": "bestehen"
+      }
+    },
+    {
+      "id": "r109",
+      "spanish": "para colmo",
+      "german": "zu allem Überfluss",
+      "literal": "zum Gipfel",
+      "sentence_es": "Perdí el tren y, para colmo, empezó a llover.",
+      "sentence_de": "Ich habe den Zug verpasst und, zu allem Überfluss, fing es an zu regnen.",
+      "audio": "",
+      "word_translations": {
+        "perdí": "ich verpasste",
+        "el": "der/den",
+        "tren": "Zug",
+        "y": "und",
+        "para": "zu/für",
+        "colmo": "Gipfel/Übermaß",
+        "empezó": "es fing an",
+        "a": "zu",
+        "llover": "regnen"
+      }
+    },
+    {
+      "id": "r110",
+      "spanish": "llevar a cabo",
+      "german": "etwas in die Tat umsetzen / durchführen",
+      "literal": "zum Ende tragen",
+      "sentence_es": "Van a llevar a cabo el proyecto este año.",
+      "sentence_de": "Sie werden das Projekt dieses Jahr durchführen.",
+      "audio": "",
+      "word_translations": {
+        "van a": "sie werden",
+        "llevar a cabo": "durchführen",
+        "el": "das",
+        "proyecto": "Projekt",
+        "este": "dieses",
+        "año": "Jahr"
+      }
+    },
+    {
+      "id": "r111",
+      "spanish": "digo",
+      "german": "äh, ich meine / das heißt (Füllwort zur Selbstkorrektur)",
+      "literal": "ich sage",
+      "sentence_es": "Son las tres... digo, las cuatro.",
+      "sentence_de": "Es ist drei Uhr... ich meine, vier Uhr.",
+      "audio": "",
+      "word_translations": {
+        "son": "es ist",
+        "las": "-",
+        "tres": "drei",
+        "digo": "ich meine (Selbstkorrektur)",
+        "cuatro": "vier"
+      }
     }
   ]
 }

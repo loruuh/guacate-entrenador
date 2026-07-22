@@ -121,7 +121,16 @@
       "Bash(npm root *)",
       "Bash(npx next *)",
       "Bash(powershell -Command \"Select-String -Path 'C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json' -Pattern '\\\\\"id\\\\\": \\\\\"leccion-' | Select-Object -Last 5\")",
-      "Bash(powershell -Command \"\\(Get-Content 'C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json' | Measure-Object -Line\\).Lines\")"
+      "Bash(powershell -Command \"\\(Get-Content 'C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json' | Measure-Object -Line\\).Lines\")",
+      "Bash(grep -oP '\"spanish\":\\\\s*\"\\\\K[^\"]*' \"data/vocabulario-es.json\")",
+      "Bash(grep -oP '\"german\":\\\\s*\"\\\\K[^\"]*' \"data/vocabulario-es.json\")",
+      "Bash(grep -oP '\"spanish\":\\\\s*\"\\\\K[^\"]*' \"data/modules/redewendungen.json\")",
+      "Bash(grep -oP '\"german\":\\\\s*\"\\\\K[^\"]*' \"data/modules/redewendungen.json\")",
+      "Bash(grep -oP '\"literal\":\\\\s*\"\\\\K[^\"]*' \"data/modules/redewendungen.json\")",
+      "Bash(cat)",
+      "Bash(cp queries.txt queries_bak.txt)",
+      "Bash(cp queries2.txt queries.txt)",
+      "Bash(cp queries_bak.txt queries.txt)"
     ]
   }
 }

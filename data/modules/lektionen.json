@@ -865,8 +865,69 @@
       ]
     },
     {
+      "id": "leccion-16",
+      "title": "Lección 13 – Die -ecer-Verben: \"werden\" auf Spanisch",
+      "category": "Wortbildung",
+      "difficulty": "intermediate",
+      "explanation_de": "Spanisch baut aus Adjektiven/Nomen Verben mit -ecer, die \"werden / zu etwas werden\" bedeuten — ein produktives Muster.\n\n---\n\n## Das Muster\n\n| Basis | Verb | Bedeutung |\n|-------|------|-----------|\n| rico (reich) | enriquecer(se) | reich werden / bereichern |\n| oscuro (dunkel) | oscurecer | dunkel werden |\n| flor (Blume) | florecer | erblühen |\n| pequeño (klein) | empequeñecer | schrumpfen / kleiner werden |\n| viejo (alt) | envejecer | altern / alt werden |\n| pálido (blass) | palidecer | erblassen |\n\n---\n\n## Wichtig zu wissen\n\n- **Konjugation:** -ecer-Verben haben die typische \"-zco\"-Form in der 1. Person Singular: enriquezco, florezco, envejezco (wie conocer → conozco).\n- **Reflexiv fürs \"werden\":** enriquecerse (reich werden) vs. enriquecer (bereichern/jemanden reich machen) — das -se macht den Unterschied.\n- **Gleiches Muster, andere Bedeutung:** apetecer (Lust haben auf etwas) und establecer(se) (festlegen / sich niederlassen) enden auch auf -ecer, bedeuten aber kein \"werden\".\n\n> ⚠️ Nicht jedes -ecer-Verb bedeutet \"werden\"! apetecer und establecer(se) folgen dem gleichen Baumuster, aber einer anderen Bedeutung — nicht übergeneralisieren.\n\n---\n\n## Merkregel\n\n> Adjektiv + -ecer ≈ \"… werden\". Und in der yo-Form: -ezco.",
+      "examples": [
+        {
+          "spanish": "Con los años, este vino se enriquece de sabor.",
+          "german": "Mit den Jahren wird dieser Wein geschmacklich reicher.",
+          "explanation": "enriquecerse: reich(er) werden — hier übertragen auf den Geschmack eines Weins."
+        },
+        {
+          "spanish": "En invierno oscurece muy temprano.",
+          "german": "Im Winter wird es sehr früh dunkel.",
+          "explanation": "oscurecer: dunkel werden — unpersönliches Verb, wie llover (es regnet)."
+        },
+        {
+          "spanish": "Los almendros florecen en febrero.",
+          "german": "Die Mandelbäume erblühen im Februar.",
+          "explanation": "florecer: erblühen. Die yo-Form wäre florezco (-zco-Muster)."
+        },
+        {
+          "spanish": "Mi abuelo envejece con mucha elegancia.",
+          "german": "Mein Opa altert mit viel Eleganz.",
+          "explanation": "envejecer: altern. yo-Form: envejezco — wie conocer → conozco."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Welches Verb bedeutet 'dunkel werden'?",
+          "options": [
+            "oscurecer",
+            "oscuro",
+            "oscuridad"
+          ],
+          "correct": 0,
+          "explanation": "oscurecer ist das -ecer-Verb zu oscuro (dunkel) und bedeutet 'dunkel werden'. oscuro ist das Adjektiv, oscuridad das Nomen (Dunkelheit)."
+        },
+        {
+          "question": "Wie lautet die yo-Form von florecer?",
+          "options": [
+            "floro",
+            "florezco",
+            "florecí"
+          ],
+          "correct": 1,
+          "explanation": "-ecer-Verben bilden die 1. Person Singular auf -zco: florecer → florezco (wie conocer → conozco). florecí wäre das Pretérito."
+        },
+        {
+          "question": "Welches Verb ist KEIN 'werden'-Verb, obwohl es auf -ecer endet?",
+          "options": [
+            "envejecer",
+            "apetecer",
+            "palidecer"
+          ],
+          "correct": 1,
+          "explanation": "apetecer bedeutet 'Lust haben auf etwas' (me apetece = ich habe Lust darauf) — nicht 'werden'. envejecer (altern) und palidecer (erblassen) folgen dagegen dem 'werden'-Muster."
+        }
+      ]
+    },
+    {
       "id": "leccion-6",
-      "title": "Lección 13 – Hacia vs. Hasta",
+      "title": "Lección 14 – Hacia vs. Hasta",
       "category": "Präpositionen",
       "difficulty": "intermediate",
       "explanation_de": "HACIA und HASTA werden oft verwechselt, haben aber unterschiedliche Bedeutungen:\n\n**HACIA** = Richtung (ohne Ziel zu erreichen)\n- Beschreibt eine ungefähre Richtung\n- Das Ziel wird nicht notwendigerweise erreicht\n- Entspricht: 'in Richtung', 'gegen', 'ungefähr'\n\n**HASTA** = bis zu einem Punkt (Ziel wird erreicht)\n- Beschreibt einen konkreten Endpunkt\n- Das Ziel wird erreicht\n- Entspricht: 'bis', 'bis zu'\n\n**Merkregel:** HACIA = HÄ? (ungefähr) | HASTA = HALT! (konkreter Punkt)",
@@ -925,7 +986,7 @@
     },
     {
       "id": "leccion-7",
-      "title": "Lección 14 – ¡Exclamación! ¿Pregunta?",
+      "title": "Lección 15 – ¡Exclamación! ¿Pregunta?",
       "category": "Interpunktion",
       "difficulty": "beginner",
       "description": "Ausrufe- und Fragezeichen im Spanischen",
