@@ -18750,9 +18750,9 @@
   },
   {
     "id": "1089",
-    "spanish": "los lejos",
-    "german": "weit entfernt",
-    "type": "noun",
+    "spanish": "lejos",
+    "german": "weit entfernt / fern",
+    "type": "adverb",
     "sentence_es": "Veo los edificios altos desde muy lejos.",
     "sentence_de": "Ich sehe die hohen Gebäude von sehr weit weg.",
     "audio": "/audio/1089.mp3",
@@ -25129,7 +25129,7 @@
   {
     "id": "1571",
     "spanish": "el trozo",
-    "german": "das Stück",
+    "german": "das Stück (abgeschnitten)",
     "type": "noun",
     "sentence_es": "Corté un trozo de pan para el desayuno.",
     "sentence_de": "Ich schnitt ein Stück Brot für das Frühstück ab.",
@@ -25143,7 +25143,8 @@
       "para": "für",
       "el": "das",
       "desayuno": "Frühstück"
-    }
+    },
+    "note": "trozo und pedazo sind weitgehend synonym"
   },
   {
     "id": "1572",
@@ -25166,7 +25167,7 @@
   {
     "id": "1573",
     "spanish": "el pedazo",
-    "german": "das Stück",
+    "german": "das Stück / das Bruchstück",
     "type": "noun",
     "sentence_es": "Me comí un pedazo de torta deliciosa.",
     "sentence_de": "Ich habe ein Stück köstlichen Kuchen gegessen.",
@@ -25179,7 +25180,8 @@
       "de": "von/aus",
       "torta": "Kuchen",
       "deliciosa": "köstliche"
-    }
+    },
+    "note": "trozo und pedazo sind weitgehend synonym"
   },
   {
     "id": "1574",
@@ -25548,15 +25550,15 @@
   {
     "id": "1594",
     "spanish": "el aviso",
-    "german": "die Mitteilung",
+    "german": "der Hinweis / die Benachrichtigung / die Warnung",
     "type": "noun",
     "sentence_es": "Recibí un aviso importante por correo electrónico.",
-    "sentence_de": "Ich erhielt eine wichtige Mitteilung per E-Mail.",
+    "sentence_de": "Ich erhielt eine wichtige Benachrichtigung per E-Mail.",
     "audio": "/audio/1594.mp3",
     "word_translations": {
       "recibí": "ich erhielt",
       "un": "eine",
-      "aviso": "Mitteilung/Benachrichtigung",
+      "aviso": "Hinweis/Benachrichtigung/Warnung",
       "importante": "wichtig",
       "por": "per",
       "correo": "Post",
@@ -25601,7 +25603,7 @@
   {
     "id": "1597",
     "spanish": "la declaración",
-    "german": "die Erklärung",
+    "german": "die Aussage / die offizielle Erklärung",
     "type": "noun",
     "sentence_es": "Tengo que hacer la declaración de la renta.",
     "sentence_de": "Ich muss die Steuererklärung machen.",
@@ -25619,7 +25621,7 @@
   {
     "id": "1598",
     "spanish": "el comunicado",
-    "german": "das Kommuniqué",
+    "german": "die Pressemitteilung / die offizielle Mitteilung",
     "type": "noun",
     "sentence_es": "La empresa publicó un comunicado importante ayer.",
     "sentence_de": "Das Unternehmen veröffentlichte gestern eine wichtige Mitteilung.",
@@ -25971,7 +25973,7 @@
   {
     "id": "1618",
     "spanish": "el enfoque",
-    "german": "der Ansatz",
+    "german": "der Ansatz / die Herangehensweise / der Blickwinkel",
     "type": "noun",
     "sentence_es": "El enfoque del profesor es muy práctico.",
     "sentence_de": "Der Ansatz des Lehrers ist sehr praktisch.",
@@ -26006,7 +26008,7 @@
   {
     "id": "1620",
     "spanish": "el rumbo",
-    "german": "der Kurs",
+    "german": "der Kurs (Richtung) / die Richtung",
     "type": "noun",
     "sentence_es": "El capitán cambió el rumbo del barco.",
     "sentence_de": "Der Kapitän änderte den Kurs des Schiffes.",
@@ -26059,7 +26061,8 @@
   {
     "id": "1623",
     "spanish": "la ruta",
-    "german": "die Route",
+    "german": "die Route / die Strecke (der Weg selbst)",
+    "note": "vgl. itinerario (Reiseplan) – ruta ist der Weg selbst",
     "type": "noun",
     "sentence_es": "Vamos a planificar la ruta del viaje.",
     "sentence_de": "Wir werden die Route der Reise planen.",
@@ -26075,7 +26078,8 @@
   {
     "id": "1624",
     "spanish": "el itinerario",
-    "german": "die Route",
+    "german": "der Reiseplan / das Reiseprogramm",
+    "note": "vgl. ruta (die Strecke) – itinerario ist der Ablaufplan",
     "type": "noun",
     "sentence_es": "Necesito revisar el itinerario de nuestro viaje.",
     "sentence_de": "Ich muss den Reiseplan unserer Reise überprüfen.",
@@ -26691,7 +26695,7 @@
   {
     "id": "1658",
     "spanish": "el impacto",
-    "german": "der Einfluss",
+    "german": "die Auswirkung / der Einschlag",
     "type": "noun",
     "sentence_es": "El impacto del coronavirus cambió nuestras vidas.",
     "sentence_de": "Die Auswirkung des Coronavirus veränderte unser Leben.",
@@ -26708,7 +26712,7 @@
   {
     "id": "1659",
     "spanish": "la influencia",
-    "german": "der Einfluss",
+    "german": "der Einfluss / die Einflussnahme",
     "type": "noun",
     "sentence_es": "La influencia de mis padres es muy importante.",
     "sentence_de": "Der Einfluss meiner Eltern ist sehr wichtig.",
@@ -26727,7 +26731,8 @@
   {
     "id": "1660",
     "spanish": "el poder",
-    "german": "die Macht",
+    "german": "die Macht / das Vermögen (auch Verb: können)",
+    "note": "vgl. la potencia (Großmacht / technische Leistung)",
     "type": "noun",
     "sentence_es": "El poder de la educación cambia vidas.",
     "sentence_de": "Die Macht der Bildung verändert Leben.",
@@ -26798,7 +26803,8 @@
   {
     "id": "1664",
     "spanish": "la potencia",
-    "german": "die Leistung",
+    "german": "die Leistung (Motor/technisch) / die Macht (Großmacht)",
+    "note": "vgl. el poder (Macht als Prinzip); potencia = technische Leistung oder Macht als Akteur, z. B. una potencia mundial",
     "type": "noun",
     "sentence_es": "Mi coche tiene mucha potencia para subir montañas.",
     "sentence_de": "Mein Auto hat viel Leistung zum Bergauffahren.",
@@ -27048,7 +27054,7 @@
   {
     "id": "1678",
     "spanish": "la magnitud",
-    "german": "die Größe",
+    "german": "das Ausmaß / die Größenordnung",
     "type": "noun",
     "sentence_es": "No comprendo la magnitud del problema económico.",
     "sentence_de": "Ich verstehe nicht das Ausmaß des wirtschaftlichen Problems.",
@@ -27084,7 +27090,7 @@
   {
     "id": "1680",
     "spanish": "el tamaño",
-    "german": "die Größe",
+    "german": "die Größe (Abmessung)",
     "type": "noun",
     "sentence_es": "El tamaño de esta camisa es perfecto.",
     "sentence_de": "Die Größe dieses Hemds ist perfekt.",
@@ -27589,7 +27595,7 @@
   {
     "id": "1708",
     "spanish": "la seguridad",
-    "german": "die Sicherheit",
+    "german": "die Sicherheit (Schutz)",
     "type": "noun",
     "sentence_es": "La seguridad en el trabajo es muy importante.",
     "sentence_de": "Die Sicherheit am Arbeitsplatz ist sehr wichtig.",
@@ -27639,7 +27645,8 @@
       "que": "dass",
       "vendrá": "er/sie wird kommen",
       "mañana": "morgen"
-    }
+    },
+    "note": "certeza und certidumbre sind fast synonym"
   },
   {
     "id": "1711",
@@ -27662,7 +27669,7 @@
   {
     "id": "1712",
     "spanish": "la creencia",
-    "german": "die Überzeugung",
+    "german": "der Glaube / die Ansicht",
     "type": "noun",
     "sentence_es": "Su creencia en la amistad es muy fuerte.",
     "sentence_de": "Sein Glaube an die Freundschaft ist sehr stark.",
@@ -27699,7 +27706,7 @@
   {
     "id": "1714",
     "spanish": "la certidumbre",
-    "german": "die Sicherheit",
+    "german": "die Gewissheit (formell)",
     "type": "noun",
     "sentence_es": "Tengo la certidumbre de que vendrá mañana.",
     "sentence_de": "Ich habe die Gewissheit, dass er morgen kommen wird.",
@@ -27712,7 +27719,8 @@
       "que": "dass",
       "vendrá": "er/sie wird kommen",
       "mañana": "morgen"
-    }
+    },
+    "note": "certeza und certidumbre sind fast synonym"
   },
   {
     "id": "1715",
@@ -28205,7 +28213,7 @@
   {
     "id": "1743",
     "spanish": "la estima",
-    "german": "die Wertschätzung",
+    "german": "die Achtung / das Ansehen",
     "type": "noun",
     "sentence_es": "Mi familia me tiene mucha estima y cariño.",
     "sentence_de": "Meine Familie schätzt mich sehr und hat mich lieb.",
@@ -28216,12 +28224,13 @@
       "mucha": "viel",
       "estima": "Wertschätzung/Achtung",
       "cariño": "Zuneigung"
-    }
+    },
+    "note": "estima und aprecio sind weitgehend synonym"
   },
   {
     "id": "1744",
     "spanish": "el aprecio",
-    "german": "die Wertschätzung",
+    "german": "die Wertschätzung / die Zuneigung",
     "type": "noun",
     "sentence_es": "Tengo mucho aprecio por mi familia.",
     "sentence_de": "Ich habe große Wertschätzung für meine Familie.",
@@ -28233,7 +28242,8 @@
       "por": "für",
       "mi": "meine",
       "familia": "Familie"
-    }
+    },
+    "note": "estima und aprecio sind weitgehend synonym"
   },
   {
     "id": "1745",
@@ -31685,7 +31695,7 @@
   {
     "id": "1940",
     "spanish": "la contingencia",
-    "german": "die Kontingenz",
+    "german": "die Unwägbarkeit / der Eventualfall",
     "type": "noun",
     "sentence_es": "Debemos tener un plan para cualquier contingencia.",
     "sentence_de": "Wir müssen einen Plan für jeden Notfall haben.",
@@ -34781,7 +34791,7 @@
   {
     "id": "2113",
     "spanish": "la gaceta",
-    "german": "die Gazette",
+    "german": "die Zeitung / das Amtsblatt (Gaceta Oficial)",
     "type": "noun",
     "sentence_es": "Mi abuelo lee la gaceta todas las mañanas.",
     "sentence_de": "Mein Großvater liest die Zeitung jeden Morgen.",
@@ -34833,7 +34843,7 @@
   {
     "id": "2116",
     "spanish": "el impreso",
-    "german": "das Druckwerk",
+    "german": "das Formular / die Drucksache",
     "type": "noun",
     "sentence_es": "Necesito llenar el impreso para la solicitud.",
     "sentence_de": "Ich muss das Formular für den Antrag ausfüllen.",
@@ -57584,6 +57594,263 @@
       "la": "die",
       "casta": "Elite/Kaste",
       "política": "politisch"
+    }
+  },
+  {
+    "id": "3715",
+    "spanish": "el sol",
+    "german": "die Sonne",
+    "type": "noun",
+    "sentence_es": "El sol calienta la playa por la mañana.",
+    "sentence_de": "Die Sonne wärmt den Strand am Morgen.",
+    "audio": "",
+    "word_translations": {
+      "el": "der/die",
+      "sol": "Sonne",
+      "calienta": "wärmt",
+      "la": "die",
+      "playa": "Strand",
+      "por": "am/durch",
+      "mañana": "Morgen"
+    }
+  },
+  {
+    "id": "3716",
+    "spanish": "comprender",
+    "german": "verstehen / begreifen",
+    "type": "verb",
+    "sentence_es": "Quiero comprender mejor este problema difícil.",
+    "sentence_de": "Ich möchte dieses schwierige Problem besser verstehen.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "comprender": "verstehen/begreifen",
+      "mejor": "besser",
+      "este": "dieses",
+      "problema": "Problem",
+      "difícil": "schwierig"
+    }
+  },
+  {
+    "id": "3717",
+    "spanish": "al menos",
+    "german": "wenigstens / zumindest",
+    "type": "phrase",
+    "sentence_es": "Al menos tenemos comida para la cena.",
+    "sentence_de": "Wenigstens haben wir Essen fürs Abendessen.",
+    "audio": "",
+    "word_translations": {
+      "al menos": "wenigstens/zumindest",
+      "tenemos": "wir haben",
+      "comida": "Essen",
+      "para": "für",
+      "la": "das/die",
+      "cena": "Abendessen"
+    }
+  },
+  {
+    "id": "3718",
+    "spanish": "el olor",
+    "german": "der Geruch",
+    "type": "noun",
+    "sentence_es": "El olor del café llena toda la cocina.",
+    "sentence_de": "Der Geruch des Kaffees erfüllt die ganze Küche.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "olor": "Geruch",
+      "del": "des/vom",
+      "café": "Kaffee",
+      "llena": "erfüllt",
+      "toda": "die ganze",
+      "la": "die",
+      "cocina": "Küche"
+    }
+  },
+  {
+    "id": "3719",
+    "spanish": "detenerse",
+    "german": "anhalten / stehenbleiben",
+    "type": "verb",
+    "sentence_es": "El coche tuvo que detenerse en el semáforo rojo.",
+    "sentence_de": "Das Auto musste an der roten Ampel anhalten.",
+    "audio": "",
+    "word_translations": {
+      "el": "das/der",
+      "coche": "Auto",
+      "tuvo": "musste",
+      "que": "dass/zu",
+      "detenerse": "anhalten/stehenbleiben",
+      "en": "an/in",
+      "semáforo": "Ampel",
+      "rojo": "rot"
+    }
+  },
+  {
+    "id": "3720",
+    "spanish": "el sonido",
+    "german": "der Klang / das Geräusch",
+    "type": "noun",
+    "sentence_es": "El sonido de la lluvia me ayuda a dormir.",
+    "sentence_de": "Das Geräusch des Regens hilft mir beim Einschlafen.",
+    "audio": "",
+    "word_translations": {
+      "el": "das",
+      "sonido": "Klang/Geräusch",
+      "de": "von/des",
+      "la": "der",
+      "lluvia": "Regen",
+      "me": "mir",
+      "ayuda": "hilft",
+      "a": "zu/beim",
+      "dormir": "schlafen"
+    }
+  },
+  {
+    "id": "3721",
+    "spanish": "la ola",
+    "german": "die Welle",
+    "type": "noun",
+    "sentence_es": "Una ola grande rompió contra las rocas.",
+    "sentence_de": "Eine große Welle brach an den Felsen.",
+    "audio": "",
+    "word_translations": {
+      "una": "eine",
+      "ola": "Welle",
+      "grande": "groß/große",
+      "rompió": "brach",
+      "contra": "gegen/an",
+      "las": "die",
+      "rocas": "Felsen"
+    }
+  },
+  {
+    "id": "3722",
+    "spanish": "calmar",
+    "german": "beruhigen",
+    "type": "verb",
+    "sentence_es": "La música suave puede calmar a los niños.",
+    "sentence_de": "Sanfte Musik kann die Kinder beruhigen.",
+    "audio": "",
+    "word_translations": {
+      "la": "die",
+      "música": "Musik",
+      "suave": "sanft/weich",
+      "puede": "kann",
+      "calmar": "beruhigen",
+      "a": "(Akkusativmarker)",
+      "los": "die",
+      "niños": "Kinder"
+    }
+  },
+  {
+    "id": "3723",
+    "spanish": "por completo",
+    "german": "völlig / komplett",
+    "type": "phrase",
+    "sentence_es": "Cambié de opinión por completo después de hablar contigo.",
+    "sentence_de": "Ich habe meine Meinung nach dem Gespräch mit dir völlig geändert.",
+    "audio": "",
+    "word_translations": {
+      "cambié": "ich änderte",
+      "de": "von/über",
+      "opinión": "Meinung",
+      "por completo": "völlig/komplett",
+      "después": "danach/nach",
+      "hablar": "sprechen",
+      "contigo": "mit dir"
+    }
+  },
+  {
+    "id": "3724",
+    "spanish": "el tono",
+    "german": "der Ton / der Farbton",
+    "type": "noun",
+    "sentence_es": "Me encanta el tono azul de esta pared.",
+    "sentence_de": "Mir gefällt der blaue Farbton dieser Wand sehr.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "encanta": "gefällt sehr",
+      "el": "der",
+      "tono": "Ton/Farbton",
+      "azul": "blau",
+      "de": "von",
+      "esta": "diese",
+      "pared": "Wand"
+    }
+  },
+  {
+    "id": "3725",
+    "spanish": "rosado",
+    "german": "rosafarben",
+    "type": "adjective",
+    "sentence_es": "El cielo se puso rosado al atardecer.",
+    "sentence_de": "Der Himmel wurde bei Sonnenuntergang rosafarben.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "cielo": "Himmel",
+      "se": "sich",
+      "puso": "wurde",
+      "rosado": "rosafarben",
+      "al": "bei",
+      "atardecer": "Sonnenuntergang"
+    }
+  },
+  {
+    "id": "3726",
+    "spanish": "teñir",
+    "german": "färben",
+    "type": "verb",
+    "sentence_es": "Quiero teñir mi cabello de color castaño.",
+    "sentence_de": "Ich möchte mein Haar braun färben.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "teñir": "färben",
+      "mi": "mein",
+      "cabello": "Haar",
+      "de": "in/von",
+      "color": "Farbe",
+      "castaño": "braun/kastanienbraun"
+    }
+  },
+  {
+    "id": "3727",
+    "spanish": "la brisa",
+    "german": "die Brise",
+    "type": "noun",
+    "sentence_es": "Una brisa fresca llegaba desde el mar.",
+    "sentence_de": "Eine frische Brise kam vom Meer.",
+    "audio": "",
+    "word_translations": {
+      "una": "eine",
+      "brisa": "Brise",
+      "fresca": "frisch",
+      "llegaba": "kam",
+      "desde": "von/aus",
+      "el": "das/dem",
+      "mar": "Meer"
+    }
+  },
+  {
+    "id": "3728",
+    "spanish": "la quietud",
+    "german": "die Stille / die Ruhe",
+    "type": "noun",
+    "sentence_es": "Disfruté de la quietud del bosque al amanecer.",
+    "sentence_de": "Ich genoss die Stille des Waldes bei Sonnenaufgang.",
+    "audio": "",
+    "word_translations": {
+      "disfruté": "ich genoss",
+      "de": "von",
+      "la": "die",
+      "quietud": "Stille/Ruhe",
+      "del": "des",
+      "bosque": "Wald",
+      "al": "bei",
+      "amanecer": "Sonnenaufgang"
     }
   }
 ]
