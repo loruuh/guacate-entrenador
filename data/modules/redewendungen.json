@@ -1577,6 +1577,49 @@
         "digo": "ich meine (Selbstkorrektur)",
         "cuatro": "vier"
       }
+    },
+    {
+      "id": "r112",
+      "spanish": "hay que saber que",
+      "german": "man muss wissen, dass ...",
+      "literal": "es gibt zu wissen, dass",
+      "sentence_es": "Hay que saber que el examen será más difícil este año.",
+      "sentence_de": "Man muss wissen, dass die Prüfung dieses Jahr schwieriger sein wird.",
+      "audio": "",
+      "word_translations": {
+        "hay que saber que": "man muss wissen, dass",
+        "el examen": "die Prüfung",
+        "será más difícil": "wird schwieriger sein",
+        "este año": "dieses Jahr"
+      }
+    },
+    {
+      "id": "r113",
+      "spanish": "¡pórtate bien!",
+      "german": "sei brav! / benimm dich!",
+      "literal": "verhalte dich gut",
+      "sentence_es": "Pórtate bien mientras estoy fuera, ¿de acuerdo?",
+      "sentence_de": "Benimm dich, während ich weg bin, okay?",
+      "audio": "",
+      "word_translations": {
+        "pórtate bien": "benimm dich",
+        "mientras estoy fuera": "während ich weg bin",
+        "de acuerdo": "einverstanden"
+      }
+    },
+    {
+      "id": "r114",
+      "spanish": "¡qué mono!",
+      "german": "wie süß! / wie niedlich! (Spanien, ugs.)",
+      "literal": "",
+      "sentence_es": "¡Qué mono es tu perrito!",
+      "sentence_de": "Wie süß dein Hündchen ist!",
+      "audio": "",
+      "word_translations": {
+        "qué mono": "wie süß",
+        "es": "ist",
+        "tu perrito": "dein Hündchen"
+      }
     }
   ]
 }

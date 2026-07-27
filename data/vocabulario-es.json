@@ -54,8 +54,9 @@
   {
     "id": "4",
     "spanish": "la esquina",
-    "german": "die Ecke",
+    "german": "die Ecke (Straßenecke, außen)",
     "type": "noun",
+    "note": "vgl. rincón (Ecke innen, z.B. Zimmerecke)",
     "sentence_es": "El banco está en la esquina de la calle.",
     "sentence_de": "Die Bank ist an der Straßenecke.",
     "audio": "/audio/4.mp3",
@@ -20779,26 +20780,23 @@
   },
   {
     "id": "1216",
-    "spanish": "arruinar, afectar",
-    "german": "beeinflussen (meist negativ)",
-    "type": "noun",
-    "sentence_es": "La lluvia puede arruinar nuestros planes de picnic.",
-    "sentence_de": "Der Regen kann unsere Picknickpläne ruinieren.",
-    "audio": "/audio/1216.mp3",
+    "spanish": "afectar",
+    "german": "(etwas) betreffen / beeinträchtigen",
+    "type": "verb",
+    "sentence_es": "El ruido afecta mi concentración.",
+    "sentence_de": "Der Lärm beeinträchtigt meine Konzentration.",
+    "audio": "",
     "word_translations": {
-      "lluvia": "Regen",
-      "puede": "kann",
-      "arruinar": "ruinieren",
-      "nuestros": "unsere",
-      "planes": "Pläne",
-      "picnic": "Picknick"
+      "el ruido": "der Lärm",
+      "afecta": "beeinträchtigt",
+      "mi concentración": "meine Konzentration"
     }
   },
   {
     "id": "1217",
     "spanish": "arruinar",
-    "german": "ruinieren",
-    "type": "noun",
+    "german": "ruinieren / zerstören / verderben",
+    "type": "verb",
     "sentence_es": "La lluvia puede arruinar nuestros planes de picnic.",
     "sentence_de": "Der Regen kann unsere Picknickpläne ruinieren.",
     "audio": "/audio/1217.mp3",
@@ -21073,8 +21071,9 @@
   {
     "id": "1341",
     "spanish": "el rincón",
-    "german": "die Ecke",
+    "german": "die Ecke (Zimmerecke, innen)",
     "type": "noun",
+    "note": "vgl. esquina (Straßenecke, außen)",
     "sentence_es": "Mi gato siempre duerme en el rincón.",
     "sentence_de": "Meine Katze schläft immer in der Ecke.",
     "audio": "/audio/1341.mp3",
@@ -27995,24 +27994,6 @@
     }
   },
   {
-    "id": "1731",
-    "spanish": "la jurisdicción",
-    "german": "die Jurisdiktion",
-    "type": "noun",
-    "sentence_es": "Este caso no está bajo mi jurisdicción.",
-    "sentence_de": "Dieser Fall liegt nicht in meiner Zuständigkeit.",
-    "audio": "/audio/1731.mp3",
-    "word_translations": {
-      "este": "dieser",
-      "caso": "Fall",
-      "no": "nicht",
-      "está": "liegt/ist",
-      "bajo": "unter",
-      "mi": "meine/r",
-      "jurisdicción": "Zuständigkeit/Gerichtsbarkeit"
-    }
-  },
-  {
     "id": "1732",
     "spanish": "la autoridad",
     "german": "die Autorität",
@@ -32196,8 +32177,9 @@
   {
     "id": "1968",
     "spanish": "el juzgado",
-    "german": "das Gericht",
+    "german": "das Gericht / das Gerichtsgebäude",
     "type": "noun",
+    "note": "vgl. juzgar (urteilen)",
     "sentence_es": "Mañana tengo que ir al juzgado.",
     "sentence_de": "Morgen muss ich zum Gericht gehen.",
     "audio": "/audio/1968.mp3",
@@ -56811,7 +56793,7 @@
   {
     "id": "3669",
     "spanish": "la transición",
-    "german": "der Übergang",
+    "german": "der Übergang / der Wandel / die Wandlung",
     "type": "noun",
     "sentence_es": "La transición al nuevo sistema fue difícil.",
     "sentence_de": "Der Übergang zum neuen System war schwierig.",
@@ -57851,6 +57833,270 @@
       "bosque": "Wald",
       "al": "bei",
       "amanecer": "Sonnenaufgang"
+    }
+  },
+  {
+    "id": "3729",
+    "spanish": "el rompecabezas",
+    "german": "das Puzzle",
+    "type": "noun",
+    "note": "In Spanien auch: el puzle",
+    "sentence_es": "Los niños arman el rompecabezas en la mesa.",
+    "sentence_de": "Die Kinder setzen das Puzzle auf dem Tisch zusammen.",
+    "audio": "",
+    "word_translations": {
+      "los niños": "die Kinder",
+      "arman": "setzen zusammen",
+      "el rompecabezas": "das Puzzle",
+      "en la mesa": "auf dem Tisch"
+    }
+  },
+  {
+    "id": "3730",
+    "spanish": "ascender",
+    "german": "aufsteigen / befördert werden",
+    "type": "verb",
+    "sentence_es": "Después de cinco años, por fin logró ascender en la empresa.",
+    "sentence_de": "Nach fünf Jahren schaffte er/sie es endlich, in der Firma aufzusteigen.",
+    "audio": "",
+    "word_translations": {
+      "después de cinco años": "nach fünf Jahren",
+      "por fin": "endlich",
+      "logró": "schaffte es",
+      "ascender": "aufzusteigen",
+      "en la empresa": "in der Firma"
+    }
+  },
+  {
+    "id": "3731",
+    "spanish": "el derrumbe",
+    "german": "der Einsturz / der Erdrutsch",
+    "type": "noun",
+    "sentence_es": "El derrumbe del edificio dejó a varias familias sin hogar.",
+    "sentence_de": "Der Einsturz des Gebäudes ließ mehrere Familien obdachlos zurück.",
+    "audio": "",
+    "word_translations": {
+      "el derrumbe": "der Einsturz",
+      "del edificio": "des Gebäudes",
+      "dejó": "ließ zurück",
+      "varias familias": "mehrere Familien",
+      "sin hogar": "obdachlos"
+    }
+  },
+  {
+    "id": "3732",
+    "spanish": "naufragar",
+    "german": "Schiffbruch erleiden / scheitern",
+    "type": "verb",
+    "sentence_es": "El barco naufragó cerca de la costa durante la tormenta.",
+    "sentence_de": "Das Schiff erlitt Schiffbruch in der Nähe der Küste während des Sturms.",
+    "audio": "",
+    "word_translations": {
+      "el barco": "das Schiff",
+      "naufragó": "erlitt Schiffbruch",
+      "cerca de la costa": "in der Nähe der Küste",
+      "durante la tormenta": "während des Sturms"
+    }
+  },
+  {
+    "id": "3733",
+    "spanish": "el desaparecido",
+    "german": "der Vermisste / der Verschwundene",
+    "type": "noun",
+    "sentence_es": "La policía sigue buscando al desaparecido desde hace tres días.",
+    "sentence_de": "Die Polizei sucht seit drei Tagen weiter nach dem Vermissten.",
+    "audio": "",
+    "word_translations": {
+      "la policía": "die Polizei",
+      "sigue buscando": "sucht weiter",
+      "al desaparecido": "nach dem Vermissten",
+      "desde hace tres días": "seit drei Tagen"
+    }
+  },
+  {
+    "id": "3734",
+    "spanish": "arrasar",
+    "german": "verwüsten / dem Erdboden gleichmachen",
+    "type": "verb",
+    "sentence_es": "El huracán arrasó varios pueblos de la costa.",
+    "sentence_de": "Der Hurrikan verwüstete mehrere Dörfer an der Küste.",
+    "audio": "",
+    "word_translations": {
+      "el huracán": "der Hurrikan",
+      "arrasó": "verwüstete",
+      "varios pueblos": "mehrere Dörfer",
+      "de la costa": "an der Küste"
+    }
+  },
+  {
+    "id": "3735",
+    "spanish": "aferrarse",
+    "german": "sich festklammern an / festhalten an",
+    "type": "verb",
+    "sentence_es": "El niño se aferró a la mano de su madre.",
+    "sentence_de": "Das Kind klammerte sich an die Hand seiner Mutter.",
+    "audio": "",
+    "word_translations": {
+      "el niño": "das Kind",
+      "se aferró a": "klammerte sich an",
+      "la mano": "die Hand",
+      "de su madre": "seiner Mutter"
+    }
+  },
+  {
+    "id": "3736",
+    "spanish": "la araña",
+    "german": "die Spinne",
+    "type": "noun",
+    "sentence_es": "Encontré una araña grande en el baño.",
+    "sentence_de": "Ich habe eine große Spinne im Badezimmer gefunden.",
+    "audio": "",
+    "word_translations": {
+      "encontré": "ich fand",
+      "una araña grande": "eine große Spinne",
+      "en el baño": "im Badezimmer"
+    }
+  },
+  {
+    "id": "3737",
+    "spanish": "tierno",
+    "german": "zart / zärtlich / liebevoll",
+    "type": "adjective",
+    "sentence_es": "Me dio un abrazo muy tierno antes de irse.",
+    "sentence_de": "Er/Sie gab mir eine sehr liebevolle Umarmung, bevor er/sie ging.",
+    "audio": "",
+    "word_translations": {
+      "me dio": "gab mir",
+      "un abrazo muy tierno": "eine sehr liebevolle Umarmung",
+      "antes de irse": "bevor er/sie ging"
+    }
+  },
+  {
+    "id": "3738",
+    "spanish": "la nena",
+    "german": "das Mädchen / die Kleine (ugs.)",
+    "type": "noun",
+    "note": "Plural nenas = umgangssprachlich für \"Mädels\"",
+    "sentence_es": "La nena está jugando en el parque.",
+    "sentence_de": "Die Kleine spielt im Park.",
+    "audio": "",
+    "word_translations": {
+      "la nena": "die Kleine",
+      "está jugando": "spielt",
+      "en el parque": "im Park"
+    }
+  },
+  {
+    "id": "3739",
+    "spanish": "el vaquero",
+    "german": "die Jeans / der Cowboy",
+    "type": "noun",
+    "note": "los vaqueros (Plural) = die Jeans, v.a. Spanien",
+    "sentence_es": "El vaquero cabalgaba por el desierto.",
+    "sentence_de": "Der Cowboy ritt durch die Wüste.",
+    "audio": "",
+    "word_translations": {
+      "el vaquero": "der Cowboy",
+      "cabalgaba": "ritt",
+      "por el desierto": "durch die Wüste"
+    }
+  },
+  {
+    "id": "3740",
+    "spanish": "el cuero",
+    "german": "das Leder",
+    "type": "noun",
+    "sentence_es": "Este bolso está hecho de cuero auténtico.",
+    "sentence_de": "Diese Tasche ist aus echtem Leder gemacht.",
+    "audio": "",
+    "word_translations": {
+      "este bolso": "diese Tasche",
+      "está hecho de": "ist gemacht aus",
+      "cuero auténtico": "echtem Leder"
+    }
+  },
+  {
+    "id": "3741",
+    "spanish": "el pañuelo",
+    "german": "das Tuch / das Kopftuch / das Taschentuch",
+    "type": "noun",
+    "sentence_es": "Se sonó la nariz con un pañuelo de papel.",
+    "sentence_de": "Er/Sie putzte sich die Nase mit einem Papiertaschentuch.",
+    "audio": "",
+    "word_translations": {
+      "se sonó la nariz": "putzte sich die Nase",
+      "con un pañuelo de papel": "mit einem Papiertaschentuch"
+    }
+  },
+  {
+    "id": "3742",
+    "spanish": "contestar",
+    "german": "antworten",
+    "type": "verb",
+    "note": "contestar la puerta = auf Klingeln reagieren / aufmachen",
+    "sentence_es": "No supe qué contestar cuando me hizo esa pregunta.",
+    "sentence_de": "Ich wusste nicht, was ich antworten sollte, als er/sie mir diese Frage stellte.",
+    "audio": "",
+    "word_translations": {
+      "no supe": "ich wusste nicht",
+      "qué contestar": "was antworten",
+      "cuando me hizo esa pregunta": "als er/sie mir diese Frage stellte"
+    }
+  },
+  {
+    "id": "3743",
+    "spanish": "el apagón",
+    "german": "der Stromausfall",
+    "type": "noun",
+    "sentence_es": "Hubo un apagón durante la tormenta y nos quedamos sin luz.",
+    "sentence_de": "Es gab während des Sturms einen Stromausfall, und wir hatten kein Licht mehr.",
+    "audio": "",
+    "word_translations": {
+      "hubo un apagón": "es gab einen Stromausfall",
+      "durante la tormenta": "während des Sturms",
+      "nos quedamos sin luz": "wir hatten kein Licht mehr"
+    }
+  },
+  {
+    "id": "3744",
+    "spanish": "inolvidable",
+    "german": "unvergesslich",
+    "type": "adjective",
+    "sentence_es": "Fue un viaje inolvidable para toda la familia.",
+    "sentence_de": "Es war eine unvergessliche Reise für die ganze Familie.",
+    "audio": "",
+    "word_translations": {
+      "fue un viaje inolvidable": "es war eine unvergessliche Reise",
+      "para toda la familia": "für die ganze Familie"
+    }
+  },
+  {
+    "id": "3745",
+    "spanish": "desalojar",
+    "german": "räumen / evakuieren",
+    "type": "verb",
+    "sentence_es": "Tuvieron que desalojar el edificio por el incendio.",
+    "sentence_de": "Sie mussten das Gebäude wegen des Brandes räumen.",
+    "audio": "",
+    "word_translations": {
+      "tuvieron que desalojar": "sie mussten räumen",
+      "el edificio": "das Gebäude",
+      "por el incendio": "wegen des Brandes"
+    }
+  },
+  {
+    "id": "3746",
+    "spanish": "la solastalgia",
+    "german": "die Solastalgie",
+    "type": "noun",
+    "note": "Neologismus aus der Klimadebatte, sehr selten: Leid durch Umweltveränderung der eigenen Heimat",
+    "sentence_es": "Muchos habitantes de la región sienten solastalgia al ver el paisaje transformado.",
+    "sentence_de": "Viele Bewohner der Region empfinden Solastalgie, wenn sie die veränderte Landschaft sehen.",
+    "audio": "",
+    "word_translations": {
+      "muchos habitantes de la región": "viele Bewohner der Region",
+      "sienten solastalgia": "empfinden Solastalgie",
+      "al ver el paisaje transformado": "wenn sie die veränderte Landschaft sehen"
     }
   }
 ]
