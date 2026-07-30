@@ -1620,6 +1620,77 @@
         "es": "ist",
         "tu perrito": "dein Hündchen"
       }
+    },
+    {
+      "id": "r115",
+      "spanish": "¡qué broma!",
+      "german": "was für ein Scherz! / soll das ein Witz sein?",
+      "literal": "was für ein Scherz",
+      "sentence_es": "¡Qué broma! No puedo creer que hicieras eso.",
+      "sentence_de": "Was für ein Scherz! Ich kann nicht glauben, dass du das gemacht hast.",
+      "audio": "",
+      "word_translations": {
+        "qué broma": "was für ein Scherz",
+        "no puedo creer": "ich kann nicht glauben",
+        "que hicieras eso": "dass du das gemacht hast"
+      }
+    },
+    {
+      "id": "r116",
+      "spanish": "¡enhorabuena!",
+      "german": "herzlichen Glückwunsch! (Spanien)",
+      "literal": "in guter Stunde",
+      "sentence_es": "¡Enhorabuena por tu nuevo trabajo!",
+      "sentence_de": "Herzlichen Glückwunsch zu deinem neuen Job!",
+      "audio": "",
+      "word_translations": {
+        "enhorabuena": "herzlichen Glückwunsch",
+        "por tu nuevo trabajo": "zu deinem neuen Job"
+      }
+    },
+    {
+      "id": "r117",
+      "spanish": "de pacotilla",
+      "german": "billig / minderwertig / Möchtegern-",
+      "literal": "aus Ramsch",
+      "sentence_es": "Ese actor se cree un héroe de pacotilla.",
+      "sentence_de": "Dieser Schauspieler hält sich für einen Möchtegern-Helden.",
+      "audio": "",
+      "word_translations": {
+        "ese actor": "dieser Schauspieler",
+        "se cree": "hält sich für",
+        "un héroe de pacotilla": "einen Möchtegern-Helden"
+      }
+    },
+    {
+      "id": "r118",
+      "spanish": "¡qué vaina!",
+      "german": "so ein Mist! (LatAm, v.a. Kolumbien/Venezuela/Karibik)",
+      "literal": "was für eine Schote",
+      "sentence_es": "¡Qué vaina! Se me olvidaron las llaves en casa.",
+      "sentence_de": "So ein Mist! Ich habe die Schlüssel zu Hause vergessen.",
+      "audio": "",
+      "word_translations": {
+        "qué vaina": "so ein Mist",
+        "se me olvidaron": "ich habe vergessen",
+        "las llaves": "die Schlüssel",
+        "en casa": "zu Hause"
+      }
+    },
+    {
+      "id": "r119",
+      "spanish": "¡qué pedazo de coche!",
+      "german": "Was für ein geiles Auto!",
+      "literal": "was für ein Stück Auto",
+      "note": "pedazo de + Substantiv = umgangssprachlicher Verstärker (Spanien): ¡qué pedazo de casa/gol!",
+      "sentence_es": "¡Qué pedazo de coche! Debe haber costado una fortuna.",
+      "sentence_de": "Was für ein geiles Auto! Das muss ein Vermögen gekostet haben.",
+      "audio": "",
+      "word_translations": {
+        "qué pedazo de coche": "was für ein geiles Auto",
+        "debe haber costado": "das muss gekostet haben",
+        "una fortuna": "ein Vermögen"
+      }
     }
   ]
 }

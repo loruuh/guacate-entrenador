@@ -2818,7 +2818,7 @@
   {
     "id": "159",
     "spanish": "la pantalla",
-    "german": "der Bildschirm",
+    "german": "der Bildschirm / die Leinwand",
     "type": "noun",
     "sentence_es": "La pantalla del ordenador está muy sucia.",
     "sentence_de": "Der Bildschirm des Computers ist sehr schmutzig.",
@@ -25404,7 +25404,7 @@
   {
     "id": "1586",
     "spanish": "el enlace",
-    "german": "die Verknüpfung",
+    "german": "die Verbindung / die Verknüpfung / der Link (Internet)",
     "type": "noun",
     "sentence_es": "Haz clic en el enlace para más información.",
     "sentence_de": "Klicke auf den Link für weitere Informationen.",
@@ -25511,7 +25511,7 @@
   {
     "id": "1592",
     "spanish": "la recepción",
-    "german": "der Empfang",
+    "german": "die Rezeption / der Empfang",
     "type": "noun",
     "sentence_es": "La recepción del hotel está en la planta baja.",
     "sentence_de": "Die Rezeption des Hotels ist im Erdgeschoss.",
@@ -25852,7 +25852,7 @@
   {
     "id": "1611",
     "spanish": "la noción",
-    "german": "die Vorstellung",
+    "german": "die Vorstellung / der Begriff / die Kenntnis",
     "type": "noun",
     "sentence_es": "No tengo ninguna noción sobre este tema.",
     "sentence_de": "Ich habe keine Ahnung von diesem Thema.",
@@ -25863,7 +25863,8 @@
       "noción": "Ahnung/Vorstellung",
       "sobre": "über/von",
       "tema": "Thema"
-    }
+    },
+    "note": "no tener ni noción = keine Ahnung haben (Kenntnis!) — NICHT Vorahnung, das ist presentimiento/corazonada"
   },
   {
     "id": "1612",
@@ -25972,7 +25973,7 @@
   {
     "id": "1618",
     "spanish": "el enfoque",
-    "german": "der Ansatz / die Herangehensweise / der Blickwinkel",
+    "german": "der Fokus / der Blickwinkel",
     "type": "noun",
     "sentence_es": "El enfoque del profesor es muy práctico.",
     "sentence_de": "Der Ansatz des Lehrers ist sehr praktisch.",
@@ -26406,7 +26407,7 @@
   {
     "id": "1642",
     "spanish": "el escenario",
-    "german": "das Szenario",
+    "german": "das Szenario / die Bühne",
     "type": "noun",
     "sentence_es": "Los actores subieron al escenario del teatro.",
     "sentence_de": "Die Schauspieler gingen auf die Bühne des Theaters.",
@@ -26478,7 +26479,7 @@
   {
     "id": "1646",
     "spanish": "el fondo",
-    "german": "der Hintergrund",
+    "german": "der Hintergrund / der Boden (z.B. el fondo del mar)",
     "type": "noun",
     "sentence_es": "El dinero está en el fondo del cajón.",
     "sentence_de": "Das Geld ist im hinteren Teil der Schublade.",
@@ -26675,8 +26676,9 @@
   {
     "id": "1657",
     "spanish": "el desenlace",
-    "german": "die Auflösung",
+    "german": "der Ausgang / das Ende (einer Geschichte) / die Auflösung",
     "type": "noun",
+    "note": "NICHT wörtliches Entwirren – das wäre desenredar; desenlace = Handlungsauflösung",
     "sentence_es": "El desenlace de la película fue muy sorprendente.",
     "sentence_de": "Das Ende des Films war sehr überraschend.",
     "audio": "/audio/1657.mp3",
@@ -28194,7 +28196,7 @@
   {
     "id": "1743",
     "spanish": "la estima",
-    "german": "die Achtung / das Ansehen",
+    "german": "die Wertschätzung / die Achtung",
     "type": "noun",
     "sentence_es": "Mi familia me tiene mucha estima y cariño.",
     "sentence_de": "Meine Familie schätzt mich sehr und hat mich lieb.",
@@ -30323,7 +30325,7 @@
   {
     "id": "1862",
     "spanish": "el tratado",
-    "german": "der Vertrag",
+    "german": "der Vertrag / das Abkommen",
     "type": "noun",
     "sentence_es": "Los países firmaron el tratado de paz.",
     "sentence_de": "Die Länder unterzeichneten den Friedensvertrag.",
@@ -33314,7 +33316,7 @@
   {
     "id": "2031",
     "spanish": "el asunto",
-    "german": "die Angelegenheit",
+    "german": "die Angelegenheit / das Thema / der Betreff",
     "type": "noun",
     "sentence_es": "Necesitamos hablar sobre el asunto del trabajo.",
     "sentence_de": "Wir müssen über die Arbeitsangelegenheit sprechen.",
@@ -39166,8 +39168,9 @@
   {
     "id": "2363",
     "spanish": "evitar",
-    "german": "vermeiden",
+    "german": "vermeiden / verhindern",
     "type": "verb",
+    "note": "evitar que + Subjuntiv = verhindern, dass...",
     "sentence_es": "Debes evitar comer mucha comida rápida.",
     "sentence_de": "Du solltest es vermeiden, viel Fast Food zu essen.",
     "audio": "/audio/2363.mp3",
@@ -58097,6 +58100,605 @@
       "muchos habitantes de la región": "viele Bewohner der Region",
       "sienten solastalgia": "empfinden Solastalgie",
       "al ver el paisaje transformado": "wenn sie die veränderte Landschaft sehen"
+    }
+  },
+  {
+    "id": "3747",
+    "spanish": "sumergirse",
+    "german": "tauchen / eintauchen",
+    "type": "verb",
+    "sentence_es": "Los niños se sumergieron en el mar para nadar.",
+    "sentence_de": "Die Kinder tauchten ins Meer, um zu schwimmen.",
+    "audio": "",
+    "word_translations": {
+      "niños": "Kinder",
+      "se sumergieron": "tauchten",
+      "mar": "Meer",
+      "nadar": "schwimmen"
+    }
+  },
+  {
+    "id": "3748",
+    "spanish": "pegar",
+    "german": "schlagen / kleben",
+    "type": "verb",
+    "note": "hier: schlagen (jmdn. hauen)",
+    "sentence_es": "Los dos hombres se pegaron en la calle.",
+    "sentence_de": "Die beiden Männer schlugen sich auf der Straße.",
+    "audio": "",
+    "word_translations": {
+      "dos hombres": "zwei Männer",
+      "se pegaron": "schlugen sich",
+      "calle": "Straße"
+    }
+  },
+  {
+    "id": "3749",
+    "spanish": "adivinar",
+    "german": "erraten / raten",
+    "type": "verb",
+    "note": "¡adivina! = rate mal!",
+    "sentence_es": "¿Puedes adivinar cuántos años tengo?",
+    "sentence_de": "Kannst du erraten, wie alt ich bin?",
+    "audio": "",
+    "word_translations": {
+      "puedes adivinar": "kannst du erraten",
+      "cuántos años": "wie viele Jahre",
+      "tengo": "ich habe"
+    }
+  },
+  {
+    "id": "3750",
+    "spanish": "el criado / la criada",
+    "german": "der Diener / die Dienerin",
+    "type": "noun",
+    "note": "auch Partizip von criar (aufziehen)",
+    "sentence_es": "La criada limpiaba la casa todos los días.",
+    "sentence_de": "Die Dienerin putzte jeden Tag das Haus.",
+    "audio": "",
+    "word_translations": {
+      "criada": "Dienerin",
+      "limpiaba": "putzte",
+      "casa": "Haus",
+      "todos los días": "jeden Tag"
+    }
+  },
+  {
+    "id": "3751",
+    "spanish": "deportivo",
+    "german": "sportlich",
+    "type": "adjective",
+    "sentence_es": "Mi hermano es muy deportivo y juega fútbol cada semana.",
+    "sentence_de": "Mein Bruder ist sehr sportlich und spielt jede Woche Fußball.",
+    "audio": "",
+    "word_translations": {
+      "hermano": "Bruder",
+      "muy deportivo": "sehr sportlich",
+      "juega fútbol": "spielt Fußball",
+      "cada semana": "jede Woche"
+    }
+  },
+  {
+    "id": "3752",
+    "spanish": "la motocicleta",
+    "german": "das Motorrad",
+    "type": "noun",
+    "note": "kurz: la moto",
+    "sentence_es": "Mi padre tiene una motocicleta roja.",
+    "sentence_de": "Mein Vater hat ein rotes Motorrad.",
+    "audio": "",
+    "word_translations": {
+      "padre": "Vater",
+      "tiene": "hat",
+      "motocicleta roja": "rotes Motorrad"
+    }
+  },
+  {
+    "id": "3753",
+    "spanish": "la hamaca",
+    "german": "die Hängematte",
+    "type": "noun",
+    "note": "regional auch: Liegestuhl",
+    "sentence_es": "Me gusta dormir la siesta en la hamaca.",
+    "sentence_de": "Ich schlafe gern mittags in der Hängematte.",
+    "audio": "",
+    "word_translations": {
+      "me gusta": "ich mag",
+      "dormir la siesta": "Mittagsschlaf halten",
+      "hamaca": "Hängematte"
+    }
+  },
+  {
+    "id": "3754",
+    "spanish": "la bromita",
+    "german": "der kleine Scherz",
+    "type": "noun",
+    "note": "Diminutiv von broma (-ita)",
+    "sentence_es": "Fue solo una bromita entre amigos.",
+    "sentence_de": "Es war nur ein kleiner Scherz unter Freunden.",
+    "audio": "",
+    "word_translations": {
+      "fue solo": "es war nur",
+      "bromita": "kleiner Scherz",
+      "entre amigos": "unter Freunden"
+    }
+  },
+  {
+    "id": "3755",
+    "spanish": "la mascota",
+    "german": "das Haustier / das Maskottchen",
+    "type": "noun",
+    "sentence_es": "Nuestra mascota es un perro muy cariñoso.",
+    "sentence_de": "Unser Haustier ist ein sehr liebevoller Hund.",
+    "audio": "",
+    "word_translations": {
+      "nuestra mascota": "unser Haustier",
+      "perro": "Hund",
+      "muy cariñoso": "sehr liebevoll"
+    }
+  },
+  {
+    "id": "3756",
+    "spanish": "ligar",
+    "german": "flirten / anbandeln (ugs., Spanien)",
+    "type": "verb",
+    "sentence_es": "Fuimos a la discoteca a ligar.",
+    "sentence_de": "Wir gingen in die Disco, um zu flirten.",
+    "audio": "",
+    "word_translations": {
+      "fuimos": "wir gingen",
+      "discoteca": "Disco",
+      "ligar": "flirten"
+    }
+  },
+  {
+    "id": "3757",
+    "spanish": "vuestro / vuestra",
+    "german": "euer / eure (Spanien)",
+    "type": "adjective",
+    "note": "in LatAm stattdessen: de ustedes",
+    "sentence_es": "¿Dónde está vuestra casa?",
+    "sentence_de": "Wo ist euer Haus?",
+    "audio": "",
+    "word_translations": {
+      "dónde está": "wo ist",
+      "vuestra casa": "euer Haus"
+    }
+  },
+  {
+    "id": "3758",
+    "spanish": "la chuleta",
+    "german": "das Kotelett",
+    "type": "noun",
+    "note": "Spanien ugs. auch: der Spickzettel",
+    "sentence_es": "Comimos una chuleta de cerdo para cenar.",
+    "sentence_de": "Wir aßen ein Schweinekotelett zum Abendessen.",
+    "audio": "",
+    "word_translations": {
+      "comimos": "wir aßen",
+      "chuleta de cerdo": "Schweinekotelett",
+      "cenar": "zu Abend essen"
+    }
+  },
+  {
+    "id": "3759",
+    "spanish": "adquirir",
+    "german": "erwerben / erlangen / anschaffen",
+    "type": "verb",
+    "sentence_es": "La empresa quiere adquirir una nueva sede en el centro.",
+    "sentence_de": "Das Unternehmen möchte einen neuen Standort im Zentrum erwerben.",
+    "audio": "",
+    "word_translations": {
+      "la empresa": "das Unternehmen",
+      "quiere adquirir": "möchte erwerben",
+      "una nueva sede": "einen neuen Standort",
+      "en el centro": "im Zentrum"
+    }
+  },
+  {
+    "id": "3760",
+    "spanish": "desesperado",
+    "german": "verzweifelt",
+    "type": "adjective",
+    "sentence_es": "Estaba desesperado porque no encontraba las llaves.",
+    "sentence_de": "Er war verzweifelt, weil er die Schlüssel nicht fand.",
+    "audio": "",
+    "word_translations": {
+      "estaba desesperado": "er war verzweifelt",
+      "porque": "weil",
+      "no encontraba": "er nicht fand",
+      "las llaves": "die Schlüssel"
+    }
+  },
+  {
+    "id": "3761",
+    "spanish": "desesperadamente",
+    "german": "verzweifelt",
+    "type": "adverb",
+    "note": "Adverb zu desesperado",
+    "sentence_es": "Buscaba desesperadamente una solución al problema.",
+    "sentence_de": "Er suchte verzweifelt nach einer Lösung für das Problem.",
+    "audio": "",
+    "word_translations": {
+      "buscaba desesperadamente": "er suchte verzweifelt",
+      "una solución": "eine Lösung",
+      "al problema": "für das Problem"
+    }
+  },
+  {
+    "id": "3762",
+    "spanish": "el traidor / la traidora",
+    "german": "der Verräter / die Verräterin",
+    "type": "noun",
+    "sentence_es": "Todos consideraban a Pedro un traidor después de lo que hizo.",
+    "sentence_de": "Alle hielten Pedro nach dem, was er getan hatte, für einen Verräter.",
+    "audio": "",
+    "word_translations": {
+      "todos consideraban": "alle hielten",
+      "a Pedro": "Pedro",
+      "un traidor": "für einen Verräter",
+      "después de lo que hizo": "nach dem, was er getan hatte"
+    }
+  },
+  {
+    "id": "3763",
+    "spanish": "indecente",
+    "german": "unanständig / anstößig",
+    "type": "adjective",
+    "sentence_es": "Ese chiste fue bastante indecente para la ocasión.",
+    "sentence_de": "Dieser Witz war für den Anlass ziemlich unanständig.",
+    "audio": "",
+    "word_translations": {
+      "ese chiste": "dieser Witz",
+      "fue bastante indecente": "war ziemlich unanständig",
+      "para la ocasión": "für den Anlass"
+    }
+  },
+  {
+    "id": "3764",
+    "spanish": "el diputado / la diputada",
+    "german": "der Abgeordnete / die Abgeordnete",
+    "type": "noun",
+    "sentence_es": "La diputada presentó una nueva ley en el parlamento.",
+    "sentence_de": "Die Abgeordnete brachte ein neues Gesetz ins Parlament ein.",
+    "audio": "",
+    "word_translations": {
+      "la diputada": "die Abgeordnete",
+      "presentó": "brachte ein",
+      "una nueva ley": "ein neues Gesetz",
+      "en el parlamento": "ins Parlament"
+    }
+  },
+  {
+    "id": "3765",
+    "spanish": "derogar",
+    "german": "aufheben / außer Kraft setzen",
+    "type": "verb",
+    "note": "Rechtssprache: ein Gesetz derogar = außer Kraft setzen",
+    "sentence_es": "El gobierno decidió derogar la ley antigua.",
+    "sentence_de": "Die Regierung beschloss, das alte Gesetz außer Kraft zu setzen.",
+    "audio": "",
+    "word_translations": {
+      "el gobierno": "die Regierung",
+      "decidió derogar": "beschloss außer Kraft zu setzen",
+      "la ley antigua": "das alte Gesetz"
+    }
+  },
+  {
+    "id": "3766",
+    "spanish": "deambular",
+    "german": "umherirren / umherwandern",
+    "type": "verb",
+    "note": "literarisch; alltäglich eher: caminar sin rumbo",
+    "sentence_es": "El anciano deambulaba por las calles sin rumbo fijo.",
+    "sentence_de": "Der alte Mann irrte ziellos durch die Straßen.",
+    "audio": "",
+    "word_translations": {
+      "el anciano": "der alte Mann",
+      "deambulaba": "irrte umher",
+      "por las calles": "durch die Straßen",
+      "sin rumbo fijo": "ziellos"
+    }
+  },
+  {
+    "id": "3767",
+    "spanish": "la puñalada",
+    "german": "der Messerstich",
+    "type": "noun",
+    "sentence_es": "Recibió una puñalada en el brazo durante la pelea.",
+    "sentence_de": "Er erhielt während der Schlägerei einen Messerstich in den Arm.",
+    "audio": "",
+    "word_translations": {
+      "recibió": "er erhielt",
+      "una puñalada": "einen Messerstich",
+      "en el brazo": "in den Arm",
+      "durante la pelea": "während der Schlägerei"
+    }
+  },
+  {
+    "id": "3768",
+    "spanish": "el sicario",
+    "german": "der Auftragsmörder",
+    "type": "noun",
+    "note": "v.a. in LatAm-Nachrichten (Kartelle)",
+    "sentence_es": "El sicario fue contratado para matar al testigo.",
+    "sentence_de": "Der Auftragsmörder wurde angeheuert, um den Zeugen zu töten.",
+    "audio": "",
+    "word_translations": {
+      "el sicario": "der Auftragsmörder",
+      "fue contratado": "wurde angeheuert",
+      "para matar": "um zu töten",
+      "al testigo": "den Zeugen"
+    }
+  },
+  {
+    "id": "3769",
+    "spanish": "el sablazo",
+    "german": "der Säbelhieb; ugs. das Anpumpen / Schnorren",
+    "type": "noun",
+    "note": "dar un sablazo a alguien = jemanden um Geld angehen",
+    "sentence_es": "Mi amigo me dio un sablazo de cincuenta euros.",
+    "sentence_de": "Mein Freund hat mich um fünfzig Euro angepumpt.",
+    "audio": "",
+    "word_translations": {
+      "mi amigo": "mein Freund",
+      "me dio un sablazo": "hat mich angepumpt",
+      "de cincuenta euros": "um fünfzig Euro"
+    }
+  },
+  {
+    "id": "3770",
+    "spanish": "la vaina",
+    "german": "die Hülse / die Schote",
+    "type": "noun",
+    "note": "LatAm ugs.: das Ding, die Sache; ¡qué vaina! = so ein Mist! (nicht in Spanien)",
+    "sentence_es": "Guardé las semillas dentro de la vaina.",
+    "sentence_de": "Ich bewahrte die Samen in der Schote auf.",
+    "audio": "",
+    "word_translations": {
+      "guardé": "ich bewahrte auf",
+      "las semillas": "die Samen",
+      "dentro de": "in",
+      "la vaina": "der Schote"
+    }
+  },
+  {
+    "id": "3771",
+    "spanish": "el lujo",
+    "german": "der Luxus",
+    "type": "noun",
+    "sentence_es": "Vivir en esa mansión es un verdadero lujo.",
+    "sentence_de": "In dieser Villa zu leben ist echter Luxus.",
+    "audio": "",
+    "word_translations": {
+      "vivir en": "leben in",
+      "esa mansión": "dieser Villa",
+      "es un verdadero lujo": "ist echter Luxus"
+    }
+  },
+  {
+    "id": "3772",
+    "spanish": "solucionar / solucionarse",
+    "german": "lösen / sich lösen",
+    "type": "verb",
+    "sentence_es": "Los técnicos lograron solucionar el problema eléctrico.",
+    "sentence_de": "Die Techniker schafften es, das elektrische Problem zu lösen.",
+    "audio": "",
+    "word_translations": {
+      "los técnicos": "die Techniker",
+      "lograron solucionar": "schafften es zu lösen",
+      "el problema eléctrico": "das elektrische Problem"
+    }
+  },
+  {
+    "id": "3773",
+    "spanish": "firmar",
+    "german": "unterschreiben",
+    "type": "verb",
+    "note": "firme = Subjuntiv-Form (er/sie unterschreibe); nicht verwechseln mit dem Adjektiv firme (fest/standhaft)",
+    "sentence_es": "El director le pidió que firmara el contrato.",
+    "sentence_de": "Der Direktor bat ihn, den Vertrag zu unterschreiben.",
+    "audio": "",
+    "word_translations": {
+      "el director": "der Direktor",
+      "le pidió que firmara": "bat ihn zu unterschreiben",
+      "el contrato": "den Vertrag"
+    }
+  },
+  {
+    "id": "3774",
+    "spanish": "negar / negarse a",
+    "german": "leugnen, verweigern / sich weigern zu",
+    "type": "verb",
+    "note": "reflexiv (negarse a + Infinitiv) = sich weigern, etwas zu tun; me niego = ich weigere mich",
+    "sentence_es": "El sospechoso se negó a responder las preguntas.",
+    "sentence_de": "Der Verdächtige weigerte sich, die Fragen zu beantworten.",
+    "audio": "",
+    "word_translations": {
+      "el sospechoso": "der Verdächtige",
+      "se negó a responder": "weigerte sich zu beantworten",
+      "las preguntas": "die Fragen"
+    }
+  },
+  {
+    "id": "3775",
+    "spanish": "el encargado / la encargada",
+    "german": "der Verantwortliche / die Verantwortliche; der/die Beauftragte",
+    "type": "noun",
+    "sentence_es": "El encargado de la tienda revisó todas las cajas.",
+    "sentence_de": "Der Verantwortliche des Geschäfts überprüfte alle Kisten.",
+    "audio": "",
+    "word_translations": {
+      "el encargado": "der Verantwortliche",
+      "de la tienda": "des Geschäfts",
+      "revisó": "überprüfte",
+      "todas las cajas": "alle Kisten"
+    }
+  },
+  {
+    "id": "3776",
+    "spanish": "el descuido",
+    "german": "die Nachlässigkeit / das Versäumnis",
+    "type": "noun",
+    "sentence_es": "El accidente ocurrió por un simple descuido.",
+    "sentence_de": "Der Unfall geschah durch eine einfache Nachlässigkeit.",
+    "audio": "",
+    "word_translations": {
+      "el accidente": "der Unfall",
+      "ocurrió": "geschah",
+      "por un simple descuido": "durch eine einfache Nachlässigkeit"
+    }
+  },
+  {
+    "id": "3777",
+    "spanish": "la recompensa",
+    "german": "die Belohnung",
+    "type": "noun",
+    "sentence_es": "Ofrecieron una recompensa por encontrar al perro perdido.",
+    "sentence_de": "Sie boten eine Belohnung dafür, den verlorenen Hund zu finden.",
+    "audio": "",
+    "word_translations": {
+      "ofrecieron": "sie boten",
+      "una recompensa": "eine Belohnung",
+      "por encontrar": "dafür zu finden",
+      "al perro perdido": "den verlorenen Hund"
+    }
+  },
+  {
+    "id": "3778",
+    "spanish": "el hormigón",
+    "german": "der Beton",
+    "type": "noun",
+    "note": "LatAm meist: el concreto; suelo de hormigón = Betonboden",
+    "sentence_es": "Construyeron el puente con hormigón armado.",
+    "sentence_de": "Sie bauten die Brücke aus Stahlbeton.",
+    "audio": "",
+    "word_translations": {
+      "construyeron": "sie bauten",
+      "el puente": "die Brücke",
+      "con hormigón armado": "aus Stahlbeton"
+    }
+  },
+  {
+    "id": "3779",
+    "spanish": "la lágrima",
+    "german": "die Träne",
+    "type": "noun",
+    "sentence_es": "Una lágrima cayó por su mejilla al recordar aquel día.",
+    "sentence_de": "Eine Träne lief ihm über die Wange, als er sich an jenen Tag erinnerte.",
+    "audio": "",
+    "word_translations": {
+      "una lágrima": "eine Träne",
+      "cayó": "lief/fiel",
+      "por su mejilla": "über seine Wange",
+      "al recordar": "als er sich erinnerte",
+      "aquel día": "jenen Tag"
+    }
+  },
+  {
+    "id": "3780",
+    "spanish": "medir",
+    "german": "messen",
+    "type": "verb",
+    "sentence_es": "El sastre midió la tela antes de cortarla.",
+    "sentence_de": "Der Schneider maß den Stoff, bevor er ihn zuschnitt.",
+    "audio": "",
+    "word_translations": {
+      "el sastre": "der Schneider",
+      "midió": "maß",
+      "la tela": "den Stoff",
+      "antes de cortarla": "bevor er ihn zuschnitt"
+    }
+  },
+  {
+    "id": "3781",
+    "spanish": "soplar",
+    "german": "blasen / pusten / wehen",
+    "type": "verb",
+    "sentence_es": "El viento soplaba fuerte esa noche de tormenta.",
+    "sentence_de": "Der Wind wehte stark in jener Sturmnacht.",
+    "audio": "",
+    "word_translations": {
+      "el viento": "der Wind",
+      "soplaba fuerte": "wehte stark",
+      "esa noche de tormenta": "in jener Sturmnacht"
+    }
+  },
+  {
+    "id": "3782",
+    "spanish": "el anciano / la anciana",
+    "german": "der alte Mensch / die Seniorin",
+    "type": "noun",
+    "note": "auch als Adjektiv verwendet: betagt, alt (un hombre anciano)",
+    "sentence_es": "La anciana caminaba despacio apoyada en su bastón.",
+    "sentence_de": "Die alte Frau ging langsam, gestützt auf ihren Stock.",
+    "audio": "",
+    "word_translations": {
+      "la anciana": "die alte Frau",
+      "caminaba despacio": "ging langsam",
+      "apoyada en": "gestützt auf",
+      "su bastón": "ihren Stock"
+    }
+  },
+  {
+    "id": "3783",
+    "spanish": "ambiental",
+    "german": "Umwelt-, umweltbezogen",
+    "type": "adjective",
+    "note": "impacto ambiental = Umweltbelastung; música ambiental = Hintergrundmusik",
+    "sentence_es": "La fábrica causó un grave impacto ambiental en la región.",
+    "sentence_de": "Die Fabrik verursachte eine schwere Umweltbelastung in der Region.",
+    "audio": "",
+    "word_translations": {
+      "la fábrica": "die Fabrik",
+      "causó": "verursachte",
+      "un grave impacto ambiental": "eine schwere Umweltbelastung",
+      "en la región": "in der Region"
+    }
+  },
+  {
+    "id": "3784",
+    "spanish": "el jubilado / la jubilada",
+    "german": "der Rentner / die Rentnerin",
+    "type": "noun",
+    "note": "auch: el pensionista",
+    "sentence_es": "Mi abuelo es jubilado y disfruta de su tiempo libre.",
+    "sentence_de": "Mein Großvater ist Rentner und genießt seine Freizeit.",
+    "audio": "",
+    "word_translations": {
+      "mi abuelo": "mein Großvater",
+      "es jubilado": "ist Rentner",
+      "disfruta de": "genießt",
+      "su tiempo libre": "seine Freizeit"
+    }
+  },
+  {
+    "id": "3785",
+    "spanish": "jubilarse",
+    "german": "in Rente gehen",
+    "type": "verb",
+    "sentence_es": "Mi padre piensa jubilarse el próximo año.",
+    "sentence_de": "Mein Vater plant, nächstes Jahr in Rente zu gehen.",
+    "audio": "",
+    "word_translations": {
+      "mi padre": "mein Vater",
+      "piensa jubilarse": "plant in Rente zu gehen",
+      "el próximo año": "nächstes Jahr"
+    }
+  },
+  {
+    "id": "3786",
+    "spanish": "el sostén",
+    "german": "der BH; auch: die Stütze",
+    "type": "noun",
+    "note": "sostén ist auch Imperativ von sostener (halt fest!)",
+    "sentence_es": "Compró un sostén nuevo en la tienda de ropa interior.",
+    "sentence_de": "Sie kaufte einen neuen BH im Wäschegeschäft.",
+    "audio": "",
+    "word_translations": {
+      "compró": "sie kaufte",
+      "un sostén nuevo": "einen neuen BH",
+      "en la tienda de ropa interior": "im Wäschegeschäft"
     }
   }
 ]
