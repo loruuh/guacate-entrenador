@@ -1691,6 +1691,86 @@
         "debe haber costado": "das muss gekostet haben",
         "una fortuna": "ein Vermögen"
       }
+    },
+    {
+      "id": "r120",
+      "spanish": "venir de perlas",
+      "german": "wie gerufen kommen / perfekt passen",
+      "literal": "wie Perlen kommen",
+      "sentence_es": "Me viene de perlas que puedas ayudarme mañana.",
+      "sentence_de": "Es kommt mir wie gerufen, dass du mir morgen helfen kannst.",
+      "audio": "",
+      "word_translations": {
+        "me viene de perlas": "es kommt mir wie gerufen",
+        "que puedas ayudarme": "dass du mir helfen kannst",
+        "mañana": "morgen"
+      }
+    },
+    {
+      "id": "r121",
+      "spanish": "prometido es deuda",
+      "german": "versprochen ist versprochen",
+      "literal": "Versprochenes ist Schuld",
+      "sentence_es": "Te lo traigo mañana sin falta, prometido es deuda.",
+      "sentence_de": "Ich bringe es dir morgen ganz sicher, versprochen ist versprochen.",
+      "audio": "",
+      "word_translations": {
+        "te lo traigo mañana": "ich bringe es dir morgen",
+        "sin falta": "ganz sicher/unbedingt",
+        "prometido es deuda": "versprochen ist versprochen"
+      }
+    },
+    {
+      "id": "r122",
+      "spanish": "me cago en la leche",
+      "german": "verdammte Scheiße! / Mist! (derb/vulgär)",
+      "literal": "ich scheiße in die Milch",
+      "sentence_es": "¡Me cago en la leche, se ha roto otra vez!",
+      "sentence_de": "Verdammte Scheiße, es ist schon wieder kaputt!",
+      "audio": "",
+      "word_translations": {
+        "me cago en la leche": "verdammte Scheiße",
+        "se ha roto otra vez": "es ist schon wieder kaputt"
+      }
+    },
+    {
+      "id": "r123",
+      "spanish": "cara o cruz",
+      "german": "Kopf oder Zahl",
+      "literal": "Gesicht oder Kreuz",
+      "sentence_es": "Lo decidimos a cara o cruz.",
+      "sentence_de": "Wir entscheiden es per Münzwurf (Kopf oder Zahl).",
+      "audio": "",
+      "word_translations": {
+        "lo decidimos": "wir entscheiden es",
+        "a cara o cruz": "per Münzwurf"
+      }
+    },
+    {
+      "id": "r124",
+      "spanish": "¡la hostia!",
+      "german": "verdammt! / krass! (derb/vulgär, Spanien)",
+      "literal": "die Hostie",
+      "sentence_es": "¡La hostia, qué susto me has dado!",
+      "sentence_de": "Verdammt, hast du mich erschreckt!",
+      "audio": "",
+      "word_translations": {
+        "la hostia": "verdammt",
+        "qué susto me has dado": "hast du mich erschreckt"
+      }
+    },
+    {
+      "id": "r125",
+      "spanish": "¿qué coño...?",
+      "german": "was zum Teufel...? (derb/vulgär)",
+      "literal": "was für ein ... (wörtl. vulgär für weibl. Genital)",
+      "sentence_es": "¿Qué coño estás haciendo?",
+      "sentence_de": "Was zum Teufel machst du da?",
+      "audio": "",
+      "word_translations": {
+        "qué coño": "was zum Teufel",
+        "estás haciendo": "machst du da"
+      }
     }
   ]
 }

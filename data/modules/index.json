@@ -88,6 +88,14 @@
     "file": "vokabeln-11.json"
   },
   {
+    "id": "vokabeln-new",
+    "name": "New",
+    "description": "Meine eigene Sammlung — Wörter aus Filmen und Serien",
+    "icon": "🆕",
+    "type": "vocabulary",
+    "file": "vokabeln-new.json"
+  },
+  {
     "id": "redewendungen",
     "name": "Redewendungen",
     "description": "Spanische Redewendungen & Idioms",

@@ -43,6 +43,14 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     moduleIds: ["vokabeln-8", "vokabeln-9", "vokabeln-10", "vokabeln-11"],
   },
   {
+    id: "sammlung",
+    label: "Meine Sammlung",
+    sublabel: "Eigene Wörter · Filme & Serien",
+    emoji: "🆕",
+    color: { accent: "#f472b6", bg: "rgba(244,114,182,0.07)", border: "rgba(244,114,182,0.22)", glow: "rgba(244,114,182,0.14)", badge: "rgba(244,114,182,0.12)" },
+    moduleIds: ["vokabeln-new"],
+  },
+  {
     id: "thematisch",
     label: "Thematisch",
     sublabel: "Alle Level",
